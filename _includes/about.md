@@ -6,16 +6,28 @@
 
 ---
 
+## Table of Contents
+
+- [About Us](#about-us)
+  - [Table of Contents](#table-of-contents)
+  - [Key Features:](#key-features)
+  - [Player Ranks](#player-ranks)
+  - [Donor Ranks (Nobility)](#donor-ranks-nobility)
+  - [Staff/Admin Ranks](#staffadmin-ranks)
+
+
+---
+
 ## Key Features:
 
 | Feature                          | Description                                                                                                                                                    |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Survival & Strategic Warfare** | Brave the wilds, fortify your homestead, or wage war against rival factions.                                                                                   |
-| **Factions**                     | Claim territory, draft laws, and lead alliances. Wage wars or broker peace—your faction’s destiny is yours to carve.                                           |
+| **Factions**                     | Claim territory, draft laws, and lead alliances. Wage wars or broker peace, your faction's destiny is yours to carve.                                           |
 | **Player-Driven Economy**        | Thrive in a bustling marketplace: barter at player-run Chest Shops, bid in auctions, or profit from daily Job quests.                                          |
 | **Specialized Professions**      | Master roles like weaponsmith, miner or hunter, each with unique progression paths and rewards.                                                                |
 | **Quests**                       | Complete rotating quests for rare loot, bonus XP, and escalating rewards that keep every day fresh.                                                            |
-| **mcMMO**                        | Level combat and crafting skills to unlock devastating abilities—become a whispered legend across realms.                                                      |
+| **mcMMO**                        | Level combat and crafting skills to unlock devastating abilities, become a whispered legend across realms.                                                      |
 | **Seasons**                      | Adapt to punishing winters and lush summers where weather alters crop growth, mob behavior, and resource scarcity.                                             |
 | **Levelled Mobs**                | Face adaptive, scaling mobs like Nether-born horrors, cursed beasts, and eldritch abominations that grow deadlier as you progress. No battle is ever the same! |
 | **NPC Merchants**                | Trade with NPC merchants offering rare goods, fluctuating prices, and faction-specific deals.                                                                  |
@@ -25,7 +37,7 @@
 
 For detailed guides on each feature, check out our [Guides](/guides) section. Also, see the [Commands](/commands) page for a full list of player and staff commands.
 
-### Player Ranks
+## Player Ranks
 
 | Rank                                                                          | Description                                                                                 |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -33,7 +45,7 @@ For detailed guides on each feature, check out our [Guides](/guides) section. Al
 | ![Villager](https://img.shields.io/badge/🏘️_Villager-Member-555555?style=flat) | The Member rank is for players who have linked their Discord account                        |
 | ![Artisan](https://img.shields.io/badge/🏗️_Artisan-Builder-5555FF?style=flat)  | The Builder rank is for players who have applied for World Edit and Creative mode access.   |
 
-### Donor Ranks (Nobility)
+## Donor Ranks (Nobility)
 
 | Rank                                                                   | Description                                                 |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -45,7 +57,7 @@ For detailed guides on each feature, check out our [Guides](/guides) section. Al
 | ![Archduke](https://img.shields.io/badge/🏛️_Archduke-0000AA?style=flat) | The Archduke rank is for players who have donated $150-299. |
 | ![Overlord](https://img.shields.io/badge/🗡️_Overlord-5555FF?style=flat) | The Overlord rank is for players who have donated $300+     |
 
-### Staff/Admin Ranks
+## Staff/Admin Ranks
 
 | Rank                                                                     | Role         | Description                                                                                  |
 | ------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------- |

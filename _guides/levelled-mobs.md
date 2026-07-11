@@ -27,7 +27,7 @@ Welcome to the **Levelled Mobs** guide! This plugin enhances your Minecraft expe
 - **World Exploration**: As you explore further from the world spawn, mobs will become stronger, offering a more challenging gameplay experience.
 
 ## Visual Indicators
-- **Nametags and Boss Bars**: Mobs’ levels are displayed through nametags or a boss bar, giving you an immediate sense of their strength.
+- **Nametags and Boss Bars**: Mobs' levels are displayed through nametags or a boss bar, giving you an immediate sense of their strength.
 - **Difficulty Awareness**: Higher-level mobs are tougher to defeat, but they drop superior rewards. Approach with caution when you encounter stronger enemies.
 
 ## Compatibility

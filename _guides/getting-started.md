@@ -62,7 +62,7 @@ You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java 
 
 ## Getting Started with JeriCraft
 
-Welcome to **JeriCraft**, a medieval world full of adventure, strategy, and community! To help you get settled, here’s a
+Welcome to **JeriCraft**, a medieval world full of adventure, strategy, and community! To help you get settled, here's a
 guide on how to get started.
 
 ### 1. Choose Your Faction
@@ -109,7 +109,7 @@ supplies before you venture far into the unknown!
   sell items at chest shops, bid in auctions, or accept Job quests to earn money and build your wealth!
 
 - **Join the Community**
-  Don’t be afraid to ask for help or team up with other players! The **JeriCraft** community is welcoming and friendly.
+  Don't be afraid to ask for help or team up with other players! The **JeriCraft** community is welcoming and friendly.
   You can join our Discord server by clicking the link at the top of this page.
 
 ---

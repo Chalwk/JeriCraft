@@ -47,14 +47,14 @@ carve your legacy into the lands of JeriCraft.
 | **Command**                    | **Description**                                                             |
 | ------------------------------ | --------------------------------------------------------------------------- |
 | `/f create <name>`             | Establish your own kingdom and take the throne as its ruler.                |
-| `/f sethome`                   | Set your faction’s home location (a safe haven for your kingdom).           |
+| `/f sethome`                   | Set your faction's home location (a safe haven for your kingdom).           |
 | `/f setwarp <name> [password]` | Set a warp point for quick travel. Optional password for restricted access. |
 | `/f disband`                   | Dissolve your kingdom, scattering its people and relinquishing its lands.   |
 | `/f perms`                     | Manage faction permissions for roles and actions.                           |
 | `/f announce <message...>`     | Broadcast a message to all faction members.                                 |
-| `/f tag <tag>`                 | Change your kingdom’s official banner (name).                               |
+| `/f tag <tag>`                 | Change your kingdom's official banner (name).                               |
 | `/f desc <description...>`     | Set a short description for your kingdom.                                   |
-| `/f delhome <name>`            | Remove your faction’s home location.                                        |
+| `/f delhome <name>`            | Remove your faction's home location.                                        |
 | `/f delwarp <name>`            | Remove a warp point.                                                        |
 
 ---
@@ -67,7 +67,7 @@ A kingdom thrives on its people! Recruit allies, build a loyal court, and manage
 | --------------------------- | -------------------------------------------------------------------------- |
 | `/f join <faction>`         | Swear fealty to a faction and become its subject.                          |
 | `/f leave`                  | Renounce your oath and walk your own path.                                 |
-| `/f home`                   | Teleport to your faction’s home location.                                  |
+| `/f home`                   | Teleport to your faction's home location.                                  |
 | `/f warp [name] [password]` | Teleport to a faction warp point. Optional password for restricted access. |
 | `/f chat <mode>`            | Switch between faction, alliance, or public chat modes.                    |
 | `/f togglealliancechat`     | Toggle alliance chat on or off.                                            |
@@ -76,7 +76,7 @@ A kingdom thrives on its people! Recruit allies, build a loyal court, and manage
 
 ## Member Management
 
-Manage your faction’s members, ranks, and permissions to build a strong and loyal kingdom.
+Manage your faction's members, ranks, and permissions to build a strong and loyal kingdom.
 
 ℹ️ As a ruler, it is your duty to **build trust** and **reward loyalty**. Strong factions are forged through camaraderie
 and strategy. More members mean **more power**, which allows your faction to **claim more land** and expand its
@@ -92,7 +92,7 @@ influence. Grant **leadership roles** to trusted members to help you manage your
 | `/f coleader [name]`        | Promote a member to co-leader.                          |
 | `/f promote <name>`         | Elevate a member to a higher rank of leadership.        |
 | `/f mod [name]`             | Grant moderator status to a member.                     |
-| `/f demote <name>`          | Lower a member’s rank.                                  |
+| `/f demote <name>`          | Lower a member's rank.                                  |
 | `/f deinvite <target>`      | Retract an invitation before it is accepted.            |
 | `/f open`                   | Toggle whether your faction is open for anyone to join. |
 | `/f defaultrole <role>`     | Set the default role for new members.                   |
@@ -107,7 +107,7 @@ A kingdom is nothing without its territory! Factions must **claim land** to esta
 fortifications.
 
 ℹ️ Once created, you become the **leader** of your faction, wielding the power to **expand your domain**,
-**recruit allies**, and **command your kingdom’s fate**. You can **manage your faction’s land, power, and members** to
+**recruit allies**, and **command your kingdom's fate**. You can **manage your faction's land, power, and members** to
 build an empire that stands the test of time.
 
 | **Command**                                   | **Description**                                                    |
@@ -129,7 +129,7 @@ build an empire that stands the test of time.
 
 ## Economy and Faction Banks
 
-A kingdom is built on wealth! Manage your faction’s finances to fund expansions and military endeavors.
+A kingdom is built on wealth! Manage your faction's finances to fund expansions and military endeavors.
 
 ℹ️ For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide](/docs/guides/Economy.md).
 
@@ -192,7 +192,7 @@ These commands are reserved for server administrators to manage factions and gam
 
 ### Base Cost to Claim Land
 
-Each chunk of land requires **[power](#-power-system)** to maintain, and your **faction’s total power** determines how
+Each chunk of land requires **[power](#-power-system)** to maintain, and your **faction's total power** determines how
 much land can be claimed.
 
 The base cost to claim land is **$30**, and each additional claim increases the cost by **a fixed $15** from the

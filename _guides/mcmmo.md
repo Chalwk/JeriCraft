@@ -108,7 +108,7 @@ To use the Party System:
 
 - **Create a Party**: `/party invite <player>` to invite a player to your party.
 - **Join a Party**: `/party accept <player>` to join a party.
-- **Party Perks**: As a party member, you’ll receive shared experience for certain activities, boosting your leveling
+- **Party Perks**: As a party member, you'll receive shared experience for certain activities, boosting your leveling
   speed. Additionally, some abilities are enhanced when part of a party, making teamwork essential for certain
   challenges.
 
@@ -177,12 +177,12 @@ is a comprehensive list of mcMMO abilities, their skill requirements, and their 
 
 5. **GigaDrill (Mining)**  
    Requiring level 300 in Mining, GigaDrill is a powerful upgrade to SuperBreaker. When activated, it accelerates block
-   breaking even further, making mining a breeze for those who have reached this advanced level. It’s especially useful
+   breaking even further, making mining a breeze for those who have reached this advanced level. It's especially useful
    for large-scale mining operations, where speed is crucial.
 
 6. **Double Jump (Acrobatics)**  
    Double Jump is unlocked at level 100 in Acrobatics and gives you the ability to jump again while mid-air. This
-   ability greatly enhances your mobility, helping you avoid obstacles and navigate tough terrain with ease. It’s a
+   ability greatly enhances your mobility, helping you avoid obstacles and navigate tough terrain with ease. It's a
    favorite for parkour enthusiasts and players who want to jump across large gaps or evade enemies.
 
 7. **Tornado (Archery)**  

@@ -18,7 +18,7 @@ permalink: /shops/arrowsmith/
 | Quiver of Arrows         | $75       |
 | Flaming Arrows           | $125      |
 | Phantom Arrows           | $250      |
-| Archer’s Training Target | $150      |
+| Archer's Training Target | $150      |
 | Weakness Arrows          | $200      |
 | Poison Arrows            | $250      |
 | Harming Arrows           | $400      |

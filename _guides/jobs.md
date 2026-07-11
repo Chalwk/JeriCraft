@@ -10,7 +10,7 @@ permalink: /guides/jobs/
 **Welcome to the official JeriCraft Jobs Plugin Guide!**
 
 The **Jobs plugin** is a vital part of our server's economy, offering you the chance to earn in-game currency and gain
-experience by completing various tasks. Whether you prefer building, exploring, or crafting, there’s a job for you! In
+experience by completing various tasks. Whether you prefer building, exploring, or crafting, there's a job for you! In
 this guide, we'll walk you through the essentials of joining jobs, using the commands, and succeeding in your chosen
 profession.
 
@@ -60,7 +60,7 @@ opportunities to earn currency and level up. Below is an overview of the availab
 
 ## Essential Commands
 
-Here’s a table of essential commands to help you navigate the JeriCraft Jobs plugin with ease:
+Here's a table of essential commands to help you navigate the JeriCraft Jobs plugin with ease:
 
 | **Command**         | **Description**                                                                 |
 | ------------------- | ------------------------------------------------------------------------------- |

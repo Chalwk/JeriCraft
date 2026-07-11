@@ -14,7 +14,7 @@ permalink: /shops/hunter/
 | Item Name        | Buy Price |
 | ---------------- | --------- |
 | Pelt of the Wild | $50       |
-| Hunter’s Bones   | $25       |
+| Hunter's Bones   | $25       |
 | Falcon Feathers  | $160      |
 | Venison Steaks   | $200      |
 | Boar Chops       | $240      |

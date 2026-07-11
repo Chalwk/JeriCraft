@@ -13,9 +13,9 @@ permalink: /shops/alchemist/
 
 | Item Name               | Buy Price |
 | ----------------------- | --------- |
-| Witch’s Arcane Alembic  | $500      |
+| Witch's Arcane Alembic  | $500      |
 | Ember of the Witchflame | $150      |
-| Witch’s Hexroot         | $75       |
+| Witch's Hexroot         | $75       |
 | Weeping Soulstone       | $250      |
 | Infernal Balm           | $125      |
 | Astral Cinders          | $100      |
