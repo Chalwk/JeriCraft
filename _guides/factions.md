@@ -12,10 +12,9 @@ claim land, build power, and raid enemy territories.
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [JeriCraft Factions Guide](#jericraft-factions-guide)
-  - [Table of Contents](#table-of-contents)
   - [Faction Creation and Management](#faction-creation-and-management)
   - [Faction Member Commands](#faction-member-commands)
   - [Member Management](#member-management)
@@ -23,11 +22,11 @@ claim land, build power, and raid enemy territories.
   - [Economy and Faction Banks](#economy-and-faction-banks)
   - [Player Commands](#player-commands)
   - [Admin Commands](#admin-commands)
-    - [Base Cost to Claim Land](#base-cost-to-claim-land)
-      - [Claim Cost Scaling](#claim-cost-scaling)
+  - [Base Cost to Claim Land](#base-cost-to-claim-land)
+    - [Claim Cost Scaling](#claim-cost-scaling)
   - [Power System](#power-system)
-  - [Power Limits \& Gains](#power-limits--gains)
-  - [Power Loss \& Raidability](#power-loss--raidability)
+    - [Power Limits \& Gains](#power-limits--gains)
+    - [Power Loss \& Raidability](#power-loss--raidability)
   - [Power \& PvP Mechanics](#power--pvp-mechanics)
     - [Power Transfer \& Stealing](#power-transfer--stealing)
     - [War Zones](#war-zones)
@@ -190,7 +189,7 @@ These commands are reserved for server administrators to manage factions and gam
 
 ---
 
-### Base Cost to Claim Land
+## Base Cost to Claim Land
 
 Each chunk of land requires **[power](#-power-system)** to maintain, and your **faction's total power** determines how
 much land can be claimed.
@@ -198,7 +197,7 @@ much land can be claimed.
 The base cost to claim land is **$30**, and each additional claim increases the cost by **a fixed $15** from the
 previous claim. This results in a steady linear increase as your faction expands.
 
-#### Claim Cost Scaling
+### Claim Cost Scaling
 
 | Claim # | Cost Formula             | Cost |
 | ------- | ------------------------ | ---: |
@@ -221,7 +220,7 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-## Power Limits & Gains
+### Power Limits & Gains
 
 - **Max Faction Power:** `1000` → The total power a faction can have.
 - **Max Power per Player:** `100` → The maximum power a single player can have.
@@ -232,7 +231,7 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-## Power Loss & Raidability
+### Power Loss & Raidability
 
 - **Power Loss Per Death:** `5` → How much power a player loses when they die.
 - **Offline Power Loss:** `-0.4 per day` → How much power is lost daily while offline.

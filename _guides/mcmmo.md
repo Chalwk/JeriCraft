@@ -13,13 +13,12 @@ navigate the exciting features and commands that mcMMO offers.
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [JeriCraft mcMMO Guide](#jericraft-mcmmo-guide)
-  - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Commands](#commands)
-    - [Verbose Details:](#verbose-details)
+    - [Verbose Details](#verbose-details)
   - [Skill Categories](#skill-categories)
     - [Gathering Skills](#gathering-skills)
     - [Combat Skills](#combat-skills)
@@ -28,7 +27,7 @@ navigate the exciting features and commands that mcMMO offers.
   - [Advanced Features](#advanced-features)
     - [Power Leveling](#power-leveling)
     - [mcMMO Abilities](#mcmmo-abilities)
-    - [Detailed Descriptions:](#detailed-descriptions)
+    - [Detailed Descriptions](#detailed-descriptions)
   - [Conclusion](#conclusion)
 
 ---
@@ -53,7 +52,7 @@ Here are the essential commands for managing your mcMMO experience:
 | `/mctop`     | Displays the top players for each mcMMO skill.       |
 | `/mcc`       | Sends a message in the global mcMMO chat channel.    |
 
-### Verbose Details:
+### Verbose Details
 
 - `/mcmmo`: This command allows you to view your progress in all mcMMO skills, providing an overview of your total
   experience in each category.
@@ -152,7 +151,7 @@ is a comprehensive list of mcMMO abilities, their skill requirements, and their 
 | **Toughness**     | Unarmed     | Level 200         | Reduces incoming damage while fighting without weapons, making you tougher in unarmed combat.                                         |
 | **Mighty Charge** | Axes        | Level 200         | Increases the damage of axe attacks when you are sprinting, adding a powerful attack to your arsenal while moving.                    |
 
-### Detailed Descriptions:
+### Detailed Descriptions
 
 1. **SuperBreaker (Mining)**  
    This ability is unlocked at level 100 in the Mining skill. When activated, it allows you to break ores instantly for

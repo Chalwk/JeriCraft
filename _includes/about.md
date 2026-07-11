@@ -6,10 +6,9 @@
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [About Us](#about-us)
-  - [Table of Contents](#table-of-contents)
   - [Key Features:](#key-features)
   - [Player Ranks](#player-ranks)
   - [Donor Ranks (Nobility)](#donor-ranks-nobility)

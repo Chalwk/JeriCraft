@@ -20,10 +20,6 @@ it, ensuring an organized and efficient staff structure for the best possible pl
 
 ---
 
-## For guidelines on using staff commands, refer to [Staff Guidelines](https://github.com/Chalwk/JeriCraft/blob/main/policies/MC-Staff-Guidelines.md).
-
----
-
 | **Rank**  | **Command**                                                                                                        | **Description**                                                                                                                                                      | **Permission Node(s)**                                                                                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Trial-Mod | kick `[name]` `(reason)`                                                                                           | Kick player from server (with optional reason)                                                                                                                       | `cmi.command.kick`                                                                                                                                                                                                                                                                            |

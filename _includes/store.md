@@ -1,6 +1,6 @@
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# 🏰 JeriCraft Patronage System
+# JeriCraft Patronage System
 
 Instead of traditional donation packages, we offer individual perks that can be obtained separately. Your donation rank
 is determined by the total amount you've donated since your first contribution. Every donation helps us keep the server
@@ -8,19 +8,19 @@ running, and we are grateful for your support.
 
 ---
 
-## 🏅 Patronage Tiers
+## Patronage Tiers
 
 Your donor rank is determined by your **total lifetime contributions**. Here's how it works:
 
 | Rank           | Contribution (NZD) | Benefits                                                                       |
 | -------------- | ------------------ | ------------------------------------------------------------------------------ |
-| 📜 **Squire**   | **\$1 - \$19**     | Access to basic Squire commands.                                               |
-| 🛡️ **Knight**   | **\$20 - \$39**    | All Squire benefits, plus Knight-level commands.                               |
-| ⚔️ **Baron**    | **\$40 - \$59**    | All Knight and Squire benefits, plus Baron-level commands.                     |
-| 🏹 **Count**    | **\$60 - \$99**    | All Baron, Knight, and Squire benefits, plus Count-level commands.             |
-| 🏰 **Duke**     | **\$100 - \$149**  | All Count, Baron, Knight, and Squire benefits, plus Duke-level commands.       |
-| 🏛️ **Archduke** | **\$150 - \$299**  | All Duke, Count, Baron, Knight, and Squire benefits, plus King-level commands. |
-| 🗡️ **Overlord** | **\$300+**         | Full access to all commands and privileges.                                    |
+| **Squire**   | **\$1 - \$19**     | Access to basic Squire commands.                                               |
+| **Knight**   | **\$20 - \$39**    | All Squire benefits, plus Knight-level commands.                               |
+| **Baron**    | **\$40 - \$59**    | All Knight and Squire benefits, plus Baron-level commands.                     |
+| **Count**    | **\$60 - \$99**    | All Baron, Knight, and Squire benefits, plus Count-level commands.             |
+| **Duke**     | **\$100 - \$149**  | All Count, Baron, Knight, and Squire benefits, plus Duke-level commands.       |
+| **Archduke** | **\$150 - \$299**  | All Duke, Count, Baron, Knight, and Squire benefits, plus King-level commands. |
+| **Overlord** | **\$300+**         | Full access to all commands and privileges.                                    |
 
 All perks are permanent (subject to change) and will last for the server's lifetime. However, we may revoke access if a
 perk is abused.
@@ -68,7 +68,7 @@ perk is abused.
 
 - If you do not receive your perk(s) within 24 hours, please contact a senior staff member for assistance.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **JeriCraft is not affiliated with Mojang AB.** All contributions go directly to the JeriCraft Management and
 Development Team. For support, inquiries, or purchase history, email us at **jericho.crosby227@gmail.com**.

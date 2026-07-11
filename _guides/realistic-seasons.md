@@ -12,19 +12,18 @@ making your gameplay experience more engaging and exciting. Let's explore the wo
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [RealisticSeasons Guide](#realisticseasons-guide)
-  - [Table of Contents](#table-of-contents)
   - [Dynamic Seasons](#dynamic-seasons)
   - [Season Start Dates](#season-start-dates)
   - [Month Breakdown](#month-breakdown)
   - [Key Features](#key-features)
-- [Special Events Calendar](#special-events-calendar)
-  - [Christmas](#christmas)
-  - [New Year](#new-year)
-  - [Halloween](#halloween)
-  - [Easter](#easter)
+  - [Special Events Calendar](#special-events-calendar)
+    - [Christmas](#christmas)
+    - [New Year](#new-year)
+    - [Halloween](#halloween)
+    - [Easter](#easter)
   - [Temperature System](#temperature-system)
   - [Tips and Tricks](#tips-and-tricks)
 
@@ -79,13 +78,11 @@ Here's how the days and night lengths adjust throughout the year for each month:
 
 ---
 
-# Special Events Calendar
+## Special Events Calendar
 
 Check out the special events throughout the year. Each event is packed with exciting features and loot, so don't miss out!
 
----
-
-## Christmas
+### Christmas
 
 - **Event Start:** December 25
 - **Event End:** December 28
@@ -131,7 +128,7 @@ Check out the special events throughout the year. Each event is packed with exci
 
 ---
 
-## New Year
+### New Year
 
 - **Event Start:** January 1
 - **Event End:** January 1
@@ -142,7 +139,7 @@ Check out the special events throughout the year. Each event is packed with exci
 
 ---
 
-## Halloween
+### Halloween
 
 - **Event Start:** October 31
 - **Event End:** November 2
@@ -156,7 +153,7 @@ Check out the special events throughout the year. Each event is packed with exci
 
 ---
 
-## Easter
+### Easter
 
 - **Event Start:** April 20
 - **Event End:** April 24

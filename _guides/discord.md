@@ -5,9 +5,9 @@ permalink: /guides/discord/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# Become a Villager Rank and Unlock Awesome Benefits!
+# Villager Rank
 
-Want to make the most out of your time on **JeriCraft**? Sign up to the Discord and link your **Minecraft account** to earn the **Villager Rank** ! Here's what you'll unlock:
+Join us on Discord and link your **Minecraft account** to unlock the **Villager Rank**! Here's what you'll unlock:
 
 - `/kit villager` - Claim your exclusive Villager Kit packed with useful items!
 - `/ride`, `/hat`, `/sit`: Ride your pets, wear items on your head, and sit anywhere for ultimate convenience and fun!

@@ -12,10 +12,9 @@ easy to buy and sell items. Follow this step-by-step guide to set up your shop e
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [ChestShop Tutorial](#chestshop-tutorial)
-  - [Table of Contents](#table-of-contents)
   - [Step 1: Build Your Shop](#step-1-build-your-shop)
   - [Step 2: Place a Chest](#step-2-place-a-chest)
   - [Step 3: Stock the Chest](#step-3-stock-the-chest)

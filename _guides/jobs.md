@@ -7,8 +7,6 @@ permalink: /guides/jobs/
 
 # JeriCraft Jobs Plugin Guide
 
-**Welcome to the official JeriCraft Jobs Plugin Guide!**
-
 The **Jobs plugin** is a vital part of our server's economy, offering you the chance to earn in-game currency and gain
 experience by completing various tasks. Whether you prefer building, exploring, or crafting, there's a job for you! In
 this guide, we'll walk you through the essentials of joining jobs, using the commands, and succeeding in your chosen
@@ -16,10 +14,9 @@ profession.
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [JeriCraft Jobs Plugin Guide](#jericraft-jobs-plugin-guide)
-  - [Table of Contents](#table-of-contents)
   - [Available Jobs](#available-jobs)
   - [Essential Commands](#essential-commands)
   - [Boosters](#boosters)

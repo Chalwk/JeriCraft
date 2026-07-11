@@ -11,10 +11,9 @@ You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java 
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [How to Join](#how-to-join)
-  - [Table of Contents](#table-of-contents)
   - [Essential Commands](#essential-commands)
   - [Getting Started with JeriCraft](#getting-started-with-jericraft)
     - [1. Choose Your Faction](#1-choose-your-faction)

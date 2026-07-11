@@ -13,10 +13,8 @@ and make the most of the available commands, shops, and features.
 
 ---
 
-## Table of Contents
-
+## Table of Contents <!-- omit from toc -->
 - [JeriCraft Economy Guide](#jericraft-economy-guide)
-  - [Table of Contents](#table-of-contents)
   - [Earning Money](#earning-money)
   - [Checking Your Balance and Paying Others](#checking-your-balance-and-paying-others)
   - [Factions Economy Commands](#factions-economy-commands)

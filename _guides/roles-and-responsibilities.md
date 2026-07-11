@@ -11,10 +11,9 @@ Below is a detailed breakdown of the roles and responsibilities for each staff p
 
 ---
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [Roles and responsibilities](#roles-and-responsibilities)
-  - [Table of Contents](#table-of-contents)
   - [Administrators](#administrators)
     - [Minecraft Server Management](#minecraft-server-management)
     - [Additional Responsibilities](#additional-responsibilities)

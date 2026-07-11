@@ -2,20 +2,19 @@
 
 This list is periodically updated. If you find any errors or omissions, please contact our staff team.
 
-**Each rank inherits the commands and perks of the ranks below it, ensuring a structured and organized player
-experience.**
+**Each rank inherits the commands and perks of the ranks below it, ensuring a structured and organized player experience.**
 
-### Note on Crossed-Out Commands
+Note on Crossed-Out Commands
 
 Some commands might be displayed with a line through them, like ~~this~~.<br>
 These crossed-out commands are temporarily unavailable and may return in the future.<br>
 Keep an eye on our updates for any changes to command availability.
 
-## For FACTIONS commands, please refer to [Factions Guide](/docs/guides/factions.md).
+For FACTIONS commands, please refer to [Factions Guide](/docs/guides/factions.md).
 
 ---
 
-# Player Commands:
+# Player Commands
 
 | **Rank** | **Command**                                                                               | **Description**                                                                                                                                                                                                                              | **Permission Node(s)**                                                                                                                  |
 | -------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
