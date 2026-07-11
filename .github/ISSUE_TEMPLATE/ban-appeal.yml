@@ -1,0 +1,53 @@
+name: Ban Appeal
+description: Submit an appeal to contest a ban from the JeriCraft Minecraft server or Discord.
+title: "Ban Appeal for: <name>"
+labels: [ "ban-appeal" ]
+assignees: [ ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Find Your Ban ID**
+        > Before submitting, locate your ban in the [Ban Registry](https://chalwk.github.io/JeriCraft/bans) - if you're viewing this on GitHub, please visit our website for the full list.
+        > You will need your **Ban ID** to complete this form. The Ban ID is shown in the first column of the table.
+        >
+        > **Describe the reason for your ban**
+        > Provide a clear and concise description of the events leading to your ban.
+        > Use headers (`#`) or lists (`-`) to organize your thoughts.
+
+  - type: input
+    id: ban-id
+    attributes:
+      label: Ban ID
+      description: Your unique Ban ID as shown in the JeriCraft Ban Registry.
+      placeholder: "e.g., 001"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-should-we-unban-you
+    attributes:
+      label: Why should we unban you?
+      description: Explain why you believe you should be reinstated on the JeriCraft Minecraft server or Discord.
+      placeholder: "Write your reason here"
+    validations:
+      required: true
+
+  - type: input
+    id: contact-info
+    attributes:
+      label: Contact Info
+      description: Provide your Discord username and Minecraft IGN (in-game name) for verification.
+      placeholder: "Discord: YourUsername#1234 | Minecraft: YourIGN"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Screenshots or Logs**
+        > Include any relevant screenshots, logs, or evidence that may support your appeal.
+        >
+        > Thank you
+        >
+        > **We appreciate your effort in appealing your ban from JeriCraft. Your input helps us maintain a fair and enjoyable environment for everyone.**

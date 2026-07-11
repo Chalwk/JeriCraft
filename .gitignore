@@ -1,0 +1,6 @@
+.idea/
+.iml
+_site/
+.jekyll-cache/
+vendor/
+/.jekyll-metadata

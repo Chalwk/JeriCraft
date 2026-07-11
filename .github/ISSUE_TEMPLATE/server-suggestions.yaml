@@ -1,0 +1,66 @@
+name: Server Suggestions
+description: Create a report to suggest improvements or new features for the JeriCraft server.
+title: "SUGGESTION: <title>"
+labels: [ "Suggestion" ]
+assignees: Chalwk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **📌 Describe the suggestion**
+        > Provide a clear and concise description of your suggestion here.
+        > Use headers (`#`) or lists (`-`) to organize your thoughts. Be sure to include:
+        > - The main idea or concept
+        > - How it can improve the server or player experience
+        > - Any potential challenges or considerations
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 📝 Suggestion
+      description: Describe your suggestion.
+      placeholder: "Describe your suggestion here"
+    validations:
+      required: true
+  - type: textarea
+    id: potential-benefits
+    attributes:
+      label: 🌟 Potential benefits
+      description: Describe the potential benefits of your suggestion.
+      placeholder: "Potential benefits here"
+      value: |
+        Describe the potential benefits this suggestion could bring to the JeriCraft server and community:
+        - How it can enhance gameplay
+        - Increased player engagement
+        - New opportunities for interactions or exploration
+  - type: textarea
+    id: community-involvement
+    attributes:
+      label: 💬 Community involvement
+      description: Describe how the community can be involved in your suggestion.
+      placeholder: "Community involvement here"
+      value: |
+        Discuss how this suggestion can involve or benefit the community:
+        - Promote player collaboration
+        - Encourage social interactions
+        - Foster a sense of belonging and shared goals
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 🛠️ Implementation
+      description: Describe how your suggestion could be implemented.
+      placeholder: "Implementation details here"
+      value: |
+        Share any thoughts or ideas on how this suggestion could be implemented:
+        - Potential game mechanics or plugins
+        - Estimated timeline and resources needed
+        - Any additional information that could help bring this suggestion to life
+  - type: markdown
+    attributes:
+      value: |
+        **📷 Screenshots**
+        > Include any relevant screenshots to help illustrate your suggestion.
+        >
+        >
+        > 🙌 Thank you
+        >
+        > **We appreciate your contribution to making JeriCraft a better place for everyone! Your ideas help shape the future of our community.**

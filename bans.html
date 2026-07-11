@@ -1,0 +1,884 @@
+---
+layout: default
+title: Bans
+description: View all current bans and appeals.
+---
+
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+
+<style>
+    :root {
+        --bg-panel: rgba(74, 58, 40, 0.92);
+        --bg-panel-light: rgba(93, 73, 53, 0.95);
+        --border-glow: rgba(124, 179, 66, 0.5);
+        --primary: #7cb342;
+        --primary-dark: #558b2f;
+        --primary-light: #a5d6a7;
+        --text-muted: #a0907a;
+        --text-light: #f5e6c8;
+        --danger: #e06c75;
+        --transition: all 0.2s ease;
+        --font-heading: 'Press Start 2P', 'Orbitron', monospace;
+        --font-body: 'Rajdhani', 'Segoe UI', sans-serif;
+    }
+
+    .ban-page-wrapper {
+        background: #5c4033;
+        background-image:
+            repeating-linear-gradient(0deg,
+                #6d4c2a 0px,
+                #6d4c2a 2px,
+                #5c4033 2px,
+                #5c4033 4px);
+        border: 6px solid #3b2e1e;
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: inset 0 0 0 2px var(--primary), 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    .ban-header-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1.2rem;
+    }
+
+    .ban-header-section h1 {
+        font-size: 1.8rem;
+        color: var(--primary);
+        border-left: 4px solid var(--primary);
+        padding-left: 1rem;
+        margin: 0;
+        font-family: var(--font-heading);
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+        letter-spacing: 0.05em;
+    }
+
+    .ban-header-section h1 i {
+        color: var(--primary);
+    }
+
+    .appeal-banner {
+        background: rgba(124, 179, 66, 0.10);
+        border-radius: 28px;
+        padding: 1rem 1.8rem;
+        margin: 1rem 0 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        border: 1px solid var(--border-glow);
+        backdrop-filter: blur(2px);
+    }
+
+    .appeal-banner p {
+        margin: 0;
+        color: var(--text-light);
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+
+    .appeal-banner p i {
+        color: var(--primary);
+        margin-right: 0.4rem;
+    }
+
+    .appeal-buttons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .appeal-btn {
+        background: var(--primary);
+        border: 3px solid #3b2e1e;
+        padding: 0.6rem 1.2rem;
+        border-radius: 40px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: #1f1a14;
+        cursor: pointer;
+        transition: var(--transition);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        white-space: nowrap;
+        font-family: var(--font-body);
+        text-shadow: none;
+    }
+
+    .appeal-btn:hover {
+        background: var(--primary-light);
+        transform: scale(1.02);
+        color: #1f1a14;
+    }
+
+    .appeal-btn.email-btn {
+        background: #6d4c2a;
+        color: var(--text-light);
+        border-color: #5c4033;
+    }
+
+    .appeal-btn.email-btn:hover {
+        background: #8d6e4a;
+        color: var(--text-light);
+    }
+
+    .appeal-or {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--primary);
+        background: transparent;
+        padding: 0 0.25rem;
+        font-family: var(--font-heading);
+        font-size: 0.7rem;
+    }
+
+    .summary-card {
+        background: var(--bg-panel);
+        border-radius: 24px;
+        padding: 0.8rem 1.6rem;
+        margin: 1.2rem 0 1.5rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        font-size: 0.9rem;
+        border: 1px solid var(--border-glow);
+        font-family: var(--font-body);
+    }
+
+    .totals {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem 0.8rem;
+        align-items: center;
+    }
+
+    .totals strong {
+        color: var(--text-light);
+        font-weight: 600;
+    }
+
+    .totals span {
+        font-weight: 700;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 2px 12px;
+        border-radius: 40px;
+        margin: 0 2px;
+        color: var(--primary);
+        font-family: var(--font-heading);
+        font-size: 0.75rem;
+    }
+
+    .last-updated-badge {
+        font-size: 0.8rem;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 4px 14px;
+        border-radius: 40px;
+        color: var(--text-muted);
+        font-weight: 500;
+    }
+
+    .last-updated-badge i {
+        color: var(--primary);
+        margin-right: 0.3rem;
+    }
+
+    .refresh-btn {
+        background: rgba(124, 179, 66, 0.15);
+        border: 1px solid var(--border-glow);
+        padding: 6px 18px;
+        border-radius: 40px;
+        color: var(--primary);
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transition);
+        font-family: var(--font-body);
+        font-size: 0.8rem;
+    }
+
+    .refresh-btn:hover {
+        background: rgba(124, 179, 66, 0.35);
+        color: var(--text-light);
+        transform: scale(0.98);
+    }
+
+    .refresh-btn i {
+        margin-right: 0.4rem;
+    }
+
+    .controls-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin: 1rem 0 1.5rem 0;
+        background: rgba(0, 0, 0, 0.25);
+        padding: 0.7rem 1.2rem;
+        border-radius: 60px;
+        backdrop-filter: blur(2px);
+        border: 1px solid rgba(124, 179, 66, 0.15);
+    }
+
+    .search-area {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .search-area .fa-search {
+        color: var(--primary);
+        font-size: 0.9rem;
+    }
+
+    .search-input {
+        background: #2d1f12;
+        border: 1px solid var(--border-glow);
+        padding: 8px 18px;
+        border-radius: 40px;
+        color: var(--text-light);
+        font-size: 0.85rem;
+        min-width: 200px;
+        transition: var(--transition);
+        font-family: var(--font-body);
+    }
+
+    .search-input::placeholder {
+        color: var(--text-muted);
+        opacity: 0.7;
+    }
+
+    .search-input:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: 0 0 8px rgba(124, 179, 66, 0.3);
+    }
+
+    .page-size-select {
+        background: #2d1f12;
+        border: 1px solid var(--border-glow);
+        padding: 7px 14px;
+        border-radius: 40px;
+        color: var(--text-light);
+        font-size: 0.8rem;
+        cursor: pointer;
+        font-family: var(--font-body);
+        transition: var(--transition);
+    }
+
+    .page-size-select:focus {
+        outline: none;
+        border-color: var(--primary);
+    }
+
+    .clear-btn {
+        background: rgba(124, 179, 66, 0.10);
+        border: 1px solid var(--border-glow);
+        padding: 6px 16px;
+        border-radius: 40px;
+        color: var(--primary);
+        font-size: 0.75rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transition);
+        font-family: var(--font-body);
+    }
+
+    .clear-btn:hover {
+        background: rgba(124, 179, 66, 0.30);
+        color: var(--text-light);
+    }
+
+    .clear-btn i {
+        margin-right: 0.3rem;
+    }
+
+    #statusMsg {
+        color: var(--primary-light);
+        font-size: 0.8rem;
+        font-weight: 500;
+        font-family: var(--font-body);
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+        border-radius: 16px;
+        background: var(--bg-panel);
+        border: 1px solid var(--border-glow);
+        margin: 1rem 0 0.5rem 0;
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary) rgba(124, 179, 66, 0.15);
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-wrapper::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .table-wrapper::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+    }
+
+    .table-wrapper::-webkit-scrollbar-thumb {
+        background: var(--primary);
+        border-radius: 8px;
+    }
+
+    .ban-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.8rem;
+        min-width: 900px;
+        font-family: var(--font-body);
+    }
+
+    .ban-table th {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 12px 10px;
+        font-weight: 700;
+        color: var(--primary);
+        border-bottom: 2px solid var(--border-glow);
+        text-align: center;
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-family: var(--font-heading);
+    }
+
+    .ban-table td {
+        padding: 10px 8px;
+        border-bottom: 1px solid rgba(124, 179, 66, 0.12);
+        text-align: center;
+        vertical-align: middle;
+        color: var(--text-light);
+        font-weight: 500;
+    }
+
+    .ban-table tr:hover td {
+        background: rgba(124, 179, 66, 0.06);
+    }
+
+    .ban-table td code {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 0.1rem 0.6rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        color: var(--primary-light);
+        font-family: 'Courier New', monospace;
+    }
+
+    .status-badge {
+        display: inline-block;
+        padding: 4px 14px;
+        border-radius: 40px;
+        font-size: 0.6rem;
+        font-weight: 700;
+        text-align: center;
+        min-width: 80px;
+        font-family: var(--font-heading);
+        letter-spacing: 0.03em;
+        border: 1px solid transparent;
+    }
+
+    .status-active {
+        background: rgba(124, 179, 66, 0.20);
+        color: var(--primary-light);
+        border-color: var(--primary);
+    }
+
+    .status-expired {
+        background: rgba(224, 108, 117, 0.20);
+        color: #f5b8b8;
+        border-color: #e06c75;
+    }
+
+    .status-revoked {
+        background: rgba(88, 130, 193, 0.20);
+        color: #b8d0f5;
+        border-color: #5882c1;
+    }
+
+    .status-unknown {
+        background: rgba(160, 144, 122, 0.20);
+        color: var(--text-muted);
+        border-color: var(--text-muted);
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        margin: 2rem 0 1rem;
+    }
+
+    .page-btn {
+        background: rgba(0, 0, 0, 0.4);
+        border: 1px solid var(--border-glow);
+        padding: 6px 24px;
+        border-radius: 40px;
+        color: var(--text-light);
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transition);
+        font-family: var(--font-body);
+        font-size: 0.8rem;
+    }
+
+    .page-btn:hover:not(.disabled) {
+        background: rgba(124, 179, 66, 0.25);
+        border-color: var(--primary);
+        color: var(--text-light);
+    }
+
+    .page-btn.disabled {
+        opacity: 0.35;
+        cursor: not-allowed;
+    }
+
+    #pageInfo {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 6px 20px;
+        border-radius: 40px;
+        font-weight: 600;
+        color: var(--primary);
+        font-family: var(--font-heading);
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+        min-width: 100px;
+        text-align: center;
+    }
+
+    .ban-note {
+        text-align: center;
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-top: 1rem;
+        font-family: var(--font-body);
+        font-weight: 400;
+    }
+
+    .ban-note i {
+        color: var(--primary);
+        margin-right: 0.3rem;
+    }
+
+    .loading-row td {
+        color: var(--text-muted) !important;
+        font-style: italic;
+    }
+
+    .loading-row i {
+        color: var(--primary);
+        margin-right: 0.5rem;
+    }
+
+    /* ===== Responsive tweaks ===== */
+    @media (max-width: 768px) {
+        .ban-page-wrapper {
+            padding: 1rem;
+        }
+
+        .ban-header-section h1 {
+            font-size: 1.3rem;
+            padding-left: 0.6rem;
+        }
+
+        .appeal-banner {
+            flex-direction: column;
+            align-items: stretch;
+            padding: 1rem;
+        }
+
+        .appeal-buttons {
+            justify-content: center;
+        }
+
+        .controls-bar {
+            flex-direction: column;
+            align-items: stretch;
+            border-radius: 30px;
+            padding: 1rem;
+        }
+
+        .search-area {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .search-input {
+            min-width: 160px;
+            width: 100%;
+        }
+
+        .summary-card {
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+        }
+
+        .totals {
+            justify-content: center;
+        }
+
+        .pagination {
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .page-btn {
+            padding: 6px 16px;
+            font-size: 0.7rem;
+        }
+
+        #pageInfo {
+            font-size: 0.6rem;
+            min-width: 70px;
+            padding: 4px 12px;
+        }
+
+        .ban-table th,
+        .ban-table td {
+            padding: 8px 6px;
+            font-size: 0.7rem;
+        }
+
+        .status-badge {
+            min-width: 60px;
+            font-size: 0.5rem;
+            padding: 3px 8px;
+        }
+
+        .ban-table {
+            min-width: 700px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .ban-page-wrapper {
+            padding: 0.75rem;
+        }
+
+        .ban-header-section h1 {
+            font-size: 1.1rem;
+        }
+
+        .ban-header-section {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .appeal-btn {
+            font-size: 0.7rem;
+            padding: 0.4rem 0.9rem;
+        }
+
+        .totals span {
+            font-size: 0.65rem;
+            padding: 1px 8px;
+        }
+    }
+</style>
+
+<div class="ban-page-wrapper">
+
+    <div class="ban-header-section">
+        <h1><i class="fas fa-gavel"></i> Bans</h1>
+    </div>
+
+    <div class="appeal-banner">
+        <p><i class="fas fa-scale-balanced"></i> <strong>Dispute a ban?</strong> If you believe you were banned
+            unfairly,
+            please contact our staff via GitHub or email.</p>
+        <div class="appeal-buttons">
+            <a class="appeal-btn" href="{{ site.links.ban_appeal }}" target="_blank"><i class="fab fa-github"></i>
+                Appeal
+                via GitHub</a>
+            <span class="appeal-or">OR</span>
+            <a class="appeal-btn email-btn" href="mailto:{{ site.links.email }}"><i class="fas fa-envelope"></i>
+                Email</a>
+        </div>
+    </div>
+
+    <div class="summary-card">
+        <div class="totals">
+            <strong>📌 Active Bans:</strong> <span id="activeCountSpan">0</span>&nbsp;&nbsp;|&nbsp;
+            <strong>⏳ Expired:</strong> <span id="expiredCountSpan">0</span>&nbsp;&nbsp;|&nbsp;
+            <strong>🔓 Revoked:</strong> <span id="revokedCountSpan">0</span>
+        </div>
+        <div class="last-updated-badge" id="lastUpdatedStatic">
+            <i class="far fa-clock"></i> Last updated: --
+        </div>
+        <button class="refresh-btn" id="refreshBtn"><i class="fas fa-sync-alt"></i> Refresh data</button>
+    </div>
+
+    <div class="controls-bar">
+        <div class="search-area">
+            <i class="fas fa-search"></i>
+            <input class="search-input" id="searchInput" placeholder="Filter by username or reason..." type="text">
+            <select class="page-size-select" id="pageSizeSelect">
+                <option value="10">10 per page</option>
+                <option value="20">20 per page</option>
+                <option value="35">35 per page</option>
+                <option value="50">50 per page</option>
+            </select>
+            <button class="clear-btn" id="clearFiltersBtn"><i class="fas fa-times-circle"></i> Clear filters</button>
+        </div>
+        <div id="statusMsg"></div>
+    </div>
+
+    <div class="table-wrapper">
+        <table class="ban-table" id="banTable">
+            <thead>
+                <tr>
+                    <th>BID</th>
+                    <th>Username</th>
+                    <th>Reason</th>
+                    <th>Date &amp; Time</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="banTableBody">
+                <tr class="loading-row">
+                    <td colspan="5" style="text-align:center; padding:2rem;">
+                        <i class="fas fa-spinner fa-pulse"></i> Loading bans...
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="pagination" id="paginationControls">
+        <button class="page-btn" id="prevPageBtn">◀ Prev</button>
+        <span id="pageInfo">Page 0</span>
+        <button class="page-btn" id="nextPageBtn">Next ▶</button>
+    </div>
+
+    <p class="ban-note">
+        <i class="fas fa-info-circle"></i> Ban records apply to JeriCraft Minecraft server and official Discord.
+    </p>
+
+</div>
+
+<script>
+    (function () {
+        const tbody = document.getElementById('banTableBody');
+        const activeSpan = document.getElementById('activeCountSpan');
+        const expiredSpan = document.getElementById('expiredCountSpan');
+        const revokedSpan = document.getElementById('revokedCountSpan');
+        const lastUpdatedSpan = document.getElementById('lastUpdatedStatic');
+        const refreshBtn = document.getElementById('refreshBtn');
+        const statusMsgSpan = document.getElementById('statusMsg');
+
+        let allBans = [];
+        let filteredBans = [];
+        let currentPage = 1;
+        let pageSize = 10;
+        let searchTerm = '';
+
+        function getStatusClass(statusRaw) {
+            const upper = String(statusRaw).toUpperCase();
+            if (upper === 'ACTIVE') return 'status-active';
+            if (upper === 'EXPIRED') return 'status-expired';
+            if (upper === 'REVOKED') return 'status-revoked';
+            return 'status-unknown';
+        }
+
+        function formatStatusText(statusRaw) {
+            const upper = String(statusRaw).toUpperCase();
+            if (upper === 'ACTIVE') return 'Active';
+            if (upper === 'EXPIRED') return 'Expired';
+            if (upper === 'REVOKED') return 'Revoked';
+            return statusRaw || 'Unknown';
+        }
+
+        function escapeHtml(str) {
+            if (!str) return '-';
+            return String(str).replace(/[&<>]/g, m => {
+                if (m === '&') return '&amp;';
+                if (m === '>') return '&gt;';
+                if (m === '<') return '&lt;';
+                return m;
+            }) || '-';
+        }
+
+        function renderTable() {
+            if (!filteredBans.length) {
+                tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:2rem; color: var(--text-muted);"><i class="fas fa-ban"></i> No ban records match your filters.</td></tr>';
+                return;
+            }
+
+            const totalPages = Math.ceil(filteredBans.length / pageSize);
+            if (currentPage < 1) currentPage = 1;
+            if (currentPage > totalPages && totalPages > 0) currentPage = totalPages;
+
+            const startIdx = (currentPage - 1) * pageSize;
+            const pageBans = filteredBans.slice(startIdx, startIdx + pageSize);
+
+            let html = '';
+            for (const ban of pageBans) {
+                const statusClass = getStatusClass(ban.status);
+                const statusDisplay = formatStatusText(ban.status);
+
+                html += `<tr>
+                    <td><code>${escapeHtml(ban.banID)}</code></td>
+                    <td>${escapeHtml(ban.userID)}</td>
+                    <td style="max-width:260px; white-space:normal;">${escapeHtml(ban.reason)}</td>
+                    <td>${escapeHtml(ban.banDateTime)}</td>
+                    <td><span class="status-badge ${statusClass}">${statusDisplay}</span></td>
+                </tr>`;
+            }
+
+            tbody.innerHTML = html;
+            updatePaginationUI();
+        }
+
+        function updatePaginationUI() {
+            const totalPages = Math.ceil(filteredBans.length / pageSize);
+            const pageInfoSpan = document.getElementById('pageInfo');
+            const prevBtn = document.getElementById('prevPageBtn');
+            const nextBtn = document.getElementById('nextPageBtn');
+
+            pageInfoSpan.innerText = filteredBans.length
+                ? `Page ${currentPage} / ${totalPages || 1}`
+                : `Page 0 / 0`;
+
+            prevBtn.classList.toggle('disabled', currentPage <= 1 || !filteredBans.length);
+            nextBtn.classList.toggle('disabled', currentPage >= totalPages || !filteredBans.length);
+        }
+
+        function applySearchFilter() {
+            if (!searchTerm.trim()) {
+                filteredBans = [...allBans];
+            } else {
+                const lower = searchTerm.toLowerCase();
+                filteredBans = allBans.filter(b =>
+                    (b.userID && b.userID.toLowerCase().includes(lower)) ||
+                    (b.reason && b.reason.toLowerCase().includes(lower)) ||
+                    (b.banID && b.banID.toLowerCase().includes(lower))
+                );
+            }
+
+            currentPage = 1;
+            renderTable();
+        }
+
+        function updateGlobalCounters(bans) {
+            let active = 0,
+                expired = 0,
+                revoked = 0;
+            for (const ban of bans) {
+                const s = String(ban.status).toUpperCase();
+                if (s === 'ACTIVE') active++;
+                else if (s === 'EXPIRED') expired++;
+                else if (s === 'REVOKED') revoked++;
+            }
+            activeSpan.innerText = active;
+            expiredSpan.innerText = expired;
+            revokedSpan.innerText = revoked;
+        }
+
+        function parseBanFile(text) {
+            const lines = text.split(/\r?\n/);
+            const bans = [];
+
+            for (let line of lines) {
+                line = line.trim();
+                if (!line || line.startsWith('#')) continue;
+
+                const parts = line.split(';').map(p => p.trim());
+                if (parts.length < 5) continue;
+
+                const banID = parts[0] || '';
+                const userID = parts[1] || '';
+                const reason = parts[2] || '';
+                const banDateTime = parts[3] || '';
+                const statusRaw = parts[parts.length - 1] || '';
+                const status = ['ACTIVE', 'EXPIRED', 'REVOKED'].includes(statusRaw.toUpperCase())
+                    ? statusRaw.toUpperCase()
+                    : 'UNKNOWN';
+
+                bans.push({ banID, userID, reason, banDateTime, status });
+            }
+
+            return bans;
+        }
+
+        async function loadAndRender() {
+            try {
+                statusMsgSpan.innerHTML = '<i class="fas fa-spinner fa-pulse"></i> Fetching bans...';
+                tbody.innerHTML = '<tr class="loading-row"><td colspan="5" style="text-align:center; padding:2rem;"><i class="fas fa-spinner fa-pulse"></i> Loading bans...</td></tr>';
+
+                const res = await fetch('{{ site.baseurl }}/data/bans.txt?t=' + Date.now());
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const text = await res.text();
+
+                allBans = parseBanFile(text);
+                searchTerm = '';
+                document.getElementById('searchInput').value = '';
+                applySearchFilter();
+                updateGlobalCounters(allBans);
+                lastUpdatedSpan.innerHTML = `<i class="far fa-calendar-alt"></i> ${new Date().toLocaleString()}`;
+                statusMsgSpan.innerHTML = `<i class="fas fa-check-circle"></i> Loaded ${allBans.length} ban records`;
+            } catch (err) {
+                console.error(err);
+                tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding:2rem; color: #e06c75;">
+                    <i class="fas fa-exclamation-triangle"></i> Failed to load bans.txt<br>
+                    <small style="color: var(--text-muted);">${escapeHtml(err.message)}</small>
+                </td></tr>`;
+                allBans = [];
+                filteredBans = [];
+                updateGlobalCounters([]);
+                statusMsgSpan.innerHTML = '❌ Failed to load bans';
+            }
+        }
+
+        function attachEvents() {
+            document.getElementById('searchInput').addEventListener('input', e => {
+                searchTerm = e.target.value;
+                applySearchFilter();
+            });
+            document.getElementById('clearFiltersBtn').addEventListener('click', () => {
+                searchTerm = '';
+                document.getElementById('searchInput').value = '';
+                applySearchFilter();
+            });
+            document.getElementById('pageSizeSelect').addEventListener('change', e => {
+                pageSize = parseInt(e.target.value, 10);
+                currentPage = 1;
+                renderTable();
+            });
+            document.getElementById('prevPageBtn').addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    renderTable();
+                }
+            });
+            document.getElementById('nextPageBtn').addEventListener('click', () => {
+                const total = Math.ceil(filteredBans.length / pageSize);
+                if (currentPage < total) {
+                    currentPage++;
+                    renderTable();
+                }
+            });
+            refreshBtn.addEventListener('click', loadAndRender);
+        }
+
+        function init() {
+            attachEvents();
+            loadAndRender();
+        }
+
+        init();
+    })();
+</script>

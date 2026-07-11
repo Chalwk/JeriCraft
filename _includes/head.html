@@ -1,0 +1,38 @@
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale={{ site.site_scale }}" name="viewport">
+
+<title>
+  {% if page.title %}
+  {{ page.title }} | {{ site.title }}
+  {% else %}
+  {{ site.title }}
+  {% endif %}
+</title>
+
+<meta content="{{ page.description | default: site.description }}" name="description">
+
+{% seo %}
+
+<meta content="{{ page.title | default: site.title }}" property="og:title">
+<meta content="{{ page.description | default: site.description }}" property="og:description">
+<meta content="{{ page.image | default: site.image | absolute_url }}" property="og:image">
+<meta content="JeriCraft Logo" property="og:image:alt">
+<meta content="{{ page.url | absolute_url }}" property="og:url">
+<meta content="website" property="og:type">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="{{ page.title | default: site.title }}" name="twitter:title">
+<meta content="{{ page.description | default: site.description }}" name="twitter:description">
+<meta content="{{ page.image | default: site.image | absolute_url }}" name="twitter:image">
+
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://cdnjs.cloudflare.com" rel="preconnect">
+
+<link href="{{ site.favicon | relative_url }}" rel="icon" type="image/x-icon">
+
+<link href="{{ site.baseurl }}/assets/css/core.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@300;400;600;700&display=swap"
+  rel="stylesheet">

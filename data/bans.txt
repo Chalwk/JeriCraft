@@ -1,0 +1,27 @@
+10;greyknightshade;Extreme hacking;21-Feb-2016 20:46;ACTIVE
+13;Wetchet;Hacked client;17-Mar-2016 20:46;ACTIVE
+14;FlyAsGermanWings;Bot, routinely tries to infiltrate server;28-Mar-2016 20:46;ACTIVE
+15;Skiddly_OZ;Using a proxy and modding;11-Jun-2016;ACTIVE
+23;BlitzHitler;Extreme hacking;13-Jul-2016 20:40;ACTIVE
+25;LOONAZ;Excessive griefing and stealing;20-Sep-2016 12:48;ACTIVE
+26;IXIXLE_;Hacked Client (Xray);25-Feb-2025 11:55;ACTIVE
+27;Slokilol;Hacked Client (Fly Hack);26-Feb-2025 11:40;ACTIVE
+1;googie41965;Fly hacking;14-Nov-2015 19:49;EXPIRED
+2;TheBlockr1214;Swearing and disrespect;23-Dec-2015 13:33;EXPIRED
+3;TheBlockr1214;Using a hacked client;26-Dec-2015 20:46;EXPIRED
+4;Q9Vex;Attempting to bypass ban;29-Dec-2015 09:40;EXPIRED
+5;googie41965;Using a hacked client;31-Dec-2015 13:33;EXPIRED
+6;Blue_Shard;Swearing and disrespect;31-Dec-2015 13:35;EXPIRED
+7;_Backslash+;Spamming in chat;13-Jan-2016 20:37;EXPIRED
+8;samalam33;Spamming and swearing, ignored staff directions;18-Jan-2016 20:36;EXPIRED
+9;ADodgyLion;Fly hacking;29-Jan-2016;EXPIRED
+11;FatGremlin;Failed to follow staff instructions;05-Mar-2016 14:43;EXPIRED
+16;CaptainZoid;Griefing 100+ blocks;30-Jun-2016;EXPIRED
+17;rolleman48;Muted: Repeated offenses after warnings;02-Jul-2016 15:20;EXPIRED
+18;tuffgghh28;Muted: Repeated offenses after warnings;02-Jul-2016 15:25;EXPIRED
+19;michaelwang35;Sexual harassment;06-Jul-2016 11:40;EXPIRED
+20;NewportPeak;Griefing and stealing items;06-Jul-2016 12:20;EXPIRED
+21;Newinsky;Griefing and stealing items;06-Jul-2016 12:25;EXPIRED
+22;MFT2003;Griefing 35+ blocks;13-Jul-2016 19:30;EXPIRED
+24;HunterLachy;Ban evasion;15-Aug-2016 18:33;EXPIRED
+12;strawberry1512;N/A;15-Mar-2016 20:39;REVOKED

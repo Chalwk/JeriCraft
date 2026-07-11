@@ -1,0 +1,41 @@
+---
+layout: default
+title: Commands
+description: All JeriCraft commands for players and staff
+---
+
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+
+<section class="page-content">
+  <h1>📜 Commands</h1>
+  <p>Below are the commands available on JeriCraft. Use the tabs to switch between Player and Staff commands.</p>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="player">Player Commands</button>
+    <button class="tab-btn" data-tab="staff">Staff Commands</button>
+  </div>
+
+  <div id="player" class="tab-content active">
+    {% capture player_commands %}{% include player-commands.md %}{% endcapture %}
+    {{ player_commands | markdownify }}
+  </div>
+  <div id="staff" class="tab-content">
+    {% capture staff_commands %}{% include staff-commands.md %}{% endcapture %}
+    {{ staff_commands | markdownify }}
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('.tab-btn');
+    const contents = document.querySelectorAll('.tab-content');
+    tabs.forEach(btn => {
+      btn.addEventListener('click', function () {
+        tabs.forEach(b => b.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        document.getElementById(this.dataset.tab).classList.add('active');
+      });
+    });
+  });
+</script>

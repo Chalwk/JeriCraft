@@ -1,0 +1,298 @@
+name: Staff Application
+description: Apply to become a staff member on the JeriCraft server.
+title: 'Staff Application - [Your Name]'
+labels:
+  - application-form
+  - awaiting-review
+assignees: Chalwk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # JeriCraft Staff Application
+
+        Thank you for your interest in joining the **JeriCraft Staff Team**! This form is intended for individuals who wish to apply for a staff position on our **Minecraft** server. Please take your time to provide detailed and accurate information.
+
+        **Important Notes:**
+        - Applications are reviewed as soon as possible. If selected, you will be contacted for further consideration.
+        - Ensure you meet all requirements before applying. Incomplete or ineligible applications will be denied.
+        - By submitting this application, you agree to abide by the **JeriCraft Community Rules** and uphold the server's values.
+
+        ---
+
+        ## Staff Requirements
+
+        Before applying, ensure you meet the following criteria:
+
+        - **Age**: Must be **17 or older**.
+        - **Activity**: Must be an active member of the community for at least **3 months**.
+        - **Playtime**: Must have at least **100 hours of playtime** on the server.
+        - **Availability**: Able to dedicate at least **5 hours per week** to the server.
+        - **Communication**: Must have a **Discord account** and a **working microphone**.
+        - **Game Ownership**: Must own a legitimate (non-pirated) copy of the game(s) you're applying for.
+        - **Rules Familiarity**: Must read and agree to our [Community Rules](https://chalwk.github.io/JeriCraft/rules).
+        - **Command Knowledge**: Familiarize yourself with [our commands](https://chalwk.github.io/JeriCraft/commands) 
+
+        **Warning**: Do not apply if you do not meet these requirements. Your application will be denied.
+
+        ---
+
+        ## Staff Rank Hierarchy
+
+        - **Sentinel (Trial Moderator)**  
+          Entry-level staff with access to essential moderation tools to maintain a friendly environment.
+
+        - **Justiciar (Moderator)**  
+          Full moderators with additional tools for resolving issues and managing the community.
+
+        - **High Lord (Administrator)**  
+          Advanced staff with access to server management tools and behind-the-scenes operations.
+
+        - **Sovereign (Senior-Admin)**  
+          The highest rank, responsible for overseeing the entire server and staff team.
+
+        ---
+
+  - type: checkboxes
+    id: accept-rules
+    attributes:
+      label: Do you accept our community rules?
+      description: Please read and accept our [Community Rules](https://chalwk.github.io/JeriCraft/rules) before proceeding.
+      options:
+        - label: Yes, I accept the rules. 👍
+        - label: No, I do not accept the rules. ❌
+    validations:
+      required: true
+
+  - type: input
+    id: usernames
+    attributes:
+      label: 🎮 Minecraft, and Discord Usernames
+      description: Provide your usernames for Minecraft, and Discord.
+      placeholder: "e.g., Minecraft: Player1, Discord: Player3#1234"
+    validations:
+      required: true
+
+  - type: input
+    id: age
+    attributes:
+      label: 🎂 How old are you?
+      description: You must be 17 or older to apply.
+      placeholder: "e.g., 18"
+    validations:
+      required: true
+
+  - type: input
+    id: timezone
+    attributes:
+      label: 🌍 What is your timezone?
+      description: Provide your timezone for scheduling purposes.
+      placeholder: "e.g., UTC-5, GMT+1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: about-yourself
+    attributes:
+      label: 🙋️ Tell us about yourself
+      description: Provide a brief introduction about yourself, including your interests and why you want to join the staff team.
+      placeholder: "e.g., I'm a passionate gamer with experience in community management..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: account-access
+    attributes:
+      label: 🔒 Does anyone else have access to your Minecraft or Discord account?
+      description: This is important for security reasons. If yes, please explain. Otherwise, type 'No'.
+      placeholder: "e.g., No, only I have access to my accounts."
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: 🎮 Moderation Experience
+      description: Describe your experience with moderating, including any previous staff positions you've held.
+      placeholder: "e.g., I was a moderator on XYZ server for 6 months..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: 🎁 What will you contribute to our community as a staff member?
+      description: Explain how you can improve the player experience and support the server.
+      placeholder: "e.g., I will help new players, organize events, and enforce rules fairly..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: availability
+    attributes:
+      label: 🕒 Availability
+      description: Provide your weekly availability and the hours you can dedicate to the server.
+      placeholder: "e.g., I can dedicate 10 hours per week, mostly on weekends..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: hacked-client
+    attributes:
+      label: 🚫 Have you ever used a hacked client or mods? (e.g., aim bot, X-ray, fly mod)
+      description: If yes, please explain. Otherwise, type 'No'.
+      placeholder: "e.g., No, I have never used hacked clients."
+    validations:
+      required: true
+
+  - type: textarea
+    id: minecraft-ban
+    attributes:
+      label: ⛔ Have you ever been banned on a Minecraft server?
+      description: If yes, please explain. Otherwise, type 'No'.
+      placeholder: "e.g., No, I have never been banned."
+    validations:
+      required: true
+
+  - type: textarea
+    id: strengths-weaknesses
+    attributes:
+      label: 💪 What are your strengths and weaknesses?
+      description: Provide details about your strengths and areas for improvement.
+      placeholder: "e.g., My strengths include communication and problem-solving. My weakness is time management..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 Scenario Questions
+        > These questions test your understanding of the rules and how you would handle situations as a staff member.
+
+  - type: textarea
+    id: scenario_1
+    attributes:
+      label: 1. A player is using unauthorized mods (e.g., aim bot, X-ray) to gain an unfair advantage.
+      description: How would you handle this situation and ensure fair play?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_2
+    attributes:
+      label: 2. A player is promoting another server in the chat.
+      description: How would you address this issue and enforce the server's rules?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_3
+    attributes:
+      label: 3. A player is spamming the chat and disrupting other players.
+      description: How would you intervene and maintain a positive chat environment?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_4
+    attributes:
+      label: 4. A player is being disrespectful to staff or other players.
+      description: What steps would you take to address their behavior and promote a friendly community?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_5
+    attributes:
+      label: 5. A player is griefing another player's build.
+      description: How would you handle this situation and protect players' hard work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_6
+    attributes:
+      label: 6. A player reports a bug or glitch in the game.
+      description: How would you handle this situation?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_7
+    attributes:
+      label: 7. Two players are arguing in chat, disrupting the community.
+      description: How would you resolve the conflict?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_8
+    attributes:
+      label: 8. A player exploits a loophole in the rules.
+      description: How would you address this and prevent future violations?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_9
+    attributes:
+      label: 9. A new player is struggling to understand the rules or navigate the server.
+      description: How would you assist them?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_10
+    attributes:
+      label: 10. A player claims they were falsely punished by another staff member.
+      description: How would you handle this situation and ensure fairness?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_11
+    attributes:
+      label: 11. A player accuses a staff member of abusing their powers.
+      description: How would you investigate and address the accusation?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_12
+    attributes:
+      label: 12. Multiple players report others using unauthorized mods.
+      description: How would you investigate and enforce the rules?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_13
+    attributes:
+      label: 13. The server experiences a significant drop in player activity.
+      description: How would you work with the staff team to identify the cause and boost engagement?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_14
+    attributes:
+      label: 14. A player is found to be account sharing.
+      description: What actions would you take to address the issue?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario_15
+    attributes:
+      label: 15. A group of players is using the server for inappropriate purposes.
+      description: How would you address this issue and maintain the server's integrity?
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank You for Applying!
+        - Your application will be reviewed by the JeriCraft team.
+        - If selected, you will be contacted for further steps.
+        - For questions or assistance, contact us on [Discord](https://discord.gg/wuVcM9AZrr) or via email at **jericho.crosby227@gmail.com**.

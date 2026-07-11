@@ -1,0 +1,146 @@
+name: Builder Application
+description: Apply to become a builder on the JeriCraft Minecraft server.
+title: "Builder Application for: <name>"
+labels:
+  - application-form
+  - awaiting-review
+assignees: Chalwk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is intended for individuals interested in applying for a builder position.
+        Please take your time to provide detailed and accurate information.
+
+        Please note that we will review applications as soon as possible, and you will be contacted if your application is selected for further consideration.
+
+        # JeriCraft Builder Requirements:
+
+        - Must be 13 or older.
+        - Must be an active member of the community for at least 1.5 months.
+        - Have at least 50 hours of playtime on the server.
+        - Must have Discord for communication purposes.
+        - 📝 Must read and agree to our [community rules](https://chalwk.github.io/JeriCraft/rules).
+        - You are allowed to build in pairs.
+          > *Collaborations with the intent of using your build for this application require that 70% of the build be done by you.*
+        - Builds must be original and not copied from the internet.
+        - We require a minimum of 3 separate builds to be submitted for review.
+          > *These builds must be done on the server and have different styles and themes.*
+          > *You must provide the coordinates of each build.*
+          > *Creative mode and World Edit are for Personal use only! You are not permitted to build for other players, period.*
+        - ❗ You must have a legitimate (not pirated/cracked) copy of Minecraft.
+        - ⚠️ Do not make an application if you don't meet these requirements. You will be denied. ⚠️
+
+        ---
+
+        **While in creative mode:**
+          - You will not be able to pick up or drop items.
+          - You will not be able to access (or place) anything with an inventory. I.e. chests, furnaces, dispensers, etc.
+          - Certain commands will become disabled for you. Such as /sell hand and /ah sell.
+          - Your creative inventory will be separate from your survival inventory.
+
+        ---
+
+        **Restricted access to World Edit:**
+          - World Edit will be limited to regions that you own.
+          - Make sure you set the `worldedit allow` flag in your region before performing World Edit operations.
+          - Certain commands will be disabled for you. See the [our Commands](https://chalwk.github.io/JeriCraft/commands) for more information.
+
+        ---
+  - type: checkboxes
+    id: accept-rules
+    attributes:
+      label: Do you accept our community rules?
+      description: Please read and accept our community rules before proceeding.
+      options:
+        - label: Yes 👍
+        - label: No ❌
+    validations:
+      required: true
+  - type: input
+    id: minecraft-discord-username
+    attributes:
+      label: 🎮 Minecraft/Discord Username
+      description: Provide your Minecraft and Discord usernames.
+    validations:
+      required: true
+  - type: input
+    id: age
+    attributes:
+      label: 🎂 Age
+      description: You must be 13 years or older to apply for Builder.
+    validations:
+      required: true
+  - type: input
+    id: timezone
+    attributes:
+      label: ⏰ What is your time zone?
+      description: For example, UTC-5, GMT+1, etc.
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: 🌎 What country do you live in?
+      description: For example, United States, United Kingdom, etc.
+    validations:
+      required: true
+  - type: input
+    id: community-duration
+    attributes:
+      label: ⏰ Community Duration
+      description: How long have you been a member of the JeriCraft community?
+    validations:
+      required: true
+  - type: input
+    id: planet-minecraft
+    attributes:
+      label: 📰 Planet Minecraft Account (if applicable)
+      description: Do you have a Planet Minecraft (PMC) account? If so, please provide the link, otherwise, type 'N/A'.
+    validations:
+      required: true
+  - type: textarea
+    id: account-access
+    attributes:
+      label: 👥 Account Access
+      description: Does anyone else have access to your Minecraft account? (If yes, please explain, otherwise, type 'N/A'.)
+    validations:
+      required: true
+  - type: textarea
+    id: why-builder
+    attributes:
+      label: 🗿 Why do you think you should become a builder?
+      description: Explain why you think you should become a builder on the JeriCraft server.
+    validations:
+      required: true
+  - type: textarea
+    id: previous-builds
+    attributes:
+      label: ☭ Previous Builds
+      description: Have you built anything on JeriCraft before?
+    validations:
+      required: true
+  - type: textarea
+    id: building-style
+    attributes:
+      label: 🔨 Building Style
+      description: What is your preferred building style? (E.g. Modern, Medieval, Fantasy, etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: world-edit-experience
+    attributes:
+      label: 💡 World Edit Experience (if applicable)
+      description: Do you have any experience with World Edit? (If yes, please explain, otherwise, type 'N/A'.)
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **📷 Screenshots**
+        > Include screenshots of your builds on the JeriCraft server.
+        > Provide the coordinates of each build so we can review them.
+        >
+        > 🙌 Thank you
+        >
+        > **We appreciate your effort in applying for a builder position on the JeriCraft server. Your input is invaluable!**

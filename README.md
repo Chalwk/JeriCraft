@@ -1,2 +1,35 @@
 # JeriCraft
-Official GitHub repository for the JeriCraft gaming community. Contains the Jekyll source code for our public documentation site, featuring Minecraft server guides, tutorials, rules, and policies.
+
+This repository contains the source code and content for the official **JeriCraft** community website, built with Jekyll and hosted on GitHub Pages.
+
+**Live website:** [https://chalwk.github.io/JeriCraft/](https://chalwk.github.io/JeriCraft/)
+
+---
+
+## Copyright & License
+
+**© 2026 Jericho Crosby (Chalwk). All Rights Reserved.**
+
+This repository and all its contents are **proprietary assets**.  
+You are permitted to **view** the website and this repository for informational purposes only.
+
+No part of this repository may be:
+- Copied, reproduced, or downloaded
+- Modified, adapted, or translated
+- Distributed, shared, or published elsewhere
+- Used in any other project, product, or service
+
+For the full legal terms, please read the [LICENSE](LICENSE) file.
+
+---
+
+## Contact
+
+For questions, licensing inquiries, or collaboration proposals:
+
+- **Email:** chalwk.dev@gmail.com  
+- **Discord:** chalwk
+
+---
+
+*JeriCraft is a gaming community established and operated by Jericho Crosby (Chalwk).*

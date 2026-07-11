@@ -1,0 +1,69 @@
+# Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved.
+
+title: JeriCraft
+description: Official website for the JeriCraft Minecraft community.
+
+url: "https://chalwk.github.io"
+baseurl: "/JeriCraft"
+locale: en_NZ
+timezone: Pacific/Auckland
+
+author:
+  name: JeriCraft
+  url: https://github.com/Chalwk
+
+image: /assets/images/logos/jericraft-logo.png
+favicon: favicon.ico
+
+links:
+  email: JERICRAFT@GMAIL.COM
+  discord: https://discord.gg/your-invite
+  ban_appeal: https://github.com/Chalwk/JeriCraft/issues/new?template=ban-appeal.yml
+
+sass:
+  style: compressed
+
+incremental: true
+plugins_cache: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+relative_links:
+  enabled: true
+  collections: true
+
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:path/
+  shops:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+  - scope:
+      type: "guides"
+    values:
+      layout: page
+
+  - scope:
+      type: "shops"
+    values:
+      layout: page
+
+  - scope:
+      path: "about.md"
+    values:
+      layout: page
+
+  - scope:
+      path: "store.md"
+    values:
+      layout: page
