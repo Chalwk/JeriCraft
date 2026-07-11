@@ -16,7 +16,7 @@ image: /assets/images/logos/jericraft-logo.png
 favicon: favicon.ico
 
 links:
-  email: JERICRAFT@GMAIL.COM
+  email: chalwk.dev@gmail.com
   discord: https://discord.gg/your-invite
   ban_appeal: https://github.com/Chalwk/JeriCraft/issues/new?template=ban-appeal.yml
 
@@ -47,22 +47,18 @@ defaults:
       path: ""
     values:
       layout: default
-
   - scope:
       type: "guides"
     values:
       layout: page
-
   - scope:
       type: "shops"
     values:
       layout: page
-
   - scope:
       path: "about.md"
     values:
       layout: page
-
   - scope:
       path: "store.md"
     values:
