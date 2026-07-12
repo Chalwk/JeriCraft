@@ -7,7 +7,7 @@ url: "https://chalwk.github.io"
 baseurl: "/JeriCraft"
 locale: en_NZ
 timezone: Pacific/Auckland
-site_scale: 1.0
+site_scale: 0.65
 
 author:
   name: JeriCraft
