@@ -102,42 +102,6 @@ description: View all current bans and appeals.
         flex-wrap: wrap;
     }
 
-    .appeal-btn {
-        background: var(--primary);
-        border: 3px solid #0b1020;
-        padding: 0.6rem 1.2rem;
-        border-radius: 999px;
-        font-weight: 600;
-        font-size: 0.8rem;
-        color: #0b1020;
-        cursor: pointer;
-        transition: var(--transition);
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        white-space: nowrap;
-        font-family: var(--font-body);
-        text-shadow: none;
-    }
-
-    .appeal-btn:hover {
-        background: var(--primary-light);
-        transform: scale(1.02);
-        color: #0b1020;
-    }
-
-    .appeal-btn.email-btn {
-        background: #445066;
-        color: var(--text-light);
-        border-color: #0b1020;
-    }
-
-    .appeal-btn.email-btn:hover {
-        background: #5a6a8a;
-        color: var(--text-light);
-    }
-
     .appeal-or {
         font-size: 1rem;
         font-weight: 700;
@@ -589,11 +553,6 @@ description: View all current bans and appeals.
             gap: 0.5rem;
         }
 
-        .appeal-btn {
-            font-size: 0.7rem;
-            padding: 0.4rem 0.9rem;
-        }
-
         .totals span {
             font-size: 0.65rem;
             padding: 1px 8px;
@@ -611,10 +570,10 @@ description: View all current bans and appeals.
         <p><i class="fas fa-scale-balanced"></i> <strong>Dispute a ban?</strong> If you believe you were banned
             unfairly, please contact our staff via GitHub or email.</p>
         <div class="appeal-buttons">
-            <a class="appeal-btn" href="{{ site.links.ban_appeal }}" target="_blank"><i class="fab fa-github"></i>
+            <a class="btn btn-primary" href="{{ site.links.ban_appeal }}" target="_blank"><i class="fab fa-github"></i>
                 Appeal via GitHub</a>
             <span class="appeal-or">OR</span>
-            <a class="appeal-btn email-btn" href="mailto:{{ site.links.email }}"><i class="fas fa-envelope"></i>
+            <a class="btn btn-secondary" href="mailto:{{ site.links.email }}"><i class="fas fa-envelope"></i>
                 Email</a>
         </div>
     </div>
