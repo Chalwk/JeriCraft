@@ -129,7 +129,7 @@ build an empire that stands the test of time.
 
 A kingdom is built on wealth! Manage your faction's finances to fund expansions and military endeavors.
 
-ℹ️ For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide](/docs/guides/Economy.md).
+ℹ️ For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide]({{site.baseurl}}/guides/economy).
 
 | **Command**                                      | **Description**                                                              |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |

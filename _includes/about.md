@@ -20,11 +20,11 @@
 | Feature                          | Description                                                                                                                                                    |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Survival & Strategic Warfare** | Brave the wilds, fortify your homestead, or wage war against rival factions.                                                                                   |
-| **Factions**                     | Claim territory, draft laws, and lead alliances. Wage wars or broker peace, your faction's destiny is yours to carve.                                           |
+| **Factions**                     | Claim territory, draft laws, and lead alliances. Wage wars or broker peace, your faction's destiny is yours to carve.                                          |
 | **Player-Driven Economy**        | Thrive in a bustling marketplace: barter at player-run Chest Shops, bid in auctions, or profit from daily Job quests.                                          |
 | **Specialized Professions**      | Master roles like weaponsmith, miner or hunter, each with unique progression paths and rewards.                                                                |
 | **Quests**                       | Complete rotating quests for rare loot, bonus XP, and escalating rewards that keep every day fresh.                                                            |
-| **mcMMO**                        | Level combat and crafting skills to unlock devastating abilities, become a whispered legend across realms.                                                      |
+| **mcMMO**                        | Level combat and crafting skills to unlock devastating abilities, become a whispered legend across realms.                                                     |
 | **Seasons**                      | Adapt to punishing winters and lush summers where weather alters crop growth, mob behavior, and resource scarcity.                                             |
 | **Levelled Mobs**                | Face adaptive, scaling mobs like Nether-born horrors, cursed beasts, and eldritch abominations that grow deadlier as you progress. No battle is ever the same! |
 | **NPC Merchants**                | Trade with NPC merchants offering rare goods, fluctuating prices, and faction-specific deals.                                                                  |
@@ -32,7 +32,7 @@
 | **Friendly Community**           | Join a supportive and welcoming community of players from all walks of life.                                                                                   |
 | And so much more!                |
 
-For detailed guides on each feature, check out our [Guides](/guides) section. Also, see the [Commands](/commands) page for a full list of player and staff commands.
+For detailed guides on each feature, check out our [Guides]({{site.baseurl}}/guides) section. Also, see the [Commands]({{site.baseurl}}/commands) page for a full list of player and staff commands.
 
 ## Player Ranks
 

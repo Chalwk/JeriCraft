@@ -7,7 +7,7 @@ permalink: /guides/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-<h1>📖 Guides</h1>
+<h1>Guides</h1>
 <p>Here you'll find all the guides to help you navigate JeriCraft.</p>
 
 <ul>

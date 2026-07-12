@@ -10,7 +10,7 @@ Some commands might be displayed with a line through them, like ~~this~~.<br>
 These crossed-out commands are temporarily unavailable and may return in the future.<br>
 Keep an eye on our updates for any changes to command availability.
 
-For FACTIONS commands, please refer to [Factions Guide](/guides/factions).
+For FACTIONS commands, please refer to [Factions Guide]({{site.baseurl}}/guides/factions).
 
 ---
 
