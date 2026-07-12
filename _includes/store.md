@@ -11,7 +11,7 @@ running, and we are grateful for your support.
 ## Table of Contents <!-- omit from toc -->
 
 - [Patronage Tiers](#patronage-tiers)
-- [Terms and Conditions:](#terms-and-conditions)
+- [Terms \& Conditions:](#terms--conditions)
   - [Agreement to Terms:](#agreement-to-terms)
   - [Refund Policy:](#refund-policy)
   - [Payment Responsibility:](#payment-responsibility)
@@ -49,7 +49,7 @@ perk is abused.
 
 ---
 
-## Terms and Conditions:
+## Terms & Conditions:
 
 **All prices are in NZD (New Zealand Dollars).**
 

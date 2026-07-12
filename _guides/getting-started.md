@@ -17,7 +17,7 @@ You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java 
 - [Getting Started with JeriCraft](#getting-started-with-jericraft)
   - [1. Choose Your Faction](#1-choose-your-faction)
   - [2. Get Your Kits](#2-get-your-kits)
-  - [3. Start Your Jobs and Skills](#3-start-your-jobs-and-skills)
+  - [3. Start Your Jobs \& Skills](#3-start-your-jobs--skills)
   - [4. Protect Your Land](#4-protect-your-land)
   - [5. Explore the World](#5-explore-the-world)
 - [Additional Tips for New Players](#additional-tips-for-new-players)
@@ -76,7 +76,7 @@ New players can claim free starting kits to help get them settled in the world. 
 available, and `/kit <name>` to redeem one. The kits contain essential tools and resources like armor, food, and
 weapons, making your survival in the wild much easier!
 
-### 3. Start Your Jobs and Skills
+### 3. Start Your Jobs & Skills
 
 JeriCraft offers a wide variety of RPG-style **jobs** and **skills** that let you specialize in different areas like
 mining, fishing, farming, or even combat. Use `/jobs` to view the available options and start your journey in the

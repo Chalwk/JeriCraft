@@ -14,30 +14,30 @@ claim land, build power, and raid enemy territories.
 
 ## Table of Contents <!-- omit from toc -->
 
-- [Faction Creation and Management](#faction-creation-and-management)
+- [Faction Creation \& Management](#faction-creation--management)
 - [Faction Member Commands](#faction-member-commands)
 - [Member Management](#member-management)
 - [Territory Management](#territory-management)
-- [Economy and Faction Banks](#economy-and-faction-banks)
+- [Economy \& Faction Banks](#economy--faction-banks)
 - [Player Commands](#player-commands)
 - [Admin Commands](#admin-commands)
 - [Base Cost to Claim Land](#base-cost-to-claim-land)
   - [Claim Cost Scaling](#claim-cost-scaling)
 - [Power System](#power-system)
-  - [Power Limits and Gains](#power-limits-and-gains)
-  - [Power Loss and Raidability](#power-loss-and-raidability)
-- [Power and PvP Mechanics](#power-and-pvp-mechanics)
-  - [Power Transfer and Stealing](#power-transfer-and-stealing)
+  - [Power Limits \& Gains](#power-limits--gains)
+  - [Power Loss \& Raidability](#power-loss--raidability)
+- [Power \& PvP Mechanics](#power--pvp-mechanics)
+  - [Power Transfer \& Stealing](#power-transfer--stealing)
   - [War Zones](#war-zones)
   - [Safe Zones](#safe-zones)
   - [Wilderness](#wilderness)
   - [Peaceful Factions](#peaceful-factions)
 - [Miscellaneous](#miscellaneous)
-- [Faction Relations and Limits](#faction-relations-and-limits)
+- [Faction Relations \& Limits](#faction-relations--limits)
 
 ---
 
-## Faction Creation and Management
+## Faction Creation & Management
 
 The foundation of any great empire begins with its creation. Establish your own faction, forge alliances, and
 carve your legacy into the lands of JeriCraft.
@@ -125,7 +125,7 @@ build an empire that stands the test of time.
 
 ---
 
-## Economy and Faction Banks
+## Economy & Faction Banks
 
 A kingdom is built on wealth! Manage your faction's finances to fund expansions and military endeavors.
 
@@ -219,7 +219,7 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-### Power Limits and Gains
+### Power Limits & Gains
 
 - **Max Faction Power:** `1000` → The total power a faction can have.
 - **Max Power per Player:** `100` → The maximum power a single player can have.
@@ -230,7 +230,7 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-### Power Loss and Raidability
+### Power Loss & Raidability
 
 - **Power Loss Per Death:** `5` → How much power a player loses when they die.
 - **Offline Power Loss:** `-0.4 per day` → How much power is lost daily while offline.
@@ -241,9 +241,9 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-## Power and PvP Mechanics
+## Power & PvP Mechanics
 
-### Power Transfer and Stealing
+### Power Transfer & Stealing
 
 - **Vampirism (Power Stealing):** `0.5` → Killers receive 50% of the power lost by their target.
 
@@ -274,7 +274,7 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-## Faction Relations and Limits
+## Faction Relations & Limits
 
 Factions can form alliances, truces, or enmity with other factions. Manage your relationships wisely!
 

@@ -15,7 +15,7 @@ and make the most of the available commands, shops, and features.
 
 ## Table of Contents <!-- omit from toc -->
 - [Earning Money](#earning-money)
-- [Checking Your Balance and Paying Others](#checking-your-balance-and-paying-others)
+- [Checking Your Balance \& Paying Others](#checking-your-balance--paying-others)
 - [Market Price Reference](#market-price-reference)
 - [Factions Economy Commands](#factions-economy-commands)
 
@@ -45,7 +45,7 @@ There are several ways to accumulate wealth within the JeriCraft economy:
 
 ---
 
-## Checking Your Balance and Paying Others
+## Checking Your Balance & Paying Others
 
 Track and manage your money easily:
 

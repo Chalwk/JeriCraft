@@ -24,7 +24,7 @@ making your gameplay experience more engaging and exciting. Let's explore the wo
   - [Halloween](#halloween)
   - [Easter](#easter)
 - [Temperature System](#temperature-system)
-- [Tips and Tricks](#tips-and-tricks)
+- [Tips \& Tricks](#tips--tricks)
 
 ---
 
@@ -208,7 +208,7 @@ Check out the special events throughout the year. Each event is packed with exci
 
 ---
 
-## Tips and Tricks
+## Tips & Tricks
 
 - Plan your farming and building projects around the seasons for maximum efficiency.
 - Be prepared for harsher conditions in winter, like freezing water and slower crop growth.

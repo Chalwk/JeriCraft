@@ -19,7 +19,7 @@ easy to buy and sell items. Follow this step-by-step guide to set up your shop e
 - [Step 3: Stock the Chest](#step-3-stock-the-chest)
 - [Step 4: Create a Sign](#step-4-create-a-sign)
   - [Example 1: Basic Shop (buy only)](#example-1-basic-shop-buy-only)
-  - [Example 2: Advanced Shop (buy and sell)](#example-2-advanced-shop-buy-and-sell)
+  - [Example 2: Advanced Shop (buy \& sell)](#example-2-advanced-shop-buy--sell)
   - [Example 3: Advanced Configuration (price formats)](#example-3-advanced-configuration-price-formats)
 - [Step 5: How Customers Buy or Sell Items](#step-5-how-customers-buy-or-sell-items)
 
@@ -82,7 +82,7 @@ Create your shop sign with this exact formatting:
 | 3    | `B 100`   | Players can buy 16 items for 100. |
 | 4    | `Diamond` | Item name (must match exactly).   |
 
-### Example 2: Advanced Shop (buy and sell)
+### Example 2: Advanced Shop (buy & sell)
 
 | Line | Value          | Description                                           |
 | ---- | -------------- | ----------------------------------------------------- |
