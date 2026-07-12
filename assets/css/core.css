@@ -965,53 +965,6 @@ footer {
   color: var(--accent);
 }
 
-.news {
-  margin: 2.5rem 0;
-}
-
-.news h2 {
-  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.news-item {
-  padding: 1.2rem 1.5rem;
-  background: rgba(35, 48, 68, 0.5);
-  border-left: 4px solid var(--accent);
-  border-radius: var(--radius-sm);
-  margin-bottom: 1rem;
-}
-
-.news-item .news-date {
-  font-size: 0.75rem;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-
-.news-item h3 {
-  margin: 0.2rem 0 0.3rem;
-  font-size: 1.1rem;
-  color: var(--accent-2);
-}
-
-.news-item p {
-  margin: 0;
-  color: var(--text-muted);
-  font-size: 0.95rem;
-}
-
-.news-item a {
-  color: var(--link);
-  text-decoration: underline dotted;
-}
-
-.news-item a:hover {
-  color: var(--link-hover);
-}
-
 .cta {
   margin: 3rem 0 1rem;
   padding: 2rem 1.5rem;
