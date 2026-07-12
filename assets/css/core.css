@@ -401,6 +401,33 @@ main {
   border-radius: 5px;
 }
 
+.page-content ul.toc {
+  background: #706048;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 1.2rem 1.5rem 1.2rem 2.5rem;
+  margin: 1.5rem 0 2rem;
+  list-style-type: square;
+  box-shadow: var(--shadow);
+}
+
+.page-content ul.toc li {
+  margin: 0.4rem 0;
+  font-weight: 600;
+}
+
+.page-content ul.toc li a {
+  color: var(--accent-2);
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  transition: border-color var(--transition);
+}
+
+.page-content ul.toc li a:hover {
+  border-bottom-color: var(--accent);
+  color: var(--link-hover);
+}
+
 .page-content img[src*="npc_shops"] {
   max-width: 500px;
   width: 100%;

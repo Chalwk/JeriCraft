@@ -32,6 +32,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     window.addEventListener('resize', handleResize);
     handleResize();
+    const tocHeadings = document.querySelectorAll('.page-content h2');
+    tocHeadings.forEach(h2 => {
+        if (h2.textContent.trim() === 'Table of Contents') {
+            const nextUl = h2.nextElementSibling;
+            if (nextUl && nextUl.tagName === 'UL') {
+                nextUl.classList.add('toc');
+            }
+        }
+    });
 
     const scrollBtn = document.createElement('button');
     scrollBtn.id = 'scrollToTopBtn';

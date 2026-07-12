@@ -18,9 +18,10 @@ easy to buy and sell items. Follow this step-by-step guide to set up your shop e
 - [Step 2: Place a Chest](#step-2-place-a-chest)
 - [Step 3: Stock the Chest](#step-3-stock-the-chest)
 - [Step 4: Create a Sign](#step-4-create-a-sign)
-  - [Example Configurations](#example-configurations)
-  - [Advanced Configuration](#advanced-configuration)
-- [Step 5: How Customers *Buy* or *Sell* Items](#step-5-how-customers-buy-or-sell-items)
+  - [Example 1: Basic Shop (buy only)](#example-1-basic-shop-buy-only)
+  - [Example 2: Advanced Shop (buy \& sell)](#example-2-advanced-shop-buy--sell)
+  - [Example 3: Advanced Configuration (price formats)](#example-3-advanced-configuration-price-formats)
+- [Step 5: How Customers Buy or Sell Items](#step-5-how-customers-buy-or-sell-items)
 
 ---
 
@@ -65,27 +66,32 @@ find what they need. For example:
 
 Create your shop sign with this exact formatting:
 
-- `Owner Name`  - Auto-filled by system
-- `[Quantity]`  - Stack size: 1-64
-- `[Price]`     - Format: B/S [Amount] or B X : S Y
-- `[Item Name]` - Use /iinfo for ID
+| Line | Value         | Description                                               |
+| ---- | ------------- | --------------------------------------------------------- |
+| 1    | `Owner Name`  | Auto-filled by the system.                                |
+| 2    | `[Quantity]`  | Number of items per transaction (1-64).                   |
+| 3    | `[Price]`     | Format: `B <Amount>` or `B <Buy Price> : S <Sell Price>`. |
+| 4    | `[Item Name]` | Item name or ID. Use `/iinfo` to find the correct ID.     |
 
-### Example Configurations
+### Example 1: Basic Shop (buy only)
 
-Basic Shop (Single Price):
+| Line | Value     | Description                       |
+| ---- | --------- | --------------------------------- |
+| 1    | `Chalwk`  | Auto-filled.                      |
+| 2    | `16`      | Item quantity.                    |
+| 3    | `B 100`   | Players can buy 16 items for 100. |
+| 4    | `Diamond` | Item name (must match exactly).   |
 
-- `Chalwk`          - Auto-filled
-- `16`              - Item Quantity
-- `B 100`           - Buy Price
-- `Diamond`         - Item Name (Must match exactly)
+### Example 2: Advanced Shop (buy & sell)
 
-Advanced Shop (Multiple Prices):
-- `Chalwk`          - Auto-filled
-- `16`              - Item Quantity
-- `B 100 : S 25`    - Buy Price and Sell Price
-- `Diamond`         - Item Name (Must match exactly)
+| Line | Value          | Description                                           |
+| ---- | -------------- | ----------------------------------------------------- |
+| 1    | `Chalwk`       | Auto-filled.                                          |
+| 2    | `16`           | Item quantity.                                        |
+| 3    | `B 100 : S 25` | Players buy 16 items for 100 or sell 16 items for 25. |
+| 4    | `Diamond`      | Item name (must match exactly).                       |
 
-### Advanced Configuration
+### Example 3: Advanced Configuration (price formats)
 
 | **Format**   | **Description**                    | **Example**  |
 | ------------ | ---------------------------------- | ------------ |
@@ -98,7 +104,7 @@ Advanced Shop (Multiple Prices):
 
 ---
 
-## Step 5: How Customers *Buy* or *Sell* Items
+## Step 5: How Customers Buy or Sell Items
 
 | **Action**      | **Click Type**          | **Transaction**                      |
 | --------------- | ----------------------- | ------------------------------------ |
