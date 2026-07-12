@@ -12,6 +12,122 @@ title: Home
     <p>A medieval SMP/RPG Factions server</p>
     <div class="hero-buttons">
       <a href="{{ site.baseurl }}/about" class="btn btn-primary">Learn More</a>
+      <button id="copy-ip" class="btn btn-secondary" data-ip="jericraft.net">
+        <i class="fas fa-copy"></i> Copy IP
+      </button>
+    </div>
+    <div id="server-status" class="server-status">
+      <span class="status-dot"></span>
+      <span id="player-count">Loading...</span> players online
     </div>
   </div>
 </section>
+
+<section class="features">
+  <h2>Why Choose JeriCraft?</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Factions &amp; Warfare</h3>
+      <p>Claim territory, forge alliances, and wage war in a living medieval world.</p>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-coins"></i>
+      <h3>Player-Driven Economy</h3>
+      <p>Trade via Chest Shops, auctions, and daily jobs. Every player shapes the market.</p>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-dragon"></i>
+      <h3>RPG Progression</h3>
+      <p>Level up mcMMO skills, tackle levelled mobs, and complete quests for legendary loot.</p>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-users"></i>
+      <h3>Friendly Community</h3>
+      <p>Join a welcoming realm where every player matters, from Commoner to Overlord.</p>
+    </div>
+  </div>
+</section>
+
+<section class="quick-links">
+  <h2>Explore JeriCraft</h2>
+  <div class="link-cards">
+    <a href="{{ site.baseurl }}/guides" class="link-card">
+      <i class="fas fa-book"></i>
+      <span>Guides</span>
+    </a>
+    <a href="{{ site.baseurl }}/commands" class="link-card">
+      <i class="fas fa-terminal"></i>
+      <span>Commands</span>
+    </a>
+    <a href="{{ site.baseurl }}/rules" class="link-card">
+      <i class="fas fa-gavel"></i>
+      <span>Rules</span>
+    </a>
+    <a href="{{ site.baseurl }}/store" class="link-card">
+      <i class="fas fa-crown"></i>
+      <span>Store</span>
+    </a>
+  </div>
+</section>
+
+<section class="news">
+  <h2>Latest News</h2>
+  <div class="news-item">
+    <span class="news-date">July 2026</span>
+    <h3>JeriCraft Relaunches!</h3>
+    <p>We're relaunching with a new map, custom plugins, and revamped faction territories.</p>
+    <p>Stay Tuned!</p>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Join the Adventure Today!</h2>
+  <p>Connect with us on Discord, vote for us, and start your journey.</p>
+  <div class="cta-buttons">
+    <a href="{{ site.links.discord }}" target="_blank" class="btn btn-discord">
+      <i class="fab fa-discord"></i> Discord
+    </a>
+    <a href="#" class="btn btn-vote">
+      <i class="fas fa-star"></i> Vote for Us
+    </a>
+  </div>
+</section>
+
+<script>
+  document.getElementById('copy-ip')?.addEventListener('click', function () {
+    const ip = this.dataset.ip;
+    navigator.clipboard.writeText(ip).then(() => {
+      alert('Server IP copied: ' + ip);
+    }).catch(() => {
+      const input = document.createElement('input');
+      input.value = ip;
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+      alert('Server IP copied: ' + ip);
+    });
+  });
+
+  async function fetchServerStatus() {
+    const statusEl = document.getElementById('server-status');
+    const dot = statusEl?.querySelector('.status-dot');
+    const countEl = document.getElementById('player-count');
+    try {
+      const response = await fetch('https://api.mcsrvstat.us/2/jericraft.net');
+      const data = await response.json();
+      if (data.online) {
+        dot.className = 'status-dot online';
+        countEl.textContent = data.players?.online || '?';
+      } else {
+        dot.className = 'status-dot offline';
+        countEl.textContent = '0';
+      }
+    } catch (e) {
+      dot.className = 'status-dot offline';
+      countEl.textContent = '?';
+    }
+  }
+  fetchServerStatus();
+</script>
