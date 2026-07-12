@@ -10,10 +10,11 @@
         </div>
 
         <div class="nav-toggle">
-                <button aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                <button aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"><i
+                                class="fas fa-bars"></i></button>
         </div>
 
-        <nav aria-label="Main navigation" class="main-nav">
+        <nav aria-label="Main navigation" class="main-nav" id="main-nav">
                 <ul>
                         <li><a href="{{ site.baseurl }}/">Home</a></li>
                         <li><a href="{{ site.baseurl }}/about">About</a></li>

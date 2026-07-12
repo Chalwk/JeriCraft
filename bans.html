@@ -8,32 +8,41 @@ description: View all current bans and appeals.
 
 <style>
     :root {
-        --bg-panel: rgba(74, 58, 40, 0.92);
-        --bg-panel-light: rgba(93, 73, 53, 0.95);
-        --border-glow: rgba(124, 179, 66, 0.5);
-        --primary: #7cb342;
-        --primary-dark: #558b2f;
-        --primary-light: #a5d6a7;
-        --text-muted: #a0907a;
-        --text-light: #f5e6c8;
-        --danger: #e06c75;
+        --bg-panel: rgba(35, 48, 68, 0.96);
+        --bg-panel-light: rgba(52, 41, 74, 0.95);
+        --border-glow: rgba(211, 162, 86, 0.40);
+        --primary: #d3a256;
+        --primary-dark: #8b6d3f;
+        --primary-light: #f8edd8;
+        --text-muted: #d8c7a4;
+        --text-light: #f8edd8;
+        --danger: #d97373;
         --transition: all 0.2s ease;
-        --font-heading: 'Press Start 2P', 'Orbitron', monospace;
-        --font-body: 'Rajdhani', 'Segoe UI', sans-serif;
+        --font-heading: 'Cinzel', 'Georgia', serif;
+        --font-body: 'Inter', 'Segoe UI', sans-serif;
+        --radius-sm: 8px;
+        --radius-md: 14px;
+        --radius-lg: 20px;
+        --radius-xl: 28px;
+        --shadow: 0 10px 24px rgba(17, 14, 21, 0.35);
+        --shadow-strong: 0 14px 30px rgba(17, 14, 21, 0.5);
     }
 
     .ban-page-wrapper {
-        background: #5c4033;
+        background: var(--bg-panel);
         background-image:
-            repeating-linear-gradient(0deg,
-                #6d4c2a 0px,
-                #6d4c2a 2px,
-                #5c4033 2px,
-                #5c4033 4px);
-        border: 6px solid #3b2e1e;
-        border-radius: 16px;
+            linear-gradient(rgba(255, 255, 255, 0.03), rgba(8, 12, 24, 0.12)),
+            repeating-linear-gradient(45deg,
+                rgba(211, 162, 86, 0.04) 0,
+                rgba(211, 162, 86, 0.04) 2px,
+                transparent 2px,
+                transparent 8px);
+        border: 4px solid rgba(139, 109, 63, 0.85);
+        border-radius: var(--radius-lg);
         padding: 2rem;
-        box-shadow: inset 0 0 0 2px var(--primary), 0 6px 12px rgba(0, 0, 0, 0.5);
+        box-shadow:
+            inset 0 0 0 1px rgba(211, 162, 86, 0.25),
+            0 18px 32px rgba(8, 12, 24, 0.35);
     }
 
     .ban-header-section {
@@ -51,8 +60,9 @@ description: View all current bans and appeals.
         padding-left: 1rem;
         margin: 0;
         font-family: var(--font-heading);
-        text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
-        letter-spacing: 0.05em;
+        font-weight: 400;
+        text-shadow: 1px 1px 0 rgba(8, 12, 24, 0.32);
+        letter-spacing: 0.04em;
     }
 
     .ban-header-section h1 i {
@@ -60,8 +70,8 @@ description: View all current bans and appeals.
     }
 
     .appeal-banner {
-        background: rgba(124, 179, 66, 0.10);
-        border-radius: 28px;
+        background: rgba(211, 162, 86, 0.10);
+        border-radius: var(--radius-md);
         padding: 1rem 1.8rem;
         margin: 1rem 0 2rem 0;
         display: flex;
@@ -94,12 +104,12 @@ description: View all current bans and appeals.
 
     .appeal-btn {
         background: var(--primary);
-        border: 3px solid #3b2e1e;
+        border: 3px solid #0b1020;
         padding: 0.6rem 1.2rem;
-        border-radius: 40px;
+        border-radius: 999px;
         font-weight: 600;
         font-size: 0.8rem;
-        color: #1f1a14;
+        color: #0b1020;
         cursor: pointer;
         transition: var(--transition);
         text-decoration: none;
@@ -114,17 +124,17 @@ description: View all current bans and appeals.
     .appeal-btn:hover {
         background: var(--primary-light);
         transform: scale(1.02);
-        color: #1f1a14;
+        color: #0b1020;
     }
 
     .appeal-btn.email-btn {
-        background: #6d4c2a;
+        background: #445066;
         color: var(--text-light);
-        border-color: #5c4033;
+        border-color: #0b1020;
     }
 
     .appeal-btn.email-btn:hover {
-        background: #8d6e4a;
+        background: #5a6a8a;
         color: var(--text-light);
     }
 
@@ -139,8 +149,8 @@ description: View all current bans and appeals.
     }
 
     .summary-card {
-        background: var(--bg-panel);
-        border-radius: 24px;
+        background: rgba(52, 41, 74, 0.90);
+        border-radius: var(--radius-md);
         padding: 0.8rem 1.6rem;
         margin: 1.2rem 0 1.5rem 0;
         display: flex;
@@ -151,6 +161,7 @@ description: View all current bans and appeals.
         font-size: 0.9rem;
         border: 1px solid var(--border-glow);
         font-family: var(--font-body);
+        box-shadow: var(--shadow);
     }
 
     .totals {
@@ -167,9 +178,9 @@ description: View all current bans and appeals.
 
     .totals span {
         font-weight: 700;
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.35);
         padding: 2px 12px;
-        border-radius: 40px;
+        border-radius: 999px;
         margin: 0 2px;
         color: var(--primary);
         font-family: var(--font-heading);
@@ -178,9 +189,9 @@ description: View all current bans and appeals.
 
     .last-updated-badge {
         font-size: 0.8rem;
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.30);
         padding: 4px 14px;
-        border-radius: 40px;
+        border-radius: 999px;
         color: var(--text-muted);
         font-weight: 500;
     }
@@ -191,10 +202,10 @@ description: View all current bans and appeals.
     }
 
     .refresh-btn {
-        background: rgba(124, 179, 66, 0.15);
+        background: rgba(211, 162, 86, 0.15);
         border: 1px solid var(--border-glow);
         padding: 6px 18px;
-        border-radius: 40px;
+        border-radius: 999px;
         color: var(--primary);
         font-weight: 600;
         cursor: pointer;
@@ -204,7 +215,7 @@ description: View all current bans and appeals.
     }
 
     .refresh-btn:hover {
-        background: rgba(124, 179, 66, 0.35);
+        background: rgba(211, 162, 86, 0.35);
         color: var(--text-light);
         transform: scale(0.98);
     }
@@ -220,11 +231,11 @@ description: View all current bans and appeals.
         flex-wrap: wrap;
         gap: 16px;
         margin: 1rem 0 1.5rem 0;
-        background: rgba(0, 0, 0, 0.25);
+        background: rgba(8, 12, 24, 0.30);
         padding: 0.7rem 1.2rem;
-        border-radius: 60px;
+        border-radius: 999px;
         backdrop-filter: blur(2px);
-        border: 1px solid rgba(124, 179, 66, 0.15);
+        border: 1px solid rgba(211, 162, 86, 0.15);
     }
 
     .search-area {
@@ -240,10 +251,10 @@ description: View all current bans and appeals.
     }
 
     .search-input {
-        background: #2d1f12;
+        background: #0b1020;
         border: 1px solid var(--border-glow);
         padding: 8px 18px;
-        border-radius: 40px;
+        border-radius: 999px;
         color: var(--text-light);
         font-size: 0.85rem;
         min-width: 200px;
@@ -253,20 +264,20 @@ description: View all current bans and appeals.
 
     .search-input::placeholder {
         color: var(--text-muted);
-        opacity: 0.7;
+        opacity: 0.6;
     }
 
     .search-input:focus {
         outline: none;
         border-color: var(--primary);
-        box-shadow: 0 0 8px rgba(124, 179, 66, 0.3);
+        box-shadow: 0 0 12px rgba(211, 162, 86, 0.20);
     }
 
     .page-size-select {
-        background: #2d1f12;
+        background: #0b1020;
         border: 1px solid var(--border-glow);
         padding: 7px 14px;
-        border-radius: 40px;
+        border-radius: 999px;
         color: var(--text-light);
         font-size: 0.8rem;
         cursor: pointer;
@@ -280,10 +291,10 @@ description: View all current bans and appeals.
     }
 
     .clear-btn {
-        background: rgba(124, 179, 66, 0.10);
+        background: rgba(211, 162, 86, 0.10);
         border: 1px solid var(--border-glow);
         padding: 6px 16px;
-        border-radius: 40px;
+        border-radius: 999px;
         color: var(--primary);
         font-size: 0.75rem;
         font-weight: 600;
@@ -293,7 +304,7 @@ description: View all current bans and appeals.
     }
 
     .clear-btn:hover {
-        background: rgba(124, 179, 66, 0.30);
+        background: rgba(211, 162, 86, 0.30);
         color: var(--text-light);
     }
 
@@ -310,13 +321,14 @@ description: View all current bans and appeals.
 
     .table-wrapper {
         overflow-x: auto;
-        border-radius: 16px;
-        background: var(--bg-panel);
+        border-radius: var(--radius-md);
+        background: rgba(35, 48, 68, 0.75);
         border: 1px solid var(--border-glow);
         margin: 1rem 0 0.5rem 0;
         scrollbar-width: thin;
-        scrollbar-color: var(--primary) rgba(124, 179, 66, 0.15);
+        scrollbar-color: var(--primary) rgba(211, 162, 86, 0.12);
         -webkit-overflow-scrolling: touch;
+        box-shadow: inset 0 0 0 1px rgba(139, 109, 63, 0.25);
     }
 
     .table-wrapper::-webkit-scrollbar {
@@ -324,7 +336,7 @@ description: View all current bans and appeals.
     }
 
     .table-wrapper::-webkit-scrollbar-track {
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.30);
         border-radius: 8px;
     }
 
@@ -342,21 +354,21 @@ description: View all current bans and appeals.
     }
 
     .ban-table th {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(8, 12, 24, 0.45);
         padding: 12px 10px;
         font-weight: 700;
         color: var(--primary);
         border-bottom: 2px solid var(--border-glow);
         text-align: center;
-        font-size: 0.7rem;
-        letter-spacing: 0.5px;
+        font-size: 0.65rem;
+        letter-spacing: 0.04em;
         text-transform: uppercase;
         font-family: var(--font-heading);
     }
 
     .ban-table td {
         padding: 10px 8px;
-        border-bottom: 1px solid rgba(124, 179, 66, 0.12);
+        border-bottom: 1px solid rgba(211, 162, 86, 0.08);
         text-align: center;
         vertical-align: middle;
         color: var(--text-light);
@@ -364,13 +376,13 @@ description: View all current bans and appeals.
     }
 
     .ban-table tr:hover td {
-        background: rgba(124, 179, 66, 0.06);
+        background: rgba(211, 162, 86, 0.05);
     }
 
     .ban-table td code {
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.40);
         padding: 0.1rem 0.6rem;
-        border-radius: 4px;
+        border-radius: 5px;
         font-size: 0.75rem;
         color: var(--primary-light);
         font-family: 'Courier New', monospace;
@@ -379,7 +391,7 @@ description: View all current bans and appeals.
     .status-badge {
         display: inline-block;
         padding: 4px 14px;
-        border-radius: 40px;
+        border-radius: 999px;
         font-size: 0.6rem;
         font-weight: 700;
         text-align: center;
@@ -390,25 +402,25 @@ description: View all current bans and appeals.
     }
 
     .status-active {
-        background: rgba(124, 179, 66, 0.20);
+        background: rgba(211, 162, 86, 0.18);
         color: var(--primary-light);
         border-color: var(--primary);
     }
 
     .status-expired {
-        background: rgba(224, 108, 117, 0.20);
+        background: rgba(217, 115, 115, 0.18);
         color: #f5b8b8;
-        border-color: #e06c75;
+        border-color: #d97373;
     }
 
     .status-revoked {
-        background: rgba(88, 130, 193, 0.20);
+        background: rgba(100, 140, 200, 0.18);
         color: #b8d0f5;
-        border-color: #5882c1;
+        border-color: #648cc8;
     }
 
     .status-unknown {
-        background: rgba(160, 144, 122, 0.20);
+        background: rgba(216, 199, 164, 0.12);
         color: var(--text-muted);
         border-color: var(--text-muted);
     }
@@ -422,10 +434,10 @@ description: View all current bans and appeals.
     }
 
     .page-btn {
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(8, 12, 24, 0.40);
         border: 1px solid var(--border-glow);
         padding: 6px 24px;
-        border-radius: 40px;
+        border-radius: 999px;
         color: var(--text-light);
         font-weight: 600;
         cursor: pointer;
@@ -435,25 +447,25 @@ description: View all current bans and appeals.
     }
 
     .page-btn:hover:not(.disabled) {
-        background: rgba(124, 179, 66, 0.25);
+        background: rgba(211, 162, 86, 0.20);
         border-color: var(--primary);
         color: var(--text-light);
     }
 
     .page-btn.disabled {
-        opacity: 0.35;
+        opacity: 0.30;
         cursor: not-allowed;
     }
 
     #pageInfo {
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.35);
         padding: 6px 20px;
-        border-radius: 40px;
+        border-radius: 999px;
         font-weight: 600;
         color: var(--primary);
         font-family: var(--font-heading);
         font-size: 0.7rem;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.04em;
         min-width: 100px;
         text-align: center;
     }
@@ -482,7 +494,6 @@ description: View all current bans and appeals.
         margin-right: 0.5rem;
     }
 
-    /* ===== Responsive tweaks ===== */
     @media (max-width: 768px) {
         .ban-page-wrapper {
             padding: 1rem;
@@ -506,7 +517,7 @@ description: View all current bans and appeals.
         .controls-bar {
             flex-direction: column;
             align-items: stretch;
-            border-radius: 30px;
+            border-radius: var(--radius-md);
             padding: 1rem;
         }
 
@@ -598,12 +609,10 @@ description: View all current bans and appeals.
 
     <div class="appeal-banner">
         <p><i class="fas fa-scale-balanced"></i> <strong>Dispute a ban?</strong> If you believe you were banned
-            unfairly,
-            please contact our staff via GitHub or email.</p>
+            unfairly, please contact our staff via GitHub or email.</p>
         <div class="appeal-buttons">
             <a class="appeal-btn" href="{{ site.links.ban_appeal }}" target="_blank"><i class="fab fa-github"></i>
-                Appeal
-                via GitHub</a>
+                Appeal via GitHub</a>
             <span class="appeal-or">OR</span>
             <a class="appeal-btn email-btn" href="mailto:{{ site.links.email }}"><i class="fas fa-envelope"></i>
                 Email</a>
@@ -835,7 +844,7 @@ description: View all current bans and appeals.
                 statusMsgSpan.innerHTML = `<i class="fas fa-check-circle"></i> Loaded ${allBans.length} ban records`;
             } catch (err) {
                 console.error(err);
-                tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding:2rem; color: #e06c75;">
+                tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding:2rem; color: #d97373;">
                     <i class="fas fa-exclamation-triangle"></i> Failed to load bans.txt<br>
                     <small style="color: var(--text-muted);">${escapeHtml(err.message)}</small>
                 </td></tr>`;
