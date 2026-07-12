@@ -1,25 +1,25 @@
 /* Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. */
 
 :root {
-  --bg: #2f2418;
+  --bg: #2b1d14;
   --bg-alt: #382a1c;
-  --panel: #4b3625;
-  --panel-2: #5b412d;
-  --panel-3: #6b4d34;
-  --border: #3a291d;
-  --border-soft: #71523a;
-  --text: #eadcc4;
-  --text-muted: #c8b89f;
-  --heading: #f6e9cc;
-  --accent: #8bc34a;
-  --accent-2: #a5d6a7;
-  --accent-dark: #5d8f2b;
-  --link: #9ed46b;
-  --link-hover: #c7eb9a;
-  --danger: #e57373;
+  --panel: #4d3726;
+  --panel-2: #60251d;
+  --panel-3: #6f4a2c;
+  --border: #110e15;
+  --border-soft: #a27647;
+  --text: #f6e4a4;
+  --text-muted: #d7b987;
+  --heading: #fbf9cf;
+  --accent: #cfa56b;
+  --accent-2: #f6e4a4;
+  --accent-dark: #a27647;
+  --link: #f6e4a4;
+  --link-hover: #fbf9cf;
+  --danger: #d06a57;
   --discord: #5865f2;
-  --shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
-  --shadow-strong: 0 14px 30px rgba(0, 0, 0, 0.5);
+  --shadow: 0 10px 24px rgba(17, 14, 21, 0.35);
+  --shadow-strong: 0 14px 30px rgba(17, 14, 21, 0.5);
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
@@ -48,10 +48,10 @@ body {
   color: var(--text);
   background-color: var(--bg);
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
+    linear-gradient(rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.18)),
     repeating-linear-gradient(45deg,
-      rgba(255, 255, 255, 0.025) 0,
-      rgba(255, 255, 255, 0.025) 2px,
+      rgba(207, 165, 107, 0.08) 0,
+      rgba(207, 165, 107, 0.08) 2px,
       transparent 2px,
       transparent 8px);
   background-attachment: fixed;
@@ -111,12 +111,12 @@ p {
   gap: 1rem;
   padding: 0.6rem 1.25rem;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(0, 0, 0, 0.08)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(0, 0, 0, 0.12)),
     repeating-linear-gradient(90deg,
-      #8b6b4a 0,
-      #8b6b4a 6px,
-      #9a7752 6px,
-      #9a7752 12px);
+      #cfa56b 0,
+      #cfa56b 6px,
+      #a27647 6px,
+      #a27647 12px);
   border-bottom: 4px solid var(--border);
   box-shadow: var(--shadow);
 }
@@ -143,16 +143,16 @@ p {
 
 .header-logo {
   width: auto;
-  height: 44px;
+  height: 48px;
   filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.35));
   flex-shrink: 0;
 }
 
 .header-top h1 {
   margin: 0;
-  font-size: clamp(1.1rem, 1.8vw, 1.6rem);
+  font-size: clamp(1.4rem, 2.5vw, 2.2rem);
   color: var(--heading);
-  text-shadow: 2px 2px 0 #4b311f;
+  text-shadow: 2px 2px 0 #3a291d;
   white-space: nowrap;
 }
 
@@ -175,11 +175,11 @@ p {
 
 .main-nav ul li a {
   display: inline-block;
-  padding: 0.45rem 0.85rem;
-  font-size: 0.95rem;
+  padding: 0.7rem 1.4rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--heading);
-  text-shadow: 1px 1px 0 #4b311f;
+  text-shadow: 1px 1px 0 #3a291d;
   border-radius: 10px;
   transition: background var(--transition), color var(--transition), transform var(--transition);
   white-space: nowrap;
@@ -245,8 +245,8 @@ p {
 
 .main-nav .dropdown-menu li a {
   display: block;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
   color: var(--heading);
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
   border-radius: 0;
@@ -258,7 +258,7 @@ p {
 }
 
 .main-nav .dropdown-menu li a:hover {
-  color: #1f1a14;
+  color: #110e15;
   background: var(--accent);
 }
 
@@ -397,7 +397,7 @@ main {
   padding: 0.12rem 0.38rem;
   font-size: 0.95em;
   color: var(--accent-2);
-  background: #24180f;
+  background: #110e15;
   border-radius: 5px;
 }
 
@@ -422,12 +422,12 @@ main {
   border: 4px solid var(--border);
   border-radius: var(--radius-xl);
   background:
-    linear-gradient(180deg, rgba(120, 170, 85, 0.9), rgba(80, 128, 55, 0.7)),
+    linear-gradient(180deg, rgba(207, 165, 107, 0.96), rgba(96, 37, 29, 0.82)),
     repeating-linear-gradient(45deg,
-      #7cb342 0,
-      #7cb342 12px,
-      #5f8f31 12px,
-      #5f8f31 24px);
+      #cfa56b 0,
+      #cfa56b 12px,
+      #a27647 12px,
+      #a27647 24px);
   box-shadow:
     inset 0 0 0 2px rgba(255, 255, 255, 0.08),
     var(--shadow-strong);
@@ -440,8 +440,8 @@ main {
   height: 30%;
   background:
     repeating-linear-gradient(0deg,
-      #34261a 0,
-      #34261a 8px,
+      #2f2418 0,
+      #2f2418 8px,
       #4d3726 8px,
       #4d3726 16px);
   opacity: 0.55;
@@ -465,6 +465,14 @@ main {
   text-shadow: 3px 3px 0 #3a291d;
 }
 
+.hero-logo {
+  max-height: 240px;
+  width: auto;
+  margin: 0 auto 1.2rem;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+  display: block;
+}
+
 .hero-content p {
   margin: 1rem 0 1.5rem;
   font-size: clamp(1.05rem, 2vw, 1.35rem);
@@ -485,14 +493,14 @@ main {
 }
 
 .btn-primary {
-  color: #1f1a14;
+  color: #110e15;
   background: var(--accent);
 }
 
 .btn-primary:hover {
-  background: #9bd353;
+  background: #f6e4a4;
   transform: translateY(-2px);
-  box-shadow: 0 0 14px rgba(124, 179, 66, 0.55);
+  box-shadow: 0 0 14px rgba(207, 165, 107, 0.55);
 }
 
 .btn-discord {
@@ -521,10 +529,10 @@ footer {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.1)),
     repeating-linear-gradient(45deg,
-      #4a3a28 0,
-      #4a3a28 4px,
-      #3b2e1e 4px,
-      #3b2e1e 8px);
+      #382a1c 0,
+      #382a1c 4px,
+      #2b1d14 4px,
+      #2b1d14 8px);
   border-top: 4px solid var(--border);
 }
 
@@ -585,10 +593,10 @@ footer {
 }
 
 .tab-btn.active {
-  color: #1f1a14;
+  color: #110e15;
   background: var(--accent);
   border-color: var(--accent);
-  box-shadow: 0 0 12px rgba(124, 179, 66, 0.45);
+  box-shadow: 0 0 12px rgba(207, 165, 107, 0.45);
 }
 
 .tab-content {
@@ -620,17 +628,17 @@ footer {
 }
 
 .appeal-banner {
-  background: rgba(139, 195, 74, 0.12);
+  background: rgba(207, 165, 107, 0.12);
   border-color: var(--accent);
 }
 
 .appeal-btn {
-  color: #1f1a14;
+  color: #110e15;
   background: var(--accent);
 }
 
 .appeal-btn:hover {
-  background: #9bd353;
+  background: #f6e4a4;
 }
 
 .summary-card {
@@ -644,7 +652,7 @@ footer {
 
 .search-input {
   color: var(--heading);
-  background: #24180f;
+  background: #110e15;
   border-color: var(--accent);
 }
 
