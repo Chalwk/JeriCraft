@@ -7,7 +7,9 @@ permalink: /guides/discord/
 
 # Villager Rank
 
-Join us on Discord and link your **Minecraft account** to unlock the **Villager Rank**! Here's what you'll unlock:
+Join us on Discord and link your **Minecraft account** to unlock the **Villager Rank**!
+
+Here's what you'll unlock:
 
 - `/kit villager` - Claim your exclusive Villager Kit packed with useful items!
 - `/ride`, `/hat`, `/sit`: Ride your pets, wear items on your head, and sit anywhere for ultimate convenience and fun!
@@ -17,7 +19,7 @@ Join us on Discord and link your **Minecraft account** to unlock the **Villager 
 
 ## How to Link Your Minecraft Account to Discord:
 * **In-game**: Type `/discord link` in the Minecraft chat.
-* **Send a PM**: Send the code you get to @JeriCraft MC  via private message.
+* **Send a PM**: Send the code you get to the `@JeriCraft` (bot) on Discord via private message.
 * Once confirmed, you'll automatically get your **Villager Rank** both **in-game** and **on Discord**!
 
 Sign up now and join the fun with your **Villager Rank** today!

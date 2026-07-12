@@ -8,14 +8,14 @@
 
 ## Table of Contents <!-- omit from toc -->
 
-- [Key Features:](#key-features)
+- [Key Features](#key-features)
 - [Player Ranks](#player-ranks)
 - [Donor Ranks (Nobility)](#donor-ranks-nobility)
 - [Staff/Admin Ranks](#staffadmin-ranks)
 
 ---
 
-## Key Features:
+## Key Features
 
 | Feature                          | Description                                                                                                                                                    |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |

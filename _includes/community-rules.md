@@ -8,6 +8,20 @@ Please read them carefully and reach out to staff if you have any questions.
 
 ---
 
+## Table of Contents <!-- omit from toc -->
+
+- [Common Rules](#common-rules)
+- [Tiered Punishment System](#tiered-punishment-system)
+  - [Tier 1: Severe Offenses - Permanent Ban](#tier-1-severe-offenses---permanent-ban)
+  - [Tier 2: Moderate Offenses - 1 to 2-Week Ban](#tier-2-moderate-offenses---1-to-2-week-ban)
+  - [Tier 3: Minor Offenses - Up to 1-Week Ban](#tier-3-minor-offenses---up-to-1-week-ban)
+- [Subsequent Offenses](#subsequent-offenses)
+- [Cross-Platform Offenses](#cross-platform-offenses)
+- [Undocumented Offenses](#undocumented-offenses)
+- [Final Note](#final-note)
+
+---
+
 ## Common Rules
 
 The following rules apply to the JeriCraft **Minecraft and Discord** servers:
@@ -97,7 +111,7 @@ Discord after a Minecraft ban may result in a Tier 2 penalty.
 
 ---
 
-### Cross-Platform Offenses
+## Cross-Platform Offenses
 
 - **Tier 1:** Using Discord to coordinate cheating on our Minecraft server.
 - **Tier 2:** Evading a Minecraft ban by discussing the offense in Discord.
