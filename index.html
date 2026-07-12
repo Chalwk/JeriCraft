@@ -7,15 +7,9 @@ title: Home
 
 <section class="hero">
   <div class="hero-content">
-    <h1>WELCOME TO JERICRAFT.NET</h1>
-    <img alt="JeriCraft Logo" class="hero-logo" src="{{ site.baseurl }}/assets/images/logos/jericraft-logo.png">
-    <p>A medieval SMP/RPG Factions server</p>
-    <div class="hero-buttons">
-      <a href="{{ site.baseurl }}/about" class="btn btn-primary">Learn More</a>
-      <button id="copy-ip" class="btn btn-secondary" data-ip="jericraft.net">
-        <i class="fas fa-copy"></i> Copy IP
-      </button>
-    </div>
+    <img alt="JeriCraft Logo" class="hero-logo" src="{{ site.baseurl }}/assets/images/logos/jericraft-logo-no-bg.png">
+    <p class="hero-subtitle">Medieval SMP/RPG Factions server</p>
+    <p class="server-ip"><strong>Server IP:</strong> jericraft.net</p>
     <div id="server-status" class="server-status">
       <span class="status-dot"></span>
       <span id="player-count">Loading...</span> players online
@@ -52,6 +46,10 @@ title: Home
 <section class="quick-links">
   <h2>Explore JeriCraft</h2>
   <div class="link-cards">
+    <a href="{{ site.baseurl }}/about" class="link-card">
+      <i class="fas fa-info-circle"></i>
+      <span>Learn More</span>
+    </a>
     <a href="{{ site.baseurl }}/guides" class="link-card">
       <i class="fas fa-book"></i>
       <span>Guides</span>
@@ -95,21 +93,6 @@ title: Home
 </section>
 
 <script>
-  document.getElementById('copy-ip')?.addEventListener('click', function () {
-    const ip = this.dataset.ip;
-    navigator.clipboard.writeText(ip).then(() => {
-      alert('Server IP copied: ' + ip);
-    }).catch(() => {
-      const input = document.createElement('input');
-      input.value = ip;
-      document.body.appendChild(input);
-      input.select();
-      document.execCommand('copy');
-      document.body.removeChild(input);
-      alert('Server IP copied: ' + ip);
-    });
-  });
-
   async function fetchServerStatus() {
     const statusEl = document.getElementById('server-status');
     const dot = statusEl?.querySelector('.status-dot');
