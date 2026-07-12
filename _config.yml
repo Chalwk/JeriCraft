@@ -34,7 +34,6 @@ kramdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-toc
 
 relative_links:
   enabled: true

@@ -12,6 +12,10 @@ claim land, build power, and raid enemy territories.
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Faction Creation & Management
 
 The foundation of any great empire begins with its creation. Establish your own faction, forge alliances, and

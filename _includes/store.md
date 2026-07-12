@@ -8,6 +8,10 @@ running, and we are grateful for your support.
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Patronage Tiers
 
 Your donor rank is determined by your **total lifetime contributions**. Here's how it works:

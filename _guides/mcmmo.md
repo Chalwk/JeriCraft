@@ -13,6 +13,10 @@ navigate the exciting features and commands that mcMMO offers.
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Getting Started
 
 To begin your journey, you simply need to perform actions related to the skill you'd like to level up. Whether it's *

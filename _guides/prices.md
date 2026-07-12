@@ -15,6 +15,10 @@ Use these prices as a fair starting point when setting up your Shops, listing it
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Enchantment Book Prices
 
 Prices are listed per individual enchantment book.

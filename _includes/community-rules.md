@@ -8,7 +8,9 @@ Please read them carefully and reach out to staff if you have any questions.
 
 ---
 
-## Table of Contents
+{% include toc.html %}
+
+---
 
 ## Common Rules
 

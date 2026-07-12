@@ -1,10 +1,94 @@
-{% if page.toc != false %}
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+
 <div class="toc-container">
     <details class="toc-details" {% if page.toc_open %}open{% endif %}>
         <summary class="toc-summary">
             <i class="fas fa-list-ul" aria-hidden="true"></i> Table of Contents
         </summary>
-        <div class="toc-content">{{ content | toc_only }}</div>
+        <div class="toc-content" id="jekyll-toc-placeholder">
+            <ul>
+                <li>Loading table of contents...</li>
+            </ul>
+        </div>
     </details>
 </div>
-{% endif %}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const placeholder = document.getElementById('jekyll-toc-placeholder');
+        if (!placeholder) return;
+
+        const content = document.querySelector('.page-content');
+        if (!content) {
+            placeholder.innerHTML = '<p><em>Content area not found.</em></p>';
+            return;
+        }
+
+        const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6');
+        if (headings.length === 0) {
+            placeholder.innerHTML = '<p><em>No headings found.</em></p>';
+            return;
+        }
+
+        function shouldOmit(heading) {
+            for (let node of heading.childNodes) {
+                if (node.nodeType === Node.COMMENT_NODE) {
+                    const text = node.textContent.trim();
+                    if (text === 'omit from toc' || text.includes('omit from toc')) {
+                        return true;
+                    }
+                }
+            }
+            if (heading.innerHTML.includes('<!-- omit from toc -->') ||
+                heading.innerHTML.includes('<!-- omit from toc-->')) {
+                return true;
+            }
+            return false;
+        }
+
+        headings.forEach((heading, idx) => {
+            if (!heading.id) heading.id = 'toc-heading-' + idx;
+        });
+
+        const includedHeadings = Array.from(headings).filter(h => !shouldOmit(h));
+
+        if (includedHeadings.length === 0) {
+            placeholder.innerHTML = '<p><em>No headings to display (all omitted).</em></p>';
+            return;
+        }
+
+        let toc = document.createElement('ul');
+        let stack = [{ level: 1, list: toc }];
+
+        includedHeadings.forEach((heading) => {
+            const level = parseInt(heading.tagName[1], 10);
+            const link = document.createElement('a');
+            link.href = '#' + heading.id;
+            link.textContent = heading.innerText;
+
+            const item = document.createElement('li');
+            item.appendChild(link);
+
+            while (stack.length > 1 && stack[stack.length - 1].level >= level) {
+                stack.pop();
+            }
+
+            let parentList = stack[stack.length - 1].list;
+
+            if (level > stack[stack.length - 1].level) {
+                const newUl = document.createElement('ul');
+                const lastLi = parentList.lastElementChild;
+                if (lastLi && lastLi.tagName === 'LI') {
+                    lastLi.appendChild(newUl);
+                    parentList = newUl;
+                    stack.push({ level: level, list: newUl });
+                }
+            }
+
+            parentList.appendChild(item);
+        });
+
+        placeholder.innerHTML = '';
+        placeholder.appendChild(toc);
+    });
+</script>

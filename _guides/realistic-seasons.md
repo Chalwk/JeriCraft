@@ -12,6 +12,10 @@ making your gameplay experience more engaging and exciting. Let's explore the wo
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Dynamic Seasons
 
 - Experience four distinct seasons: **spring**, **summer**, **autumn**, and **winter**.

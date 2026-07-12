@@ -11,6 +11,10 @@ Below is a detailed breakdown of the roles and responsibilities for each staff p
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Administrators
 
 Administrators are the backbone of **JeriCraft**, overseeing the overall operation of the **Minecraft** server. Their responsibilities include:

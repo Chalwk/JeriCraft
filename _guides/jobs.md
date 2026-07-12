@@ -14,6 +14,10 @@ profession.
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Available Jobs
 
 Choose from a diverse range of jobs that cater to different play styles. Each job offers unique rewards and

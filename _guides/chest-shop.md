@@ -1,6 +1,5 @@
 ---
 title: Chest Shop
-toc: true
 permalink: /guides/chest-shop/
 ---
 

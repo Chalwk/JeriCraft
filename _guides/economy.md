@@ -13,6 +13,10 @@ and make the most of the available commands, shops, and features.
 
 ---
 
+{% include toc.html %}
+
+---
+
 ## Earning Money
 
 There are several ways to accumulate wealth within the JeriCraft economy:

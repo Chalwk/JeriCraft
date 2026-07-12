@@ -1,6 +1,12 @@
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+
 # About Us
 
 **Hear ye, hear ye!** Welcome to **JeriCraft**, a **Medieval SMP/RPG Factions** server set in a medieval world with **RPG gameplay**, a **Player-Driven Economy**, and **PvP/PvE skirmishes**. Whether you're a brave adventurer, master merchant, or humble farmer, there's a place for you in our growing kingdom, where every player can shape their legend in a dynamic, ever-evolving realm.
+
+---
+
+{% include toc.html %}
 
 ---
 
