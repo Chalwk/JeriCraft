@@ -43,6 +43,22 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    document.addEventListener('click', function (e) {
+        const openDropdowns = document.querySelectorAll('.dropdown.open');
+        if (openDropdowns.length === 0) return;
+        const isInsideDropdown = e.target.closest('.dropdown');
+        if (!isInsideDropdown) {
+            openDropdowns.forEach(d => d.classList.remove('open'));
+        }
+    });
+
+    document.querySelectorAll('.dropdown-menu a').forEach(link => {
+        link.addEventListener('click', function () {
+            const dropdown = this.closest('.dropdown');
+            if (dropdown) dropdown.classList.remove('open');
+        });
+    });
+
     const scrollBtn = document.createElement('button');
     scrollBtn.id = 'scrollToTopBtn';
     scrollBtn.className = 'scroll-to-top';
