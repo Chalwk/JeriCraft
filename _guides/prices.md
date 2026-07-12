@@ -17,10 +17,15 @@ Use these prices as a fair starting point when setting up your Shops, listing it
 
 ## Table of Contents <!-- omit from toc -->
 - [Enchantment Book Prices](#enchantment-book-prices)
-- [Common Item Prices](#common-item-prices)
-  - [Building \& Mineral Resources](#building--mineral-resources)
-  - [Wood \& Natural Resources](#wood--natural-resources)
-  - [Special \& Utility Items](#special--utility-items)
+- [Resources \& Materials](#resources--materials)
+  - [Building Blocks](#building-blocks)
+  - [Ores \& Minerals](#ores--minerals)
+- [Mob Drops \& Utility Items](#mob-drops--utility-items)
+  - [Mob Drops](#mob-drops)
+  - [Utility Items](#utility-items)
+- [Brewing Ingredients](#brewing-ingredients)
+- [Smithing Templates](#smithing-templates)
+- [Sculk \& Archaeology](#sculk--archaeology)
 
 ---
 
@@ -70,50 +75,107 @@ Prices are listed per individual enchantment book.
 
 ---
 
-## Common Item Prices
+## Resources & Materials
 
-Prices are listed as **per single item** and **per stack (64)**. These cover the most frequently traded building materials, resources, and utility items.
+This section covers building blocks, ores, minerals, and other raw materials used in construction and crafting.
 
-### Building & Mineral Resources
-
-| Item                         | Single Price | Stack Price (x64) |
-| ---------------------------- | ------------ | ----------------- |
-| Cobblestone                  | 2.00         | 128               |
-| Stone                        | 2.00         | 128               |
-| Deepslate                    | 2.25         | 144               |
-| Granite / Andesite / Diorite | 2.00         | 128               |
-| Dirt                         | 2.00         | 128               |
-| Gravel                       | 2.00         | 128               |
-| Sand                         | 2.00         | 128               |
-| Red Sand                     | 2.50         | 160               |
-| Coal                         | 8            | 400               |
-| Iron Ingot                   | 15           | 800               |
-| Gold Ingot                   | 60           | 3,200             |
-| Diamond                      | 150          | N/A               |
-| Emerald                      | 200          | N/A               |
-| Netherite Ingot              | 1,200        | N/A               |
-
-### Wood & Natural Resources
+### Building Blocks
 
 | Item                                       | Single Price | Stack Price (x64) |
 | ------------------------------------------ | ------------ | ----------------- |
+| Cobblestone                                | 2.00         | 128               |
+| Stone                                      | 2.00         | 128               |
+| Deepslate                                  | 2.25         | 144               |
+| Granite / Andesite / Diorite               | 2.00         | 128               |
+| Dirt                                       | 2.00         | 128               |
+| Gravel                                     | 2.00         | 128               |
+| Sand                                       | 2.00         | 128               |
+| Red Sand                                   | 2.50         | 160               |
+| Tuff                                       | 2.00         | 128               |
+| Obsidian                                   | 60           | 3,000             |
 | Oak / Spruce / Birch / Jungle / Acacia Log | 2.50         | 160               |
 | Dark Oak Log                               | 2.50         | 160               |
 | Mangrove Log                               | 3.50         | 224               |
 
-### Special & Utility Items
+### Ores & Minerals
 
-| Item        | Single Price | Stack Price (x64) |
-| ----------- | ------------ | ----------------- |
-| Ender Pearl | 500          | N/A               |
-| Blaze Rod   | 100          | N/A               |
-| Ghast Tear  | 400          | N/A               |
-| Slime Ball  | 120          | N/A               |
-| Bone        | 15           | 750               |
-| String      | 12           | 600               |
-| Gunpowder   | 50           | 2,500             |
-| Obsidian    | 60           | 3,000             |
-| Name Tag    | 500          | N/A               |
-| Lead        | 100          | N/A               |
+| Item            | Single Price | Stack Price (x64) |
+| --------------- | ------------ | ----------------- |
+| Coal            | 8            | 400               |
+| Iron Ingot      | 15           | 800               |
+| Gold Ingot      | 60           | 3,200             |
+| Diamond         | 150          | N/A               |
+| Emerald         | 200          | N/A               |
+| Netherite Ingot | 1,200        | N/A               |
+| Copper Ingot    | 10           | 640               |
+| Raw Copper      | 8            | 512               |
+| Amethyst Shard  | 40           | 2,560             |
+| Ancient Debris  | 240          | N/A               |
+| Netherite Scrap | 250          | N/A               |
 
 ---
+
+## Mob Drops & Utility Items
+
+Items obtained from mobs or useful utility items for adventuring and crafting.
+
+### Mob Drops
+
+| Item                  | Single Price | Stack Price (x64) |
+| --------------------- | ------------ | ----------------- |
+| Ender Pearl           | 500          | N/A               |
+| Blaze Rod             | 100          | N/A               |
+| Ghast Tear            | 400          | N/A               |
+| Slime Ball            | 120          | N/A               |
+| Bone                  | 15           | 750               |
+| String                | 12           | 600               |
+| Gunpowder             | 50           | 2,500             |
+| Wither Skeleton Skull | 2,500        | N/A               |
+| Breeze Rod            | 100          | N/A               |
+| Heavy Core            | 1,000        | N/A               |
+| Glow Ink Sac          | 50           | 3,200             |
+
+### Utility Items
+
+| Item         | Single Price | Stack Price (x64) |
+| ------------ | ------------ | ----------------- |
+| Name Tag     | 500          | N/A               |
+| Lead         | 100          | N/A               |
+| Spyglass     | 200          | N/A               |
+| Mace         | 2,500        | N/A               |
+| Glow Berries | 10           | 640               |
+
+---
+
+## Brewing Ingredients
+
+Essential ingredients for potion brewing.
+
+| Item                 | Single Price | Stack Price (x64) |
+| -------------------- | ------------ | ----------------- |
+| Blaze Powder         | 10           | 640               |
+| Nether Wart          | 20           | 1,280             |
+| Fermented Spider Eye | 100          | N/A               |
+| Glistering Melon     | 150          | N/A               |
+| Magma Cream          | 80           | N/A               |
+
+---
+
+## Smithing Templates
+
+| Item                                  | Single Price | Stack Price (x64) |
+| ------------------------------------- | ------------ | ----------------- |
+| Netherite Upgrade Smithing Template   | 1,000        | N/A               |
+| Armor Trim Smithing Template (common) | 300          | N/A               |
+| Armor Trim Smithing Template (rare)   | 500          | N/A               |
+
+---
+
+## Sculk & Archaeology
+
+| Item                | Single Price | Stack Price (x64) |
+| ------------------- | ------------ | ----------------- |
+| Echo Shard          | 1,200        | N/A               |
+| Recovery Compass    | 8,000        | N/A               |
+| Brush               | 50           | N/A               |
+| Pottery Sherd (any) | 100          | N/A               |
