@@ -49,25 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    const scrollBtn = document.createElement('button');
-    scrollBtn.id = 'scrollToTopBtn';
-    scrollBtn.className = 'scroll-to-top';
-    scrollBtn.setAttribute('aria-label', 'Scroll to top');
-    scrollBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
-    document.body.appendChild(scrollBtn);
-
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            scrollBtn.classList.add('visible');
-        } else {
-            scrollBtn.classList.remove('visible');
-        }
-    });
-
-    scrollBtn.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
     const header = document.querySelector('.header');
     if (header) {
         const updateScrollPadding = () => {

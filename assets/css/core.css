@@ -144,7 +144,7 @@ p {
 
 .header-logo {
   width: auto;
-  height: 48px;
+  height: 58px;
   filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.35));
   flex-shrink: 0;
 }
