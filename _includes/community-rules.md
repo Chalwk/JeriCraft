@@ -129,7 +129,5 @@ coordinating raids via Discord DMs.
 
 ## Final Note
 
-**Our Discord server is an extension of our gaming community.** Treat it with the same respect as our game servers. Use
-**common sense**, follow [Discord's Terms of Service](https://discord.com/terms), and remember: **rules apply to all text/voice channels, DMs, and server-related groups**.
-
-Thank you for helping keep JeriCraft welcoming for everyone!
+**Our Discord server is an extension of our gaming community.** Treat it with the same respect as our game servers.<br>
+Use **common sense**, follow [Discord's Terms of Service](https://discord.com/terms), and remember: **rules apply to all text/voice channels, DMs, and server-related groups**.

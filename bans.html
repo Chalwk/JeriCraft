@@ -824,6 +824,9 @@ description: View all current bans and appeals.
                 const text = await res.text();
 
                 allBans = parseBanFile(text);
+
+                allBans.sort((a, b) => (parseInt(a.banID) || 0) - (parseInt(b.banID) || 0));
+
                 searchTerm = '';
                 document.getElementById('searchInput').value = '';
                 applySearchFilter();
