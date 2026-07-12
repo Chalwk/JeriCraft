@@ -1,6 +1,6 @@
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# JeriCraft Patronage System
+# JeriCraft Patronage System  <!-- omit from toc -->
 
 Instead of traditional donation packages, we offer individual perks that can be obtained separately. Your donation rank
 is determined by the total amount you've donated since your first contribution. Every donation helps us keep the server
@@ -8,12 +8,34 @@ running, and we are grateful for your support.
 
 ---
 
+## Table of Contents <!-- omit from toc -->
+
+- [Patronage Tiers](#patronage-tiers)
+- [Terms and Conditions:](#terms-and-conditions)
+  - [Agreement to Terms:](#agreement-to-terms)
+  - [Refund Policy:](#refund-policy)
+  - [Payment Responsibility:](#payment-responsibility)
+  - [Perk Misuse:](#perk-misuse)
+  - [Perk Availability:](#perk-availability)
+  - [Donation Accumulation:](#donation-accumulation)
+  - [Support:](#support)
+- [Customization](#customization)
+- [Factions](#factions)
+- [Survival \& Utility](#survival--utility)
+- [Commands \& Abilities](#commands--abilities)
+- [Jobs \& Economy](#jobs--economy)
+- [Kits](#kits)
+- [Miscellaneous](#miscellaneous)
+- [Disclaimer](#disclaimer)
+
+---
+
 ## Patronage Tiers
 
 Your donor rank is determined by your **total lifetime contributions**. Here's how it works:
 
-| Rank           | Contribution (NZD) | Benefits                                                                       |
-| -------------- | ------------------ | ------------------------------------------------------------------------------ |
+| Rank         | Contribution (NZD) | Benefits                                                                       |
+| ------------ | ------------------ | ------------------------------------------------------------------------------ |
 | **Squire**   | **\$1 - \$19**     | Access to basic Squire commands.                                               |
 | **Knight**   | **\$20 - \$39**    | All Squire benefits, plus Knight-level commands.                               |
 | **Baron**    | **\$40 - \$59**    | All Knight and Squire benefits, plus Baron-level commands.                     |
@@ -31,13 +53,13 @@ perk is abused.
 
 **All prices are in USD (United States Dollars).**
 
-### **Agreement to Terms:**
+### Agreement to Terms:
 
 - By donating, you agree to these Terms and Conditions, regardless of whether you have read them. No refunds will be
   granted for any reason.
 - You must accept the JeriCraft Web Store Terms and Conditions before proceeding with your donation.
 
-### **Refund Policy:**
+### Refund Policy:
 
 - We have a strict **no-refund** policy. A full refund will only be provided if you do not receive your perk(s).
 - If you are banned from the server, you will **not** be eligible for a refund, as you accepted the rules upon donating.
@@ -45,37 +67,32 @@ perk is abused.
   JeriCraft community Discord regarding its closure.
 - Refunds for accidental donations will be evaluated on a case-by-case basis.
 
-### **Payment Responsibility:**
+### Payment Responsibility:
 
 - Donations must be made using your PayPal account. You are solely responsible for any actions taken through your
   account.
 
-### **Perk Misuse:**
+### Perk Misuse:
 
 - Misuse of perk(s) is strictly prohibited. The server Owner/Admin reserves the right to revoke your perk(s) at any time
   if misuse is suspected.
 
-### **Perk Availability:**
+### Perk Availability:
 
 - As the server evolves over time, we **reserve the right to remove perks from our webstore without reason**.
 - An announcement will **typically** be made on our Discord server if a perk is removed.
 
-### **Donation Accumulation:**
+### Donation Accumulation:
 
 - Donations will accumulate. For example, if you donate $5 on two separate occasions, your total will be $10.00.
 
-### **Support:**
+### Support:
 
 - If you do not receive your perk(s) within 24 hours, please contact a senior staff member for assistance.
 
-## Disclaimer
-
-**JeriCraft is not affiliated with Mojang AB.** All contributions go directly to the JeriCraft Management and
-Development Team. For support, inquiries, or purchase history, email us at **jericho.crosby227@gmail.com**.
-
 ---
 
-### [Customization](https://jericraft-shop.tebex.io/category/customization)
+## [Customization](https://jericraft-shop.tebex.io/category/customization)
 
 | **PERK**               | **PRICE** | **DESCRIPTION**                                                                                                          | **PERMISSION**                                                                                                                                      |
 | ---------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -86,7 +103,7 @@ Development Team. For support, inquiries, or purchase history, email us at **jer
 
 ---
 
-### [Factions](https://jericraft-shop.tebex.io/category/factions)
+## [Factions](https://jericraft-shop.tebex.io/category/factions)
 
 | PERK                   | PRICE  | DESCRIPTION                |
 | ---------------------- | ------ | -------------------------- |
@@ -99,7 +116,7 @@ Development Team. For support, inquiries, or purchase history, email us at **jer
 
 ---
 
-### [Survival & Utility](https://jericraft-shop.tebex.io/category/survival-and-utility)
+## [Survival & Utility](https://jericraft-shop.tebex.io/category/survival-and-utility)
 
 | **PERK**                | **PRICE** | **DESCRIPTION**                                                                                                                                                                                                                 | **PERMISSION**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ----------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -109,7 +126,7 @@ Development Team. For support, inquiries, or purchase history, email us at **jer
 
 ---
 
-### [Commands & Abilities](https://jericraft-shop.tebex.io/category/commands-and-abilities)
+## [Commands & Abilities](https://jericraft-shop.tebex.io/category/commands-and-abilities)
 
 | **PERK**              | **PRICE** | **DESCRIPTION**                                                                                                                                 | **PERMISSION**                                     |
 | --------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
@@ -122,7 +139,7 @@ Development Team. For support, inquiries, or purchase history, email us at **jer
 
 ---
 
-### [Jobs & Economy](https://jericraft-shop.tebex.io/category/jobs-and-economy)
+## [Jobs & Economy](https://jericraft-shop.tebex.io/category/jobs-and-economy)
 
 | **PERK**                | **PRICE** | **DESCRIPTION**            | **PERMISSION**          |
 | ----------------------- | --------- | -------------------------- | ----------------------- |
@@ -137,7 +154,7 @@ Development Team. For support, inquiries, or purchase history, email us at **jer
 
 ---
 
-### [Kits](https://jericraft-shop.tebex.io/category/kits)
+## [Kits](https://jericraft-shop.tebex.io/category/kits)
 
 Enhance your building and crafting experience in JeriCraft with our versatile Kits!
 Preview kits in-game with `/kitpreview <name>`
@@ -152,10 +169,17 @@ Preview kits in-game with `/kitpreview <name>`
 
 ---
 
-### [Miscellaneous](https://jericraft-shop.tebex.io/category/miscellaneous)
+## [Miscellaneous](https://jericraft-shop.tebex.io/category/miscellaneous)
 
 | **PERK**         | **PRICE** | **DESCRIPTION**                                                                                                                 | **PERMISSION**                                           |
 | ---------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | Painting Scroll  | $8.00     | Transform any painting into another, creating unique and ever-changing artwork in your builds.                                  | `neopaintingswitch.use`                                  |
 | Sign Copier Tool | $8.00     | Quickly and easily copy text from one sign to another, saving time and ensuring consistency across your builds.                 | `cmi.command.sc`                                         |
 | Head Database    | $20.00    | Access a vast database of custom heads for your builds, granting you creative freedom to design unique and detailed structures. | `headdb.open`, `headdb.allow.buy.*`, `headdb.category.*` |
+
+---
+
+## Disclaimer
+
+**JeriCraft is not affiliated with Mojang AB.** All contributions go directly to the JeriCraft Management and
+Development Team. For support, inquiries, or purchase history, email us at **chalwk.dev@gmail.com**.
