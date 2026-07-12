@@ -525,7 +525,7 @@ main {
 }
 
 .btn-primary:hover {
-  background: #f6e4a4;
+  background: #000000;
   transform: translateY(-2px);
   box-shadow: 0 0 14px rgba(207, 165, 107, 0.55);
 }
