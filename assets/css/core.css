@@ -417,7 +417,7 @@ main {
 }
 
 .page-content ul.toc li a {
-  color: var(--accent-2);
+  color: var(--link);
   text-decoration: none;
   border-bottom: 1px dotted transparent;
   transition: border-color var(--transition);
@@ -576,6 +576,14 @@ footer {
 .footer-copyright {
   font-size: 0.92rem;
   color: var(--text-muted);
+}
+
+.footer-icon {
+  height: 1.8rem;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+  display: inline-block;
 }
 
 .social-share {

@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     window.addEventListener('resize', handleResize);
     handleResize();
+
     const tocHeadings = document.querySelectorAll('.page-content h2');
     tocHeadings.forEach(h2 => {
         if (h2.textContent.trim() === 'Table of Contents') {
@@ -60,6 +61,19 @@ document.addEventListener('DOMContentLoaded', function () {
     scrollBtn.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+
+    const header = document.querySelector('.header');
+    if (header) {
+        const updateScrollPadding = () => {
+            const height = header.offsetHeight;
+            document.documentElement.style.scrollPaddingTop = height + 'px';
+        };
+
+        updateScrollPadding();
+
+        const ro = new ResizeObserver(updateScrollPadding);
+        ro.observe(header);
+    }
 });
 
 window.shareOn = function (platform) {
