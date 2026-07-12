@@ -5,7 +5,7 @@ permalink: /guides/mcmmo/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# JeriCraft mcMMO Guide
+# JeriCraft mcMMO Guide <!-- omit from toc -->
 
 Welcome to JeriCraft's **mcMMO** experience! mcMMO is a powerful plugin that adds an immersive RPG-like skill system to
 Minecraft, allowing players to level up a wide variety of abilities and unlock unique perks. This guide will help you
@@ -15,20 +15,19 @@ navigate the exciting features and commands that mcMMO offers.
 
 ## Table of Contents <!-- omit from toc -->
 
-- [JeriCraft mcMMO Guide](#jericraft-mcmmo-guide)
-  - [Getting Started](#getting-started)
-  - [Commands](#commands)
-    - [Verbose Details](#verbose-details)
-  - [Skill Categories](#skill-categories)
-    - [Gathering Skills](#gathering-skills)
-    - [Combat Skills](#combat-skills)
-    - [Miscellaneous Skills](#miscellaneous-skills)
-  - [Party System](#party-system)
-  - [Advanced Features](#advanced-features)
-    - [Power Leveling](#power-leveling)
-    - [mcMMO Abilities](#mcmmo-abilities)
-    - [Detailed Descriptions](#detailed-descriptions)
-  - [Conclusion](#conclusion)
+- [Getting Started](#getting-started)
+- [Commands](#commands)
+  - [Verbose Details](#verbose-details)
+- [Skill Categories](#skill-categories)
+  - [Gathering Skills](#gathering-skills)
+  - [Combat Skills](#combat-skills)
+  - [Miscellaneous Skills](#miscellaneous-skills)
+- [Party System](#party-system)
+- [Advanced Features](#advanced-features)
+  - [Power Leveling](#power-leveling)
+  - [mcMMO Abilities](#mcmmo-abilities)
+  - [Detailed Descriptions](#detailed-descriptions)
+- [Conclusion](#conclusion)
 
 ---
 

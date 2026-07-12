@@ -5,7 +5,7 @@ permalink: /guides/getting-started/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# How to Join
+# How to Join <!-- omit from toc -->
 
 You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java Edition** (**1.21.4**).
 
@@ -13,15 +13,14 @@ You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java 
 
 ## Table of Contents <!-- omit from toc -->
 
-- [How to Join](#how-to-join)
-  - [Essential Commands](#essential-commands)
-  - [Getting Started with JeriCraft](#getting-started-with-jericraft)
-    - [1. Choose Your Faction](#1-choose-your-faction)
-    - [2. Get Your Kits](#2-get-your-kits)
-    - [3. Start Your Jobs and Skills](#3-start-your-jobs-and-skills)
-    - [4. Protect Your Land](#4-protect-your-land)
-    - [5. Explore the World](#5-explore-the-world)
-  - [Additional Tips for New Players](#additional-tips-for-new-players)
+- [Essential Commands](#essential-commands)
+- [Getting Started with JeriCraft](#getting-started-with-jericraft)
+  - [1. Choose Your Faction](#1-choose-your-faction)
+  - [2. Get Your Kits](#2-get-your-kits)
+  - [3. Start Your Jobs and Skills](#3-start-your-jobs-and-skills)
+  - [4. Protect Your Land](#4-protect-your-land)
+  - [5. Explore the World](#5-explore-the-world)
+- [Additional Tips for New Players](#additional-tips-for-new-players)
 
 ---
 

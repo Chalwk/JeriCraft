@@ -5,7 +5,7 @@ permalink: /guides/economy/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# JeriCraft Economy Guide
+# JeriCraft Economy Guide <!-- omit from toc -->
 
 Welcome to the **JeriCraft Economy Guide**! Our server provides various opportunities to earn and spend in-game
 money, enhancing your overall gameplay experience. This guide will help you navigate our economy system
@@ -14,10 +14,9 @@ and make the most of the available commands, shops, and features.
 ---
 
 ## Table of Contents <!-- omit from toc -->
-- [JeriCraft Economy Guide](#jericraft-economy-guide)
-  - [Earning Money](#earning-money)
-  - [Checking Your Balance and Paying Others](#checking-your-balance-and-paying-others)
-  - [Factions Economy Commands](#factions-economy-commands)
+- [Earning Money](#earning-money)
+- [Checking Your Balance and Paying Others](#checking-your-balance-and-paying-others)
+- [Factions Economy Commands](#factions-economy-commands)
 
 ---
 
