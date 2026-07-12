@@ -78,42 +78,42 @@ Prices are listed as **per single item** and **per stack (64)**. These cover the
 
 | Item                         | Single Price | Stack Price (x64) |
 | ---------------------------- | ------------ | ----------------- |
-| Cobblestone                  | $2.00        | $128              |
-| Stone                        | $2.00        | $128              |
-| Deepslate                    | $2.25        | $144              |
-| Granite / Andesite / Diorite | $2.00        | $128              |
-| Dirt                         | $2.00        | $128              |
-| Gravel                       | $2.00        | $128              |
-| Sand                         | $2.00        | $128              |
-| Red Sand                     | $2.50        | $160              |
-| Coal                         | $8           | $400              |
-| Iron Ingot                   | $15          | $800              |
-| Gold Ingot                   | $60          | $3,200            |
-| Diamond                      | $150         | N/A               |
-| Emerald                      | $200         | N/A               |
-| Netherite Ingot              | $1,200       | N/A               |
+| Cobblestone                  | 2.00         | 128               |
+| Stone                        | 2.00         | 128               |
+| Deepslate                    | 2.25         | 144               |
+| Granite / Andesite / Diorite | 2.00         | 128               |
+| Dirt                         | 2.00         | 128               |
+| Gravel                       | 2.00         | 128               |
+| Sand                         | 2.00         | 128               |
+| Red Sand                     | 2.50         | 160               |
+| Coal                         | 8            | 400               |
+| Iron Ingot                   | 15           | 800               |
+| Gold Ingot                   | 60           | 3,200             |
+| Diamond                      | 150          | N/A               |
+| Emerald                      | 200          | N/A               |
+| Netherite Ingot              | 1,200        | N/A               |
 
 ### Wood & Natural Resources
 
 | Item                                       | Single Price | Stack Price (x64) |
 | ------------------------------------------ | ------------ | ----------------- |
-| Oak / Spruce / Birch / Jungle / Acacia Log | $2.50        | $160              |
-| Dark Oak Log                               | $2.50        | $160              |
-| Mangrove Log                               | $3.50        | $224              |
+| Oak / Spruce / Birch / Jungle / Acacia Log | 2.50         | 160               |
+| Dark Oak Log                               | 2.50         | 160               |
+| Mangrove Log                               | 3.50         | 224               |
 
 ### Special & Utility Items
 
 | Item        | Single Price | Stack Price (x64) |
 | ----------- | ------------ | ----------------- |
-| Ender Pearl | $500         | N/A               |
-| Blaze Rod   | $100         | N/A               |
-| Ghast Tear  | $400         | N/A               |
-| Slime Ball  | $120         | N/A               |
-| Bone        | $15          | $750              |
-| String      | $12          | $600              |
-| Gunpowder   | $50          | $2,500            |
-| Obsidian    | $60          | $3,000            |
-| Name Tag    | $500         | N/A               |
-| Lead        | $100         | N/A               |
+| Ender Pearl | 500          | N/A               |
+| Blaze Rod   | 100          | N/A               |
+| Ghast Tear  | 400          | N/A               |
+| Slime Ball  | 120          | N/A               |
+| Bone        | 15           | 750               |
+| String      | 12           | 600               |
+| Gunpowder   | 50           | 2,500             |
+| Obsidian    | 60           | 3,000             |
+| Name Tag    | 500          | N/A               |
+| Lead        | 100          | N/A               |
 
 ---
