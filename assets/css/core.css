@@ -4,7 +4,7 @@
   --bg: #0f172a;
   --bg-alt: #182235;
   --panel: #233044;
-  --panel-2: #34294a;
+  --panel-2: #5a594d;
   --panel-3: #445066;
   --border: #0b1020;
   --border-soft: #8b6d3f;
@@ -110,17 +110,10 @@ p {
   align-items: center;
   gap: 1rem;
   padding: 0.6rem 1.25rem;
-  background:
-    linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(24, 34, 53, 0.94));
+  background: #0f172a;
   border-bottom: 4px solid var(--accent);
-  box-shadow:
-    inset 0 -1px 0 rgba(255, 255, 255, 0.05),
-    var(--shadow);
-  background-image: repeating-linear-gradient(90deg,
-      rgba(255, 255, 255, 0.03) 0px,
-      rgba(255, 255, 255, 0.03) 2px,
-      transparent 2px,
-      transparent 6px);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.05), var(--shadow);
+  background: linear-gradient(180deg, #0f172a, #182235);
 }
 
 .header-top {
