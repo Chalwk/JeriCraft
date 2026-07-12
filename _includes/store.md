@@ -76,63 +76,63 @@ perk is abused.
 
 ## Customization
 
-| **PERK**               | **PRICE** | **DESCRIPTION**                                                                                                          | **PERMISSION**                                                                                                                                      |
-| ---------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Custom Nickname        | $10.00    | Personalize your in-game name with a unique nickname.<br>Usage: `/nick <name>`<br>Use `/colors` to help you beautify it. | `cmi.command.nick`, `cmi.command.nick.different`, `cmi.colors.nickname.*`                                                                           |
-| Custom Name Prefix     | $8.00     | Choose a unique name prefix like [Warrior], [Noble], [Merchant], etc.                                                    | `jericraft.name.prefix`                                                                                                                             |
-| Custom Name Suffix     | $8.00     | Choose a unique name suffix like [Warrior], [Noble], [Merchant], etc.                                                    | `jericraft.name.suffix`                                                                                                                             |
-| Custom Text Formatting | $12.00    | Customize your in-game text with various colors and styles for books, nicknames, messages, and signs.                    | `cmi.colors.books.*`, `cmi.colors.me.*`, `cmi.colors.nickname.*`, `cmi.colors.privatemessage.*`, `cmi.colors.publicmessage.*`, `cmi.colors.signs.*` |
+| **PERK**                   | **PRICE** | **DESCRIPTION**                                                                                                          | **PERMISSION**                                                                                                                                      |
+| -------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Custom Nickname]()        | $10.00    | Personalize your in-game name with a unique nickname.<br>Usage: `/nick <name>`<br>Use `/colors` to help you beautify it. | `cmi.command.nick`, `cmi.command.nick.different`, `cmi.colors.nickname.*`                                                                           |
+| [Custom Name Prefix]()     | $8.00     | Choose a unique name prefix like [Warrior], [Noble], [Merchant], etc.                                                    | `jericraft.name.prefix`                                                                                                                             |
+| [Custom Name Suffix]()     | $8.00     | Choose a unique name suffix like [Warrior], [Noble], [Merchant], etc.                                                    | `jericraft.name.suffix`                                                                                                                             |
+| [Custom Text Formatting]() | $12.00    | Customize your in-game text with various colors and styles for books, nicknames, messages, and signs.                    | `cmi.colors.books.*`, `cmi.colors.me.*`, `cmi.colors.nickname.*`, `cmi.colors.privatemessage.*`, `cmi.colors.publicmessage.*`, `cmi.colors.signs.*` |
 
 ---
 
 ## Factions
 
-| PERK                   | PRICE  | DESCRIPTION                |
-| ---------------------- | ------ | -------------------------- |
-| Player Power Boost +5  | $10.00 | Add +5 to your max power.  |
-| Player Power Boost +10 | $16.00 | Add +10 to your max power. |
-| Player Power Boost +15 | $22.00 | Add +15 to your max power. |
-| Player Power Boost +20 | $28.00 | Add +20 to your max power. |
-| Player Power Boost +25 | $34.00 | Add +25 to your max power. |
-| Player Power Boost +30 | $40.00 | Add +30 to your max power. |
+| PERK                       | PRICE  | DESCRIPTION                |
+| -------------------------- | ------ | -------------------------- |
+| [Player Power Boost +5]()  | $10.00 | Add +5 to your max power.  |
+| [Player Power Boost +10]() | $16.00 | Add +10 to your max power. |
+| [Player Power Boost +15]() | $22.00 | Add +15 to your max power. |
+| [Player Power Boost +20]() | $28.00 | Add +20 to your max power. |
+| [Player Power Boost +25]() | $34.00 | Add +25 to your max power. |
+| [Player Power Boost +30]() | $40.00 | Add +30 to your max power. |
 
 ---
 
 ## Survival & Utility
 
-| **PERK**                | **PRICE** | **DESCRIPTION**                                                                                                                                                                                                                 | **PERMISSION**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ----------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Armor Stand Editor      | $15.00    | Customize armor stands with various options like plate, head, body, size, arms, legs, torso, interactivity, glow, position, and name.<br><br>Usage: [Please refer to this guide](https://www.zrips.net/cmi/armor-stand-editor/) | `cmi.command.armorstand`, `cmi.command.armorstand.plate`, `cmi.command.armorstand.head`, `cmi.command.armorstand.body`, `cmi.command.armorstand.size`, `cmi.command.armorstand.arms`, `cmi.command.armorstand.rightarm`, `cmi.command.armorstand.leftarm`, `cmi.command.armorstand.rightleg`, `cmi.command.armorstand.leftleg`, `cmi.command.armorstand.torso`, `cmi.command.armorstand.interactable`, `cmi.command.armorstand.glow`, `cmi.command.armorstand.pos`, `cmi.command.armorstand.name` |
-| Keep Inventory on Death | $35.00    | Keep your items upon death to avoid loss and frustration.                                                                                                                                                                       | `cmi.keepinventory`                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Keep XP on Death        | $35.00    | Preserve experience levels when you die.                                                                                                                                                                                        | `cmi.keepexp`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **PERK**                    | **PRICE** | **DESCRIPTION**                                                                                                                                                                                                                 | **PERMISSION**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Armor Stand Editor]()      | $15.00    | Customize armor stands with various options like plate, head, body, size, arms, legs, torso, interactivity, glow, position, and name.<br><br>Usage: [Please refer to this guide](https://www.zrips.net/cmi/armor-stand-editor/) | `cmi.command.armorstand`, `cmi.command.armorstand.plate`, `cmi.command.armorstand.head`, `cmi.command.armorstand.body`, `cmi.command.armorstand.size`, `cmi.command.armorstand.arms`, `cmi.command.armorstand.rightarm`, `cmi.command.armorstand.leftarm`, `cmi.command.armorstand.rightleg`, `cmi.command.armorstand.leftleg`, `cmi.command.armorstand.torso`, `cmi.command.armorstand.interactable`, `cmi.command.armorstand.glow`, `cmi.command.armorstand.pos`, `cmi.command.armorstand.name` |
+| [Keep Inventory on Death]() | $35.00    | Keep your items upon death to avoid loss and frustration.                                                                                                                                                                       | `cmi.keepinventory`                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [Keep XP on Death]()        | $35.00    | Preserve experience levels when you die.                                                                                                                                                                                        | `cmi.keepexp`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ---
 
 ## Commands & Abilities
 
-| **PERK**              | **PRICE** | **DESCRIPTION**                                                                                                                                 | **PERMISSION**                                     |
-| --------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| Item Magnet Ability   | $10.00    | Automatically pull nearby dropped items into your inventory<br><br>Usage: `/magnet`                                                             | `magnet.use`                                       |
-| Night Vision Ability  | $18.00    | See clearly in dark areas without the need for torches or other light sources, giving you an edge in nighttime exploration.<br><br>Usage: `/nv` | `nightvision.use`                                  |
-| Instant Tool Repair   | $25.00    | Instantly repair the item in your hand.<br><br>Usage: `/repair`.                                                                                | `cmi.command.repair`, `cmi.command.repair.hand`    |
-| Flight Ability        | $40.00    | Fly freely in the world.<br><br>Usage: `/fly`                                                                                                   | `cmi.command.fly`                                  |
-| Flight Speed Increase | $9.00     | Increase your flight speed.<br><br>Usage: `/flyspeed <speed (max 5)>`                                                                           | `cmi.command.flyspeed`, `cmi.command.flyspeed.5`   |
-| Walk Speed Increase   | $9.00     | Increase your walking speed.<br><br>Usage: `/walkspeed <speed (max 5)>`                                                                         | `cmi.command.walkspeed`, `cmi.command.walkspeed.5` |
+| **PERK**                  | **PRICE** | **DESCRIPTION**                                                                                                                                 | **PERMISSION**                                     |
+| ------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [Item Magnet Ability]()   | $10.00    | Automatically pull nearby dropped items into your inventory<br><br>Usage: `/magnet`                                                             | `magnet.use`                                       |
+| [Night Vision Ability]()  | $18.00    | See clearly in dark areas without the need for torches or other light sources, giving you an edge in nighttime exploration.<br><br>Usage: `/nv` | `nightvision.use`                                  |
+| [Instant Tool Repair]()   | $25.00    | Instantly repair the item in your hand.<br><br>Usage: `/repair`.                                                                                | `cmi.command.repair`, `cmi.command.repair.hand`    |
+| [Flight Ability]()        | $40.00    | Fly freely in the world.<br><br>Usage: `/fly`                                                                                                   | `cmi.command.fly`                                  |
+| [Flight Speed Increase]() | $9.00     | Increase your flight speed.<br><br>Usage: `/flyspeed <speed (max 5)>`                                                                           | `cmi.command.flyspeed`, `cmi.command.flyspeed.5`   |
+| [Walk Speed Increase]()   | $9.00     | Increase your walking speed.<br><br>Usage: `/walkspeed <speed (max 5)>`                                                                         | `cmi.command.walkspeed`, `cmi.command.walkspeed.5` |
 
 ---
 
 ## Jobs & Economy
 
-| **PERK**                | **PRICE** | **DESCRIPTION**            | **PERMISSION**          |
-| ----------------------- | --------- | -------------------------- | ----------------------- |
-| Increase Job Limit to 5 | $10.00    | Unlock 5 simultaneous jobs | `jobs.max.5`            |
-| Increase Job Limit to 6 | $12.00    | Unlock 6 simultaneous jobs | `jobs.max.6`            |
-| Increase Job Limit to 7 | $14.00    | Unlock 7 simultaneous jobs | `jobs.max.7`            |
-| Increase Job Limit to 8 | $16.00    | Unlock 8 simultaneous jobs | `jobs.max.8`            |
-| Chest Shop 5% Discount  | $10.00    | 5% discount on all items   | `chestshop.discount.5`  |
-| Chest Shop 10% Discount | $20.00    | 10% discount on all items  | `chestshop.discount.10` |
-| Chest Shop 15% Discount | $30.00    | 15% discount on all items  | `chestshop.discount.15` |
-| Chest Shop 20% Discount | $40.00    | 20% discount on all items  | `chestshop.discount.20` |
+| **PERK**                    | **PRICE** | **DESCRIPTION**            | **PERMISSION**          |
+| --------------------------- | --------- | -------------------------- | ----------------------- |
+| [Increase Job Limit to 5]() | $10.00    | Unlock 5 simultaneous jobs | `jobs.max.5`            |
+| [Increase Job Limit to 6]() | $12.00    | Unlock 6 simultaneous jobs | `jobs.max.6`            |
+| [Increase Job Limit to 7]() | $14.00    | Unlock 7 simultaneous jobs | `jobs.max.7`            |
+| [Increase Job Limit to 8]() | $16.00    | Unlock 8 simultaneous jobs | `jobs.max.8`            |
+| [Chest Shop 5% Discount]()  | $10.00    | 5% discount on all items   | `chestshop.discount.5`  |
+| [Chest Shop 10% Discount]() | $20.00    | 10% discount on all items  | `chestshop.discount.10` |
+| [Chest Shop 15% Discount]() | $30.00    | 15% discount on all items  | `chestshop.discount.15` |
+| [Chest Shop 20% Discount]() | $40.00    | 20% discount on all items  | `chestshop.discount.20` |
 
 ---
 
@@ -141,23 +141,23 @@ perk is abused.
 Enhance your building and crafting experience in JeriCraft with our versatile Kits!
 Preview kits in-game with `/kitpreview <name>`
 
-| **PERK**   | **PRICE** | **DESCRIPTION**                                                                                                                                                                      | **PERMISSION**       |
-| ---------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
-| Banner     | $6.00     | Gain access to a kit containing 16 of each banner.<br>Cooldown Period: 4 hours</br>Use `/kit banner` to access.                                                                      | `cmi.kit.banner`     |
-| Glass      | $8.00     | Gain access to a kit containing 16 of each glass block.<br>Cooldown Period: 4 hours</br>Use `/kit glass` to access.                                                                  | `cmi.kit.glass`      |
-| Terracotta | $8.00     | Gain access to a kit containing 16 of each terracotta block.<br>Cooldown Period: 4 hours</br>Use `/kit terracotta` to access.                                                        | `cmi.kit.terracotta` |
-| Wool       | $10.00    | Gain access to a kit containing 16 of each wool block.<br>Cooldown Period: 4 hours</br>Use `/kit wool` to access.                                                                    | `cmi.kit.wool`       |
-| Pyro       | $11.00    | Unlock the Pyro kit, providing you with all the tools and materials you need to harness the power of fire and explosions.<br>Cooldown Period: 4 hours</br>Use `/kit pyro` to access. | `cmi.kit.pyro`       |
+| **PERK**       | **PRICE** | **DESCRIPTION**                                                                                                                                                                      | **PERMISSION**       |
+| -------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| [Banner]()     | $6.00     | Gain access to a kit containing 16 of each banner.<br>Cooldown Period: 4 hours</br>Use `/kit banner` to access.                                                                      | `cmi.kit.banner`     |
+| [Glass]()      | $8.00     | Gain access to a kit containing 16 of each glass block.<br>Cooldown Period: 4 hours</br>Use `/kit glass` to access.                                                                  | `cmi.kit.glass`      |
+| [Terracotta]() | $8.00     | Gain access to a kit containing 16 of each terracotta block.<br>Cooldown Period: 4 hours</br>Use `/kit terracotta` to access.                                                        | `cmi.kit.terracotta` |
+| [Wool]()       | $10.00    | Gain access to a kit containing 16 of each wool block.<br>Cooldown Period: 4 hours</br>Use `/kit wool` to access.                                                                    | `cmi.kit.wool`       |
+| [Pyro]()       | $11.00    | Unlock the Pyro kit, providing you with all the tools and materials you need to harness the power of fire and explosions.<br>Cooldown Period: 4 hours</br>Use `/kit pyro` to access. | `cmi.kit.pyro`       |
 
 ---
 
 ## Miscellaneous
 
-| **PERK**         | **PRICE** | **DESCRIPTION**                                                                                                                 | **PERMISSION**                                           |
-| ---------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| Painting Scroll  | $15.00    | Transform any painting into another, creating unique and ever-changing artwork in your builds.                                  | `neopaintingswitch.use`                                  |
-| Sign Copier Tool | $15.00    | Quickly and easily copy text from one sign to another, saving time and ensuring consistency across your builds.                 | `cmi.command.sc`                                         |
-| Head Database    | $35.00    | Access a vast database of custom heads for your builds, granting you creative freedom to design unique and detailed structures. | `headdb.open`, `headdb.allow.buy.*`, `headdb.category.*` |
+| **PERK**             | **PRICE** | **DESCRIPTION**                                                                                                                 | **PERMISSION**                                           |
+| -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [Painting Scroll]()  | $15.00    | Transform any painting into another, creating unique and ever-changing artwork in your builds.                                  | `neopaintingswitch.use`                                  |
+| [Sign Copier Tool]() | $15.00    | Quickly and easily copy text from one sign to another, saving time and ensuring consistency across your builds.                 | `cmi.command.sc`                                         |
+| [Head Database]()    | $35.00    | Access a vast database of custom heads for your builds, granting you creative freedom to design unique and detailed structures. | `headdb.open`, `headdb.allow.buy.*`, `headdb.category.*` |
 
 ---
 
