@@ -24,10 +24,10 @@ claim land, build power, and raid enemy territories.
 - [Base Cost to Claim Land](#base-cost-to-claim-land)
   - [Claim Cost Scaling](#claim-cost-scaling)
 - [Power System](#power-system)
-  - [Power Limits \& Gains](#power-limits--gains)
-  - [Power Loss \& Raidability](#power-loss--raidability)
-- [Power \& PvP Mechanics](#power--pvp-mechanics)
-  - [Power Transfer \& Stealing](#power-transfer--stealing)
+  - [Power Limits and Gains](#power-limits-and-gains)
+  - [Power Loss and Raidability](#power-loss-and-raidability)
+- [Power and PvP Mechanics](#power-and-pvp-mechanics)
+  - [Power Transfer and Stealing](#power-transfer-and-stealing)
   - [War Zones](#war-zones)
   - [Safe Zones](#safe-zones)
   - [Wilderness](#wilderness)
@@ -219,7 +219,7 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-### Power Limits & Gains
+### Power Limits and Gains
 
 - **Max Faction Power:** `1000` → The total power a faction can have.
 - **Max Power per Player:** `100` → The maximum power a single player can have.
@@ -230,7 +230,7 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-### Power Loss & Raidability
+### Power Loss and Raidability
 
 - **Power Loss Per Death:** `5` → How much power a player loses when they die.
 - **Offline Power Loss:** `-0.4 per day` → How much power is lost daily while offline.
@@ -241,9 +241,9 @@ Recruit members to **strengthen your kingdom**.
 
 ---
 
-## Power & PvP Mechanics
+## Power and PvP Mechanics
 
-### Power Transfer & Stealing
+### Power Transfer and Stealing
 
 - **Vampirism (Power Stealing):** `0.5` → Killers receive 50% of the power lost by their target.
 

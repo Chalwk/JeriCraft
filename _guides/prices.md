@@ -17,15 +17,15 @@ Use these prices as a fair starting point when setting up your Shops, listing it
 
 ## Table of Contents <!-- omit from toc -->
 - [Enchantment Book Prices](#enchantment-book-prices)
-- [Resources \& Materials](#resources--materials)
+- [Resources and Materials](#resources-and-materials)
   - [Building Blocks](#building-blocks)
-  - [Ores \& Minerals](#ores--minerals)
-- [Mob Drops \& Utility Items](#mob-drops--utility-items)
+  - [Ores and Minerals](#ores-and-minerals)
+- [Mob Drops and Utility Items](#mob-drops-and-utility-items)
   - [Mob Drops](#mob-drops)
   - [Utility Items](#utility-items)
 - [Brewing Ingredients](#brewing-ingredients)
 - [Smithing Templates](#smithing-templates)
-- [Sculk \& Archaeology](#sculk--archaeology)
+- [Sculk and Archaeology](#sculk-and-archaeology)
 
 ---
 
@@ -75,7 +75,7 @@ Prices are listed per individual enchantment book.
 
 ---
 
-## Resources & Materials
+## Resources and Materials
 
 This section covers building blocks, ores, minerals, and other raw materials used in construction and crafting.
 
@@ -97,7 +97,7 @@ This section covers building blocks, ores, minerals, and other raw materials use
 | Dark Oak Log                               | 2.50         | 160               |
 | Mangrove Log                               | 3.50         | 224               |
 
-### Ores & Minerals
+### Ores and Minerals
 
 | Item            | Single Price | Stack Price (x64) |
 | --------------- | ------------ | ----------------- |
@@ -115,7 +115,7 @@ This section covers building blocks, ores, minerals, and other raw materials use
 
 ---
 
-## Mob Drops & Utility Items
+## Mob Drops and Utility Items
 
 Items obtained from mobs or useful utility items for adventuring and crafting.
 
@@ -171,7 +171,7 @@ Essential ingredients for potion brewing.
 
 ---
 
-## Sculk & Archaeology
+## Sculk and Archaeology
 
 | Item                | Single Price | Stack Price (x64) |
 | ------------------- | ------------ | ----------------- |
