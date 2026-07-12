@@ -5,28 +5,9 @@ permalink: /guides/roles-and-responsibilities/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# Roles and responsibilities <!-- omit from toc -->
+# Roles and responsibilities
 
 Below is a detailed breakdown of the roles and responsibilities for each staff position.
-
----
-
-## Table of Contents <!-- omit from toc -->
-
-- [Administrators](#administrators)
-  - [Minecraft Server Management](#minecraft-server-management)
-  - [Additional Responsibilities](#additional-responsibilities)
-- [Moderators](#moderators)
-  - [Minecraft Server Moderation](#minecraft-server-moderation)
-  - [Additional Responsibilities](#additional-responsibilities-1)
-- [Support Team](#support-team)
-  - [Minecraft Support](#minecraft-support)
-  - [Additional Responsibilities](#additional-responsibilities-2)
-- [Resource Team](#resource-team)
-  - [Minecraft Resource Responsibilities](#minecraft-resource-responsibilities)
-- [Additional Responsibilities](#additional-responsibilities-3)
-  - [Server Events Coordination](#server-events-coordination)
-  - [Cross-Platform Community Engagement](#cross-platform-community-engagement)
 
 ---
 

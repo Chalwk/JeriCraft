@@ -7,3 +7,4 @@ gem 'webrick'
 gem 'wdm', '>= 0.1.0'
 gem 'tzinfo'
 gem 'tzinfo-data'
+gem "jekyll-toc", "~> 0.19.0"

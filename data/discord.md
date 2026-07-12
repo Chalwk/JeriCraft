@@ -1,14 +1,4 @@
-# JERICRAFT DISCORD CATEGORY/CHANNEL STRUCTURE <!-- omit from toc -->
-
-## Table of Contents <!-- omit from toc -->
-
-- [Not in a category](#not-in-a-category)
-- [THE HERALD'S PROCLAMATION](#the-heralds-proclamation)
-- [THE TAVERN SQUARE](#the-tavern-square)
-- [THE MEAD HALL](#the-mead-hall)
-- [COUNCIL CHAMBERS *(hidden to the public)*](#council-chambers-hidden-to-the-public)
-
----
+# JERICRAFT DISCORD CATEGORY/CHANNEL STRUCTURE
 
 ## Not in a category
 

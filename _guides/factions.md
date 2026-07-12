@@ -5,35 +5,10 @@ permalink: /guides/factions/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# JeriCraft Factions Guide <!-- omit from toc -->
+# JeriCraft Factions Guide
 
 Welcome to the **JeriCraft Factions System**! This guide will help you understand how to create and manage your faction,
 claim land, build power, and raid enemy territories.
-
----
-
-## Table of Contents <!-- omit from toc -->
-
-- [Faction Creation \& Management](#faction-creation--management)
-- [Faction Member Commands](#faction-member-commands)
-- [Member Management](#member-management)
-- [Territory Management](#territory-management)
-- [Economy \& Faction Banks](#economy--faction-banks)
-- [Player Commands](#player-commands)
-- [Admin Commands](#admin-commands)
-- [Base Cost to Claim Land](#base-cost-to-claim-land)
-  - [Claim Cost Scaling](#claim-cost-scaling)
-- [Power System](#power-system)
-  - [Power Limits \& Gains](#power-limits--gains)
-  - [Power Loss \& Raidability](#power-loss--raidability)
-- [Power \& PvP Mechanics](#power--pvp-mechanics)
-  - [Power Transfer \& Stealing](#power-transfer--stealing)
-  - [War Zones](#war-zones)
-  - [Safe Zones](#safe-zones)
-  - [Wilderness](#wilderness)
-  - [Peaceful Factions](#peaceful-factions)
-- [Miscellaneous](#miscellaneous)
-- [Faction Relations \& Limits](#faction-relations--limits)
 
 ---
 

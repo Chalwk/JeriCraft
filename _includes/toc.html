@@ -1,0 +1,10 @@
+{% if page.toc != false %}
+<div class="toc-container">
+    <details class="toc-details" {% if page.toc_open %}open{% endif %}>
+        <summary class="toc-summary">
+            <i class="fas fa-list-ul" aria-hidden="true"></i> Table of Contents
+        </summary>
+        <div class="toc-content">{{toc}}</div>
+    </details>
+</div>
+{% endif %}

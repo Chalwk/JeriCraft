@@ -27,9 +27,14 @@ sass:
 incremental: true
 plugins_cache: true
 
+markdown: kramdown
+kramdown:
+  syntax_highlighter: nil
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-toc
 
 relative_links:
   enabled: true

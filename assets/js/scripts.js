@@ -33,16 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('resize', handleResize);
     handleResize();
 
-    const tocHeadings = document.querySelectorAll('.page-content h2');
-    tocHeadings.forEach(h2 => {
-        if (h2.textContent.trim() === 'Table of Contents') {
-            const nextUl = h2.nextElementSibling;
-            if (nextUl && nextUl.tagName === 'UL') {
-                nextUl.classList.add('toc');
-            }
-        }
-    });
-
     document.addEventListener('click', function (e) {
         const openDropdowns = document.querySelectorAll('.dropdown.open');
         if (openDropdowns.length === 0) return;

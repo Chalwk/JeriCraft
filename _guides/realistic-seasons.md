@@ -5,26 +5,10 @@ permalink: /guides/realistic-seasons/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# RealisticSeasons Guide <!-- omit from toc -->
+# RealisticSeasons Guide
 
 Welcome to the **RealisticSeasons** guide! This amazing plugin brings dynamic and immersive seasons to our server,
 making your gameplay experience more engaging and exciting. Let's explore the wonders of RealisticSeasons:
-
----
-
-## Table of Contents <!-- omit from toc -->
-
-- [Dynamic Seasons](#dynamic-seasons)
-- [Season Start Dates](#season-start-dates)
-- [Month Breakdown](#month-breakdown)
-- [Key Features](#key-features)
-- [Special Events Calendar](#special-events-calendar)
-  - [Christmas](#christmas)
-  - [New Year](#new-year)
-  - [Halloween](#halloween)
-  - [Easter](#easter)
-- [Temperature System](#temperature-system)
-- [Tips \& Tricks](#tips--tricks)
 
 ---
 

@@ -1,32 +1,10 @@
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# JeriCraft Patronage System  <!-- omit from toc -->
+# JeriCraft Patronage System
 
 Instead of traditional donation packages, we offer individual perks that can be obtained separately. Your donation rank
 is determined by the total amount you've donated since your first contribution. Every donation helps us keep the server
 running, and we are grateful for your support.
-
----
-
-## Table of Contents <!-- omit from toc -->
-
-- [Patronage Tiers](#patronage-tiers)
-- [Terms \& Conditions:](#terms--conditions)
-  - [Agreement to Terms:](#agreement-to-terms)
-  - [Refund Policy:](#refund-policy)
-  - [Payment Responsibility:](#payment-responsibility)
-  - [Perk Misuse:](#perk-misuse)
-  - [Perk Availability:](#perk-availability)
-  - [Donation Accumulation:](#donation-accumulation)
-  - [Support:](#support)
-- [Customization](#customization)
-- [Factions](#factions)
-- [Survival \& Utility](#survival--utility)
-- [Commands \& Abilities](#commands--abilities)
-- [Jobs \& Economy](#jobs--economy)
-- [Kits](#kits)
-- [Miscellaneous](#miscellaneous)
-- [Disclaimer](#disclaimer)
 
 ---
 

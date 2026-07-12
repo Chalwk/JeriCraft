@@ -1,27 +1,19 @@
 ---
 title: Chest Shop
+toc: true
 permalink: /guides/chest-shop/
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# ChestShop Tutorial <!-- omit from toc -->
+# ChestShop Tutorial
 
 Welcome to the **ChestShop Tutorial**! With ChestShop, you can create your own shops using signs and chests, making it
 easy to buy and sell items. Follow this step-by-step guide to set up your shop efficiently.
 
 ---
 
-## Table of Contents <!-- omit from toc -->
-
-- [Step 1: Build Your Shop](#step-1-build-your-shop)
-- [Step 2: Place a Chest](#step-2-place-a-chest)
-- [Step 3: Stock the Chest](#step-3-stock-the-chest)
-- [Step 4: Create a Sign](#step-4-create-a-sign)
-  - [Example 1: Basic Shop (buy only)](#example-1-basic-shop-buy-only)
-  - [Example 2: Advanced Shop (buy \& sell)](#example-2-advanced-shop-buy--sell)
-  - [Example 3: Advanced Configuration (price formats)](#example-3-advanced-configuration-price-formats)
-- [Step 5: How Customers Buy or Sell Items](#step-5-how-customers-buy-or-sell-items)
+{% include toc.html %}
 
 ---
 

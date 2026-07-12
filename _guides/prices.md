@@ -5,27 +5,13 @@ permalink: /guides/prices/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# Market Price Reference <!-- omit from toc -->
+# Market Price Reference
 
 Welcome to the JeriCraft Market Price Reference! This guide provides **suggested base prices** for various traded items. 
 
 Use these prices as a fair starting point when setting up your Shops, listing items at auction, or trading with other players. 
 
 > **Note:** These are **reference values only**. Actual market prices will fluctuate based on supply, demand, and overall server economic conditions.
-
----
-
-## Table of Contents <!-- omit from toc -->
-- [Enchantment Book Prices](#enchantment-book-prices)
-- [Resources \& Materials](#resources--materials)
-  - [Building Blocks](#building-blocks)
-  - [Ores \& Minerals](#ores--minerals)
-- [Mob Drops \& Utility Items](#mob-drops--utility-items)
-  - [Mob Drops](#mob-drops)
-  - [Utility Items](#utility-items)
-- [Brewing Ingredients](#brewing-ingredients)
-- [Smithing Templates](#smithing-templates)
-- [Sculk \& Archaeology](#sculk--archaeology)
 
 ---
 
