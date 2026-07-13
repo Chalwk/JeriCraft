@@ -11,30 +11,30 @@ permalink: /shops/florist/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name (Material)                    | Buy Price |
-| --------------------------------------- | --------- |
-| Crimson Poppies (POPPY)                 | $20       |
-| Golden Dandelions (DANDELION)           | $15       |
-| Terracotta Planter (FLOWER_POT)         | $75       |
-| Fertilizer Satchel (BONE_MEAL)          | $50       |
-| Garden Trellis (VINE)                   | $80       |
-| Blackthorn Rose (WITHER_ROSE)           | $290      |
-| Valerose Lilies (LILY_OF_THE_VALLEY)    | $35       |
-| Reed Bundle (SUGAR_CANE)                | $180      |
-| Rustic Garden Fence (OAK_FENCE)         | $300      |
-| Berry Bush Clippings (SWEET_BERRIES)    | $225      |
-| Golden Sunflower (SUNFLOWER)            | $145      |
-| Mystic Beetroot Seeds (BEETROOT_SEEDS)  | $220      |
-| Luminous Spore Bloom (SPORE_BLOSSOM)    | $335      |
-| Crystalline Floragem (AMETHYST_CLUSTER) | $430      |
-| Verdant Azalea Grove (FLOWERING_AZALEA) | $265      |
-| Void-Touched Creepers (SCULK_VEIN)      | $2,500    |
-| Endersong Blossom (CHORUS_FLOWER)       | $310      |
-| Primordial Moss (MOSS_BLOCK)            | $350      |
-| Faerie Light Cluster (GLOW_LICHEN)      | $145      |
-| Mystic Peony Bush (PEONY)               | $220      |
-| Swampheart Sapling (MANGROVE_PROPAGULE) | $210      |
-| Sunstone Garden Beacon (GLOWSTONE)      | $250      |
-| Titan's Water Lily (BIG_DRIPLEAF)       | $190      |
-| Dragon's Beard Lichen (HANGING_ROOTS)   | $175      |
-| Cherry Blossom Carpet (PINK_PETALS)     | $135      |
+| Item Name              | Buy Price |
+| ---------------------- | --------- |
+| Crimson Poppies        | $20       |
+| Golden Dandelions      | $15       |
+| Terracotta Planter     | $75       |
+| Fertilizer Satchel     | $50       |
+| Garden Trellis         | $80       |
+| Blackthorn Rose        | $290      |
+| Valerose Lilies        | $35       |
+| Reed Bundle            | $180      |
+| Rustic Garden Fence    | $300      |
+| Berry Bush Clippings   | $225      |
+| Golden Sunflower       | $145      |
+| Mystic Beetroot Seeds  | $220      |
+| Luminous Spore Bloom   | $335      |
+| Crystalline Floragem   | $430      |
+| Verdant Azalea Grove   | $265      |
+| Void-Touched Creepers  | $2,500    |
+| Endersong Blossom      | $310      |
+| Primordial Moss        | $350      |
+| Faerie Light Cluster   | $145      |
+| Mystic Peony Bush      | $220      |
+| Swampheart Sapling     | $210      |
+| Sunstone Garden Beacon | $250      |
+| Titan's Water Lily     | $190      |
+| Dragon's Beard Lichen  | $175      |
+| Cherry Blossom Carpet  | $135      |

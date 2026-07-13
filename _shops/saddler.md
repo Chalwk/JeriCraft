@@ -11,18 +11,18 @@ permalink: /saddler/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name (Material)                          | Buy Price |
-| --------------------------------------------- | --------- |
-| Royal Plate Armor (DIAMOND_HORSE_ARMOR)       | $3,500    |
-| Gilded Barding (GOLDEN_HORSE_ARMOR)           | $2,500    |
-| Reinforced Mail (IRON_HORSE_ARMOR)            | $1,500    |
-| Trail Rider Set (LEATHER_HORSE_ARMOR)         | $1,000    |
-| Noble Steed Egg (HORSE_SPAWN_EGG)             | $1,200    |
-| Skeleton Steed Egg (SKELETON_HORSE_SPAWN_EGG) | $3,500    |
-| Zombie Steed Egg (ZOMBIE_HORSE_SPAWN_EGG)     | $5,000    |
-| Premium Hay Bales (HAY_BLOCK)                 | $45       |
-| Trusty Lead Rope (LEAD)                       | $35       |
-| Golden Apple (GOLDEN_APPLE)                   | $100      |
-| Fresh Apple (APPLE)                           | $10       |
-| Sturdy Saddle (SADDLE)                        | $200      |
-| Horse Name Tag (NAME_TAG)                     | $75       |
+| Item Name          | Buy Price |
+| ------------------ | --------- |
+| Royal Plate Armor  | $3,500    |
+| Gilded Barding     | $2,500    |
+| Reinforced Mail    | $1,500    |
+| Trail Rider Set    | $1,000    |
+| Noble Steed Egg    | $1,200    |
+| Skeleton Steed Egg | $3,500    |
+| Zombie Steed Egg   | $5,000    |
+| Premium Hay Bales  | $45       |
+| Trusty Lead Rope   | $35       |
+| Golden Apple       | $100      |
+| Fresh Apple        | $10       |
+| Sturdy Saddle      | $200      |
+| Horse Name Tag     | $75       |

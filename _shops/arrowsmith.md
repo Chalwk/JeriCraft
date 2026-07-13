@@ -11,23 +11,23 @@ permalink: /shops/arrowsmith/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name (Material)               | Buy Price |
-| ---------------------------------- | --------- |
-| Longbow of the Realm (BOW)         | $2,500    |
-| Siege Crossbow (CROSSBOW)          | $3,500    |
-| Quiver of Arrows (ARROW)           | $75       |
-| Flaming Arrows (ARROW)             | $125      |
-| Phantom Arrows (SPECTRAL_ARROW)    | $250      |
-| Archer's Training Target (TARGET)  | $150      |
-| Weakness Arrows (TIPPED_ARROW)     | $200      |
-| Poison Arrows (TIPPED_ARROW)       | $250      |
-| Harming Arrows (TIPPED_ARROW)      | $400      |
-| Speed Arrows (TIPPED_ARROW)        | $300      |
-| Regeneration Arrows (TIPPED_ARROW) | $350      |
-| Slowness Arrows (TIPPED_ARROW)     | $250      |
-| Withering Arrows (TIPPED_ARROW)    | $350      |
-| Levitation Arrows (TIPPED_ARROW)   | $300      |
-| Blindness Arrows (TIPPED_ARROW)    | $200      |
-| Nausea Arrows (TIPPED_ARROW)       | $150      |
-| Fatigue Arrows (TIPPED_ARROW)      | $250      |
-| Hunger Arrows (TIPPED_ARROW)       | $200      |
+| Item Name                | Buy Price |
+| ------------------------ | --------- |
+| Longbow of the Realm     | $2,500    |
+| Siege Crossbow           | $3,500    |
+| Quiver of Arrows         | $75       |
+| Flaming Arrows           | $125      |
+| Phantom Arrows           | $250      |
+| Archer's Training Target | $150      |
+| Weakness Arrows          | $200      |
+| Poison Arrows            | $250      |
+| Harming Arrows           | $400      |
+| Speed Arrows             | $300      |
+| Regeneration Arrows      | $350      |
+| Slowness Arrows          | $250      |
+| Withering Arrows         | $350      |
+| Levitation Arrows        | $300      |
+| Blindness Arrows         | $200      |
+| Nausea Arrows            | $150      |
+| Fatigue Arrows           | $250      |
+| Hunger Arrows            | $200      |

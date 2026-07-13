@@ -11,14 +11,14 @@ permalink: /shops/quarry-master/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name (Material)                          | Buy Price |
-| --------------------------------------------- | --------- |
-| Rugged Cobblestone Bundle (COBBLESTONE)       | $45       |
-| Prime Stone Blocks (STONE)                    | $65       |
-| Sun-Baked Sandstone (SANDSTONE)               | $70       |
-| Crimson Sandstone (RED_SANDSTONE)             | $85       |
-| Nether Blackstone (BLACKSTONE)                | $120      |
-| Gilded Blackstone Chunks (GILDED_BLACKSTONE)  | $250      |
-| Ancient Mossy Cobblestone (MOSSY_COBBLESTONE) | $75       |
-| Alien End Stone (END_STONE)                   | $150      |
-| Prismatic Calcite Cluster (CALCITE)           | $180      |
+| Item Name                 | Buy Price |
+| ------------------------- | --------- |
+| Rugged Cobblestone Bundle | $45       |
+| Prime Stone Blocks        | $65       |
+| Sun-Baked Sandstone       | $70       |
+| Crimson Sandstone         | $85       |
+| Nether Blackstone         | $120      |
+| Gilded Blackstone Chunks  | $250      |
+| Ancient Mossy Cobblestone | $75       |
+| Alien End Stone           | $150      |
+| Prismatic Calcite Cluster | $180      |
