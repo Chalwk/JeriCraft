@@ -1,6 +1,6 @@
 ---
 title: Saddler
-permalink: /saddler/
+permalink: /shops/saddler/
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
