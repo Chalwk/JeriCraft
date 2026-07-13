@@ -6,6 +6,14 @@ Instead of traditional donation packages, we offer individual perks that can be 
 is determined by the total amount you've donated since your first contribution. Every donation helps us keep the server
 running, and we are grateful for your support.
 
+<div style="background:#233044;border:2px solid #8b6d3f;border-left:6px solid #d3a256;padding:16px;margin:20px 0;border-radius:8px;color:#f8edd8;box-shadow:0 10px 24px rgba(17,14,21,0.35);">
+  <strong>⚠️ Web Store Temporarily Unavailable</strong><br><br>
+  The JeriCraft web store is currently unavailable while we prepare for the server's relaunch.
+  As a result, perks cannot be purchased at this time. Once JeriCraft officially goes live,
+  the web store will reopen and all patronage perks will once again be available for purchase.
+  Thank you for your patience and for supporting JeriCraft. We look forward to welcoming everyone back soon!
+</div>
+
 ---
 
 {% include toc.html %}
