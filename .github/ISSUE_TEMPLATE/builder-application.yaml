@@ -44,7 +44,7 @@ body:
         **Restricted access to World Edit:**
           - World Edit will be limited to regions that you own.
           - Make sure you set the `worldedit allow` flag in your region before performing World Edit operations.
-          - Certain commands will be disabled for you. See the [our Commands](https://chalwk.github.io/JeriCraft/commands) for more information.
+          - Certain commands will be disabled for you. See [Commands Guide](https://chalwk.github.io/JeriCraft/commands) for more info.
 
         ---
   - type: checkboxes
