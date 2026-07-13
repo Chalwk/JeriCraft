@@ -11,14 +11,14 @@ permalink: /shops/beekeeper/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name                | Buy Price |
-| ------------------------ | --------- |
-| Beekeeper's Bottles      | $120      |
-| Apiarist's Smoker        | $180      |
-| Portable Beehive         | $600      |
-| Golden Nectar            | $240      |
-| Pristine Honeycomb       | $400      |
-| Wax Fortress             | $640      |
-| Wild Hive Cluster        | $1,500    |
-| Amber Preservation Block | $500      |
-| Queen's Brood            | $250      |
+| Item Name (Material)                   | Buy Price |
+| -------------------------------------- | --------- |
+| Beekeeper's Bottles (GLASS_BOTTLE)     | $120      |
+| Apiarist's Smoker (CAMPFIRE)           | $180      |
+| Portable Beehive (BEEHIVE)             | $600      |
+| Golden Nectar (HONEY_BOTTLE)           | $240      |
+| Pristine Honeycomb (HONEYCOMB)         | $400      |
+| Wax Fortress (HONEYCOMB_BLOCK)         | $640      |
+| Wild Hive Cluster (BEE_NEST)           | $1,500    |
+| Amber Preservation Block (HONEY_BLOCK) | $500      |
+| Queen's Brood (BEE_SPAWN_EGG)          | $250      |

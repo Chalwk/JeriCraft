@@ -11,11 +11,11 @@ permalink: /shops/innkeeper/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name             | Buy Price |
-| --------------------- | --------- |
-| Hearty Mushroom Stew  | $25       |
-| Roasted Tuber Platter | $50       |
-| Royal Suite Key       | $75       |
-| Bedroll               | $3,500    |
-| Ale Cask              | $250      |
-| Chest of Plenty       | $350      |
+| Item Name (Material)                 | Buy Price |
+| ------------------------------------ | --------- |
+| Hearty Mushroom Stew (MUSHROOM_STEW) | $25       |
+| Roasted Tuber Platter (BAKED_POTATO) | $50       |
+| Royal Suite Key (RED_BED)            | $75       |
+| Bedroll (RESPAWN_ANCHOR)             | $3,500    |
+| Ale Cask (BARREL)                    | $250      |
+| Chest of Plenty (CHEST)              | $350      |

@@ -11,17 +11,17 @@ permalink: /shops/hunter/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name        | Buy Price |
-| ---------------- | --------- |
-| Pelt of the Wild | $50       |
-| Hunter's Bones   | $25       |
-| Falcon Feathers  | $160      |
-| Venison Steaks   | $200      |
-| Boar Chops       | $240      |
-| Hare Hide        | $80       |
-| Lucky Paw        | $600      |
-| Monster Flesh    | $120      |
-| Phantom Wing     | $800      |
-| Turtle Carapace  | $900      |
-| Blaze Core       | $1,200    |
-| Breeze Rod       | $1,500    |
+| Item Name (Material)            | Buy Price |
+| ------------------------------- | --------- |
+| Pelt of the Wild (LEATHER)      | $50       |
+| Hunter's Bones (BONE)           | $25       |
+| Falcon Feathers (FEATHER)       | $160      |
+| Venison Steaks (COOKED_BEEF)    | $200      |
+| Boar Chops (COOKED_PORKCHOP)    | $240      |
+| Hare Hide (RABBIT_HIDE)         | $80       |
+| Lucky Paw (RABBIT_FOOT)         | $600      |
+| Monster Flesh (ROTTEN_FLESH)    | $120      |
+| Phantom Wing (PHANTOM_MEMBRANE) | $800      |
+| Turtle Carapace (TURTLE_HELMET) | $900      |
+| Blaze Core (BLAZE_ROD)          | $1,200    |
+| Breeze Rod (BREEZE_ROD)         | $1,500    |

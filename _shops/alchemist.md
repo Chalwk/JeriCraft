@@ -11,30 +11,29 @@ permalink: /shops/alchemist/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name               | Buy Price |
-| ----------------------- | --------- |
-| Witch's Arcane Alembic  | $500      |
-| Ember of the Witchflame | $150      |
-| Witch's Hexroot         | $75       |
-| Weeping Soulstone       | $250      |
-| Infernal Balm           | $125      |
-| Astral Cinders          | $100      |
-| Hexbound Lectern        | $1,000    |
-| Voidkeeper's Reliquary  | $750      |
-| Moonlit Venom           | $150      |
-| Witch's Thread          | $25       |
-| Sunfire Bundle          | $100      |
-| Forestheart Bundle      | $125      |
-| Bloodthorn Bundle       | $150      |
-| Shadowveil Bundle       | $175      |
-| Flame's Embrace         | $100      |
-| Moonlit Vision          | $75       |
-| Wind's Breath           | $50       |
-| Bloodroot Elixir        | $125      |
-| Venomous Draught        | $100      |
-| Titan's Might           | $150      |
-| Elixir of Life          | $175      |
-| Draught of Frailty      | $75       |
-| Icebound Tonic          | $100      |
-| Elixir of Fortune       | $200      |
-
+| Item Name (Material)                   | Buy Price |
+| -------------------------------------- | --------- |
+| Witch's Arcane Alembic (BREWING_STAND) | $500      |
+| Ember of the Witchflame (BLAZE_POWDER) | $150      |
+| Witch's Hexroot (NETHER_WART)          | $75       |
+| Weeping Soulstone (GHAST_TEAR)         | $250      |
+| Infernal Balm (MAGMA_CREAM)            | $125      |
+| Astral Cinders (GLOWSTONE_DUST)        | $100      |
+| Hexbound Lectern (ENCHANTING_TABLE)    | $1,000    |
+| Voidkeeper's Reliquary (ENDER_CHEST)   | $750      |
+| Moonlit Venom (FERMENTED_SPIDER_EYE)   | $150      |
+| Witch's Thread (STRING)                | $25       |
+| Sunfire Bundle (YELLOW_BUNDLE)         | $100      |
+| Forestheart Bundle (GREEN_BUNDLE)      | $125      |
+| Bloodthorn Bundle (RED_BUNDLE)         | $150      |
+| Shadowveil Bundle (BLACK_BUNDLE)       | $175      |
+| Flame's Embrace (POTION)               | $100      |
+| Moonlit Vision (POTION)                | $75       |
+| Wind's Breath (POTION)                 | $50       |
+| Bloodroot Elixir (POTION)              | $125      |
+| Venomous Draught (POTION)              | $100      |
+| Titan's Might (POTION)                 | $150      |
+| Elixir of Life (POTION)                | $175      |
+| Draught of Frailty (POTION)            | $75       |
+| Icebound Tonic (POTION)                | $100      |
+| Elixir of Fortune (POTION)             | $200      |

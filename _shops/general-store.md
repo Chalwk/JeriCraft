@@ -11,28 +11,28 @@ permalink: /shops/general-store/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name             | Buy Price |
-| --------------------- | --------- |
-| Bundle of String      | $10       |
-| Bundle of White Wool  | $15       |
-| Bundle of Glass       | $20       |
-| Bundle of Oak Planks  | $10       |
-| Bundle of Stone       | $15       |
-| Bundle of Cobblestone | $10       |
-| Bundle of Sand        | $10       |
-| Bundle of Glowstone   | $25       |
-| Bundle of Torches     | $10       |
-| Bundle of Leather     | $20       |
-| Bundle of Bones       | $15       |
-| Leather Boots         | $20       |
-| Yellow Candle         | $10       |
-| Bucket                | $15       |
-| Bundle of Coal        | $20       |
-| Iron Ingot            | $25       |
-| Bundle of Flint       | $15       |
-| Empty Map             | $10       |
-| Glass Bottles         | $10       |
-| Bundle of Sugar       | $10       |
-| Spider Eye            | $15       |
-| Blaze Powder          | $30       |
-| Bundle of Obsidian    | $75       |
+| Item Name (Material)                | Buy Price |
+| ----------------------------------- | --------- |
+| Bundle of String (STRING)           | $10       |
+| Bundle of White Wool (WHITE_WOOL)   | $15       |
+| Bundle of Glass (GLASS)             | $20       |
+| Bundle of Oak Planks (OAK_PLANKS)   | $10       |
+| Bundle of Stone (STONE)             | $15       |
+| Bundle of Cobblestone (COBBLESTONE) | $10       |
+| Bundle of Sand (SAND)               | $10       |
+| Bundle of Glowstone (GLOWSTONE)     | $25       |
+| Bundle of Torches (TORCH)           | $10       |
+| Bundle of Leather (LEATHER)         | $20       |
+| Bundle of Bones (BONE)              | $15       |
+| Leather Boots (LEATHER_BOOTS)       | $20       |
+| Yellow Candle (YELLOW_CANDLE)       | $10       |
+| Bucket (BUCKET)                     | $15       |
+| Bundle of Coal (COAL)               | $20       |
+| Iron Ingot (IRON_INGOT)             | $25       |
+| Bundle of Flint (FLINT)             | $15       |
+| Empty Map (MAP)                     | $10       |
+| Glass Bottles (GLASS_BOTTLE)        | $10       |
+| Bundle of Sugar (SUGAR)             | $10       |
+| Spider Eye (SPIDER_EYE)             | $15       |
+| Blaze Powder (BLAZE_POWDER)         | $30       |
+| Bundle of Obsidian (OBSIDIAN)       | $75       |

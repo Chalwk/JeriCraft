@@ -11,34 +11,34 @@ permalink: /shops/scribe/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name            | Buy Price |
-| -------------------- | --------- |
-| Bottle o' Enchanting | $80       |
-| Lapis Ore            | $100      |
-| Lapis Lazuli         | $60       |
-| Parchment Sheets     | $50       |
-| Blank Tomes          | $120      |
-| Book and Quill       | $150      |
-| Arcane Altar         | $2,500    |
-| Ancient Bookshelves  | $250      |
-| Ender Pearls         | $450      |
-| Efficiency III       | $3,400    |
-| Thorns III           | $2,500    |
-| Depth Strider III    | $2,200    |
-| Respiration III      | $1,800    |
-| Loyalty III          | $2,000    |
-| Channeling           | $1,800    |
-| Soul Speed III       | $3,200    |
-| Flame                | $1,500    |
-| Sharpness I          | $1,200    |
-| Mending              | $3,500    |
-| Silk Touch           | $3,000    |
-| Looting I            | $1,500    |
-| Power I              | $1,800    |
-| Fortune I            | $1,800    |
-| Protection I         | $1,000    |
-| Feather Falling I    | $1,000    |
-| Fire Aspect I        | $500      |
-| Infinity             | $2,250    |
-| Unbreaking I         | $800      |
-| Swift Sneak I        | $3000     |
+| Item Name (Material)                     | Buy Price |
+| ---------------------------------------- | --------- |
+| Bottle o' Enchanting (EXPERIENCE_BOTTLE) | $80       |
+| Lapis Ore (LAPIS_ORE)                    | $100      |
+| Lapis Lazuli (LAPIS_LAZULI)              | $60       |
+| Parchment Sheets (PAPER)                 | $50       |
+| Blank Tomes (BOOK)                       | $120      |
+| Book and Quill (WRITABLE_BOOK)           | $150      |
+| Arcane Altar (ENCHANTING_TABLE)          | $2,500    |
+| Ancient Bookshelves (BOOKSHELF)          | $250      |
+| Ender Pearls (ENDER_PEARL)               | $450      |
+| Efficiency III (ENCHANTED_BOOK)          | $3,400    |
+| Thorns III (ENCHANTED_BOOK)              | $2,500    |
+| Depth Strider III (ENCHANTED_BOOK)       | $2,200    |
+| Respiration III (ENCHANTED_BOOK)         | $1,800    |
+| Loyalty III (ENCHANTED_BOOK)             | $2,000    |
+| Channeling (ENCHANTED_BOOK)              | $1,800    |
+| Soul Speed III (ENCHANTED_BOOK)          | $3,200    |
+| Flame (ENCHANTED_BOOK)                   | $1,500    |
+| Sharpness I (ENCHANTED_BOOK)             | $1,200    |
+| Mending (ENCHANTED_BOOK)                 | $3,500    |
+| Silk Touch (ENCHANTED_BOOK)              | $3,000    |
+| Looting I (ENCHANTED_BOOK)               | $1,500    |
+| Power I (ENCHANTED_BOOK)                 | $1,800    |
+| Fortune I (ENCHANTED_BOOK)               | $1,800    |
+| Protection I (ENCHANTED_BOOK)            | $1,000    |
+| Feather Falling I (ENCHANTED_BOOK)       | $1,000    |
+| Fire Aspect I (ENCHANTED_BOOK)           | $500      |
+| Infinity (ENCHANTED_BOOK)                | $2,250    |
+| Unbreaking I (ENCHANTED_BOOK)            | $800      |
+| Swift Sneak I (ENCHANTED_BOOK)           | $3000     |
