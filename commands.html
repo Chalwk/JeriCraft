@@ -15,6 +15,11 @@ description: All JeriCraft commands for players and staff
     <button class="tab-btn" data-tab="staff">Staff Commands</button>
   </div>
 
+  <p>
+    These lists are periodically updated. If you find any errors or omissions,
+    please contact a staff member.
+  </p>
+
   <div id="player" class="tab-content active">
     {% capture player_commands %}{% include player-commands.md %}{% endcapture %}
     {{ player_commands | markdownify }}

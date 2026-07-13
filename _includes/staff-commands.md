@@ -1,24 +1,10 @@
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-This list is periodically updated. If you find any errors or omissions, please contact a staff member. JeriCraft uses a
-hierarchy of ranks to organize staff members. Here's an overview of our staff ranks and their respective privileges:
-
-## Staff Ranks:
-
-- **Sentinel (Trial Moderator)**: As an entry-level staff rank, Trial-Mods have access to essential moderation
-commands to help maintain the server's friendly environment.
-
-- **Justiciar (Moderator)**: Justiciars have access to all Trial-Mod commands and additional tools for managing and
-resolving issues efficiently.
-
-- **High-Lord (Administrator)**: High Lords have access to all Moderator and Trial-Mod commands, along with advanced
-tools for server management and behind-the-scenes operations.
-
-- **Sovereign**: The highest rank in the JeriCraft hierarchy, The owner has access to all staff commands and are
-responsible for overseeing the entire server. Each staff rank inherits the commands and permissions of the ranks below
-it, ensuring an organized and efficient staff structure for the best possible player experience.
+**💡 For more information about staff ranks, roles and responsibilities, see [Roles & Responsibilities Guide]({{site.baseurl}}/guides/roles-and-responsibilities)**.
 
 ---
+
+# Staff Commands
 
 | **Rank**  | **Command**                                                                                                        | **Description**                                                                                                                                                      | **Permission Node(s)**                                                                                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

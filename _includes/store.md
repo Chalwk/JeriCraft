@@ -33,7 +33,7 @@ perk is abused.
 
 ## Terms & Conditions:
 
-**All prices are in NZD (New Zealand Dollars).**
+<span style="color: #b8860b;"><strong>All prices are in NZD (New Zealand Dollars).</strong></span>
 
 ### Agreement to Terms:
 
