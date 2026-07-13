@@ -58,3 +58,14 @@ For detailed guides on each feature, check out our [Guides]({{site.baseurl}}/gui
 | ![Justicar](https://img.shields.io/badge/⚖️_Justicar-FFFF55?style=flat)   | Moderator    | Handles moderation: mute, kick, ban, and resolves disputes.                                  |
 | ![Highlord](https://img.shields.io/badge/🔱_Highlord-FF5555?style=flat)   | Admin        | Manages plugins, configs, and junior staff. Oversees server stability.                       |
 | ![Sovereign](https://img.shields.io/badge/👑_Sovereign-AA0000?style=flat) | Senior-Admin | Ultimate authority. Controls all systems, finances, and final decisions.                     |
+
+## Screenshots
+
+<!-- TODO: Add details -->
+
+<table>
+  <tr>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/pvp_pve_battles.png" width="250"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/quests.png" width="250"></td>
+  </tr>
+</table>

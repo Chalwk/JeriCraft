@@ -1048,13 +1048,6 @@ footer {
   }
 }
 
-.footer-server-info {
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  margin-top: 0.25rem;
-  font-weight: 500;
-}
-
 .footer-disclaimer {
   text-align: center;
   font-size: 0.8rem;
