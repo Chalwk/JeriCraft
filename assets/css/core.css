@@ -391,7 +391,9 @@ main {
 }
 
 .page-content table {
+  table-layout: fixed;
   width: 100%;
+  max-width: 100%;
   margin: 1rem 0;
   border-collapse: collapse;
   background: rgba(8, 12, 24, 0.22);
@@ -406,6 +408,9 @@ main {
   text-align: left;
   vertical-align: top;
   border: 1px solid var(--border-soft);
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .page-content th {
@@ -1031,5 +1036,14 @@ footer {
     width: 100%;
     max-width: 280px;
     justify-content: center;
+  }
+
+  .page-content table {
+    font-size: 0.75rem;
+  }
+
+  .page-content th,
+  .page-content td {
+    padding: 0.4rem 0.3rem;
   }
 }
