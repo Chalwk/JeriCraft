@@ -65,7 +65,7 @@ For detailed guides on each feature, check out our [Guides]({{site.baseurl}}/gui
 
 <table>
   <tr>
-    <td><img src="{{ site.baseurl }}/assets/images/advertising/pvp_pve_battles.png" width="250"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/advertising/quests.png" width="250"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/pvp_pve_battles.png" alt="img" width="250"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/quests.png" alt="img" width="250"></td>
   </tr>
 </table>
