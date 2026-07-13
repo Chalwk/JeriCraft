@@ -1047,3 +1047,23 @@ footer {
     padding: 0.4rem 0.3rem;
   }
 }
+
+.footer-server-info {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+.footer-disclaimer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  opacity: 0.8;
+  margin-top: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(139, 109, 63, 0.3);
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}

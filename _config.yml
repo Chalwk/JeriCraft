@@ -22,6 +22,8 @@ links:
   ban_appeal: https://github.com/Chalwk/JeriCraft/issues/new?template=ban-appeal.yml
   paypal: "https://www.paypal.com/ncp/payment"
 
+minecraft_version: "1.21.4"
+
 sass:
   style: compressed
 
