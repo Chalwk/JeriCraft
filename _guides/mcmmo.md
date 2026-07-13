@@ -11,6 +11,8 @@ Welcome to JeriCraft's **mcMMO** experience! mcMMO is a powerful plugin that add
 Minecraft, allowing players to level up a wide variety of abilities and unlock unique perks. This guide will help you
 navigate the exciting features and commands that mcMMO offers.
 
+<img src="{{ site.baseurl }}/assets/images/advertising/mcmmo.png" alt="img">
+
 ---
 
 {% include toc.html %}

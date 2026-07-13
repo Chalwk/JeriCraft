@@ -41,6 +41,24 @@ There are several ways to accumulate wealth within the JeriCraft economy:
 
 ---
 
+## NPC Merchants
+
+<!-- TODO: Add details -->
+
+<table>
+  <tr>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/arrowsmith.png" width="250"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/beekeeper.png" width="250"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/hunter.png" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/scribe.png" width="250"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/advertising/weaponsmith.png" width="250"></td>
+  </tr>
+</table>
+
+---
+
 ## Checking Your Balance & Paying Others
 
 Track and manage your money easily:

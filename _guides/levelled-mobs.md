@@ -10,6 +10,8 @@ permalink: /guides/levelled-mobs/
 Welcome to the **Levelled Mobs** guide! This plugin enhances your Minecraft experience by introducing an RPG-like system, 
 adding dynamic levels to mobs, and providing new challenges and rewards. Follow this guide to understand how it works:
 
+<img src="{{ site.baseurl }}/assets/images/advertising/levelled_mobs.png" alt="img">
+
 ---
 
 ## Leveled Mobs Overview

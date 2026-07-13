@@ -7,8 +7,10 @@ permalink: /guides/chest-shop/
 
 # ChestShop Tutorial
 
-Welcome to the **ChestShop Tutorial**! With ChestShop, you can create your own shops using signs and chests, making it
-easy to buy and sell items. Follow this step-by-step guide to set up your shop efficiently.
+With ChestShop, you can create your own shops using signs and chests, making it easy to buy and sell items.
+Follow this step-by-step guide to set up your shop efficiently.
+
+<img src="{{ site.baseurl }}/assets/images/advertising/chest_shops.png" alt="img">
 
 ---
 
@@ -28,9 +30,12 @@ Pro Tip: Use these materials for best results:
 - `Item Frames`
 - `Glowstone`
 
-Example Shop Design:
+<details>
+<summary>Example Shop Design (click to expand)</summary>
 
 <img src="{{ site.baseurl }}/assets/images/tutorials/chestshop_example.png" alt="img">
+
+</details>
 
 ---
 

@@ -12,6 +12,8 @@ experience by completing various tasks. Whether you prefer building, exploring, 
 this guide, we'll walk you through the essentials of joining jobs, using the commands, and succeeding in your chosen
 profession.
 
+<img src="{{ site.baseurl }}/assets/images/advertising/jobs.png" alt="img">
+
 ---
 
 {% include toc.html %}
