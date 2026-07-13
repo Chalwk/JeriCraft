@@ -5,7 +5,17 @@ permalink: /guides/getting-started/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# How to Join
+# Getting Started
+
+Everything you need to know to get started on **JeriCraft**, from joining the server and using essential commands to choosing a faction, starting jobs, protecting your land, and exploring the world.
+
+---
+
+{% include toc.html %}
+
+---
+
+## How to Join
 
 You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java Edition** (**1.21.4**).
 
