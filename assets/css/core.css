@@ -844,35 +844,6 @@ footer {
   }
 }
 
-.server-status {
-  margin-top: 1.5rem;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.status-dot {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #888;
-  transition: background 0.3s;
-}
-
-.status-dot.online {
-  background: #4caf50;
-  box-shadow: 0 0 8px #4caf50;
-}
-
-.status-dot.offline {
-  background: #f44336;
-  box-shadow: 0 0 8px #f44336;
-}
-
 .features {
   margin: 3rem 0 2rem;
   text-align: center;
