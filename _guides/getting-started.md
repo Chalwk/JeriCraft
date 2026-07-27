@@ -42,7 +42,6 @@ You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java 
 |                                  | `/ranklist`               | Shows a list of possible ranks.                                         |
 | **Economy & Trading**            | `/balance`, `/money`      | Check your in-game currency balance.                                    |
 |                                  | `/pay <player> <amount>`  | Send money to another player.                                           |
-|                                  | `/ah`                     | Open the auction GUI to buy and sell items.                             |
 | **Communication**                | `/msg <player> <message>` | Send a private message to another player.                               |
 |                                  | `/r <message>`            | Reply to the last private message.                                      |
 |                                  | `/ignore <player>`        | Ignore a player's messages.                                             |
@@ -101,7 +100,7 @@ supplies before you venture far into the unknown!
 
 - **Trade and Economy**
   The economy in JeriCraft is player-driven, so make sure to visit the marketplace and trade with other players. You can
-  sell items at chest shops, bid in auctions, or accept Job quests to earn money and build your wealth!
+  sell items at chest shops, or accept Job quests to earn money and build your wealth!
 
 - **Join the Community**
   Don't be afraid to ask for help or team up with other players! The **JeriCraft** community is welcoming and friendly.

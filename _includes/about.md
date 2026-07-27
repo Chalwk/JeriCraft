@@ -16,7 +16,7 @@
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Survival & Strategic Warfare** | Brave the wilds, fortify your homestead, or wage war against rival factions.                                                                                            |
 | **Factions**                     | Claim territory, draft laws, and lead alliances. Wage wars or broker peace, your faction's destiny is yours to carve.                                                   |
-| **Player-Driven Economy**        | Thrive in a bustling marketplace: barter at player-run Chest Shops, bid in auctions, or profit from daily Job quests.                                                   |
+| **Player-Driven Economy**        | Thrive in a bustling marketplace: barter at player-run Chest Shops, or profit from daily Job quests.                                                   |
 | **Specialized Professions**      | Master roles like weaponsmith, miner or hunter, each with unique progression paths and rewards.                                                                         |
 | **RPG Jobs**                     | Choose from 24+ professions including Alchemist, Farmer, Hunter, and Miner to earn money and experience through specialized tasks. Level up and unlock greater rewards. |
 | **Quests**                       | Complete rotating quests for rare loot, bonus XP, and escalating rewards that keep every day fresh.                                                                     |

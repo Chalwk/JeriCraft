@@ -9,7 +9,7 @@ permalink: /guides/prices/
 
 Welcome to the JeriCraft Market Price Reference! This guide provides **suggested base prices** for various traded items. 
 
-Use these prices as a fair starting point when setting up your Shops, listing items at auction, or trading with other players. 
+Use these prices as a fair starting point when setting up your Shops, or trading with other players. 
 
 > **Note:** These are **reference values only**. Actual market prices will fluctuate based on supply, demand, and overall server economic conditions.
 

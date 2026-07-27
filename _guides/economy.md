@@ -35,10 +35,6 @@ There are several ways to accumulate wealth within the JeriCraft economy:
 - **Playtime Reward**:  
   **Hourly Fiefdom Reward**: Grants **$100** and **5 levels** of **experience** every hour.
 
-- **Auctions**:  
-  Buy and sell items through auctions
-  See our [Auctions Guide]({{site.baseurl}}/guides/auctions) for more details.
-
 ---
 
 ## Checking Your Balance & Paying Others
@@ -62,7 +58,7 @@ Setting fair prices for your items is key to a healthy economy. To help you with
 
 Check out the full list here: [JeriCraft Price Guide]({{site.baseurl}}/guides/prices)
 
-Use these prices as a baseline when setting up your Chest Shops or listing items at auction. Keep in mind that actual market values will fluctuate based on supply and demand!
+Use these prices as a baseline when setting up your Chest Shops. Keep in mind that actual market values will fluctuate based on supply and demand!
 
 ---
 
