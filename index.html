@@ -5,37 +5,6 @@ title: Home
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-<style>
-  .coming-soon-btn.coming-soon-active {
-    opacity: 0.85;
-    animation: pulse-coming-soon 1.2s infinite;
-    cursor: default;
-    pointer-events: auto;
-  }
-
-  @keyframes pulse-coming-soon {
-    0% {
-      box-shadow: 0 0 0 0 rgba(211, 162, 86, 0.4);
-    }
-
-    70% {
-      box-shadow: 0 0 0 8px rgba(211, 162, 86, 0);
-    }
-
-    100% {
-      box-shadow: 0 0 0 0 rgba(211, 162, 86, 0);
-    }
-  }
-
-  .coming-soon-btn .btn-text {
-    transition: color 0.2s ease;
-  }
-
-  .coming-soon-btn.coming-soon-active .btn-text {
-    color: #0b1020;
-  }
-</style>
-
 <section class="hero">
   <div class="hero-content">
     <img alt="JeriCraft Logo" class="hero-logo" src="{{ site.baseurl }}/assets/images/logos/jericraft-logo-no-bg.png">
@@ -99,55 +68,3 @@ title: Home
     </a>
   </div>
 </section>
-
-<section class="cta">
-  <h2>Join the Adventure Today!</h2>
-  <p>Connect with us on Discord, vote for us, and start your journey.</p>
-  <div class="cta-buttons">
-    <a href="#" class="btn btn-discord coming-soon-btn" data-original-text="Discord" data-hover-text="Coming Soon">
-      <i class="fab fa-discord"></i> <span class="btn-text">Discord</span>
-    </a>
-    <a href="#" class="btn btn-vote coming-soon-btn" data-original-text="Vote for Us" data-hover-text="Coming Soon">
-      <i class="fas fa-star"></i> <span class="btn-text">Vote for Us</span>
-    </a>
-  </div>
-</section>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const btns = document.querySelectorAll('.coming-soon-btn');
-
-    btns.forEach(btn => {
-      const textSpan = btn.querySelector('.btn-text');
-      const originalText = btn.dataset.originalText;
-      const hoverText = btn.dataset.hoverText;
-
-      function setComingSoon(active) {
-        if (active) {
-          btn.classList.add('coming-soon-active');
-          textSpan.textContent = hoverText;
-        } else {
-          btn.classList.remove('coming-soon-active');
-          textSpan.textContent = originalText;
-        }
-      }
-
-      btn.addEventListener('mouseenter', function (e) {
-        setComingSoon(true);
-      });
-      btn.addEventListener('mouseleave', function (e) {
-        setComingSoon(false);
-      });
-
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        setComingSoon(true);
-        setTimeout(() => {
-          if (!btn.matches(':hover')) {
-            setComingSoon(false);
-          }
-        }, 2000);
-      });
-    });
-  });
-</script>
