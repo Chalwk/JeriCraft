@@ -21,18 +21,18 @@ claim land, build power, and raid enemy territories.
 The foundation of any great empire begins with its creation. Establish your own faction, forge alliances, and
 carve your legacy into the lands of JeriCraft.
 
-| **Command**                    | **Description**                                                             |
-| ------------------------------ | --------------------------------------------------------------------------- |
-| `/f create <name>`             | Establish your own kingdom and take the throne as its ruler.                |
-| `/f sethome`                   | Set your faction's home location (a safe haven for your kingdom).           |
-| `/f setwarp <name> [password]` | Set a warp point for quick travel. Optional password for restricted access. |
-| `/f disband`                   | Dissolve your kingdom, scattering its people and relinquishing its lands.   |
-| `/f perms`                     | Manage faction permissions for roles and actions.                           |
-| `/f announce <message...>`     | Broadcast a message to all faction members.                                 |
-| `/f tag <tag>`                 | Change your kingdom's official banner (name).                               |
-| `/f desc <description...>`     | Set a short description for your kingdom.                                   |
-| `/f delhome <name>`            | Remove your faction's home location.                                        |
-| `/f delwarp <name>`            | Remove a warp point.                                                        |
+| **Command**                    | **Description**                                                                                                                                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `/f create <name>`             | Establish your own kingdom and take the throne as its ruler.                                                                                           |
+| `/f sethome`                   | Set your faction's home location (a safe haven for your kingdom). **Note:** You must first claim at least one chunk of land before you can set a home. |
+| `/f setwarp <name> [password]` | Set a warp point for quick travel. Optional password for restricted access.                                                                            |
+| `/f disband`                   | Dissolve your kingdom, scattering its people and relinquishing its lands.                                                                              |
+| `/f perms`                     | Manage faction permissions for roles and actions.                                                                                                      |
+| `/f announce <message...>`     | Broadcast a message to all faction members.                                                                                                            |
+| `/f tag <tag>`                 | Change your kingdom's official banner (name).                                                                                                          |
+| `/f desc <description...>`     | Set a short description for your kingdom.                                                                                                              |
+| `/f delhome <name>`            | Remove your faction's home location.                                                                                                                   |
+| `/f delwarp <name>`            | Remove a warp point.                                                                                                                                   |
 
 ---
 
@@ -83,7 +83,9 @@ influence. Grant **leadership roles** to trusted members to help you manage your
 A kingdom is nothing without its territory! Factions must **claim land** to establish castles, villages, and
 fortifications.
 
-ℹ️ Once created, you become the **leader** of your faction, wielding the power to **expand your domain**,
+ℹ️ **Important:** Factions are only enabled in the main survival world (`world`). You cannot claim land or perform faction actions in other worlds (e.g., the Nether or the End).
+
+Once created, you become the **leader** of your faction, wielding the power to **expand your domain**,
 **recruit allies**, and **command your kingdom's fate**. You can **manage your faction's land, power, and members** to
 build an empire that stands the test of time.
 
@@ -261,5 +263,3 @@ Factions can form alliances, truces, or enmity with other factions. Manage your 
 - **Maximum Allies:** `5`
 - **Maximum Truces:** `5`
 - **Neutral Relations:** Unlimited
-
----
