@@ -61,9 +61,9 @@ guide on how to get started.
 
 ### 1. Choose Your Faction
 
-When you first join, you'll want to join a **Faction**. Factions allow you to claim land, protect your assets, and work
-together with others to dominate or defend the realm. Whether you seek to build a peaceful kingdom or lead an army into
-battle, the choice is yours! To join a faction, simply ask around, or use the `/f create` command to create your own.
+When you first join, you'll want to join (or create) a **Faction**. Factions allow you to claim land, protect your assets,
+and work together with others to dominate or defend the realm. Whether you seek to build a peaceful kingdom or lead an army
+into battle, the choice is yours! To join a faction, simply ask around, or use the `/f create` command to create your own.
 You can also use `/f join <faction name>` to join an existing one (if it's open).
 
 ### 2. Get Your Kits
