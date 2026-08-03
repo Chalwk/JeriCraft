@@ -96,7 +96,7 @@ build an empire that stands the test of time.
 | `/f autoclaim [faction]`           | Automatically claim chunks as you move.                                                                                 |
 | `/f unclaimall`                    | Release all faction-owned land at once.                                                                                 |
 | `/f list claims [world] [faction]` | List all claims for a specific world or faction.                                                                        |
-| *(Server‑specific extensions)*     | *If you have additional claim commands (e.g., `/f claimfill`, `/f claimline`), they may still work – check with staff.* |
+| *(Server‑specific extensions)*     | *If you have additional claim commands (e.g., `/f claimfill`, `/f claimline`), they may still work - check with staff.* |
 
 ---
 
@@ -138,7 +138,7 @@ These commands are available to all players for managing their faction and gamep
 
 ## Additional Useful Commands
 
-These are core commands that every faction player should know – they cover relations, information, vaults, TNT, and more.
+These are core commands that every faction player should know - they cover relations, information, vaults, TNT, and more.
 
 | **Command**                                      | **Description**                                                            |
 | ------------------------------------------------ | -------------------------------------------------------------------------- |

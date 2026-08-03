@@ -2,7 +2,7 @@
 
 # About Us
 
-JeriCraft is a **Medieval-themed SMP/RPG Factions server** operating on **Minecraft Java Edition**. Its architecture and overall aesthetic are inspired by the **Late Middle Ages**, roughly **1320–1400**, with a strong Northern European influence, particularly Scandinavian, Hanseatic, and North German styles.
+JeriCraft is a **Medieval-themed SMP/RPG Factions server** operating on **Minecraft Java Edition**. Its architecture and overall aesthetic are inspired by the **Late Middle Ages**, roughly **1320-1400**, with a strong Northern European influence, particularly Scandinavian, Hanseatic, and North German styles.
 
 At its heart, JeriCraft is about **player choice and community**. Every player shapes their own legend where alliances are forged, kingdoms rise and fall, and fortunes are made through trade or cunning conquest.
 
