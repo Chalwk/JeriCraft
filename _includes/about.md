@@ -2,7 +2,15 @@
 
 # About Us
 
-**Hear ye, hear ye!** Welcome to **JeriCraft**, a **Medieval SMP/RPG Factions** server set in a medieval world with **RPG gameplay**, a **Player-Driven Economy**, and **PvP/PvE skirmishes**. Whether you're a brave adventurer, master merchant, or humble farmer, there's a place for you in our growing kingdom, where every player can shape their legend in a dynamic, ever-evolving realm.
+JeriCraft is a **Medieval-themed SMP/RPG Factions server** operating on **Minecraft Java Edition**. Its architecture and overall aesthetic are inspired by the **Late Middle Ages**, roughly **1320–1400**, with a strong Northern European influence, particularly Scandinavian, Hanseatic, and North German styles.
+
+At its heart, JeriCraft is about **player choice and community**. Every player shapes their own legend where alliances are forged, kingdoms rise and fall, and fortunes are made through trade or cunning conquest.
+
+JeriCraft features an **RPG progression system**. You can choose from more than twenty specialized professions like Alchemist, Hunter, or Miner through our **Jobs** system, and level up combat and crafting skills with **mcMMO**. **Factions** and territory management allow you to claim land, build fortresses, forge alliances, and wage war.
+
+The **player-driven economy**, alongside **NPC Merchants**, is another core feature. Players can set up Chest Shops, profit from daily Job Quests, and purchase goods from NPCs.
+
+The world itself is dynamic, with **four distinct seasons** that affect crop growth, mob behavior, and resource scarcity. Players also face custom, adaptive, scaling mobs that grow deadlier as they progress.
 
 ---
 
@@ -16,7 +24,7 @@
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Survival & Strategic Warfare** | Brave the wilds, fortify your homestead, or wage war against rival factions.                                                                                            |
 | **Factions**                     | Claim territory, draft laws, and lead alliances. Wage wars or broker peace, your faction's destiny is yours to carve.                                                   |
-| **Player-Driven Economy**        | Thrive in a bustling marketplace: barter at player-run Chest Shops, or profit from daily Job quests.                                                   |
+| **Player-Driven Economy**        | Thrive in a bustling marketplace: barter at player-run Chest Shops, or profit from daily Job quests.                                                                    |
 | **Specialized Professions**      | Master roles like weaponsmith, miner or hunter, each with unique progression paths and rewards.                                                                         |
 | **RPG Jobs**                     | Choose from 24+ professions including Alchemist, Farmer, Hunter, and Miner to earn money and experience through specialized tasks. Level up and unlock greater rewards. |
 | **Quests**                       | Complete rotating quests for rare loot, bonus XP, and escalating rewards that keep every day fresh.                                                                     |
