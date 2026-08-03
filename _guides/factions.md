@@ -29,8 +29,8 @@ carve your legacy into the lands of JeriCraft.
 | `/f disband`                   | Dissolve your kingdom, scattering its people and relinquishing its lands.                                                                              |
 | `/f perms`                     | Manage faction permissions for roles and actions.                                                                                                      |
 | `/f announce <message...>`     | Broadcast a message to all faction members.                                                                                                            |
-| `/f tag <tag>`                 | Change your kingdom's official banner (name).                                                                                                          |
-| `/f desc <description...>`     | Set a short description for your kingdom.                                                                                                              |
+| `/f set tag <tag>`             | Change your kingdom's official banner (name).                                                                                                          |
+| `/f set description <desc>`    | Set a short description for your kingdom.                                                                                                              |
 | `/f delhome <name>`            | Remove your faction's home location.                                                                                                                   |
 | `/f delwarp <name>`            | Remove a warp point.                                                                                                                                   |
 
@@ -47,7 +47,7 @@ A kingdom thrives on its people! Recruit allies, build a loyal court, and manage
 | `/f home`                   | Teleport to your faction's home location.                                  |
 | `/f warp [name] [password]` | Teleport to a faction warp point. Optional password for restricted access. |
 | `/f chat <mode>`            | Switch between faction, alliance, or public chat modes.                    |
-| `/f togglealliancechat`     | Toggle alliance chat on or off.                                            |
+| `/f toggle alliancechat`    | Toggle alliance chat on or off.                                            |
 
 ---
 
@@ -59,22 +59,22 @@ Manage your faction's members, ranks, and permissions to build a strong and loya
 and strategy. More members mean **more power**, which allows your faction to **claim more land** and expand its
 influence. Grant **leadership roles** to trusted members to help you manage your growing kingdom.
 
-| **Command**                 | **Description**                                         |
-| --------------------------- | ------------------------------------------------------- |
-| `/f invite <target>`        | Extend an invitation to a worthy knight or ally.        |
-| `/f kick <target>`          | Exile a member from your faction.                       |
-| `/f ban <target>`           | Ban a player from joining your faction.                 |
-| `/f unban <target>`         | Unban a player, allowing them to rejoin your faction.   |
-| `/f admin <player>`         | Grant admin privileges to a member.                     |
-| `/f coleader [name]`        | Promote a member to co-leader.                          |
-| `/f promote <name>`         | Elevate a member to a higher rank of leadership.        |
-| `/f mod [name]`             | Grant moderator status to a member.                     |
-| `/f demote <name>`          | Lower a member's rank.                                  |
-| `/f deinvite <target>`      | Retract an invitation before it is accepted.            |
-| `/f open`                   | Toggle whether your faction is open for anyone to join. |
-| `/f defaultrole <role>`     | Set the default role for new members.                   |
-| `/f title <player> [title]` | Set a custom title for a faction member.                |
-| `/f banlist`                | View a list of banned players.                          |
+| **Command**                     | **Description**                                         |
+| ------------------------------- | ------------------------------------------------------- |
+| `/f invite <target>`            | Extend an invitation to a worthy knight or ally.        |
+| `/f kick <target>`              | Exile a member from your faction.                       |
+| `/f ban <target>`               | Ban a player from joining your faction.                 |
+| `/f unban <target>`             | Unban a player, allowing them to rejoin your faction.   |
+| `/f role <member> admin`        | Grant admin privileges to a member.                     |
+| `/f role <member> coleader`     | Promote a member to co-leader.                          |
+| `/f promote <name>`             | Elevate a member to a higher rank of leadership.        |
+| `/f role <member> moderator`    | Grant moderator status to a member.                     |
+| `/f demote <name>`              | Lower a member's rank.                                  |
+| `/f deinvite <target>`          | Retract an invitation before it is accepted.            |
+| `/f open`                       | Toggle whether your faction is open for anyone to join. |
+| `/f set defaultrole <role>`     | Set the default role for new members.                   |
+| `/f set title <player> [title]` | Set a custom title for a faction member.                |
+| `/f banlist`                    | View a list of banned players.                          |
 
 ---
 
@@ -89,20 +89,14 @@ Once created, you become the **leader** of your faction, wielding the power to *
 **recruit allies**, and **command your kingdom's fate**. You can **manage your faction's land, power, and members** to
 build an empire that stands the test of time.
 
-| **Command**                                   | **Description**                                                    |
-| --------------------------------------------- | ------------------------------------------------------------------ |
-| `/f claim [radius] [faction]`                 | Seize control of a chunk of land for your kingdom.                 |
-| `/f unclaim [radius] [faction]`               | Relinquish a previously claimed territory.                         |
-| `/f autoclaim [faction]`                      | Automatically claim chunks as you move.                            |
-| `/f autounclaim [faction]`                    | Automatically unclaim chunks as you move.                          |
-| `/f claimat <world> <x> <z>`                  | Claim a specific chunk at the given coordinates.                   |
-| `/f claimfill [amount] [faction]`             | Automatically claim up to `25` chunks within a `5`-chunk radius.   |
-| `/f claimline [amount] [direction] [faction]` | Claim a line of chunks in a specific direction.                    |
-| `/f listclaims [world] [faction]`             | List all claims for a specific world or faction.                   |
-| `/f unclaimall`                               | Release all faction-owned land at once.                            |
-| `/f safeunclaimall [world]`                   | Safely unclaim all territories in your world.                      |
-| `/f unclaimfill [amount] [faction]`           | Automatically unclaim up to `25` chunks within a `5`-chunk radius. |
-| `/f warunclaimall [world]`                    | Unclaim all warzone claims.                                        |
+| **Command**                        | **Description**                                                                                                         |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `/f claim [radius] [faction]`      | Seize control of a chunk of land for your kingdom.                                                                      |
+| `/f unclaim [radius] [faction]`    | Relinquish a previously claimed territory.                                                                              |
+| `/f autoclaim [faction]`           | Automatically claim chunks as you move.                                                                                 |
+| `/f unclaimall`                    | Release all faction-owned land at once.                                                                                 |
+| `/f list claims [world] [faction]` | List all claims for a specific world or faction.                                                                        |
+| *(Server‑specific extensions)*     | *If you have additional claim commands (e.g., `/f claimfill`, `/f claimline`), they may still work – check with staff.* |
 
 ---
 
@@ -112,16 +106,13 @@ A kingdom is built on wealth! Manage your faction's finances to fund expansions 
 
 ℹ️ For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide]({{site.baseurl}}/guides/economy).
 
-| **Command**                                      | **Description**                                                              |
-| ------------------------------------------------ | ---------------------------------------------------------------------------- |
-| `/f money`                                       | View the faction's current bank balance.                                     |
-| `/f money deposit <amount> [faction]`            | Deposit a specific amount of money into the faction's bank.                  |
-| `/f money withdraw <amount> [faction]`           | Withdraw a specified amount of money from the faction's bank.                |
-| `/f money balance`                               | See the available funds in the faction bank.                                 |
-| `/f money pf <amount> <playerfrom> <factionto>`  | Transfer money from a player to a faction.                                   |
-| `/f money fp <amount> <factionfrom> <playerto>`  | Transfer money from a faction to a player.                                   |
-| `/f money ff <amount> <factionfrom> <factionto>` | Transfer money between two factions (from one faction to another).           |
-| `/f money modify <amount> <faction>`             | Modify the faction's bank balance manually (for admins or authorized users). |
+| **Command**                                   | **Description**                                               |
+| --------------------------------------------- | ------------------------------------------------------------- |
+| `/f money`                                    | View the faction's current bank balance.                      |
+| `/f money deposit <amount> [faction]`         | Deposit a specific amount of money into the faction's bank.   |
+| `/f money withdraw <amount> [faction]`        | Withdraw a specified amount of money from the faction's bank. |
+| `/f money balance`                            | See the available funds in the faction bank.                  |
+| `/f money send <amount> <player/faction>`     | Send money from your personal balance to a player or faction. |
 
 ---
 
@@ -132,40 +123,42 @@ These commands are available to all players for managing their faction and gamep
 | **Command**                | **Description**                                                                          |
 | -------------------------- | ---------------------------------------------------------------------------------------- |
 | `/f map [on/off]`          | View the faction map of the area around you.                                             |
+| `/f map --set-height <n>`  | Set how many lines your `/f map` will show.                                              |
 | `/f coords`                | Send faction members your current position.                                              |
 | `/f near`                  | Show nearby faction members.                                                             |
 | `/f status`                | Show status of all players in your faction.                                              |
 | `/f top <criteria> [page]` | List top factions by criteria (members, start, power, land, online, money).              |
 | `/f stuck`                 | Attempt to teleport to the nearest wilderness chunk.                                     |
-| `/f sb`                    | Toggle the factions scoreboard on or off.                                                |
+| `/f toggle scoreboard`     | Toggle the factions scoreboard on or off (shortcut: `/f sb`).                            |
+| `/f toggle seechunk`       | See outlines around the border of the chunk you're standing in (shortcut: `/f sc`).      |
 | `/f boom [on/off]`         | Toggle peaceful explosions in your faction's territory.                                  |
-| `/f sc`                    | See outlines around the border of the chunk you're standing in.                          |
-| `/f ownerlist`             | Get the current owner of the chunk you're in if it's in your faction.                    |
-| `/f mapheight [value]`     | Set how many lines your `/f map` will show.                                              |
 | `/f seechunk`              | See the chunk you're in (represented with particles): Green = Claimed, Gray = Unclaimed. |
 
 ---
 
-## Admin Commands
+## Additional Useful Commands
 
-These commands are reserved for server administrators to manage factions and gameplay mechanics.
+These are core commands that every faction player should know – they cover relations, information, vaults, TNT, and more.
 
-| **Command**                                      | **Description**                                                         |
-| ------------------------------------------------ | ----------------------------------------------------------------------- |
-| `/f bypass`                                      | Set yourself to bypass faction permission checks.                       |
-| `/f reload`                                      | Reload configurations (lang.yml, config.yml, conf.json).                |
-| `/f saveall`                                     | Force save all factions data to disk.                                   |
-| `/f modifypower <name> <power>`                  | Modify a player's power.                                                |
-| `/f peaceful <faction>`                          | Set a faction to being peaceful.                                        |
-| `/f permanent <faction>`                         | Set a faction to permanent status.                                      |
-| `/f chatspy`                                     | Enable spying on all private chat channels.                             |
-| `/f ahome <target>`                              | Teleport a player to their faction's home.                              |
-| `/f owner [name]`                                | Set claim ownership for this chunk. Admins can specify a target player. |
-| `/f powerboost <player/faction> <name> <number>` | Set powerboost of a player or faction.                                  |
-| `/f permanentpower <faction> [power]`            | Set permanent power to a faction.                                       |
-| `/f setmaxvaults <faction> <number>`             | Set the max vaults a faction can have.                                  |
-| `/f version`                                     | Show the version string for FactionsUUID.                               |
-| `/f warpother <faction> [name] [password]`       | Teleport another faction to a warp point.                               |
+| **Command**                                      | **Description**                                                            |
+| ------------------------------------------------ | -------------------------------------------------------------------------- |
+| `/f show [faction]`                              | Display detailed information about a faction (members, land, power, etc.). |
+| `/f list [page]`                                 | List all factions on the server, sorted by power.                          |
+| `/f list claims [faction]`                       | List all claimed chunks for a faction.                                     |
+| `/f list invites`                                | Show pending invitations for your faction.                                 |
+| `/f list bans`                                   | Show banned players for your faction.                                      |
+| `/f relation <faction> ally/enemy/neutral/truce` | Set your faction's relationship with another faction.                      |
+| `/f power [player]`                              | Check your own or another player's current power.                          |
+| `/f vault <number>`                              | Access your faction's vault (shared storage).                              |
+| `/f tnt`                                         | View your faction's TNT bank (used for raiding).                           |
+| `/f tnt deposit <amount>`                        | Deposit TNT into your faction's bank.                                      |
+| `/f tnt withdraw <amount>`                       | Withdraw TNT from your faction's bank.                                     |
+| `/f shield`                                      | View your faction's shield status (protects against raids).                |
+| `/f shield activate`                             | Activate your faction's shield (if available).                             |
+| `/f upgrades`                                    | View available faction upgrades and their costs.                           |
+| `/f clear claims`                                | Remove all claims (use with caution).                                      |
+| `/f clear invites`                               | Clear all outstanding invitations.                                         |
+| `/f clear bans`                                  | Clear all bans from your faction.                                          |
 
 ---
 
