@@ -41,7 +41,7 @@ perk is abused.
 
 ## Terms & Conditions:
 
-<span style="color: #b8860b;"><strong>All prices are in NZD (New Zealand Dollars).</strong></span>
+<span style="color: #b8860b;"><strong>All prices are in USD (United States Dollars)..</strong></span>
 
 ### Agreement to Terms:
 
@@ -59,13 +59,11 @@ perk is abused.
 
 ### Payment Responsibility:
 
-- Donations must be made using your PayPal account. You are solely responsible for any actions taken through your
-  account.
+- Payments must be made using your own authorized payment account or method. You are solely responsible for any actions taken through your account.
 
 ### Perk Misuse:
 
-- Misuse of perk(s) is strictly prohibited. The server Owner/Admin reserves the right to revoke your perk(s) at any time
-  if misuse is suspected.
+- Misuse of perk(s) is strictly prohibited. The server Owner/Admin reserves the right to revoke your perk(s) at any time if misuse is suspected.
 
 ### Perk Availability:
 
@@ -130,5 +128,4 @@ Preview kits in-game with `/kitpreview <name>`
 
 ## Disclaimer
 
-**JeriCraft is not affiliated with Mojang AB.** All contributions go directly to the JeriCraft Management and
-Development Team. For support, inquiries, or purchase history, email us at **chalwk.dev@gmail.com**.
+**JeriCraft is not affiliated with Mojang AB.** All contributions go directly to the JeriCraft Management and Development Team. For support, inquiries, or purchase history, email us at **chalwk.dev@gmail.com**.
