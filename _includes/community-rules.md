@@ -133,5 +133,12 @@ coordinating raids via Discord DMs.
 
 ## Final Note
 
-**Our Discord server is an extension of our gaming community.** Treat it with the same respect as our game servers.<br>
-Use **common sense**, follow [Discord's Terms of Service](https://discord.com/terms), and remember: **rules apply to all text/voice channels, DMs, and server-related groups**.
+**Our Discord server is an extension of our gaming community.** Treat it with the same respect as our game server.  
+Use **common sense**, and remember: these rules apply to **all text/voice channels, DMs, and server-related groups**.
+
+By playing on JeriCraft, you also agree to abide by the overarching terms set by our platform providers:
+- [Mojang Studios End User License Agreement (EULA)](https://www.minecraft.net/en-us/eula)
+- [Microsoft Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Discord Terms of Service](https://discord.com/terms)
+
+Violations of these external terms (such as account sharing that leads to a ban, or using cheated clients) may result in the same disciplinary actions outlined in our tiered system.
