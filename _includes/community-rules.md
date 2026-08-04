@@ -50,6 +50,20 @@ The following rules apply to the JeriCraft **Minecraft and Discord** servers:
 
 ---
 
+### Artisan Rank & Creative Mode Rules
+
+The Artisan rank is a **building and creative tool**, not a gameplay advantage. Players granted this rank are expected to use it responsibly and in accordance with these specific rules.
+
+| Rule                                      | Description                                                                                                                                                                                                                                                                   |
+| :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **No Creative Mode in Faction Territory** | Players in **CREATIVE mode** are strictly prohibited from placing or breaking any blocks in **faction-claimed territory**. This includes, but is not limited to: building, modifying, or destroying structures, terrain, or any other blocks within a faction's claimed land. |
+| **No Scouting or Harassment**             | Players in Creative mode may not use flight to scout, spy on, or harass members of other factions. This includes flying over bases, following players, or gathering intelligence on behalf of a faction.                                                                      |
+| **Building for Others**                   | Artisan players may build for themselves or for community projects, but must not build fortifications, defenses, or strategic structures for other factions or players.                                                                                                       |
+| **Protected Regions**                     | Creative mode players must respect all WorldGuard protected regions and spawn areas. These areas are off-limits for any building or modification.                                                                                                                             |
+| **Staff Enforcement**                     | Staff members (Sentinel and above) are authorized to monitor Creative mode players. Any violations of these rules will result in disciplinary action, which may include the immediate revocation of the Artisan rank.                                                         |
+
+---
+
 ## Tiered Punishment System
 
 To ensure fairness, we use a **tiered punishment system**. Consequences are determined by the severity of the offense

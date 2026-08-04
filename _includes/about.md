@@ -44,7 +44,7 @@ For detailed guides on each feature, check out our [Guides]({{site.baseurl}}/gui
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | ![Commoner](https://img.shields.io/badge/🏚️_Commoner-Guest-808080?style=flat)  | Discord guests toiling in the fields or players on the Minecraft server without membership. |
 | ![Villager](https://img.shields.io/badge/🏘️_Villager-Member-555555?style=flat) | The Member rank is for players who have linked their Discord account                        |
-| ![Artisan](https://img.shields.io/badge/🏗️_Artisan-Builder-5555FF?style=flat)  | The Builder rank is for players who have applied for World Edit and Creative mode access.   |
+| ![Artisan](https://img.shields.io/badge/🏗️_Artisan-Builder-5555FF?style=flat)  | The Artisan rank is for builders. It is a tool for creation, not an advantage for survival. |
 
 ## Donor Ranks (Nobility)
 
