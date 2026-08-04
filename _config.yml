@@ -3,8 +3,8 @@
 title: JeriCraft
 description: Official website for the JeriCraft Minecraft community.
 
-url: "https://chalwk.github.io"
-baseurl: "/JeriCraft"
+url: "https://jericraft.net"
+baseurl: ""
 locale: en_NZ
 timezone: Pacific/Auckland
 site_scale: 0.65
