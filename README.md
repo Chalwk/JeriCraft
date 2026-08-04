@@ -23,6 +23,18 @@ For the full legal terms, please read the [LICENSE](LICENSE) file.
 
 ---
 
+## Community Rules
+
+All members are required to abide by the official **JeriCraft Community Rules**.
+These rules apply to both our **Minecraft server** and **Discord community**.
+
+**[Read the Full Community Rules](https://github.com/Chalwk/JeriCraft/blob/main/_includes/community-rules.md)**
+
+By joining our Minecraft server or Discord, you agree to follow these guidelines.  
+Violations may result in disciplinary action, including bans across all platforms.
+
+---
+
 ## Contact
 
 For questions, licensing inquiries, or collaboration proposals:
