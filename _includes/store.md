@@ -95,73 +95,30 @@ perk is abused.
 
 ---
 
-### 2. Factions
+### 2. Survival & Utility
 
-| PERK                                             | PRICE  | DESCRIPTION                |
-| ------------------------------------------------ | ------ | -------------------------- |
-| [Player Power Boost +5]({{site.links.paypal}}/)  | $10.00 | Add +5 to your max power.  |
-| [Player Power Boost +10]({{site.links.paypal}}/) | $16.00 | Add +10 to your max power. |
-| [Player Power Boost +15]({{site.links.paypal}}/) | $22.00 | Add +15 to your max power. |
-| [Player Power Boost +20]({{site.links.paypal}}/) | $28.00 | Add +20 to your max power. |
-| [Player Power Boost +25]({{site.links.paypal}}/) | $34.00 | Add +25 to your max power. |
-| [Player Power Boost +30]({{site.links.paypal}}/) | $40.00 | Add +30 to your max power. |
+| **PERK**                                     | **PRICE** | **DESCRIPTION**                                                                                                                                                                                                                 | **PERMISSION**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Armor Stand Editor]({{site.links.paypal}}/) | $15.00    | Customize armor stands with various options like plate, head, body, size, arms, legs, torso, interactivity, glow, position, and name.<br><br>Usage: [Please refer to this guide](https://www.zrips.net/cmi/armor-stand-editor/) | `cmi.command.armorstand`, `cmi.command.armorstand.plate`, `cmi.command.armorstand.head`, `cmi.command.armorstand.body`, `cmi.command.armorstand.size`, `cmi.command.armorstand.arms`, `cmi.command.armorstand.rightarm`, `cmi.command.armorstand.leftarm`, `cmi.command.armorstand.rightleg`, `cmi.command.armorstand.leftleg`, `cmi.command.armorstand.torso`, `cmi.command.armorstand.interactable`, `cmi.command.armorstand.glow`, `cmi.command.armorstand.pos`, `cmi.command.armorstand.name` |
 
 ---
 
-### 3. Survival & Utility
-
-| **PERK**                                          | **PRICE** | **DESCRIPTION**                                                                                                                                                                                                                 | **PERMISSION**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Armor Stand Editor]({{site.links.paypal}}/)      | $15.00    | Customize armor stands with various options like plate, head, body, size, arms, legs, torso, interactivity, glow, position, and name.<br><br>Usage: [Please refer to this guide](https://www.zrips.net/cmi/armor-stand-editor/) | `cmi.command.armorstand`, `cmi.command.armorstand.plate`, `cmi.command.armorstand.head`, `cmi.command.armorstand.body`, `cmi.command.armorstand.size`, `cmi.command.armorstand.arms`, `cmi.command.armorstand.rightarm`, `cmi.command.armorstand.leftarm`, `cmi.command.armorstand.rightleg`, `cmi.command.armorstand.leftleg`, `cmi.command.armorstand.torso`, `cmi.command.armorstand.interactable`, `cmi.command.armorstand.glow`, `cmi.command.armorstand.pos`, `cmi.command.armorstand.name` |
-| [Keep Inventory on Death]({{site.links.paypal}}/) | $35.00    | Keep your items upon death to avoid loss and frustration.                                                                                                                                                                       | `cmi.keepinventory`                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [Keep XP on Death]({{site.links.paypal}}/)        | $35.00    | Preserve experience levels when you die.                                                                                                                                                                                        | `cmi.keepexp`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-
----
-
-### 4. Commands & Abilities
-
-| **PERK**                                        | **PRICE** | **DESCRIPTION**                                                                                                                                 | **PERMISSION**                                     |
-| ----------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| [Item Magnet Ability]({{site.links.paypal}}/)   | $10.00    | Automatically pull nearby dropped items into your inventory<br><br>Usage: `/magnet`                                                             | `magnet.use`                                       |
-| [Night Vision Ability]({{site.links.paypal}}/)  | $18.00    | See clearly in dark areas without the need for torches or other light sources, giving you an edge in nighttime exploration.<br><br>Usage: `/nv` | `nightvision.use`                                  |
-| [Instant Tool Repair]({{site.links.paypal}}/)   | $25.00    | Instantly repair the item in your hand.<br><br>Usage: `/repair`.                                                                                | `cmi.command.repair`, `cmi.command.repair.hand`    |
-| [Flight Ability]({{site.links.paypal}}/)        | $40.00    | Fly freely in the world.<br><br>Usage: `/fly`                                                                                                   | `cmi.command.fly`                                  |
-| [Flight Speed Increase]({{site.links.paypal}}/) | $9.00     | Increase your flight speed.<br><br>Usage: `/flyspeed <speed (max 5)>`                                                                           | `cmi.command.flyspeed`, `cmi.command.flyspeed.5`   |
-| [Walk Speed Increase]({{site.links.paypal}}/)   | $9.00     | Increase your walking speed.<br><br>Usage: `/walkspeed <speed (max 5)>`                                                                         | `cmi.command.walkspeed`, `cmi.command.walkspeed.5` |
-
----
-
-### 5. Jobs & Economy
-
-| **PERK**                                          | **PRICE** | **DESCRIPTION**            | **PERMISSION**          |
-| ------------------------------------------------- | --------- | -------------------------- | ----------------------- |
-| [Increase Job Limit to 5]({{site.links.paypal}}/) | $10.00    | Unlock 5 simultaneous jobs | `jobs.max.5`            |
-| [Increase Job Limit to 6]({{site.links.paypal}}/) | $12.00    | Unlock 6 simultaneous jobs | `jobs.max.6`            |
-| [Increase Job Limit to 7]({{site.links.paypal}}/) | $14.00    | Unlock 7 simultaneous jobs | `jobs.max.7`            |
-| [Increase Job Limit to 8]({{site.links.paypal}}/) | $16.00    | Unlock 8 simultaneous jobs | `jobs.max.8`            |
-| [Chest Shop 5% Discount]({{site.links.paypal}}/)  | $10.00    | 5% discount on all items   | `chestshop.discount.5`  |
-| [Chest Shop 10% Discount]({{site.links.paypal}}/) | $20.00    | 10% discount on all items  | `chestshop.discount.10` |
-| [Chest Shop 15% Discount]({{site.links.paypal}}/) | $30.00    | 15% discount on all items  | `chestshop.discount.15` |
-| [Chest Shop 20% Discount]({{site.links.paypal}}/) | $40.00    | 20% discount on all items  | `chestshop.discount.20` |
-
----
-
-### 6. Kits
+### 3. Kits
 
 Enhance your building and crafting experience in JeriCraft with our versatile Kits!
 Preview kits in-game with `/kitpreview <name>`
 
-| **PERK**                             | **PRICE** | **DESCRIPTION**                                                                                                                                                                      | **PERMISSION**       |
-| ------------------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
-| [Banner]({{site.links.paypal}}/)     | $6.00     | Gain access to a kit containing 16 of each banner.<br>Cooldown Period: 4 hours</br>Use `/kit banner` to access.                                                                      | `cmi.kit.banner`     |
-| [Glass]({{site.links.paypal}}/)      | $8.00     | Gain access to a kit containing 16 of each glass block.<br>Cooldown Period: 4 hours</br>Use `/kit glass` to access.                                                                  | `cmi.kit.glass`      |
-| [Terracotta]({{site.links.paypal}}/) | $8.00     | Gain access to a kit containing 16 of each terracotta block.<br>Cooldown Period: 4 hours</br>Use `/kit terracotta` to access.                                                        | `cmi.kit.terracotta` |
-| [Wool]({{site.links.paypal}}/)       | $10.00    | Gain access to a kit containing 16 of each wool block.<br>Cooldown Period: 4 hours</br>Use `/kit wool` to access.                                                                    | `cmi.kit.wool`       |
-| [Pyro]({{site.links.paypal}}/)       | $11.00    | Unlock the Pyro kit, providing you with all the tools and materials you need to harness the power of fire and explosions.<br>Cooldown Period: 4 hours</br>Use `/kit pyro` to access. | `cmi.kit.pyro`       |
+| **PERK**                              | **PRICE** | **DESCRIPTION**                                                                                                                                                                                                   | **PERMISSION**        |
+| ------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| [Banner]({{site.links.paypal}}/)      | $6.00     | Gain access to a kit containing 16 of each banner.<br>Cooldown Period: 4 hours</br>Use `/kit banner` to access.                                                                                                   | `cmi.kit.banner`      |
+| [Glass]({{site.links.paypal}}/)       | $8.00     | Gain access to a kit containing 16 of each glass block.<br>Cooldown Period: 4 hours</br>Use `/kit glass` to access.                                                                                               | `cmi.kit.glass`       |
+| [Terracotta]({{site.links.paypal}}/)  | $8.00     | Gain access to a kit containing 16 of each terracotta block.<br>Cooldown Period: 4 hours</br>Use `/kit terracotta` to access.                                                                                     | `cmi.kit.terracotta`  |
+| [Wool]({{site.links.paypal}}/)        | $10.00    | Gain access to a kit containing 16 of each wool block.<br>Cooldown Period: 4 hours</br>Use `/kit wool` to access.                                                                                                 | `cmi.kit.wool`        |
+| [Hearthlight]({{site.links.paypal}}/) | $11.00    | Purely decorative fire-and-warmth themed building kit: lanterns, candles, campfires, and glowstone/magma-block accents to light up your builds.<br>Cooldown Period: 4 hours</br>Use `/kit hearthlight` to access. | `cmi.kit.hearthlight` |
 
 ---
 
-### 7. Miscellaneous
+### 4. Miscellaneous
 
 | **PERK**                                   | **PRICE** | **DESCRIPTION**                                                                                                                 | **PERMISSION**                                           |
 | ------------------------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
