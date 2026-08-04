@@ -41,7 +41,7 @@ perk is abused.
 
 ## Terms & Conditions:
 
-<span style="color: #b8860b;"><strong>All prices are in USD (United States Dollars)..</strong></span>
+<span style="color: #b8860b;"><strong>All prices are in USD (United States Dollars).</strong></span>
 
 ### Agreement to Terms:
 
