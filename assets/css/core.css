@@ -495,13 +495,6 @@ main {
   text-shadow: 1px 1px 0 rgba(8, 12, 24, 0.32);
 }
 
-.hero-subtitle {
-  font-family: "Cinzel", "Georgia", serif;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  text-shadow: 2px 2px 0 rgba(8, 12, 24, 0.32);
-}
-
 .hero-buttons .btn {
   margin: 0.35rem 0.5rem;
 }
