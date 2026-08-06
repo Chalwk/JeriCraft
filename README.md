@@ -2,7 +2,9 @@
 
 This repository contains the source code and content for the official **JeriCraft** community website, built with Jekyll and hosted on GitHub Pages.
 
-**Live website:** [https://chalwk.github.io/JeriCraft/](https://chalwk.github.io/JeriCraft/)
+**Live website:**
+- [https://chalwk.github.io/JeriCraft/](https://chalwk.github.io/JeriCraft/)
+- [https://jericraft.net/](https://jericraft.net/)
 
 ---
 
