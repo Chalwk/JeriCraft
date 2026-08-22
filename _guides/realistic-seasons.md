@@ -115,8 +115,6 @@ Check out the special events throughout the year. Each event is packed with exci
 | Cooked Cod        | 2-8      |
 | Spruce Sapling    | 1-4      |
 
----
-
 ### New Year
 
 - **Event Start:** January 1
@@ -125,8 +123,6 @@ Check out the special events throughout the year. Each event is packed with exci
     - Fireworks
     - Minimum distance between fireworks: 34 blocks
     - Commands: Announce the new year and head over to a nearby village
-
----
 
 ### Halloween
 
@@ -139,8 +135,6 @@ Check out the special events throughout the year. Each event is packed with exci
     - Fast mobs, flame skeletons, and armored mobs
     - Zombies hold pie
     - Vindicator spawns at night
-
----
 
 ### Easter
 
@@ -180,12 +174,6 @@ Check out the special events throughout the year. Each event is packed with exci
 | Mushroom Stew | 1        |
 | Gold Ingot    | 1-12     |
 | Diamond       | 1-6      |
-
----
-
-## Custom Seasonal Events
-
-Alongside the calendar events above, JeriCraft runs a handful of additional seasonal events. You can check which of these events are currently active at any time with `/season`.
 
 ### The Spring's Reawakening
 
