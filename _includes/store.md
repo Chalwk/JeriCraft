@@ -30,15 +30,16 @@ running, and we are grateful for your support.
 
 Your donor rank is determined by your **total lifetime contributions**. Here's how it works:
 
-| Rank         | Contribution (NZD) | Benefits                                                                       |
-| ------------ | ------------------ | ------------------------------------------------------------------------------ |
-| **Squire**   | **\$1 - \$19**     | Access to basic Squire commands.                                               |
-| **Knight**   | **\$20 - \$39**    | All Squire benefits, plus Knight-level commands.                               |
-| **Baron**    | **\$40 - \$59**    | All Knight and Squire benefits, plus Baron-level commands.                     |
-| **Count**    | **\$60 - \$99**    | All Baron, Knight, and Squire benefits, plus Count-level commands.             |
-| **Duke**     | **\$100 - \$149**  | All Count, Baron, Knight, and Squire benefits, plus Duke-level commands.       |
-| **Archduke** | **\$150 - \$299**  | All Duke, Count, Baron, Knight, and Squire benefits, plus King-level commands. |
-| **Overlord** | **\$300+**         | Full access to all commands and privileges.                                    |
+| Rank                                                                    | Contribution (NZD) | Benefits                                                                       |
+| ----------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------ |
+| ![Squire](https://img.shields.io/badge/📜_Squire-FFAA00?style=flat)      | **\$1 - \$19**     | Access to basic Squire commands.                                               |
+| ![Knight](https://img.shields.io/badge/🛡️_Knight-FFAA00?style=flat)      | **\$20 - \$39**    | All Squire benefits, plus Knight-level commands.                               |
+| ![Baron](https://img.shields.io/badge/⚔️_Baron-AA00AA?style=flat)        | **\$40 - \$59**    | All Knight and Squire benefits, plus Baron-level commands.                     |
+| ![Count](https://img.shields.io/badge/🏹_Count-00AA00?style=flat)        | **\$60 - \$99**    | All Baron, Knight, and Squire benefits, plus Count-level commands.             |
+| ![Duke](https://img.shields.io/badge/🏰_Duke-00AAAA?style=flat)          | **\$100 - \$149**  | All Count, Baron, Knight, and Squire benefits, plus Duke-level commands.       |
+| ![Archduke](https://img.shields.io/badge/🏛️_Archduke-0000AA?style=flat)  | **\$150 - \$299**  | All Duke, Count, Baron, Knight, and Squire benefits, plus King-level commands. |
+| *![Overlord](https://img.shields.io/badge/🗡️_Overlord-5555FF?style=flat) | **\$300+**         | Full access to all commands and privileges.                                    |
+
 
 All perks are permanent (subject to change) and will last for the server's lifetime. However, we may revoke access if a
 perk is abused.
