@@ -15,12 +15,6 @@ Everything you need to know to get started on **JeriCraft**, from joining the se
 
 ---
 
-## How to Join
-
-You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java Edition** (**1.21.4**).
-
----
-
 ## Essential Commands
 
 | **Category**                     | **Command**               | **Description**                                                         |
@@ -55,9 +49,6 @@ You can join **JeriCraft** by connecting to `jericraft.net` on **Minecraft Java 
 ---
 
 ## Getting Started with JeriCraft
-
-Welcome to **JeriCraft**, a medieval world full of adventure, strategy, and community! To help you get settled, here's a
-guide on how to get started.
 
 ### 1. Choose Your Faction
 
