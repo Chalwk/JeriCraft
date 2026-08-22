@@ -15,6 +15,7 @@ permalink: /shops/blacksmith/
 | -------------------- | --------- |
 | Wooden Pickaxe       | $20       |
 | Stone Pickaxe        | $50       |
+| Copper Pickaxe       | $75       |
 | Iron Pickaxe         | $100      |
 | Golden Pickaxe       | $200      |
 | Diamond Pickaxe      | $500      |
@@ -27,6 +28,7 @@ permalink: /shops/blacksmith/
 | Netherite Shovel     | $1,500    |
 | Wooden Axe           | $20       |
 | Stone Axe            | $50       |
+| Copper Axe           | $75       |
 | Iron Axe             | $150      |
 | Golden Axe           | $300      |
 | Diamond Axe          | $750      |
@@ -35,6 +37,10 @@ permalink: /shops/blacksmith/
 | Leather Helmet       | $250      |
 | Leather Leggings     | $350      |
 | Leather Boots        | $200      |
+| Copper Chestplate    | $350      |
+| Copper Helmet        | $200      |
+| Copper Leggings      | $300      |
+| Copper Boots         | $150      |
 | Iron Chestplate      | $800      |
 | Iron Helmet          | $500      |
 | Iron Leggings        | $700      |
@@ -51,9 +57,10 @@ permalink: /shops/blacksmith/
 | Netherite Helmet     | $2,750    |
 | Netherite Leggings   | $3,500    |
 | Netherite Boots      | $2,000    |
-| 64 Iron Ingots       | $750      |
-| 64 Gold Ingots       | $1,000    |
-| 64 Netherite Ingots  | $5,000    |
-| 12 Iron Blocks       | $1,266    |
+| 64 Copper Ingots     | $2,880    |
+| 64 Iron Ingots       | $6,400    |
+| 64 Gold Ingots       | $8,960    |
+| 64 Netherite Ingots  | $32,000   |
+| 12 Iron Blocks       | $10,800   |
 | Hopper               | $1,250    |
 | Anvil                | $1,500    |

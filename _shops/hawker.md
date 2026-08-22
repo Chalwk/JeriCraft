@@ -14,8 +14,6 @@ permalink: /shops/hawker/
 | Item Name        | Buy Price | Sell Price |
 | ---------------- | --------- | ---------- |
 | Emerald          | $125      | $15        |
-| Iron Ingot       | $10       | $1         |
-| Gold Ingot       | $18       | $4         |
 | Diamond          | $250      | $25        |
 | Nether Quartz    | $6        | $2         |
 | Obsidian         | $35       | $5         |
