@@ -74,16 +74,33 @@ Happy working, and we wish you success in your career!
 
 ## Boosters
 
-Boost your experience and rewards with the following job boosts:
+Throughout the day and week, special boosters activate to reward players working specific jobs at specific times.
+Boosters stack rewards on top of your normal earnings, so timing your work around them is a great way to level up
+faster and earn more. All times below are listed in **NZST**.
 
-| Boost Name            | Period        | Boost Type | Applicable Jobs             | Days                        |
-| --------------------- | ------------- | ---------- | --------------------------- | --------------------------- |
-| Midnight_Vigil        | 00:00 - 03:00 | XP, Money  | All                         | All                         |
-| Dawns_Harvest         | 06:00 - 09:00 | XP, Money  | Farmer, Herbalist, Baker    | All                         |
-| Blacksmiths_Fervor    | 10:00 - 13:00 | XP, Money  | Miner, Smelter, Weaponsmith | Monday, Wednesday, Friday   |
-| Hunters_Moon          | 18:00 - 21:00 | XP, Money  | Hunter, Fisherman           | Tuesday, Thursday, Saturday |
-| Lumberjacks_Labor     | 08:00 - 11:00 | XP, Money  | Woodcutter, Builder         | Monday, Wednesday, Friday   |
-| Royal_Feast_Prep      | 14:00 - 17:00 | XP, Money  | Cooker, Brewer, Baker       | Saturday, Sunday            |
-| Earthdiggers_Endeavor | 13:00 - 16:00 | XP, Money  | Digger, Miner               | Tuesday, Thursday           |
-| Alchemists_Dusk       | 19:00 - 22:00 | XP, Money  | Alchemist, Herbalist        | Wednesday, Friday           |
-| Sabbath_Rest          | 12:00 - 14:00 | XP, Money  | All                         | Sunday                      |
+| Booster                     | Time (NZST)       | Days                        | Jobs Boosted                  | XP Multiplier | Money Multiplier |
+| --------------------------- | ----------------- | --------------------------- | ----------------------------- | ------------- | ---------------- |
+| **Night Watch**             | 12:00AM - 2:45AM  | All                         | All                           | 2x            | 2x               |
+| **Arcane Dawn**             | 3:00AM - 5:00AM   | Tuesday, Thursday, Sunday   | Enchanter, Jeweler            | 2.5x          | 1.5x             |
+| **Dawn's Harvest**          | 6:00AM - 8:45AM   | All                         | Farmer, Herbalist, Baker      | 2x            | 1.75x            |
+| **Timber!**                 | 8:00AM - 10:45AM  | Monday, Wednesday, Friday   | Woodcutter, Builder           | 1.75x         | 2x               |
+| **Chapel Bell Rings**       | 8:45AM - 10:30AM  | Sunday                      | All                           | 1.5x          | 1.5x             |
+| **High Tide Harvest**       | 9:00AM - 11:45AM  | Saturday, Sunday            | Aquatic Adventurer, Fisherman | 1.75x         | 2x               |
+| **Trade Winds Blow**        | 11:00AM - 12:45PM | Tuesday, Thursday           | Merchant, Crafter             | 1.75x         | 2x               |
+| **Forge Hours**             | 1:00PM - 3:45PM   | Monday, Wednesday, Friday   | Miner, Smelter, Weaponsmith   | 2.25x         | 2x               |
+| **Deep Delving Hours**      | 1:00PM - 3:45PM   | Tuesday, Thursday           | Digger, Miner                 | 2x            | 2x               |
+| **Royal Feast Preparation** | 4:00PM - 6:45PM   | Saturday, Sunday            | Cooker, Brewer, Baker         | 2.5x          | 1.75x            |
+| **Stewardship**             | 4:00PM - 6:45PM   | Monday, Wednesday, Friday   | Caretaker, Herbalist          | 2x            | 1.75x            |
+| **Hunter's Moon**           | 7:00PM - 9:45PM   | Tuesday, Thursday, Saturday | Hunter, Fisherman             | 2x            | 2.5x             |
+| **Mystical Twilight**       | 7:00PM - 9:45PM   | Wednesday, Friday           | Alchemist, Herbalist          | 3x            | 1.5x             |
+| **Friday Night Forge**      | 10:00PM - 11:30PM | Friday                      | All                           | 2x            | 2x               |
+
+**Notes:**
+- Boosters are listed in chronological order by start time. Several overlap with others or run on the same days, so
+  it's possible to stack multiple boosted jobs back to back throughout the day.
+- Some boosters (like **Forge Hours** and **Deep Delving Hours**) share the same time window but boost different
+  jobs, so plan your schedule around which profession you're working that day.
+- The **Royal Feast Preparation** booster applies to the **Cooker** job specifically. If you don't see "Cooker" as
+  a job option, check with staff, as the jobs list above may use a different name for this profession.
+- Watch in-game chat for start and end announcements. Each booster broadcasts a reminder periodically while active,
+  so you'll always know when a boost is live.
