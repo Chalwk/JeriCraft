@@ -183,6 +183,65 @@ Check out the special events throughout the year. Each event is packed with exci
 
 ---
 
+## Custom Seasonal Events
+
+Alongside the calendar events above, JeriCraft runs a handful of additional seasonal events. You can check which of these events are currently active at any time with `/season`.
+
+### The Spring's Reawakening
+
+- **Event Start:** March 1
+- **Event End:** April 1
+- **Special Features:**
+    - Flowers bloom and peace reigns over the land
+    - All players receive a temporary Regeneration effect
+
+### The Harvest Feast
+
+- **Event Start:** April 1
+- **Event End:** May 1
+- **Special Features:**
+    - Gather in the bounty and share in the abundance
+    - All players receive golden carrots
+
+### The Summer's Revelry
+
+- **Event Start:** June 1
+- **Event End:** August 31
+- **Special Features:**
+    - Revel in the warmth and festivities of the season
+    - All players receive a temporary Speed boost
+
+### Midsummer Enchantment
+
+- **Event Start:** June 21
+- **Event End:** June 24
+- **Special Features:**
+    - The veil between worlds thins, and magic flows freely
+    - The in-game time is set to dusk and the weather is cleared for the occasion
+    - All players receive a temporary Glow effect
+
+### The Winter's Feast
+
+- **Event Start:** December 1
+- **Event End:** January 1
+- **Special Features:**
+    - Snow falls and warmth is shared across the realm
+    - All players receive a free diamond
+    - Runs right through both the Christmas and New Year events above, so all three overlap
+
+---
+
+## Weekly & Daily Events
+
+Beyond the seasonal calendar, a few smaller events run on a recurring schedule:
+
+- **Sacred Sunday** - Every Sunday is a sacred day of rest. Death won't cost you your inventory or experience while
+  this event is active, so it's a great day to take on riskier adventures.
+- **The Midnight Bell** - Every night at midnight, the bell tolls across the realm, announcing the current day,
+  date, and season in chat.
+
+---
+
 ## Temperature System
 
 - The plugin introduces a **temperature system** that affects various aspects of gameplay:

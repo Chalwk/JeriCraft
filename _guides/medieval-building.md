@@ -65,7 +65,7 @@ Concrete itself is not banned. In the right colour, it's a fantastic medieval ma
 - **Brown, red, and orange concrete** can stand in for brick or timber framing accents.
 - **Black and dark grey concrete** are fine for soot-stained areas or dark stone.
 
-However, bright or unnatural colours (cyan, magenta, lime, blue, pink, etc.) look jarringly modern and should be avoided. Additionally, concrete must be used in **period-appropriate shapes**—no flat, boxy modernist structures. A white concrete wall with timber beams? Very medieval. A neon pink cube? Please no.
+However, bright or unnatural colours (cyan, magenta, lime, blue, pink, etc.) look jarringly modern and should be avoided. Additionally, concrete must be used in **period-appropriate shapes**-no flat, boxy modernist structures. A white concrete wall with timber beams? Very medieval. A neon pink cube? Please no.
 
 ### Artificial & Modern Blocks (banned)
 These materials look too industrial, magical, or futuristic for our setting. Placing them may result in a friendly request to replace them, or staff assistance with WorldEdit.
