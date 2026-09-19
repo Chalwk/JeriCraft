@@ -15,36 +15,25 @@ Everything you need to know to get started on **JeriCraft**, from joining the se
 
 ---
 
-## Essential Commands
+## Start Here: The Commands You Actually Need
 
-| **Category**                     | **Command**               | **Description**                                                         |
-| -------------------------------- | ------------------------- | ----------------------------------------------------------------------- |
-| **Land Protection**              |                           | Please refer to our [Factions Guide]({{site.baseurl}}/guides/factions). |
-| **Teleportation**                | `/rt`, `/rtp`, `/wild`    | Teleports you to a random location in the wild.                         |
-|                                  | `/spawn`                  | Teleports you to the server spawn hub (castle).                         |
-|                                  | `/warp`                   | Teleport to key locations on the server.                                |
-|                                  | `/tpa <player>`           | Request to teleport to another player.                                  |
-|                                  | `/tphere <player>`        | Ask another player to teleport to you.                                  |
-|                                  | `/tpaccept`               | Accept a teleport request.                                              |
-|                                  | `/tpdeny`                 | Deny a teleport request.                                                |
-| **Kits, Jobs/Skills, and Ranks** | `/kit`                    | View available kits and their contents.                                 |
-|                                  | `/kit <name>`             | Redeem a specific kit.                                                  |
-|                                  | `/jobs`                   | Manage your RPG jobs and roles.                                         |
-|                                  | `/mcmmo`                  | View and manage your RPG skills and stats.                              |
-|                                  | `/rankinfo`               | Shows info about your current rank.                                     |
-|                                  | `/rankup`                 | Upgrade your rank by spending in-game currency.                         |
-|                                  | `/ranklist`               | Shows a list of possible ranks.                                         |
-| **Economy & Trading**            | `/balance`, `/money`      | Check your in-game currency balance.                                    |
-|                                  | `/pay <player> <amount>`  | Send money to another player.                                           |
-| **Communication**                | `/msg <player> <message>` | Send a private message to another player.                               |
-|                                  | `/r <message>`            | Reply to the last private message.                                      |
-|                                  | `/ignore <player>`        | Ignore a player's messages.                                             |
-|                                  | `/mail send <player>`     | Send an offline message to a player.                                    |
-|                                  | `/mail read`              | Read your received messages.                                            |
-| **Miscellaneous**                | `/rules`                  | View server rules and guidelines.                                       |
-|                                  | `/jobs quests`            | View available job quests.                                              |
-|                                  | `/time`                   | Check the current in-game time.                                         |
-|                                  | `/weather`                | Check the current in-game weather.                                      |
+If you only remember a handful of commands, make them these. They cover most of what a new player needs on day one.
+
+| **Command**                | **What it does**                                                              |
+| -------------------------- | ----------------------------------------------------------------------------- |
+| `/f home`                  | Teleport to your Faction's home (in survival). This is your way back to base. |
+| `/spawn`                   | Teleport to the server spawn hub (the castle).                                |
+| `/rt` (or `/wild`, `/rtp`) | Teleport to a random location in the wilderness.                              |
+| `/back`                    | Return to your last location.                                                 |
+| `/dback`                   | Return to your death location. Useful for recovering your items after dying.  |
+| `/kit`                     | View available kits. Use `/kit <name>` to redeem one.                         |
+| `/jobs`                    | Browse and join RPG jobs.                                                     |
+| `/mcmmo`                   | View your mcMMO skills and stats.                                             |
+| `/help`                    | In-game help menu.                                                            |
+
+> **Lost in the wild?** Try `/f home` first. If you're in a faction with a home set, it will bring you straight back to base. If that fails, `/spawn` will always return you to the castle.
+
+> **Need more detail?** See the full [Player Commands]({{site.baseurl}}/commands) page and the [Factions Guide]({{site.baseurl}}/guides/factions).
 
 ---
 
@@ -83,11 +72,64 @@ supplies before you venture far into the unknown!
 
 ---
 
+## Essential Commands (Full Reference)
+
+A more complete list of the commands you'll use most often. For everything else, see the [Player Commands]({{site.baseurl}}/commands) page.
+
+| **Category**                     | **Command**               | **Description**                                             |
+| -------------------------------- | ------------------------- | ----------------------------------------------------------- |
+| **Land Protection & Factions**   | `/f home`                 | Teleport to your Faction's home (in survival).              |
+|                                  | `/f create <name>`        | Create a new Faction.                                       |
+|                                  | `/f join <name>`          | Join an existing Faction.                                   |
+|                                  | `/f claim`                | Claim the chunk you're standing in.                         |
+|                                  | _(more)_                  | See the [Factions Guide]({{site.baseurl}}/guides/factions). |
+| **Teleportation**                | `/rt`, `/rtp`, `/wild`    | Teleports you to a random location in the wild.             |
+|                                  | `/spawn`                  | Teleports you to the server spawn hub (castle).             |
+|                                  | `/warp`                   | Teleport to key locations on the server.                    |
+|                                  | `/tpa <player>`           | Request to teleport to another player.                      |
+|                                  | `/tphere <player>`        | Ask another player to teleport to you.                      |
+|                                  | `/tpaccept`               | Accept a teleport request.                                  |
+|                                  | `/tpdeny`                 | Deny a teleport request.                                    |
+|                                  | `/back`                   | Return to your last location.                               |
+|                                  | `/dback`                  | Return to your death location.                              |
+| **Kits, Jobs/Skills, and Ranks** | `/kit`                    | View available kits and their contents.                     |
+|                                  | `/kit <name>`             | Redeem a specific kit.                                      |
+|                                  | `/jobs`                   | Manage your RPG jobs and roles.                             |
+|                                  | `/jobs quests`            | View available job quests.                                  |
+|                                  | `/mcmmo`                  | View and manage your RPG skills and stats.                  |
+|                                  | `/rankinfo`               | Shows info about your current rank.                         |
+|                                  | `/rankup`                 | Upgrade your rank by spending in-game currency.             |
+|                                  | `/ranklist`               | Shows a list of possible ranks.                             |
+| **Economy & Trading**            | `/balance`, `/money`      | Check your in-game currency balance.                        |
+|                                  | `/pay <player> <amount>`  | Send money to another player.                               |
+|                                  | `/baltop`                 | Show the richest players on the server.                     |
+| **Communication**                | `/msg <player> <message>` | Send a private message to another player.                   |
+|                                  | `/r <message>`            | Reply to the last private message.                          |
+|                                  | `/ignore <player>`        | Ignore a player's messages.                                 |
+|                                  | `/mail send <player>`     | Send an offline message to a player.                        |
+|                                  | `/mail read`              | Read your received messages.                                |
+|                                  | `/afk`                    | Toggle AFK mode.                                            |
+| **Items & Inventory**            | `/ender`                  | Open your ender chest.                                      |
+|                                  | `/hat`                    | Place the item you're holding on your head.                 |
+|                                  | `/sit`                    | Sit on stairs, slabs, or carpets.                           |
+| **Miscellaneous**                | `/help`                   | In-game help menu.                                          |
+|                                  | `/rules`                  | View server rules and guidelines.                           |
+|                                  | `/time`                   | Check the current in-game time.                             |
+|                                  | `/weather`                | Check the current in-game weather.                          |
+|                                  | `/playtime`               | Shows your playtime.                                        |
+|                                  | `/ping`                   | Shows your ping.                                            |
+
+---
+
 ## Additional Tips for New Players
 
 - **Stay Safe in the Wild**
   The wilderness can be dangerous, filled with hostile mobs and other players who may not be as friendly. Always keep
   your armor and weapons ready, and be cautious when venturing out at night!
+
+- **Set Your Faction Home Early**
+  Once you've picked a spot for your base, set a faction home with `/f sethome` and use `/f home` to return to it from
+  anywhere in survival. This is the single most useful command for new players, and it saves you from getting lost.
 
 - **Trade and Economy**
   The economy in JeriCraft is player-driven, so make sure to visit the marketplace and trade with other players. You can
