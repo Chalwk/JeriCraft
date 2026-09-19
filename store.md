@@ -3,6 +3,7 @@ layout: page
 title: Store
 description: JeriCraft Patronage System
 permalink: /store/
+published: false
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
