@@ -67,7 +67,7 @@ defaults:
       path: "about.md"
     values:
       layout: page
-  - scope:
-      path: "store.md"
-    values:
-      layout: page
+  # - scope:
+  #     path: "store.md"
+  #   values:
+  #     layout: page
