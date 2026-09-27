@@ -11,6 +11,8 @@ permalink: /commands/
   <h1>Commands</h1>
   <p>Below are the commands available on JeriCraft. Use the tabs to switch between Player and Staff commands.</p>
 
+  {% include toc.html %}
+
   <div class="tabs">
     <button class="tab-btn active" data-tab="player">Player Commands</button>
     <button class="tab-btn" data-tab="staff">Staff Commands</button>
@@ -41,6 +43,7 @@ permalink: /commands/
         contents.forEach(c => c.classList.remove('active'));
         this.classList.add('active');
         document.getElementById(this.dataset.tab).classList.add('active');
+        document.dispatchEvent(new CustomEvent('tabchange'));
       });
     });
   });

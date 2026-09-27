@@ -4,10 +4,6 @@
 
 ---
 
-{% include toc.html %}
-
----
-
 # Staff Commands
 
 ## Sentinel
@@ -29,6 +25,8 @@
 | Sentinel | note `[name]` `[add/remove/clear/list]` `(id/note)` | Add, remove, clear or list notes for player | `cmi.command.note`, `cmi.command.note.others`, `cmi.command.note.add`, `cmi.command.note.remove` |
 | Sentinel | alert `[name]` `(reason)`                           | Alerts administration on players login      | `cmi.command.alert`                                                                              |
 | Sentinel | alertlist                                           | Show alert list                             | `cmi.command.alertlist`                                                                          |
+
+---
 
 ## Justiciar
 
@@ -112,6 +110,8 @@
 | Justiciar | rg `redefine` `[-w <world>]` `[-g]`                                               | Redefine a region to your current selection<br><br> See [link](https://worldguard.enginehub.org/en/latest/regions/commands/) for full list of commands and examples. | `worldguard.region.redefine.*`     |
 | Justiciar | rg `remove` `[-w <world>]` `[-f]` `[-u]` `<id>`                                   | Remove a region<br><br> See [link](https://worldguard.enginehub.org/en/latest/regions/commands/) for full list of commands and examples.                             | `worldguard.region.remove.*`       |
 | Justiciar | rg `flags` `[-w <world>]` `[-p <page>]` `<id>`                                    | List the flags set on a region<br><br> See [link](https://worldguard.enginehub.org/en/latest/regions/commands/) for full list of commands and examples.              | `worldguard.region.flag.*`         |
+
+---
 
 ## High-Lord
 
@@ -207,6 +207,8 @@
 | High-Lord | pex `user` `<user>` `group remove` `<group>`      | Remove player from group (rank) | `See above.`                                                                                                                                                                                                                                                                                  |
 | High-Lord | pex `user` `<user>` `suffix [newsuffix]`          | Set player suffix               | `permissions.manage.users.suffix.*`                                                                                                                                                                                                                                                           |
 | High-Lord | pex `user` `<user>` `prefix [newprefix]`          | Set player prefix               | `permissions.manage.users.prefix.*`                                                                                                                                                                                                                                                           |
+
+---
 
 ## Sovereign
 

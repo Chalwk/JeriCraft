@@ -4,10 +4,6 @@
 
 ---
 
-{% include toc.html %}
-
----
-
 # Player Commands
 
 ## Commoner
@@ -109,6 +105,8 @@
 | Commoner | iinfo `<id/name>` | Show information about the item in your hand | `ChestShop.iteminfo` |
 | Commoner | cstoggle          | Toggle buy and sell notification message     | `ChestShop.toggle`   |
 
+---
+
 ## Villager
 
 ### Kits
@@ -126,6 +124,8 @@
 | Villager | ride                                                                                      | Allows you to ride entities                                             | `cmi.command.ride`                                                                                                                     |
 | Villager | hat                                                                                       | Place item you're holding on your head                                  | `cmi.command.hat`                                                                                                                      |
 | Villager | solve `[equation]`                                                                        | Solves complex equations ranging from basic 2+2 to cos(1)*pi/0.4+tan(5) | `cmi.command.solve`                                                                                                                    |
+
+---
 
 ## Artisan
 

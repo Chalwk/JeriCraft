@@ -14,58 +14,72 @@
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const placeholder = document.getElementById('jekyll-toc-placeholder');
-        if (!placeholder) return;
-
-        const content = document.querySelector('.page-content');
-        if (!content) {
-            placeholder.innerHTML = '<p><em>Content area not found.</em></p>';
-            return;
+    (function () {
+        function getScope() {
+            if (document.querySelector('.tab-content')) {
+                return document.querySelector('.tab-content.active');
+            }
+            return document.querySelector('.page-content');
         }
 
-        const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6');
-        if (headings.length === 0) {
-            placeholder.innerHTML = '<p><em>No headings found.</em></p>';
-            return;
-        }
+        function buildToc() {
+            const placeholder = document.getElementById('jekyll-toc-placeholder');
+            if (!placeholder) return;
 
-        headings.forEach((heading, idx) => {
-            if (!heading.id) heading.id = 'toc-heading-' + idx;
-        });
-
-        let toc = document.createElement('ul');
-        let stack = [{ level: 1, list: toc }];
-
-        headings.forEach((heading) => {
-            const level = parseInt(heading.tagName[1], 10);
-            const link = document.createElement('a');
-            link.href = '#' + heading.id;
-            link.textContent = heading.innerText;
-
-            const item = document.createElement('li');
-            item.appendChild(link);
-
-            while (stack.length > 1 && stack[stack.length - 1].level >= level) {
-                stack.pop();
+            const scope = getScope();
+            if (!scope) {
+                placeholder.innerHTML = '<p><em>Content area not found.</em></p>';
+                return;
             }
 
-            let parentList = stack[stack.length - 1].list;
+            const headings = scope.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            if (headings.length === 0) {
+                placeholder.innerHTML = '<p><em>No headings found.</em></p>';
+                return;
+            }
 
-            if (level > stack[stack.length - 1].level) {
-                const newUl = document.createElement('ul');
-                const lastLi = parentList.lastElementChild;
-                if (lastLi && lastLi.tagName === 'LI') {
-                    lastLi.appendChild(newUl);
-                    parentList = newUl;
-                    stack.push({ level: level, list: newUl });
+            const prefix = scope.id || 'toc';
+            headings.forEach((heading, idx) => {
+                if (!heading.id) heading.id = prefix + '-heading-' + idx;
+            });
+
+            const toc = document.createElement('ul');
+            const stack = [{ level: 1, list: toc }];
+
+            headings.forEach((heading) => {
+                const level = parseInt(heading.tagName[1], 10);
+
+                const link = document.createElement('a');
+                link.href = '#' + heading.id;
+                link.textContent = heading.innerText;
+
+                const item = document.createElement('li');
+                item.appendChild(link);
+
+                while (stack.length > 1 && stack[stack.length - 1].level >= level) {
+                    stack.pop();
                 }
-            }
 
-            parentList.appendChild(item);
-        });
+                let parentList = stack[stack.length - 1].list;
 
-        placeholder.innerHTML = '';
-        placeholder.appendChild(toc);
-    });
+                if (level > stack[stack.length - 1].level) {
+                    const newUl = document.createElement('ul');
+                    const lastLi = parentList.lastElementChild;
+                    if (lastLi && lastLi.tagName === 'LI') {
+                        lastLi.appendChild(newUl);
+                        parentList = newUl;
+                        stack.push({ level: level, list: newUl });
+                    }
+                }
+
+                parentList.appendChild(item);
+            });
+
+            placeholder.innerHTML = '';
+            placeholder.appendChild(toc);
+        }
+
+        document.addEventListener('DOMContentLoaded', buildToc);
+        document.addEventListener('tabchange', buildToc);
+    })();
 </script>
