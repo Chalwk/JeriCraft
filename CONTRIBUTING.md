@@ -14,11 +14,6 @@ This repository powers the Jekyll-based GitHub Pages site at [jericraft.net](htt
 * **Create an Issue:** If it's new, please use one of our issue templates to ensure we have all the necessary information. A template will automatically be applied when you click "New Issue".
   * **Bug Report:** For reporting bugs, glitches, or technical issues with the server or website.
   * **Server Suggestions:** For proposing new features, improvements, or changes to the JeriCraft server.
-  * **Submit a Complaint:** For reporting inappropriate behavior or other concerns (non-player specific).
-  * **Report a player:** For reporting a specific player's rule-breaking behavior.
-  * **Builder Application:** To apply for a builder position.
-  * **Staff Application:** To apply for a staff member position.
-  * **Ban Appeal:** To contest a ban from the Minecraft server or Discord.
 * **Include Details:** When filling out the template, be as detailed as possible. Include the page URL (for example, `_guides/getting-started/` or `_shops/alchemist.md`) and any relevant context.
 * **Blank Issues:** If your issue does not fit any of the templates above, you can still create a blank issue.
 
