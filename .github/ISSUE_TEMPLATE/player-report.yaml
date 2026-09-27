@@ -1,5 +1,5 @@
-name: 🗣️ Report a player
-description: ⚠️ Report inappropriate behavior or concerns related to the JeriCraft Discord and Minecraft servers.
+name: Report a player
+description: Report inappropriate behavior or concerns related to the JeriCraft Discord and Minecraft servers.
 title: "[REPORT] <offender>"
 labels: [ "Report" ]
 assignees: Chalwk
@@ -23,7 +23,7 @@ body:
   - type: input
     id: DateAndTime
     attributes:
-      label: 📅 Date and Time of Incident
+      label: Date and Time of Incident
       description: Enter the date and time of the incident in MM/DD/YYYY - HH:MM (Timezone) format.
       placeholder: MM/DD/YYYY - HH:MM (Timezone)
     validations:
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: Description
     attributes:
-      label: 📝 Description of Incident
+      label: Description of Incident
       description: Provide a detailed description of the incident, including any relevant context, actions, and statements made by the reported player.
       placeholder: Description of Incident
     validations:
@@ -39,22 +39,22 @@ body:
   - type: textarea
     id: Evidence
     attributes:
-      label: 🔍 Evidence (if applicable)
+      label: Evidence (if applicable)
       description: Include any screenshots, videos, or chat logs related to the incident. Upload images or videos to an image hosting site like Imgur and provide the link.
       placeholder: Evidence (if applicable)
   - type: textarea
     id: AdditionalInformation
     attributes:
-      label: 📝 Additional Information
+      label: Additional Information
       description: Add any other context or information that may be relevant to the report.
       placeholder: Additional Information
   - type: markdown
     attributes:
       value: |
-        **📷 Screenshots**
+        **Screenshots**
         > Include any relevant screenshots to help illustrate your report.
         >
         >
-        > 🙌 Thank you
+        > Thank you
         >
         > **We appreciate your effort in reporting this incident to maintain a fair and respectful environment on the server.**

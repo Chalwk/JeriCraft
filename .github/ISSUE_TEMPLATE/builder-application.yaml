@@ -20,7 +20,7 @@ body:
         - Must be an active member of the community for at least 1.5 months.
         - Have at least 50 hours of playtime on the server.
         - Must have Discord for communication purposes.
-        - 📝 Must read and agree to our [community rules](https://chalwk.github.io/JeriCraft/rules).
+        - Must read and agree to our [community rules](https://chalwk.github.io/JeriCraft/rules).
         - You are allowed to build in pairs.
           > *Collaborations with the intent of using your build for this application require that 70% of the build be done by you.*
         - Builds must be original and not copied from the internet.
@@ -28,8 +28,8 @@ body:
           > *These builds must be done on the server and have different styles and themes.*
           > *You must provide the coordinates of each build.*
           > *Creative mode and World Edit are for Personal use only! You are not permitted to build for other players, period.*
-        - ❗ You must have a legitimate (not pirated/cracked) copy of Minecraft.
-        - ⚠️ Do not make an application if you don't meet these requirements. You will be denied. ⚠️
+        - You must have a legitimate (not pirated/cracked) copy of Minecraft.
+        - Do not make an application if you don't meet these requirements. You will be denied.
 
         ---
 
@@ -53,94 +53,94 @@ body:
       label: Do you accept our community rules?
       description: Please read and accept our community rules before proceeding.
       options:
-        - label: Yes 👍
-        - label: No ❌
+        - label: Yes
+        - label: No
     validations:
       required: true
   - type: input
     id: minecraft-discord-username
     attributes:
-      label: 🎮 Minecraft/Discord Username
+      label: Minecraft/Discord Username
       description: Provide your Minecraft and Discord usernames.
     validations:
       required: true
   - type: input
     id: age
     attributes:
-      label: 🎂 Age
+      label: Age
       description: You must be 13 years or older to apply for Builder.
     validations:
       required: true
   - type: input
     id: timezone
     attributes:
-      label: ⏰ What is your time zone?
+      label: What is your time zone?
       description: For example, UTC-5, GMT+1, etc.
     validations:
       required: true
   - type: input
     id: country
     attributes:
-      label: 🌎 What country do you live in?
+      label: What country do you live in?
       description: For example, United States, United Kingdom, etc.
     validations:
       required: true
   - type: input
     id: community-duration
     attributes:
-      label: ⏰ Community Duration
+      label: Community Duration
       description: How long have you been a member of the JeriCraft community?
     validations:
       required: true
   - type: input
     id: planet-minecraft
     attributes:
-      label: 📰 Planet Minecraft Account (if applicable)
+      label: Planet Minecraft Account (if applicable)
       description: Do you have a Planet Minecraft (PMC) account? If so, please provide the link, otherwise, type 'N/A'.
     validations:
       required: true
   - type: textarea
     id: account-access
     attributes:
-      label: 👥 Account Access
+      label: Account Access
       description: Does anyone else have access to your Minecraft account? (If yes, please explain, otherwise, type 'N/A'.)
     validations:
       required: true
   - type: textarea
     id: why-builder
     attributes:
-      label: 🗿 Why do you think you should become a builder?
+      label: Why do you think you should become a builder?
       description: Explain why you think you should become a builder on the JeriCraft server.
     validations:
       required: true
   - type: textarea
     id: previous-builds
     attributes:
-      label: ☭ Previous Builds
+      label: Previous Builds
       description: Have you built anything on JeriCraft before?
     validations:
       required: true
   - type: textarea
     id: building-style
     attributes:
-      label: 🔨 Building Style
+      label: Building Style
       description: What is your preferred building style? (E.g. Modern, Medieval, Fantasy, etc.)
     validations:
       required: true
   - type: textarea
     id: world-edit-experience
     attributes:
-      label: 💡 World Edit Experience (if applicable)
+      label: World Edit Experience (if applicable)
       description: Do you have any experience with World Edit? (If yes, please explain, otherwise, type 'N/A'.)
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
-        **📷 Screenshots**
+        **Screenshots**
         > Include screenshots of your builds on the JeriCraft server.
         > Provide the coordinates of each build so we can review them.
         >
-        > 🙌 Thank you
+        > Thank you
         >
         > **We appreciate your effort in applying for a builder position on the JeriCraft server. Your input is invaluable!**

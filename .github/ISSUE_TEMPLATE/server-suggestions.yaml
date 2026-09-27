@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **📌 Describe the suggestion**
+        **Describe the suggestion**
         > Provide a clear and concise description of your suggestion here.
         > Use headers (`#`) or lists (`-`) to organize your thoughts. Be sure to include:
         > - The main idea or concept
@@ -16,7 +16,7 @@ body:
   - type: textarea
     id: suggestion
     attributes:
-      label: 📝 Suggestion
+      label: Suggestion
       description: Describe your suggestion.
       placeholder: "Describe your suggestion here"
     validations:
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: potential-benefits
     attributes:
-      label: 🌟 Potential benefits
+      label: Potential benefits
       description: Describe the potential benefits of your suggestion.
       placeholder: "Potential benefits here"
       value: |
@@ -35,7 +35,7 @@ body:
   - type: textarea
     id: community-involvement
     attributes:
-      label: 💬 Community involvement
+      label: Community involvement
       description: Describe how the community can be involved in your suggestion.
       placeholder: "Community involvement here"
       value: |
@@ -46,7 +46,7 @@ body:
   - type: textarea
     id: implementation
     attributes:
-      label: 🛠️ Implementation
+      label: Implementation
       description: Describe how your suggestion could be implemented.
       placeholder: "Implementation details here"
       value: |
@@ -57,10 +57,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        **📷 Screenshots**
+        **Screenshots**
         > Include any relevant screenshots to help illustrate your suggestion.
         >
         >
-        > 🙌 Thank you
+        > Thank you
         >
         > **We appreciate your contribution to making JeriCraft a better place for everyone! Your ideas help shape the future of our community.**
