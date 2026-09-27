@@ -221,5 +221,3 @@ By contributing to the JeriCraft documentation, you agree that your contribution
 [license]: LICENSE
 [markdown_guide]: https://chalwk.github.io/blog/2026/04/07/markdown-tutorial/
 [repo]: https://github.com/Chalwk/JeriCraft
-
----
