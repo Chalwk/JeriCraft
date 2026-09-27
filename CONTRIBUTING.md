@@ -21,23 +21,23 @@ This repository powers the Jekyll-based GitHub Pages site at [jericraft.net][jer
 
 Issue labels help maintainers organize and prioritize work. Some labels are applied automatically by the issue templates, but you may also see or request others. Below is a quick reference for the labels most relevant to contributors:
 
-| Label              | Meaning                                                           |
-| ------------------ | ----------------------------------------------------------------- |
-| `Bug`              | Something isn't working as expected.                              |
-| `Needs Triage`     | Awaiting initial review and categorization by a maintainer.       |
-| `Suggestion`       | Proposed improvement or new feature for the server.               |
-| `Complaint`        | Reported complaint about behavior or concerns.                    |
-| `Report`           | Report of a player's inappropriate behavior.                      |
-| `Website`          | Issue related to the jericraft.net documentation site.            |
-| `documentation`    | Improvements or additions to documentation.                       |
-| `enhancement`      | New feature or request.                                           |
-| `On Hold`          | Paused pending more information or a decision.                    |
-| `question`         | Further information is requested.                                 |
-| `help wanted`      | Extra attention is needed - maintainers would welcome assistance. |
-| `good first issue` | Good for newcomers looking for a place to start.                  |
-| `duplicate`        | This issue or pull request already exists.                        |
-| `invalid`          | This doesn't seem right.                                          |
-| `wontfix`          | This will not be worked on.                                       |
+| Label                                       | Meaning                                                           |
+| ------------------------------------------- | ----------------------------------------------------------------- |
+| ![Bug][label_bug]                           | Something isn't working as expected.                              |
+| ![Needs Triage][label_needs_triage]         | Awaiting initial review and categorization by a maintainer.       |
+| ![Suggestion][label_suggestion]             | Proposed improvement or new feature for the server.               |
+| ![Complaint][label_complaint]               | Reported complaint about behavior or concerns.                    |
+| ![Report][label_report]                     | Report of a player's inappropriate behavior.                      |
+| ![Website][label_website]                   | Issue related to the jericraft.net documentation site.            |
+| ![documentation][label_documentation]       | Improvements or additions to documentation.                       |
+| ![enhancement][label_enhancement]           | New feature or request.                                           |
+| ![On Hold][label_on_hold]                   | Paused pending more information or a decision.                    |
+| ![question][label_question]                 | Further information is requested.                                 |
+| ![help wanted][label_help_wanted]           | Extra attention is needed - maintainers would welcome assistance. |
+| ![good first issue][label_good_first_issue] | Good for newcomers looking for a place to start.                  |
+| ![duplicate][label_duplicate]               | This issue or pull request already exists.                        |
+| ![invalid][label_invalid]                   | This doesn't seem right.                                          |
+| ![wontfix][label_wontfix]                   | This will not be worked on.                                       |
 
 You generally do not need to set labels yourself when opening an issue - a maintainer or the template will handle that. If you believe a label is missing or incorrect, leave a comment and a maintainer will review it.
 
@@ -203,6 +203,23 @@ By contributing to the JeriCraft documentation, you agree that your contribution
 [issues_section]: https://github.com/Chalwk/JeriCraft/issues
 [jekyll_documentation]: https://jekyllrb.com/docs/installation/
 [jericraft_website]: https://jericraft.net
+[label_bug]: https://img.shields.io/github/labels/Chalwk/JeriCraft/Bug?color=D73A4A
+[label_complaint]: https://img.shields.io/github/labels/Chalwk/JeriCraft/Complaint?color=B60205
+[label_documentation]: https://img.shields.io/github/labels/Chalwk/JeriCraft/documentation?color=0075ca
+[label_duplicate]: https://img.shields.io/github/labels/Chalwk/JeriCraft/duplicate?color=cfd3d7
+[label_enhancement]: https://img.shields.io/github/labels/Chalwk/JeriCraft/enhancement?color=a2eeef
+[label_good_first_issue]: https://img.shields.io/github/labels/Chalwk/JeriCraft/good%20first%20issue?color=7057ff
+[label_help_wanted]: https://img.shields.io/github/labels/Chalwk/JeriCraft/help%20wanted?color=008672
+[label_invalid]: https://img.shields.io/github/labels/Chalwk/JeriCraft/invalid?color=e4e669
+[label_needs_triage]: https://img.shields.io/github/labels/Chalwk/JeriCraft/Needs%20Triage?color=FBCA04
+[label_on_hold]: https://img.shields.io/github/labels/Chalwk/JeriCraft/On%20Hold?color=FBCA04
+[label_question]: https://img.shields.io/github/labels/Chalwk/JeriCraft/question?color=d876e3
+[label_report]: https://img.shields.io/github/labels/Chalwk/JeriCraft/Report?color=E11D21
+[label_suggestion]: https://img.shields.io/github/labels/Chalwk/JeriCraft/Suggestion?color=0E8A16
+[label_website]: https://img.shields.io/github/labels/Chalwk/JeriCraft/Website?color=0075CA
+[label_wontfix]: https://img.shields.io/github/labels/Chalwk/JeriCraft/wontfix?color=ffffff
 [license]: LICENSE
 [markdown_guide]: https://chalwk.github.io/blog/2026/04/07/markdown-tutorial/
 [repo]: https://github.com/Chalwk/JeriCraft
+
+---
