@@ -4,6 +4,7 @@ title: "Builder Application for: <name>"
 labels:
   - application-form
   - awaiting-review
+  - Builder
 assignees: Chalwk
 body:
   - type: markdown

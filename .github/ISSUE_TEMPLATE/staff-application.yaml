@@ -4,6 +4,7 @@ title: 'Staff Application - [Your Name]'
 labels:
   - application-form
   - awaiting-review
+  - Staff
 assignees: Chalwk
 body:
   - type: markdown
