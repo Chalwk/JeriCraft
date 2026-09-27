@@ -43,7 +43,7 @@ A quick overview of the folders you will most likely work in:
 
 Guides live inside the `_guides/` folder at the root of the repository. If you want to add a brand-new guide:
 
-* **Place your guide** inside `_guides/`. If you are unsure whether your idea belongs there, ask in the Discord `#help` channel or open an issue first.
+* **Place your guide** inside `_guides/`. If you are unsure whether your idea belongs there, ask in the Discord `#contributing` channel or open an issue first.
 * **Name the file** descriptively using lowercase letters and hyphens (for example `fishing-guide.md`). Avoid spaces, special characters, or version numbers in the filename.
 * **Include YAML front matter** at the very top of your file. At a minimum, specify a `title` and a `permalink`. The `layout` is applied automatically by `_config.yml`, so you do not need to set it yourself.
 
@@ -162,7 +162,7 @@ If you cannot run the site locally, that is okay. A maintainer will verify your 
 * **Be Respectful**: Communicate kindly with contributors and JeriCraft maintainers.
 * **Respond Promptly**: Address comments or questions on your PRs in a timely manner.
 * **Open to Feedback**: Accept constructive feedback and make improvements as needed.
-* **Use Discord**: If you have questions, ask in the `#help` channel. The `#website-git-feed` channel posts automated notifications for commits, pushes, and pull requests.
+* **Use Discord**: If you have questions, ask in the `#contributing` channel. The `#website-git-feed` channel posts automated notifications for commits, pushes, and pull requests.
 
 ---
 
