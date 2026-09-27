@@ -168,7 +168,7 @@ If you cannot run the site locally, that is okay. A maintainer will verify your 
 
 ## License
 
-By contributing to the JeriCraft documentation, you agree that your contributions will be licensed under the same terms as the repository. For details, see the [LICENSE][license] file.
+By contributing to the JeriCraft documentation, you agree that your contributions will be licensed under the proprietary terms of the repository and that you grant Jericho Crosby (Chalwk) the right to relicense your contributions under any license terms, including the proprietary terms of the [LICENSE][license] file.
 
 ---
 
@@ -176,5 +176,3 @@ By contributing to the JeriCraft documentation, you agree that your contribution
 [issues_section]: https://github.com/Chalwk/JeriCraft/issues
 [markdown_guide]: https://chalwk.github.io/blog/2026/04/07/markdown-tutorial/
 [license]: LICENSE
-
----

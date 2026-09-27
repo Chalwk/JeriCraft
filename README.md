@@ -15,13 +15,17 @@ This repository contains the source code and content for the official **JeriCraf
 This repository and all its contents are **proprietary assets**.  
 You are permitted to **view** the website and this repository for informational purposes only.
 
-No part of this repository may be:
-- Copied, reproduced, or downloaded
-- Modified, adapted, or translated
-- Distributed, shared, or published elsewhere
-- Used in any other project, product, or service
+No part of this repository may be copied, reproduced, modified, distributed, or used in any other project **except as expressly permitted for contributions** (see below).
 
 For the full legal terms, please read the [LICENSE](LICENSE) file.
+
+---
+
+## Contributing
+
+We welcome contributions to the JeriCraft documentation! Whether you want to fix a typo, update a command list, or write a new guide, please read the [CONTRIBUTING](CONTRIBUTING) file for full guidelines.
+
+**By submitting a pull request or other contribution, you agree to grant Jericho Crosby (Chalwk) the rights described in the Contributions section of the [LICENSE](LICENSE) file.**
 
 ---
 
@@ -39,7 +43,7 @@ Violations may result in disciplinary action, including bans across all platform
 
 ## Contact
 
-For questions, licensing inquiries, or collaboration proposals:
+For questions, licensing inquiries, contribution questions, or collaboration proposals:
 
 - **Email:** chalwk.dev@gmail.com  
 - **Discord:** chalwk

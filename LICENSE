@@ -31,22 +31,38 @@ conferred.
    * Attempting to extract source code, designs, algorithms, concepts, or
      functionality for independent use.
 
-2. No Warranty. The Proprietary Assets are provided "AS IS," without warranty
+2. Contributions. Notwithstanding the prohibitions in Section 1, if you submit
+   a contribution to this repository (via pull request, patch, or any other
+   form), you grant Jericho Crosby (Chalwk) a perpetual, worldwide, non-exclusive,
+   royalty-free, irrevocable license to reproduce, prepare derivative works of,
+   publicly display, publicly perform, sublicense, and distribute your
+   contribution and such derivative works, and to relicense your contribution
+   under any license terms, including the proprietary terms of this License.
+
+   By submitting a contribution, you represent that you have the legal right to
+   grant the above license and that your contribution is your original work or
+   is submitted with sufficient permissions from any third party rights holders.
+
+   This section does not grant you any right to use, copy, modify, distribute,
+   or create derivative works from the Proprietary Assets except as necessary to
+   prepare and submit your contribution.
+
+3. No Warranty. The Proprietary Assets are provided "AS IS," without warranty
    of any kind, express or implied, including but not limited to the warranties
    of merchantability, fitness for a particular purpose, and non-infringement.
 
-3. Limitation of Liability. In no event shall the copyright holder be liable
+4. Limitation of Liability. In no event shall the copyright holder be liable
    for any claim, damages, or other liability, whether in an action of contract,
    tort, or otherwise, arising from, out of, or in connection with the
    Proprietary Assets or the use or dealings in them.
 
-4. Violations. Any unauthorized use of the Proprietary Assets constitutes a
+5. Violations. Any unauthorized use of the Proprietary Assets constitutes a
    violation of this license and applicable copyright laws. The copyright
    holder reserves the right to pursue all legal and equitable remedies
    available, including injunctive relief and monetary damages.
 
-For licensing inquiries, collaboration proposals, or to report usage concerns,
-please contact Jericho Crosby (Chalwk):
+For licensing inquiries, collaboration proposals, contribution questions, or to
+report usage concerns, please contact Jericho Crosby (Chalwk):
 
 Primary Contact (email): chalwk.dev@gmail.com
 Discord: chalwk
