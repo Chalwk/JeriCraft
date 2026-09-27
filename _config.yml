@@ -6,6 +6,8 @@ description: Official website for the JeriCraft Minecraft community.
 url: "https://jericraft.net"
 baseurl: ""
 locale: en_NZ
+lang: en
+og_locale: en_NZ
 timezone: Pacific/Auckland
 site_scale: 0.65
 
@@ -20,6 +22,7 @@ links:
   email: chalwk.dev@gmail.com
   discord: https://discord.gg/3HkQ4cGVnS
   ban_appeal: https://github.com/Chalwk/JeriCraft/issues/new?template=ban-appeal.yml
+  github: https://github.com/Chalwk/JeriCraft
 
 minecraft_version: "1.21.4"
 

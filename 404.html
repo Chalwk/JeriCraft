@@ -9,14 +9,15 @@ permalink: /404.html
 
 <section class="page-content text-center"
     style="min-height: 60vh; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-    <h1 style="font-size: 8rem; margin-bottom: 0.25rem; color: var(--accent); text-shadow: 4px 4px 0 rgba(0,0,0,0.4);">
-        404</h1>
-    <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--heading);">Page Not Found</h2>
-    <p style="font-size: 1.25rem; margin-bottom: 2rem; color: var(--text-muted); max-width: 600px;">
+    <h1
+        style="font-size: clamp(4rem, 12vw, 8rem); margin-bottom: 0.25rem; border-bottom: none; color: var(--accent); text-shadow: 4px 4px 0 rgba(0,0,0,0.4);">
+        404
+    </h1>
+    <h2 style="font-size: clamp(1.6rem, 5vw, 2.5rem); margin-bottom: 1rem;">Page Not Found</h2>
+    <p style="font-size: 1.15rem; margin-bottom: 2rem; color: var(--text-muted); max-width: 600px;">
         The page you're looking for doesn't exist or has been moved.
     </p>
-    <a href="{{ site.baseurl }}/" class="btn btn-primary"
-        style="display: inline-block; padding: 1rem 2.5rem; font-size: 1.2rem; font-weight: 700;">
-        <i class="fas fa-dungeon"></i> Return to spawn
+    <a href="{{ site.baseurl }}/" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.05rem;">
+        <i class="fas fa-dungeon" aria-hidden="true"></i> Return to spawn
     </a>
 </section>
