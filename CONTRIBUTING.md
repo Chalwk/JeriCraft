@@ -2,7 +2,7 @@
 
 Contributions help keep our guides, commands, rules, shops, and community information accurate and useful for all players.
 
-This repository powers the Jekyll-based GitHub Pages site at [jericraft.net](https://jericraft.net). Whether you want to fix a typo, update a command list, add a shop page, or write a brand-new guide, following these guidelines ensures a smooth and collaborative process.
+This repository powers the Jekyll-based GitHub Pages site at [jericraft.net][jericraft_website]. Whether you want to fix a typo, update a command list, add a shop page, or write a brand-new guide, following these guidelines ensures a smooth and collaborative process.
 
 ---
 
@@ -16,6 +16,30 @@ This repository powers the Jekyll-based GitHub Pages site at [jericraft.net](htt
   * **Server Suggestions:** For proposing new features, improvements, or changes to the JeriCraft server.
 * **Include Details:** When filling out the template, be as detailed as possible. Include the page URL (for example, `_guides/getting-started/` or `_shops/alchemist.md`) and any relevant context.
 * **Blank Issues:** If your issue does not fit any of the templates above, you can still create a blank issue.
+
+### Labels
+
+Issue labels help maintainers organize and prioritize work. Some labels are applied automatically by the issue templates, but you may also see or request others. Below is a quick reference for the labels most relevant to contributors:
+
+| Label              | Meaning                                                           |
+| ------------------ | ----------------------------------------------------------------- |
+| `Bug`              | Something isn't working as expected.                              |
+| `Needs Triage`     | Awaiting initial review and categorization by a maintainer.       |
+| `Suggestion`       | Proposed improvement or new feature for the server.               |
+| `Complaint`        | Reported complaint about behavior or concerns.                    |
+| `Report`           | Report of a player's inappropriate behavior.                      |
+| `Website`          | Issue related to the jericraft.net documentation site.            |
+| `documentation`    | Improvements or additions to documentation.                       |
+| `enhancement`      | New feature or request.                                           |
+| `On Hold`          | Paused pending more information or a decision.                    |
+| `question`         | Further information is requested.                                 |
+| `help wanted`      | Extra attention is needed - maintainers would welcome assistance. |
+| `good first issue` | Good for newcomers looking for a place to start.                  |
+| `duplicate`        | This issue or pull request already exists.                        |
+| `invalid`          | This doesn't seem right.                                          |
+| `wontfix`          | This will not be worked on.                                       |
+
+You generally do not need to set labels yourself when opening an issue - a maintainer or the template will handle that. If you believe a label is missing or incorrect, leave a comment and a maintainer will review it.
 
 ### Pull Requests
 
@@ -149,7 +173,7 @@ Always include `aria-hidden="true"` on decorative icons.
 
 If you want to preview your changes before submitting a pull request, you can run the site locally:
 
-1. Install Ruby and Bundler (see the [Jekyll documentation](https://jekyllrb.com/docs/installation/) for your platform).
+1. Install Ruby and Bundler (see the [Jekyll documentation][jekyll_documentation] for your platform).
 2. Clone your fork of the repository.
 3. Run `bundle install` to install dependencies.
 4. Run `bundle exec jekyll serve --livereload` to start the local server.
@@ -176,7 +200,9 @@ By contributing to the JeriCraft documentation, you agree that your contribution
 
 ---
 
-[repo]: https://github.com/Chalwk/JeriCraft
 [issues_section]: https://github.com/Chalwk/JeriCraft/issues
-[markdown_guide]: https://chalwk.github.io/blog/2026/04/07/markdown-tutorial/
+[jekyll_documentation]: https://jekyllrb.com/docs/installation/
+[jericraft_website]: https://jericraft.net
 [license]: LICENSE
+[markdown_guide]: https://chalwk.github.io/blog/2026/04/07/markdown-tutorial/
+[repo]: https://github.com/Chalwk/JeriCraft
