@@ -1080,16 +1080,23 @@ footer {
     margin: 0 auto;
   }
 
+  .footer-links {
+    align-items: center;
+    text-align: center;
+  }
+
   .footer-nav {
-    gap: 0.25rem 0.75rem;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
   }
 
   .footer-nav a {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
   }
 
   .footer-copyright {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 
   footer {
@@ -1130,12 +1137,18 @@ footer {
   }
 
   .page-content table {
-    font-size: 0.75rem;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    table-layout: auto;
+    white-space: nowrap;
   }
 
   .page-content th,
   .page-content td {
-    padding: 0.4rem 0.3rem;
+    padding: 0.5rem 0.75rem;
+    white-space: normal;
   }
 
   .guide-grid {

@@ -16,8 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
         mainNav.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 if (window.innerWidth <= 900) {
-                    mainNav.classList.remove('show');
-                    navToggle.setAttribute('aria-expanded', 'false');
+                    if (!link.classList.contains('dropdown-toggle')) {
+                        mainNav.classList.remove('show');
+                        navToggle.setAttribute('aria-expanded', 'false');
+                    }
                 }
             });
         });
