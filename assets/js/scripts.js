@@ -18,15 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
             navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
 
-        // Close nav when a link inside it is clicked (mobile UX)
+        // Close nav when a link inside it is clicked (mobile UX).
+        // Skip dropdown toggles, which are buttons, not links.
         mainNav.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
-                if (window.innerWidth <= 900) {
-                    if (!link.classList.contains('dropdown-toggle')) {
-                        mainNav.classList.remove('show');
-                        navToggle.setAttribute('aria-expanded', 'false');
-                    }
-                }
+                if (window.innerWidth > 900) return;
+                if (link.closest('.dropdown-toggle')) return;
+                mainNav.classList.remove('show');
+                navToggle.setAttribute('aria-expanded', 'false');
             });
         });
     }
@@ -36,10 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     dropdownToggles.forEach(toggle => {
         toggle.addEventListener('click', function (e) {
-            const href = this.getAttribute('href');
             const canHover = window.matchMedia('(hover: hover)').matches && window.innerWidth > 900;
             if (canHover) {
-                if (href && href !== '#') return;
                 e.preventDefault();
                 return;
             }
@@ -71,17 +68,15 @@ document.addEventListener('DOMContentLoaded', function () {
             navToggle?.setAttribute('aria-expanded', 'false');
         }
 
-        const openDropdowns = document.querySelectorAll('.dropdown.open');
-        if (!openDropdowns.length) return;
         if (!e.target.closest('.dropdown')) {
-            openDropdowns.forEach(d => {
+            document.querySelectorAll('.dropdown.open').forEach(d => {
                 d.classList.remove('open');
                 d.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
             });
         }
     });
 
-    // Close open dropdowns on Escape
+    // Close open dropdowns and nav on Escape
     document.addEventListener('keydown', function (e) {
         if (e.key !== 'Escape') return;
         if (mainNav && mainNav.classList.contains('show') && navToggle) {
@@ -179,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.addEventListener('click', async () => {
             const ok = await copyText(btn.dataset.copy);
             if (hint) {
-                hint.textContent = ok ? 'Copied!' : 'Copy failed. Select it manually';
+                hint.textContent = ok ? 'Copied!' : 'Copy failed';
                 clearTimeout(timer);
                 timer = setTimeout(() => (hint.textContent = original), 1600);
             }
@@ -207,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     /* ---------- Collapsible permission columns on commands tables ---------- */
-    document.querySelectorAll('.page-content table').forEach(table => {
+    document.querySelectorAll('.page-content table').forEach((table, idx) => {
         const headers = table.querySelectorAll('thead th');
         const lastHeader = headers[headers.length - 1];
         if (!lastHeader || !/permission/i.test(lastHeader.textContent.trim())) return;
@@ -218,6 +213,9 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.type = 'button';
         btn.className = 'perms-toggle';
 
+        // Per-table storage key so different tables remember independently.
+        const key = 'perms-hidden:' + (table.id || table.closest('section')?.id || 'table-' + idx);
+
         const applyState = (hidden) => {
             table.classList.toggle('perms-hidden', hidden);
             btn.setAttribute('aria-pressed', hidden ? 'true' : 'false');
@@ -227,13 +225,13 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         // Restore saved preference (default: hidden).
-        const stored = store.get('perms-hidden');
+        const stored = store.get(key);
         applyState(stored === null ? true : stored === '1');
 
         btn.addEventListener('click', () => {
             const nowHidden = !table.classList.contains('perms-hidden');
             applyState(nowHidden);
-            store.set('perms-hidden', nowHidden ? '1' : '0');
+            store.set(key, nowHidden ? '1' : '0');
         });
 
         table.parentNode.insertBefore(btn, table);
@@ -276,10 +274,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (statusEl) {
         const host = statusEl.dataset.serverHost;
         const cacheKey = 'server-status:' + host;
-        const cacheTtl = 3 * 60 * 1000;
+        const cacheTtl = 5 * 60 * 1000;
 
         const render = d => {
             const text = statusEl.querySelector('.status-text');
+            if (!text) return;
             const online = !!(d && d.online);
             statusEl.classList.toggle('online', online);
             statusEl.classList.toggle('offline', !online);
@@ -299,12 +298,10 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         } catch (e) { /* ignore */ }
 
-        if (cached) {
-            render(cached);
-        } else {
+        const fetchStatus = () => {
             const ctrl = new AbortController();
             const timer = setTimeout(() => ctrl.abort(), 5000);
-            fetch('https://api.mcsrvstat.us/3/' + encodeURIComponent(host), { signal: ctrl.signal })
+            return fetch('https://api.mcsrvstat.us/3/' + encodeURIComponent(host), { signal: ctrl.signal })
                 .then(r => (r.ok ? r.json() : Promise.reject(new Error('Bad status'))))
                 .then(d => {
                     const slim = {
@@ -317,7 +314,27 @@ document.addEventListener('DOMContentLoaded', function () {
                 })
                 .catch(() => { /* leave hidden if the API is slow or unreachable */ })
                 .finally(() => clearTimeout(timer));
+        };
+
+        if (cached) {
+            render(cached);
+        } else {
+            fetchStatus();
         }
+
+        // Refresh on tab focus if the cache is stale
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState !== 'visible') return;
+            let stale = true;
+            try {
+                const raw = sessionStorage.getItem(cacheKey);
+                if (raw) {
+                    const parsed = JSON.parse(raw);
+                    stale = Date.now() - parsed.t > cacheTtl;
+                }
+            } catch (e) { /* ignore */ }
+            if (stale) fetchStatus();
+        });
     }
 
     /* ---------- Back to top ---------- */
@@ -330,18 +347,25 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.appendChild(toTop);
 
     let ticking = false;
+    const updateToTop = () => {
+        const visible = window.scrollY >= 600 && window.innerWidth > 600;
+        toTop.hidden = !visible;
+        ticking = false;
+    };
+
     window.addEventListener('scroll', () => {
         if (ticking) return;
         ticking = true;
-        requestAnimationFrame(() => {
-            toTop.hidden = window.scrollY < 600;
-            ticking = false;
-        });
+        requestAnimationFrame(updateToTop);
     }, { passive: true });
+
+    window.addEventListener('resize', updateToTop);
 
     toTop.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
     });
+
+    updateToTop();
 });
 
 /* ---------- Share helper (exposed globally) ---------- */

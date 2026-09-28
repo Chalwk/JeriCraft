@@ -3,10 +3,12 @@
 <meta charset="UTF-8">
 
 <!-- Deliberate. Do not touch! -->
-<meta content="width=device-width, initial-scale={{ site.site_scale }}" name="viewport">
+<meta content="width=device-width, initial-scale={{ site.site_scale }}, viewport-fit=cover" name="viewport">
 
-<meta content="#0f172a" name="theme-color">
+<meta content="#0f172a" name="theme-color" media="(prefers-color-scheme: light)">
+<meta content="#0b1020" name="theme-color" media="(prefers-color-scheme: dark)">
 <meta content="dark" name="color-scheme">
+<meta name="author" content="{{ site.author.name | default: site.title }}">
 
 {% seo %}
 <meta content="JeriCraft Logo" property="og:image:alt">
@@ -14,11 +16,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
 <link href="{{ site.favicon | relative_url }}" rel="icon" type="image/x-icon">
+{% if site.image %}
+<link href="{{ site.image | relative_url }}" rel="apple-touch-icon">
+{% endif %}
 
 <link href="{{ site.baseurl }}/assets/css/core.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-<link
-  href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&family=MedievalSharp&display=swap"
-  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&family=MedievalSharp&display=swap" rel="stylesheet">

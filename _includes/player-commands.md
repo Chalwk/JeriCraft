@@ -1,6 +1,6 @@
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-**💡 For Factions commands, please see the [Factions Guide]({{site.baseurl}}/guides/factions)**.
+> **💡 Tip:** For Factions commands, please see the [Factions Guide]({{site.baseurl}}/guides/factions).
 
 ---
 

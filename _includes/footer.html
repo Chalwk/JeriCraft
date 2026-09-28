@@ -13,7 +13,7 @@
             <button class="footer-ip" type="button" data-copy="{{ site.server_address }}"
                 aria-label="Copy server address {{ site.server_address }}">
                 <i class="fas fa-copy" aria-hidden="true"></i>
-                <span class="footer-ip-text">{{ site.server_address }}</span>
+                <span class="footer-ip-text" aria-live="polite">{{ site.server_address }}</span>
             </button>
         </div>
         <div class="social-share">
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="footer-disclaimer">
-        <p class="footer-copyright">&copy; 2026 Jericho Crosby (Chalwk). All rights reserved.</p>
+        <p class="footer-copyright">&copy; 2026 {{ site.author.name }}. All rights reserved.</p>
         <p>JeriCraft is not affiliated with Mojang AB.</p>
     </div>
 </footer>

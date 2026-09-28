@@ -4,8 +4,6 @@
 {% include guides-sorted.html %}
 {% assign nav_shops = site.shops | sort_natural: "title" %}
 
-<a class="skip-link" href="#main-content">Skip to content</a>
-
 <header class="header">
     <div class="header-top">
         <a href="{{ site.baseurl }}/" class="logo-link" aria-label="JeriCraft home">
@@ -15,7 +13,7 @@
     </div>
 
     <div class="nav-toggle">
-        <button aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <button aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" type="button">
             <i class="fas fa-bars" aria-hidden="true"></i>
         </button>
     </div>
@@ -29,11 +27,11 @@
             <li><a href="{{ site.baseurl }}/bans/"{% if url contains "/bans" %} class="active" aria-current="page"{% endif %}>Bans</a></li>
 
             <li class="dropdown">
-                <a href="{{ site.baseurl }}/guides/"
-                    class="dropdown-toggle{% if url contains '/guides' %} active{% endif %}" aria-haspopup="true"
-                    aria-expanded="false">
+                <button type="button"
+                    class="dropdown-toggle{% if url contains '/guides' %} active{% endif %}"
+                    aria-haspopup="true" aria-expanded="false">
                     Guides <i class="fas fa-caret-down" aria-hidden="true"></i>
-                </a>
+                </button>
                 <ul class="dropdown-menu">
                     {% for g in sorted_guides %}
                     <li><a href="{{ g.url | relative_url }}"{% if url == g.url %} class="active" aria-current="page"{% endif %}>{{ g.nav_title | default: g.title | escape }}</a></li>
@@ -42,10 +40,11 @@
             </li>
 
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle{% if url contains '/shops' %} active{% endif %}" aria-haspopup="true"
-                    aria-expanded="false">
+                <button type="button"
+                    class="dropdown-toggle{% if url contains '/shops' %} active{% endif %}"
+                    aria-haspopup="true" aria-expanded="false">
                     NPC Shops <i class="fas fa-caret-down" aria-hidden="true"></i>
-                </a>
+                </button>
                 <ul class="dropdown-menu">
                     {% for s in nav_shops %}
                     <li><a href="{{ s.url | relative_url }}"{% if url == s.url %} class="active" aria-current="page"{% endif %}>{{ s.nav_title | default: s.title | escape }}</a></li>

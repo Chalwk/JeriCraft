@@ -16,10 +16,18 @@
 <script>
     (function () {
         function getScope() {
-            if (document.querySelector('.tab-content')) {
-                return document.querySelector('.tab-content.active');
-            }
-            return document.querySelector('.page-content');
+            const activePanel = document.querySelector('.tab-content.active');
+            if (activePanel) return activePanel;
+            return document.querySelector('#page-content, .page-content');
+        }
+
+        function slugify(text) {
+            return text
+                .toLowerCase()
+                .replace(/[^\w\s-]/g, '')
+                .trim()
+                .replace(/\s+/g, '-')
+                .slice(0, 60);
         }
 
         function buildToc() {
@@ -27,22 +35,28 @@
             if (!placeholder) return;
 
             const scope = getScope();
+            const tocDetails = placeholder.closest('details');
+
             if (!scope) {
-                placeholder.innerHTML = '<p><em>Content area not found.</em></p>';
+                if (tocDetails) tocDetails.style.display = 'none';
                 return;
             }
 
             const headings = scope.querySelectorAll('h1, h2, h3, h4, h5, h6');
             if (headings.length === 0) {
-                placeholder.innerHTML = '<p><em>No headings found.</em></p>';
+                if (tocDetails) tocDetails.style.display = 'none';
                 return;
             }
 
-            const prefix = scope.id || 'toc';
+            if (tocDetails) tocDetails.style.display = '';
+
             headings.forEach((heading, idx) => {
-                if (!heading.id) heading.id = prefix + '-heading-' + idx;
+                if (!heading.id) {
+                    heading.id = 'toc-' + (slugify(heading.textContent) || 'heading-' + idx);
+                }
             });
 
+            // Root list + a stack of open lists keyed by their heading level.
             const toc = document.createElement('ul');
             const stack = [{ level: 1, list: toc }];
 
@@ -51,28 +65,29 @@
 
                 const link = document.createElement('a');
                 link.href = '#' + heading.id;
-                link.textContent = heading.innerText;
+                link.textContent = heading.textContent;
 
                 const item = document.createElement('li');
                 item.appendChild(link);
 
+                // Pop the stack until we find the deepest list whose level is
+                // strictly shallower than the current heading.
                 while (stack.length > 1 && stack[stack.length - 1].level >= level) {
                     stack.pop();
                 }
 
-                let parentList = stack[stack.length - 1].list;
+                const parent = stack[stack.length - 1];
+                parent.list.appendChild(item);
 
-                if (level > stack[stack.length - 1].level) {
-                    const newUl = document.createElement('ul');
-                    const lastLi = parentList.lastElementChild;
-                    if (lastLi && lastLi.tagName === 'LI') {
-                        lastLi.appendChild(newUl);
-                        parentList = newUl;
-                        stack.push({ level: level, list: newUl });
-                    }
-                }
+                // Prepare a nested list for any children of this heading.
+                const childList = document.createElement('ul');
+                item.appendChild(childList);
+                stack.push({ level: level, list: childList });
+            });
 
-                parentList.appendChild(item);
+            // Remove empty trailing <ul>s that no child ever used.
+            toc.querySelectorAll('ul').forEach(ul => {
+                if (!ul.children.length) ul.remove();
             });
 
             placeholder.innerHTML = '';

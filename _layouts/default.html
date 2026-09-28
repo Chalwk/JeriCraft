@@ -4,10 +4,23 @@
 {% include head.html %}
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   {% include header.html %}
   <main id="main-content" tabindex="-1">{{ content }}</main>
   {% include footer.html %}
+
   <script defer src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <noscript>
+    <style>
+      /* Reveal anything that JS normally reveals, since the script is off. */
+      #server-status[hidden],
+      .footer-ip-text,
+      .filter-empty[hidden] {
+        display: revert !important;
+      }
+    </style>
+  </noscript>
 </body>
 
 </html>

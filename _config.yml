@@ -39,8 +39,19 @@ site_scale: 0.65
 
 # Site author details. Consumed by jekyll-seo-tag and referenced in the footer.
 author:
-  name: Jericho Crosby
+  name: Jericho Crosby (Chalwk)
   url: https://github.com/Chalwk
+
+# -----------------------------------------------------------------------------
+# SEO / social metadata (used by jekyll-seo-tag)
+# -----------------------------------------------------------------------------
+
+# Separator between page title and site title in <title>.
+title_separator: "|"
+
+# Large image card for Twitter/X sharing.
+twitter:
+  card: summary_large_image
 
 # -----------------------------------------------------------------------------
 # Assets
@@ -63,6 +74,7 @@ links:
   discord: https://discord.gg/3HkQ4cGVnS
   ban_appeal: https://github.com/Chalwk/JeriCraft/issues/new?template=ban-appeal.yml
   github: https://github.com/Chalwk/JeriCraft
+  webstore: https://jericraft-shop.tebex.io
 
 # -----------------------------------------------------------------------------
 # Server info
