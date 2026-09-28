@@ -788,7 +788,7 @@ footer {
 }
 
 .footer-copyright {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
 }
 
@@ -809,10 +809,6 @@ footer {
 
 .footer-disclaimer p+p {
   margin-top: 0.35rem;
-}
-
-.footer-disclaimer .footer-copyright {
-  font-size: 0.95rem;
 }
 
 .social-share {
@@ -1125,7 +1121,7 @@ footer {
   }
 
   .footer-copyright {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   footer {
@@ -1502,14 +1498,4 @@ footer {
 .back-to-top:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
-}
-
-.mobile-break {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .mobile-break {
-    display: inline;
-  }
 }
