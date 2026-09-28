@@ -9,7 +9,7 @@ locale: en_NZ
 lang: en
 og_locale: en_NZ
 timezone: Pacific/Auckland
-site_scale: 0.65
+site_scale: 0.65 # Deliberate. Do not touch!
 
 author:
   name: Jericho Crosby
