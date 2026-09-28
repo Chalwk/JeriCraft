@@ -1113,8 +1113,15 @@ footer {
     white-space: nowrap;
   }
 
+  .footer-ip {
+    align-self: center;
+    margin: 0 auto;
+  }
+
   .social-share {
     justify-content: center;
+    align-self: center;
+    margin: 0 auto;
   }
 
   .footer-copyright {
