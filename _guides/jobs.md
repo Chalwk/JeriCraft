@@ -1,6 +1,9 @@
 ---
 title: Jobs
 permalink: /guides/jobs/
+description: "Join a profession, earn money and hit the daily boosters."
+icon: fa-briefcase
+order: 4
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -12,7 +15,7 @@ experience by completing various tasks. Whether you prefer building, exploring, 
 this guide, we'll walk you through the essentials of joining jobs, using the commands, and succeeding in your chosen
 profession.
 
-<img src="{{ site.baseurl }}/assets/images/advertising/jobs.png" alt="img">
+<img src="{{ site.baseurl }}/assets/images/advertising/jobs.png" alt="Jobs plugin banner">
 
 ---
 
@@ -27,7 +30,7 @@ opportunities to earn currency and level up. Below is an overview of the availab
 
 | **Job**                | **Focus**                                                                |
 | ---------------------- | ------------------------------------------------------------------------ |
-| **Alchemist**          | Crafting potions and potions of various effects                          |
+| **Alchemist**          | Crafting potions and experimenting with alchemical ingredients           |
 | **Aquatic Adventurer** | Diving, fishing, salvaging treasures, and exploring aquatic environments |
 | **Baker**              | Baking delicious bread and sweets                                        |
 | **Builder**            | Placing blocks and constructing buildings and structures                 |
@@ -66,19 +69,23 @@ Here's a table of essential commands to help you navigate the JeriCraft Jobs plu
 | `/jobs leave <job>` | Leave a specific job. This will reset your progress in that job.                |
 | `/jobs list`        | List all available jobs on the server.                                          |
 | `/jobs help`        | Access a list of all Jobs plugin commands and their descriptions.               |
+| `/jobs quests`      | View job quests and complete them for bonus money and experience.               |
 | `/bal`              | Check your current in-game currency balance.                                    |
 | `/baltop`           | View the leaderboard of the wealthiest players.                                 |
 
 By utilizing these commands, you'll be on your way to earning money and gaining experience.
 Happy working, and we wish you success in your career!
 
+> **Job limit:** You can only hold a limited number of jobs at once. Linking your Minecraft account to Discord raises
+> the limit to **4**. See the [Discord Integration guide]({{ site.baseurl }}/guides/discord/).
+
 ## Boosters
 
 Throughout the day and week, special boosters activate to reward players working specific jobs at specific times.
 Boosters stack rewards on top of your normal earnings, so timing your work around them is a great way to level up
-faster and earn more. All times below are listed in **NZST**.
+faster and earn more. All times below are in **New Zealand local time** (NZST or NZDT, whichever is currently in effect).
 
-| Booster                     | Time (NZST)       | Days                        | Jobs Boosted                  | XP Multiplier | Money Multiplier |
+| Booster                     | Time (NZ local)   | Days                        | Jobs Boosted                  | XP Multiplier | Money Multiplier |
 | --------------------------- | ----------------- | --------------------------- | ----------------------------- | ------------- | ---------------- |
 | **Night Watch**             | 12:00AM - 2:45AM  | All                         | All                           | 2x            | 2x               |
 | **Arcane Dawn**             | 3:00AM - 5:00AM   | Tuesday, Thursday, Sunday   | Enchanter, Jeweler            | 2.5x          | 1.5x             |
@@ -89,7 +96,7 @@ faster and earn more. All times below are listed in **NZST**.
 | **Trade Winds Blow**        | 11:00AM - 12:45PM | Tuesday, Thursday           | Merchant, Crafter             | 1.75x         | 2x               |
 | **Forge Hours**             | 1:00PM - 3:45PM   | Monday, Wednesday, Friday   | Miner, Smelter, Weaponsmith   | 2.25x         | 2x               |
 | **Deep Delving Hours**      | 1:00PM - 3:45PM   | Tuesday, Thursday           | Digger, Miner                 | 2x            | 2x               |
-| **Royal Feast Preparation** | 4:00PM - 6:45PM   | Saturday, Sunday            | Cooker, Brewer, Baker         | 2.5x          | 1.75x            |
+| **Royal Feast Preparation** | 4:00PM - 6:45PM   | Saturday, Sunday            | Chef, Brewer, Baker           | 2.5x          | 1.75x            |
 | **Stewardship**             | 4:00PM - 6:45PM   | Monday, Wednesday, Friday   | Caretaker, Herbalist          | 2x            | 1.75x            |
 | **Hunter's Moon**           | 7:00PM - 9:45PM   | Tuesday, Thursday, Saturday | Hunter, Fisherman             | 2x            | 2.5x             |
 | **Mystical Twilight**       | 7:00PM - 9:45PM   | Wednesday, Friday           | Alchemist, Herbalist          | 3x            | 1.5x             |
@@ -101,9 +108,6 @@ faster and earn more. All times below are listed in **NZST**.
 
 - Some boosters (like **Forge Hours** and **Deep Delving Hours**) share the same time window but boost different
   jobs, so plan your schedule around which profession you're working that day.
-
-- The **Royal Feast Preparation** booster applies to the **Cooker** job specifically. If you don't see "Cooker" as
-  a job option, check with staff, as the jobs list above may use a different name for this profession.
 
 - Watch in-game chat for start and end announcements. Each booster broadcasts a reminder periodically while active,
   so you'll always know when a boost is live.

@@ -1,6 +1,9 @@
 ---
 title: Economy
 permalink: /guides/economy/
+description: "Earn money, pay players and trade across the realm."
+icon: fa-coins
+order: 3
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -23,11 +26,11 @@ There are several ways to accumulate wealth within the JeriCraft economy:
 
 - **Jobs**:  
   Join a job and perform various tasks to earn money and experience.  
-  To learn more about jobs, refer to our detailed [Jobs Guide]({{site.baseurl}}/guides/jobs).
+  To learn more about jobs, refer to our detailed [Jobs Guide]({{ site.baseurl }}/guides/jobs/).
 
 - **Creating Shops**:  
   Set up your own shop using the Chest Shops to sell items to other players.  
-  See our [Chest Shop Tutorial]({{site.baseurl}}/guides/chest-shop) for more details.
+  See our [Chest Shop Tutorial]({{ site.baseurl }}/guides/chest-shop/) for more details.
 
 - **Completing Job Quests**:  
   Complete job quests with the `/jobs quests` command to earn additional money and experience.
@@ -56,7 +59,7 @@ Setting fair prices for your items is key to a healthy economy. To help you with
 - **Enchantment Books** (all levels)
 - **Common Trade Items** (building blocks, ores, wood, utilities, etc.)
 
-Check out the full list here: [JeriCraft Price Guide]({{site.baseurl}}/guides/prices)
+Check out the full list here: [JeriCraft Price Guide]({{ site.baseurl }}/guides/prices/)
 
 Use these prices as a baseline when setting up your Chest Shops. Keep in mind that actual market values will fluctuate based on supply and demand!
 
@@ -64,7 +67,7 @@ Use these prices as a baseline when setting up your Chest Shops. Keep in mind th
 
 ## Factions Economy Commands
 
-For Factions related economy commands, refer to our [Factions Guide]({{site.baseurl}}/guides/factions).
+For Factions related economy commands, refer to our [Factions Guide]({{ site.baseurl }}/guides/factions/).
 
 ---
 

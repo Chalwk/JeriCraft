@@ -1,13 +1,16 @@
 ---
 title: Discord Integration
 permalink: /guides/discord/
+description: "Link your account to Discord to unlock the Villager Rank."
+icon: fa-user-check
+order: 11
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
 # Villager Rank
 
-Join us on Discord and link your **Minecraft account** to unlock the **Villager Rank**!
+Join us on [Discord]({{ site.links.discord }}) and link your **Minecraft account** to unlock the **Villager Rank**!
 
 Here's what you'll unlock:
 

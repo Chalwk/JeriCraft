@@ -1,6 +1,9 @@
 ---
 title: Roles & Responsibilities
 permalink: /guides/roles-and-responsibilities/
+description: "What each staff team does on JeriCraft."
+icon: fa-users-cog
+order: 12
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -80,8 +83,8 @@ The Resource Team ensures all operational resources are maintained and optimized
 - **Event Design**: Plan and promote **seasonal events**, **tournaments**, and **special activities**.
 - **Lobby Management**: Organize in-game **lobbies**, **leaderboards**, and event-specific features.
 
-### Cross-Platform Community Engagement
-- **Unified Community**: Encourage **cross-platform interactions** to unite players.
-- **Equal Support**: Ensure all players feel equally supported, regardless of their preferred platform.
+### Community Engagement
+- **Unified Community**: Encourage interaction between players in-game and on **Discord**.
+- **Equal Support**: Ensure all players feel equally supported, whether they mostly play in-game, chat on Discord, or both.
 
 ---

@@ -1,6 +1,9 @@
 ---
 title: Getting Started
 permalink: /guides/getting-started/
+description: "Commands, kits, factions and jobs: everything you need for your first day."
+icon: fa-flag
+order: 1
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -28,12 +31,12 @@ If you only remember a handful of commands, make them these. They cover most of 
 | `/dback`                   | Return to your death location. Useful for recovering your items after dying.  |
 | `/kit`                     | View available kits. Use `/kit <name>` to redeem one.                         |
 | `/jobs`                    | Browse and join RPG jobs.                                                     |
-| `/mcmmo`                   | View your mcMMO skills and stats.                                             |
+| `/mcstats`                 | View your mcMMO skills and stats.                                             |
 | `/help`                    | In-game help menu.                                                            |
 
 > **Lost in the wild?** Try `/f home` first. If you're in a faction with a home set, it will bring you straight back to base. If that fails, `/spawn` will always return you to the castle.
 
-> **Need more detail?** See the full [Player Commands]({{site.baseurl}}/commands) page and the [Factions Guide]({{site.baseurl}}/guides/factions).
+> **Need more detail?** See the full [Player Commands]({{ site.baseurl }}/commands/) page and the [Factions Guide]({{site.baseurl}}/guides/factions/).
 
 ---
 
@@ -56,7 +59,7 @@ weapons, making your survival in the wild much easier!
 
 JeriCraft offers a wide variety of RPG-style **jobs** and **skills** that let you specialize in different areas like
 mining, fishing, farming, or even combat. Use `/jobs` to view the available options and start your journey in the
-profession of your choice. You can also level up your skills using the mcMMO plugin with `/mcmmo` to unlock special
+profession of your choice. You can also level up your skills using the mcMMO plugin (check your progress with `/mcstats`) to unlock special
 abilities and become more powerful!
 
 ### 4. Protect Your Land
@@ -137,7 +140,7 @@ A more complete list of the commands you'll use most often. For everything else,
 
 - **Join the Community**
   Don't be afraid to ask for help or team up with other players! The **JeriCraft** community is welcoming and friendly.
-  You can join our Discord server by clicking the link at the top of this page.
+  You can join our [Discord server]({{ site.links.discord }}) to meet other players and get help.
 
 ---
 

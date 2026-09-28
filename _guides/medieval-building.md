@@ -1,11 +1,18 @@
 ---
 title: "Medieval Building Guide"
 permalink: /guides/medieval-building/
+description: "Approved blocks, banned blocks and style rules for the realm."
+icon: fa-hammer
+order: 10
 ---
 
 *“By order of the Crown, all structures raised within the realm shall honour the craft of our ancestors. Let your halls sing of timber, stone, brick, and thatch - materials that tell a story of our age.”*
 
 Welcome, builder! JeriCraft is a Late Middle Ages-themed realm (roughly 1320-1400) inspired by Northern Europe. This guide will help you create homes, fortresses, and shops that feel at home in our world. On the following pages you'll find a generous palette of permitted blocks, a list of modern blocks that break immersion, and practical style tips.
+
+---
+
+{% include toc.html %}
 
 ---
 
@@ -21,7 +28,8 @@ Stick to these materials and you'll always be safe. Every block listed existed i
 - Oak/Spruce/Birch/Dark Oak Planks
 - Oak/Spruce/Birch/Dark Oak Slabs, Stairs, Fences, Gates
 - Trapdoors (wooden types only)
-- Bookshelves, Ladders, Scaffolding (as construction bracing)
+- Bookshelves, Ladders
+- Scaffolding (temporary construction bracing only; remove it when you finish)
 
 ### Stone & Brick
 - Cobblestone, Mossy Cobblestone
@@ -74,7 +82,7 @@ These materials look too industrial, magical, or futuristic for our setting. Pla
 - **Redstone Lamps, Sea Lanterns, Prismarine and its variants**
 - **End Rods, Shroomlights, Froglights, Magma Blocks** (as visible light sources)
 - **Observers, Dispensers, Droppers, Pistons** (when visible; hidden redstone machinery is fine)
-- **Copper Bulbs, Lightning Rods, modern scaffolding** (bamboo)
+- **Copper Bulbs, Lightning Rods**, and **scaffolding left in place** on a finished build
 - **Nether materials used out of context:** Netherite blocks, Ancient Debris, Crying Obsidian, Respawn Anchor (unless hidden in a crypt with staff permission)
 - **Full diamond/gold/emerald blocks** as building materials (treasure rooms ok, not as exterior walls)
 - **Slime blocks, Honey blocks, TNT, Jukebox**
@@ -102,11 +110,15 @@ A few simple guidelines to keep your creation period-appropriate:
 ## 4. Examples
 
 ### Good (Medieval)
+{% comment %}TODO: restore once the image exists in assets/images/tutorials/
 ![A timber-framed house with steep spruce roof, small iron-bar windows, and a chimney]({{ '/assets/images/tutorials/medieval_example_good.png' | relative_url }})
+{% endcomment %}
 *A simple village house using oak planks, stripped spruce logs, cobblestone foundation, and a white concrete plaster wall.*
 
 ### Bad (Breaks Immersion)
+{% comment %}TODO: restore once the image exists in assets/images/tutorials/
 ![A square modern house made of colourful concrete and glass]({{ '/assets/images/tutorials/medieval_example_bad.png' | relative_url }})
+{% endcomment %}
 *A modern neon-concrete and glass box. These colours and shapes are not permitted.*
 
 ---

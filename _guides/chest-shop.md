@@ -1,6 +1,9 @@
 ---
 title: Chest Shop
 permalink: /guides/chest-shop/
+description: "Set up a sign-and-chest shop and start trading."
+icon: fa-store
+order: 8
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -10,7 +13,7 @@ permalink: /guides/chest-shop/
 With ChestShop, you can create your own shops using signs and chests, making it easy to buy and sell items.
 Follow this step-by-step guide to set up your shop efficiently.
 
-<img src="{{ site.baseurl }}/assets/images/advertising/chest_shops.png" alt="img">
+<img src="{{ site.baseurl }}/assets/images/advertising/chest_shops.png" alt="ChestShop signs and chests in a JeriCraft market">
 
 ---
 
@@ -22,17 +25,17 @@ Follow this step-by-step guide to set up your shop efficiently.
 
 Begin by constructing a designated area for your shop. Be creative as you can, an appealing shop design can attract more customers!
 
-> 💡 Tip: Use these materials for best results:
+> 💡 Tip: Stick to the materials in the [Medieval Building Guide]({{ site.baseurl }}/guides/medieval-building/). These work well:
 
 - `Oak Planks`
 - `Glass Panes`
 - `Item Frames`
-- `Glowstone`
+- `Lanterns`
 
 <details>
 <summary>Example Shop Design (click to expand)</summary>
 
-<img src="{{ site.baseurl }}/assets/images/tutorials/chestshop_example.png" alt="img">
+<img src="{{ site.baseurl }}/assets/images/tutorials/chestshop_example.png" alt="Example ChestShop stall with signs above stocked chests">
 
 </details>
 
@@ -87,21 +90,23 @@ Create your shop sign with this exact formatting:
 
 ### Example 3: Advanced Configuration (price formats)
 
-| **Format**   | **Description**                    | **Example**  |
-| ------------ | ---------------------------------- | ------------ |
-| B 100        | Shop sells to players for 100 each | B 100        |
-| S 50         | Shop buys from players for 50 each | S 50         |
-| B 100 : S 25 | Dual pricing (Buy/Sell)            | B 100 : S 25 |
-| ? 75         | Auto-convert to best deal          | ? 75         |
+| **Format**   | **Description**                       | **Example**  |
+| ------------ | ------------------------------------- | ------------ |
+| B 100        | Players buy the sign quantity for 100 | B 100        |
+| S 50         | Players sell the sign quantity for 50 | S 50         |
+| B 100 : S 25 | Dual pricing (Buy/Sell)               | B 100 : S 25 |
+| ? 75         | Auto-convert to best deal             | ? 75         |
 
 > 💡 Tip: The colon `:` must have spaces on both sides when using dual pricing!
+>
+> 💡 Tip: Prices apply to the **whole sign quantity**, not per item. The [Price Guide]({{ site.baseurl }}/guides/prices/) lists per-item reference prices, so multiply by the quantity on your sign.
 
 ---
 
 ## Step 5: How Customers Buy or Sell Items
 
-| **Action**      | **Click Type**          | **Transaction**                      |
-| --------------- | ----------------------- | ------------------------------------ |
+| **Action**      | **Click Type**          | **Transaction**                    |
+| --------------- | ----------------------- | ---------------------------------- |
 | Purchase Single | `Right Click`           | Takes 1 transaction from chest     |
 | Purchase Stack  | `Shift` + `Right Click` | Takes max stacks (inventory space) |
 | Sell Single     | `Left Click`            | Adds 1 transaction to chest        |

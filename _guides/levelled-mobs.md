@@ -1,6 +1,9 @@
 ---
 title: Levelled Mobs
 permalink: /guides/levelled-mobs/
+description: "Mobs scale with distance from spawn. Prepare before you roam."
+icon: fa-skull
+order: 6
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -10,11 +13,11 @@ permalink: /guides/levelled-mobs/
 Welcome to the **Levelled Mobs** guide! This plugin enhances your Minecraft experience by introducing an RPG-like system, 
 adding dynamic levels to mobs, and providing new challenges and rewards. Follow this guide to understand how it works:
 
-<img src="{{ site.baseurl }}/assets/images/advertising/levelled_mobs.png" alt="img">
+<img src="{{ site.baseurl }}/assets/images/advertising/levelled_mobs.png" alt="Levelled Mobs plugin banner">
 
 ---
 
-## Leveled Mobs Overview
+## Levelled Mobs Overview
 - **Levels**: Mobs now spawn with levels, ranging from low to high. Higher-level mobs are significantly stronger, with increased health, damage, and potentially better loot.
 - **World Exploration**: As you explore further from the world spawn, mobs will become stronger, offering a more challenging gameplay experience.
 

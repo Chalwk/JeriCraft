@@ -1,6 +1,9 @@
 ---
 title: Factions
 permalink: /guides/factions/
+description: "Claim land, manage power and raid rival kingdoms."
+icon: fa-shield-alt
+order: 2
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -89,14 +92,13 @@ Once created, you become the **leader** of your faction, wielding the power to *
 **recruit allies**, and **command your kingdom's fate**. You can **manage your faction's land, power, and members** to
 build an empire that stands the test of time.
 
-| **Command**                        | **Description**                                                                                                         |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `/f claim [radius] [faction]`      | Seize control of a chunk of land for your kingdom.                                                                      |
-| `/f unclaim [radius] [faction]`    | Relinquish a previously claimed territory.                                                                              |
-| `/f autoclaim [faction]`           | Automatically claim chunks as you move.                                                                                 |
-| `/f unclaimall`                    | Release all faction-owned land at once.                                                                                 |
-| `/f list claims [world] [faction]` | List all claims for a specific world or faction.                                                                        |
-| *(Server‑specific extensions)*     | *If you have additional claim commands (e.g., `/f claimfill`, `/f claimline`), they may still work - check with staff.* |
+| **Command**                        | **Description**                                    |
+| ---------------------------------- | -------------------------------------------------- |
+| `/f claim [radius] [faction]`      | Seize control of a chunk of land for your kingdom. |
+| `/f unclaim [radius] [faction]`    | Relinquish a previously claimed territory.         |
+| `/f autoclaim [faction]`           | Automatically claim chunks as you move.            |
+| `/f unclaimall`                    | Release all faction-owned land at once.            |
+| `/f list claims [world] [faction]` | List all claims for a specific world or faction.   |
 
 ---
 
@@ -104,15 +106,15 @@ build an empire that stands the test of time.
 
 A kingdom is built on wealth! Manage your faction's finances to fund expansions and military endeavors.
 
-For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide]({{site.baseurl}}/guides/economy).
+For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide]({{ site.baseurl }}/guides/economy/).
 
-| **Command**                                   | **Description**                                               |
-| --------------------------------------------- | ------------------------------------------------------------- |
-| `/f money`                                    | View the faction's current bank balance.                      |
-| `/f money deposit <amount> [faction]`         | Deposit a specific amount of money into the faction's bank.   |
-| `/f money withdraw <amount> [faction]`        | Withdraw a specified amount of money from the faction's bank. |
-| `/f money balance`                            | See the available funds in the faction bank.                  |
-| `/f money send <amount> <player/faction>`     | Send money from your personal balance to a player or faction. |
+| **Command**                               | **Description**                                               |
+| ----------------------------------------- | ------------------------------------------------------------- |
+| `/f money`                                | View the faction's current bank balance.                      |
+| `/f money deposit <amount> [faction]`     | Deposit a specific amount of money into the faction's bank.   |
+| `/f money withdraw <amount> [faction]`    | Withdraw a specified amount of money from the faction's bank. |
+| `/f money balance`                        | See the available funds in the faction bank.                  |
+| `/f money send <amount> <player/faction>` | Send money from your personal balance to a player or faction. |
 
 ---
 
@@ -164,7 +166,7 @@ These are core commands that every faction player should know - they cover relat
 
 ## Base Cost to Claim Land
 
-Each chunk of land requires **[power](#-power-system)** to maintain, and your **faction's total power** determines how
+Each chunk of land requires **[power](#power-system)** to maintain, and your **faction's total power** determines how
 much land can be claimed.
 
 The base cost to claim land is **$30**, and each additional claim increases the cost by **a fixed $15** from the

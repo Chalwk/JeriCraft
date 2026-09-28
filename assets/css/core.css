@@ -1543,3 +1543,28 @@ table.perms-collapsible.perms-hidden tbody td:last-child {
 .perms-toggle i {
   color: var(--accent);
 }
+
+.hero-title {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.hero-title .hero-logo {
+  display: block;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  color: var(--accent-hover);
+}

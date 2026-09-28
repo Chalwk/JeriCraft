@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const mainNav = document.querySelector('.main-nav');
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    // Storage can throw (blocked cookies, some private modes). Never let it break the page.
+    const store = {
+        get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+        set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* ignore */ } }
+    };
+
     /* ---------- Mobile nav toggle ---------- */
     if (navToggle && mainNav) {
         navToggle.addEventListener('click', () => {
@@ -221,13 +227,13 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         // Restore saved preference (default: hidden).
-        const stored = localStorage.getItem('perms-hidden');
+        const stored = store.get('perms-hidden');
         applyState(stored === null ? true : stored === '1');
 
         btn.addEventListener('click', () => {
             const nowHidden = !table.classList.contains('perms-hidden');
             applyState(nowHidden);
-            localStorage.setItem('perms-hidden', nowHidden ? '1' : '0');
+            store.set('perms-hidden', nowHidden ? '1' : '0');
         });
 
         table.parentNode.insertBefore(btn, table);
@@ -269,19 +275,49 @@ document.addEventListener('DOMContentLoaded', function () {
     const statusEl = document.getElementById('server-status');
     if (statusEl) {
         const host = statusEl.dataset.serverHost;
-        fetch('https://api.mcsrvstat.us/3/' + encodeURIComponent(host))
-            .then(r => r.json())
-            .then(d => {
-                const text = statusEl.querySelector('.status-text');
-                statusEl.classList.toggle('online', !!d.online);
-                statusEl.classList.toggle('offline', !d.online);
-                text.textContent = d.online
-                    ? `${d.players && d.players.online != null ? d.players.online : 0}/${d.players && d.players.max != null ? d.players.max : '?'} online` +
-                    (d.version ? ` · ${d.version}` : '')
-                    : 'Server offline';
-                statusEl.hidden = false;
-            })
-            .catch(() => { /* leave hidden if the API is unreachable */ });
+        const cacheKey = 'server-status:' + host;
+        const cacheTtl = 3 * 60 * 1000;
+
+        const render = d => {
+            const text = statusEl.querySelector('.status-text');
+            const online = !!(d && d.online);
+            statusEl.classList.toggle('online', online);
+            statusEl.classList.toggle('offline', !online);
+            text.textContent = online
+                ? `${d.players && d.players.online != null ? d.players.online : 0}/${d.players && d.players.max != null ? d.players.max : '?'} online` +
+                (d.version ? ` \u00b7 ${d.version}` : '')
+                : 'Server offline';
+            statusEl.hidden = false;
+        };
+
+        let cached = null;
+        try {
+            const raw = sessionStorage.getItem(cacheKey);
+            if (raw) {
+                const parsed = JSON.parse(raw);
+                if (Date.now() - parsed.t < cacheTtl) cached = parsed.d;
+            }
+        } catch (e) { /* ignore */ }
+
+        if (cached) {
+            render(cached);
+        } else {
+            const ctrl = new AbortController();
+            const timer = setTimeout(() => ctrl.abort(), 5000);
+            fetch('https://api.mcsrvstat.us/3/' + encodeURIComponent(host), { signal: ctrl.signal })
+                .then(r => (r.ok ? r.json() : Promise.reject(new Error('Bad status'))))
+                .then(d => {
+                    const slim = {
+                        online: !!d.online,
+                        players: d.players ? { online: d.players.online, max: d.players.max } : null,
+                        version: d.version
+                    };
+                    render(slim);
+                    try { sessionStorage.setItem(cacheKey, JSON.stringify({ t: Date.now(), d: slim })); } catch (e) { /* ignore */ }
+                })
+                .catch(() => { /* leave hidden if the API is slow or unreachable */ })
+                .finally(() => clearTimeout(timer));
+        }
     }
 
     /* ---------- Back to top ---------- */

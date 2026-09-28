@@ -7,9 +7,7 @@ permalink: /guides/
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-{% assign ordered = site.guides | where_exp: "g", "g.order" | sort: "order" %}
-{% assign unordered = site.guides | where_exp: "g", "g.order == nil" | sort_natural: "title" %}
-{% assign all_guides = ordered | concat: unordered %}
+{% include guides-sorted.html %}
 
 <h1>Guides</h1>
 <p>Here you'll find all the guides to help you navigate JeriCraft. Pick a topic to get started.</p>
@@ -19,7 +17,7 @@ permalink: /guides/
 <p class="filter-empty" id="guide-empty" hidden>No guides match that search.</p>
 
 <div class="guide-grid">
-  {% for guide in all_guides %}
+  {% for guide in sorted_guides %}
     <a class="guide-card" href="{{ guide.url | relative_url }}">
       <span class="guide-card-icon" aria-hidden="true">
         <i class="fas {{ guide.icon | default: 'fa-book' }}"></i>

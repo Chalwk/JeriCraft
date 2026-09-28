@@ -1,14 +1,13 @@
-<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
-
 <!DOCTYPE html>
-<html lang="en">
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+<html lang="{{ site.lang | default: 'en' }}">
 {% include head.html %}
 
 <body>
   {% include header.html %}
-  <main>{{ content }}</main>
+  <main id="main-content" tabindex="-1">{{ content }}</main>
   {% include footer.html %}
-  <script defer src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+  <script defer src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
 
 </html>

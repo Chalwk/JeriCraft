@@ -1,6 +1,9 @@
 ---
 title: Price Guide
 permalink: /guides/prices/
+description: "Suggested base prices for enchantments, ores and trade goods."
+icon: fa-tags
+order: 9
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -13,6 +16,10 @@ Use these prices as a fair starting point when setting up your Shops, or trading
 
 > **Note:** These are **reference values only**.
 > Actual market prices will fluctuate based on supply, demand, and overall server economic conditions.
+>
+> **Shop tip:** Every price below is **per item**. ChestShop prices apply to the whole sign quantity, so multiply by the
+> quantity on your sign. For example, a sign selling 16 Iron Ingots at the reference price should read `B 240`. See the
+> [Chest Shop Tutorial]({{ site.baseurl }}/guides/chest-shop/).
 
 ---
 
@@ -45,7 +52,7 @@ Prices are listed per individual enchantment book.
 | Sharpness             | 1,000         | 2,000         | 4,000         | 8,000         | 16,000        |
 | Density               | 1,000         | 2,000         | 4,000         | 8,000         | 16,000        |
 | Looting               | 1,200         | 2,400         | 4,800         | N/A           | N/A           |
-| Breach                | 1,200         | 1,400         | 4,800         | 9,600         | N/A           |
+| Breach                | 1,200         | 2,400         | 4,800         | 9,600         | N/A           |
 | Unbreaking            | 1,000         | 2,000         | 4,000         | N/A           | N/A           |
 | Efficiency            | 1,200         | 2,400         | 4,800         | 9,600         | 19,200        |
 | Respiration           | 1,200         | 2,400         | 4,800         | N/A           | N/A           |
@@ -70,23 +77,25 @@ Prices are listed per individual enchantment book.
 
 This section covers building blocks, ores, minerals, and other raw materials used in construction and crafting.
 
+Stack prices are a guide only. Many common blocks are exactly 64x the single price, while higher-value items (coal,
+iron, gold, obsidian, bone, string, gunpowder) get a bulk discount of roughly 15-25%.
+
 ### Building Blocks
 
-| Item                                       | Single Price | Stack Price (x64) |
-| ------------------------------------------ | ------------ | ----------------- |
-| Cobblestone                                | 2.00         | 128               |
-| Stone                                      | 2.00         | 128               |
-| Deepslate                                  | 2.25         | 144               |
-| Granite / Andesite / Diorite               | 2.00         | 128               |
-| Dirt                                       | 2.00         | 128               |
-| Gravel                                     | 2.00         | 128               |
-| Sand                                       | 2.00         | 128               |
-| Red Sand                                   | 2.50         | 160               |
-| Tuff                                       | 2.00         | 128               |
-| Obsidian                                   | 60           | 3,000             |
-| Oak / Spruce / Birch / Jungle / Acacia Log | 2.50         | 160               |
-| Dark Oak Log                               | 2.50         | 160               |
-| Mangrove Log                               | 3.50         | 224               |
+| Item                                                  | Single Price | Stack Price (x64) |
+| ----------------------------------------------------- | ------------ | ----------------- |
+| Cobblestone                                           | 2.00         | 128               |
+| Stone                                                 | 2.00         | 128               |
+| Deepslate                                             | 2.25         | 144               |
+| Granite / Andesite / Diorite                          | 2.00         | 128               |
+| Dirt                                                  | 2.00         | 128               |
+| Gravel                                                | 2.00         | 128               |
+| Sand                                                  | 2.00         | 128               |
+| Red Sand                                              | 2.50         | 160               |
+| Tuff                                                  | 2.00         | 128               |
+| Obsidian                                              | 60           | 3,000             |
+| Oak / Spruce / Birch / Jungle / Acacia / Dark Oak Log | 2.50         | 160               |
+| Mangrove Log                                          | 3.50         | 224               |
 
 ### Ores & Minerals
 

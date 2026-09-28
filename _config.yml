@@ -81,14 +81,28 @@ server_address: play.jericraft.net
 # Only rebuild files that changed since the last build. Speeds up local dev.
 incremental: true
 
+# Repo files that shouldn't be published. Jekyll will skip these when it builds `_site/`.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - run.bat
+  - _config.local.yml
+
 # Markdown engine. Kramdown is Jekyll's default and supports the config below.
 markdown: kramdown
 kramdown:
   # Disable syntax highlighting (snippets are rendered as plain <code> blocks).
   syntax_highlighter: nil
 
-  # Treat single newlines as <br>. Handy for loosely formatted Markdown files.
-  hard_wrap: true
+  # Single newlines are NOT turned into <br>. Most guides are hand-wrapped, so
+  # hard_wrap would break paragraphs mid-sentence. For an intentional line
+  # break, end the line with two spaces or a backslash.
+  hard_wrap: false
 
 # -----------------------------------------------------------------------------
 # Plugins
@@ -122,7 +136,7 @@ collections:
 # -----------------------------------------------------------------------------
 
 # Front matter defaults applied to pages/documents that don't set their own
-# values. Rules are evaluated top-to-bottom; the first matching rule wins.
+# values. Rules apply top-to-bottom; when several match, later (more specific) rules override earlier ones.
 defaults:
   # Global default: every page uses the `default` layout unless overridden.
   - scope:

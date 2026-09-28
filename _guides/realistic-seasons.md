@@ -1,6 +1,9 @@
 ---
 title: Realistic Seasons
 permalink: /guides/realistic-seasons/
+description: "Four seasons, special events and festive loot."
+icon: fa-cloud-sun
+order: 7
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
@@ -10,7 +13,7 @@ permalink: /guides/realistic-seasons/
 Welcome to the **RealisticSeasons** guide! This amazing plugin brings dynamic and immersive seasons to our server,
 making your gameplay experience more engaging and exciting. Let's explore the wonders of RealisticSeasons:
 
-<img src="{{ site.baseurl }}/assets/images/advertising/realistic_seasons.png" alt="img">
+<img src="{{ site.baseurl }}/assets/images/advertising/realistic_seasons.png" alt="RealisticSeasons plugin banner">
 
 ---
 
@@ -31,7 +34,7 @@ making your gameplay experience more engaging and exciting. Let's explore the wo
 | **Winter** | June 1      | Marks the start of the cold, crisp Winter season. |
 | **Spring** | September 1 | The time for flowers to bloom and life to renew.  |
 | **Summer** | December 1  | The season of warmth, sunshine, and long days.    |
-| **Fall**   | March 1     | The leaves change, and the air cools down.        |
+| **Autumn** | March 1     | The leaves change, and the air cools down.        |
 
 ---
 
@@ -70,6 +73,10 @@ Here's how the days and night lengths adjust throughout the year for each month:
 ## Special Events Calendar
 
 Check out the special events throughout the year. Each event is packed with exciting features and loot, so don't miss out!
+
+> **A note on event names:** Seasonal events such as *Summer's Revelry* and *Midsummer Enchantment* follow the traditional
+> Northern European calendar to suit JeriCraft's medieval theme, while the in-game seasons follow the Southern
+> Hemisphere. That's why some of them fall in the server's winter.
 
 ### Christmas
 
@@ -140,13 +147,14 @@ Check out the special events throughout the year. Each event is packed with exci
 
 - **Event Start:** April 20
 - **Event End:** April 24
+- **Note:** Dates are fixed each year and do not follow the real-world moving Easter date.
 - **Special Features:**
     - Killer bunnies spawn
     - Easter eggs scattered around (Loot list below)
 
 | Loot (Items)  | Quantity |
 | ------------- | -------- |
-| Cookie        | 6-3      |
+| Cookie        | 3-6      |
 | Carrot        | 2-16     |
 | Rabbit Foot   | 1        |
 | Cake          | 1        |
