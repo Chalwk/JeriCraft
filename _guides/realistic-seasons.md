@@ -251,5 +251,4 @@ Beyond the seasonal calendar, a few smaller events run on a recurring schedule:
 - Be prepared for harsher conditions in winter, like freezing water and slower crop growth.
 - Embrace each season's unique features and enjoy the beautiful transformations of our Minecraft world!
 
-For a full breakdown and tutorial of this plugin, please visit the developer's
-website [here](https://wiki.realisticseasons.com/).
+For a full breakdown and tutorial of this plugin, please visit the developer's website [here](https://wiki.realisticseasons.com/).

@@ -20,10 +20,9 @@ Follow this step-by-step guide to set up your shop efficiently.
 
 ## Step 1: Build Your Shop
 
-Begin by constructing a designated area for your shop. Be creative as you can, an appealing shop design can attract more
-customers!
+Begin by constructing a designated area for your shop. Be creative as you can, an appealing shop design can attract more customers!
 
-Pro Tip: Use these materials for best results:
+> 💡 Tip: Use these materials for best results:
 
 - `Oak Planks`
 - `Glass Panes`
@@ -47,8 +46,7 @@ Position your chest in an accessible location. Ensure clear line of sight to the
 
 ## Step 3: Stock the Chest
 
-Fill the chest with the items you wish to sell. Organizing your stock efficiently will make it easier for customers to
-find what they need. For example:
+Fill the chest with the items you wish to sell. Organizing your stock efficiently will make it easier for customers to find what they need. For example:
 
 1. High-demand resources (`Diamonds`, `Netherite`)
 2. Building materials (`Oak_Logs`, `Stone`)
@@ -96,7 +94,7 @@ Create your shop sign with this exact formatting:
 | B 100 : S 25 | Dual pricing (Buy/Sell)            | B 100 : S 25 |
 | ? 75         | Auto-convert to best deal          | ? 75         |
 
-💡 Pro Tip: The colon `:` must have spaces on both sides when using dual pricing!
+> 💡 Tip: The colon `:` must have spaces on both sides when using dual pricing!
 
 ---
 
@@ -104,11 +102,11 @@ Create your shop sign with this exact formatting:
 
 | **Action**      | **Click Type**          | **Transaction**                      |
 | --------------- | ----------------------- | ------------------------------------ |
-| Purchase Single | `Right Click`           | 🔼 Takes 1 transaction from chest     |
-| Purchase Stack  | `Shift` + `Right Click` | 🔼 Takes max stacks (inventory space) |
-| Sell Single     | `Left Click`            | 🔽 Adds 1 transaction to chest        |
-| Sell Stack      | `Shift` + `Left Click`  | 🔽 Adds max stacks (chest space)      |
+| Purchase Single | `Right Click`           | Takes 1 transaction from chest     |
+| Purchase Stack  | `Shift` + `Right Click` | Takes max stacks (inventory space) |
+| Sell Single     | `Left Click`            | Adds 1 transaction to chest        |
+| Sell Stack      | `Shift` + `Left Click`  | Adds max stacks (chest space)      |
 
-💡 Pro Tip: You can hold `Shift` while clicking to buy or sell multiple items at once.
+> 💡 Tip: You can hold `Shift` while clicking to buy or sell multiple items at once.
 
 ---

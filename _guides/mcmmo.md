@@ -21,9 +21,9 @@ navigate the exciting features and commands that mcMMO offers.
 
 ## Getting Started
 
-To begin your journey, you simply need to perform actions related to the skill you'd like to level up. Whether it's *
-*mining**, **combat**, or **farming**, your actions will gradually increase your skill level. As you level up, you will
-unlock powerful abilities, special loot, and other rewards that enhance your gameplay.
+To begin your journey, you simply need to perform actions related to the skill you'd like to level up.
+Whether it's **mining**, **combat**, or **farming**, your actions will gradually increase your skill level.
+As you level up, you will unlock powerful abilities, special loot, and other rewards that enhance your gameplay.
 
 ---
 
@@ -56,8 +56,8 @@ Here are the essential commands for managing your mcMMO experience:
 
 ## Skill Categories
 
-mcMMO introduces multiple skill categories that you can level up to unlock new abilities. Below are the key skill
-categories and their descriptions:
+mcMMO introduces multiple skill categories that you can level up to unlock new abilities.
+Below are the key skill categories and their descriptions:
 
 ### Gathering Skills
 
@@ -104,9 +104,9 @@ To use the Party System:
 
 ### Power Leveling
 
-Power leveling involves focusing on a specific skill, using certain perks or abilities, and performing related tasks
-efficiently. For example, using **SuperBreaker** in **Mining** lets you break ores quickly, while **TreeFeller** in *
-*Woodcutting** allows you to fell entire trees at once.
+Power leveling involves focusing on a specific skill, using certain perks or abilities, and performing related tasks efficiently.
+For example, using **SuperBreaker** in **Mining** lets you break ores quickly, while **TreeFeller** in **Woodcutting** allows you
+to fell entire trees at once.
 
 | Skill           | Power Leveling Tip                                                                 |
 | --------------- | ---------------------------------------------------------------------------------- |
@@ -116,9 +116,9 @@ efficiently. For example, using **SuperBreaker** in **Mining** lets you break or
 
 ### mcMMO Abilities
 
-As you level up your skills, you'll unlock special abilities that can drastically improve your gameplay. These abilities
-are unique to each skill and offer enhanced features, from powerful combat perks to improved gathering efficiency. Below
-is a comprehensive list of mcMMO abilities, their skill requirements, and their effects.
+As you level up your skills, you'll unlock special abilities that can drastically improve your gameplay.
+These abilities are unique to each skill and offer enhanced features, from powerful combat perks to improved
+gathering efficiency. Below is a comprehensive list of mcMMO abilities, their skill requirements, and their effects.
 
 | Ability           | Skill       | Requirement Level | Effect                                                                                                                                |
 | ----------------- | ----------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

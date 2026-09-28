@@ -11,7 +11,8 @@ Welcome to the JeriCraft Market Price Reference! This guide provides **suggested
 
 Use these prices as a fair starting point when setting up your Shops, or trading with other players. 
 
-> **Note:** These are **reference values only**. Actual market prices will fluctuate based on supply, demand, and overall server economic conditions.
+> **Note:** These are **reference values only**.
+> Actual market prices will fluctuate based on supply, demand, and overall server economic conditions.
 
 ---
 

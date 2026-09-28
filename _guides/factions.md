@@ -7,8 +7,9 @@ permalink: /guides/factions/
 
 # JeriCraft Factions Guide
 
-Welcome to the **JeriCraft Factions System**! This guide will help you understand how to create and manage your faction,
-claim land, build power, and raid enemy territories.
+Welcome to the **JeriCraft Factions System**!
+
+This guide will help you understand how to create and manage your faction, claim land, build power, and raid enemy territories.
 
 ---
 
@@ -18,8 +19,8 @@ claim land, build power, and raid enemy territories.
 
 ## Faction Creation & Management
 
-The foundation of any great empire begins with its creation. Establish your own faction, forge alliances, and
-carve your legacy into the lands of JeriCraft.
+The foundation of any great empire begins with its creation.
+Establish your own faction, forge alliances, and carve your legacy into the lands of JeriCraft.
 
 | **Command**                    | **Description**                                                                                                                                        |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -55,7 +56,7 @@ A kingdom thrives on its people! Recruit allies, build a loyal court, and manage
 
 Manage your faction's members, ranks, and permissions to build a strong and loyal kingdom.
 
-ℹ️ As a ruler, it is your duty to **build trust** and **reward loyalty**. Strong factions are forged through camaraderie
+As a ruler, it is your duty to **build trust** and **reward loyalty**. Strong factions are forged through camaraderie
 and strategy. More members mean **more power**, which allows your faction to **claim more land** and expand its
 influence. Grant **leadership roles** to trusted members to help you manage your growing kingdom.
 
@@ -80,10 +81,9 @@ influence. Grant **leadership roles** to trusted members to help you manage your
 
 ## Territory Management
 
-A kingdom is nothing without its territory! Factions must **claim land** to establish castles, villages, and
-fortifications.
+A kingdom is nothing without its territory! Factions must **claim land** to establish castles, villages, and fortifications.
 
-ℹ️ **Important:** Factions are only enabled in the main survival world (`world`). You cannot claim land or perform faction actions in other worlds (e.g., the Nether or the End).
+**Important:** Factions are only enabled in the main survival world (`world`). You cannot claim land or perform faction actions in other worlds (e.g., the Nether or the End).
 
 Once created, you become the **leader** of your faction, wielding the power to **expand your domain**,
 **recruit allies**, and **command your kingdom's fate**. You can **manage your faction's land, power, and members** to
@@ -104,7 +104,7 @@ build an empire that stands the test of time.
 
 A kingdom is built on wealth! Manage your faction's finances to fund expansions and military endeavors.
 
-ℹ️ For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide]({{site.baseurl}}/guides/economy).
+For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide]({{site.baseurl}}/guides/economy).
 
 | **Command**                                   | **Description**                                               |
 | --------------------------------------------- | ------------------------------------------------------------- |
@@ -209,9 +209,9 @@ Recruit members to **strengthen your kingdom**.
 - **Power Loss Per Death:** `5` → How much power a player loses when they die.
 - **Offline Power Loss:** `-0.4 per day` → How much power is lost daily while offline.
 - **Offline Power Loss Limit:** `5` → The lowest power a player can reach due to inactivity.
-- **Players Can Leave While Negative Power:** ✅ `true`
-- **Raidability Enabled:** ✅ `true` → Factions can be raided if their land exceeds their power.
-- **Raidable at Land >= Power:** ❌ `false` → Requires land to be greater than power for raidability.
+- **Players Can Leave While Negative Power:** `true`
+- **Raidability Enabled:** `true` → Factions can be raided if their land exceeds their power.
+- **Raidable at Land >= Power:** `false` → Requires land to be greater than power for raidability.
 
 ---
 
@@ -224,7 +224,7 @@ Recruit members to **strengthen your kingdom**.
 ### War Zones
 
 - PvP is always enabled.
-- **WarZone Power Loss:** ✅ `true` → Players lose power when dying in war zones.
+- **WarZone Power Loss:** `true` → Players lose power when dying in war zones.
 
 ### Safe Zones
 
@@ -232,19 +232,19 @@ Recruit members to **strengthen your kingdom**.
 
 ### Wilderness
 
-- **Wilderness Power Loss:** ✅ `true` → Players lose power when dying in the wilderness.
+- **Wilderness Power Loss:** `true` → Players lose power when dying in the wilderness.
 - **Wilderness:** No protections; players can build and PvP freely.
 
 ### Peaceful Factions
 
-- **Peaceful Members Power Loss:** ❌ `false` → Peaceful faction members do not lose power.
+- **Peaceful Members Power Loss:** `false` → Peaceful faction members do not lose power.
 
 ---
 
 ## Miscellaneous
 
-- **Power Regenerates While Offline:** ❌ `false`
-- **Respawn Home from No Power Loss Worlds:** ✅ `true`
+- **Power Regenerates While Offline:** `false`
+- **Respawn Home from No Power Loss Worlds:** `true`
 
 ---
 

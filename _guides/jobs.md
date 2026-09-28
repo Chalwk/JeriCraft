@@ -98,9 +98,12 @@ faster and earn more. All times below are listed in **NZST**.
 **Notes:**
 - Boosters are listed in chronological order by start time. Several overlap with others or run on the same days, so
   it's possible to stack multiple boosted jobs back to back throughout the day.
+
 - Some boosters (like **Forge Hours** and **Deep Delving Hours**) share the same time window but boost different
   jobs, so plan your schedule around which profession you're working that day.
+
 - The **Royal Feast Preparation** booster applies to the **Cooker** job specifically. If you don't see "Cooker" as
   a job option, check with staff, as the jobs list above may use a different name for this profession.
+
 - Watch in-game chat for start and end announcements. Each booster broadcasts a reminder periodically while active,
   so you'll always know when a boost is live.
