@@ -91,7 +91,7 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - run.bat
-  - _config.local.yml
+  - data/discord
 
 # Markdown engine. Kramdown is Jekyll's default and supports the config below.
 markdown: kramdown
