@@ -1509,3 +1509,37 @@ footer {
   background: var(--accent-hover);
   transform: translateY(-2px);
 }
+
+/* ---------- Commands tables: collapsible permission column ---------- */
+table.perms-collapsible.perms-hidden thead th:last-child,
+table.perms-collapsible.perms-hidden tbody td:last-child {
+  display: none;
+}
+
+.perms-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.25rem 0 0.75rem;
+  padding: 0.35rem 0.95rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  background: rgba(8, 12, 24, 0.55);
+  border: 2px solid var(--border-soft);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: border-color var(--transition), color var(--transition),
+    background var(--transition);
+}
+
+.perms-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent-2);
+  background: rgba(8, 12, 24, 0.75);
+}
+
+.perms-toggle i {
+  color: var(--accent);
+}
