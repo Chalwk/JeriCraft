@@ -28,6 +28,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     dropdownToggles.forEach(toggle => {
         toggle.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            const canHover = window.matchMedia('(hover: hover)').matches && window.innerWidth > 900;
+            if (canHover) {
+                if (href && href !== '#') return;
+                e.preventDefault();
+                return;
+            }
             e.preventDefault();
             const parentLi = this.closest('.dropdown');
             if (!parentLi) return;
@@ -61,6 +68,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // Close open dropdowns on Escape
     document.addEventListener('keydown', function (e) {
         if (e.key !== 'Escape') return;
+        if (mainNav && mainNav.classList.contains('show') && navToggle) {
+            mainNav.classList.remove('show');
+            navToggle.setAttribute('aria-expanded', 'false');
+            navToggle.focus();
+        }
         document.querySelectorAll('.dropdown.open').forEach(d => {
             d.classList.remove('open');
             d.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
@@ -114,6 +126,143 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
     }
+
+    /* ---------- Skip-link target ---------- */
+    const main = document.querySelector('main');
+    if (main && !main.id) main.id = 'main-content';
+    if (main) main.setAttribute('tabindex', '-1');
+
+    /* ---------- Copy helpers ---------- */
+    async function copyText(text) {
+        try {
+            await navigator.clipboard.writeText(text);
+            return true;
+        } catch (err) {
+            try {
+                const ta = document.createElement('textarea');
+                ta.value = text;
+                ta.setAttribute('readonly', '');
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                const ok = document.execCommand('copy');
+                ta.remove();
+                return ok;
+            } catch (e) {
+                return false;
+            }
+        }
+    }
+
+    // Any element with data-copy copies that text (server IP boxes)
+    document.querySelectorAll('[data-copy]').forEach(btn => {
+        const hint = btn.querySelector('.join-box-hint, .footer-ip-text');
+        const original = hint ? hint.textContent : '';
+        let timer;
+        btn.addEventListener('click', async () => {
+            const ok = await copyText(btn.dataset.copy);
+            if (hint) {
+                hint.textContent = ok ? 'Copied!' : 'Copy failed. Select it manually';
+                clearTimeout(timer);
+                timer = setTimeout(() => (hint.textContent = original), 1600);
+            }
+        });
+    });
+
+    // Inline command snippets starting with "/" are click-to-copy
+    document.querySelectorAll('.page-content code').forEach(code => {
+        const text = code.textContent.trim();
+        if (!text.startsWith('/') || code.closest('pre')) return;
+        code.classList.add('copyable');
+        code.tabIndex = 0;
+        code.setAttribute('role', 'button');
+        code.title = 'Click to copy';
+        const run = async () => {
+            if (await copyText(text)) {
+                code.classList.add('copied');
+                setTimeout(() => code.classList.remove('copied'), 900);
+            }
+        };
+        code.addEventListener('click', run);
+        code.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); run(); }
+        });
+    });
+
+    /* ---------- Live filter (guides, commands) ---------- */
+    document.querySelectorAll('input[data-filter-items]').forEach(input => {
+        const selector = input.dataset.filterItems;
+        const emptyMsg = input.dataset.filterEmpty ? document.querySelector(input.dataset.filterEmpty) : null;
+
+        const apply = () => {
+            const q = input.value.trim().toLowerCase();
+            const items = document.querySelectorAll(selector);
+            items.forEach(el => { el.hidden = q !== '' && !el.textContent.toLowerCase().includes(q); });
+
+            // Hide tables (and their heading) when every row is filtered out
+            document.querySelectorAll('.tab-content table').forEach(table => {
+                const rows = table.querySelectorAll('tbody tr');
+                const hide = q !== '' && rows.length > 0 && Array.from(rows).every(r => r.hidden);
+                table.hidden = hide;
+                const prev = table.previousElementSibling;
+                if (prev && /^H[1-6]$/.test(prev.tagName)) prev.hidden = hide;
+            });
+
+            if (emptyMsg) {
+                const inScope = Array.from(items).filter(el => {
+                    const panel = el.closest('.tab-content');
+                    return !panel || panel.classList.contains('active');
+                });
+                emptyMsg.hidden = q === '' || inScope.some(el => !el.hidden);
+            }
+        };
+
+        input.addEventListener('input', apply);
+        document.addEventListener('tabchange', apply);
+    });
+
+    /* ---------- Live server status ---------- */
+    const statusEl = document.getElementById('server-status');
+    if (statusEl) {
+        const host = statusEl.dataset.serverHost;
+        fetch('https://api.mcsrvstat.us/3/' + encodeURIComponent(host))
+            .then(r => r.json())
+            .then(d => {
+                const text = statusEl.querySelector('.status-text');
+                statusEl.classList.toggle('online', !!d.online);
+                statusEl.classList.toggle('offline', !d.online);
+                text.textContent = d.online
+                    ? `${d.players && d.players.online != null ? d.players.online : 0}/${d.players && d.players.max != null ? d.players.max : '?'} online` +
+                    (d.version ? ` · ${d.version}` : '')
+                    : 'Server offline';
+                statusEl.hidden = false;
+            })
+            .catch(() => { /* leave hidden if the API is unreachable */ });
+    }
+
+    /* ---------- Back to top ---------- */
+    const toTop = document.createElement('button');
+    toTop.type = 'button';
+    toTop.className = 'back-to-top';
+    toTop.setAttribute('aria-label', 'Back to top');
+    toTop.innerHTML = '<i class="fas fa-chevron-up" aria-hidden="true"></i>';
+    toTop.hidden = true;
+    document.body.appendChild(toTop);
+
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+            toTop.hidden = window.scrollY < 600;
+            ticking = false;
+        });
+    }, { passive: true });
+
+    toTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+    });
 });
 
 /* ---------- Share helper (exposed globally) ---------- */

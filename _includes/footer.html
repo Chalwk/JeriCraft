@@ -2,8 +2,19 @@
 
 <footer>
     <div class="footer-content">
-        <div>
-            <p class="footer-copyright">&copy; 2026 Jericho Crosby (Chalwk). All rights reserved.</p>
+        <div class="footer-links">
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="{{ site.baseurl }}/guides/getting-started/">New Players</a>
+                <a href="{{ site.baseurl }}/guides/">Guides</a>
+                <a href="{{ site.baseurl }}/commands/">Commands</a>
+                <a href="{{ site.baseurl }}/rules/">Rules</a>
+                <a href="{{ site.links.ban_appeal }}" target="_blank" rel="noopener">Ban Appeal</a>
+            </nav>
+            <button class="footer-ip" type="button" data-copy="{{ site.server_address }}"
+                aria-label="Copy server address {{ site.server_address }}">
+                <i class="fas fa-copy" aria-hidden="true"></i>
+                <span class="footer-ip-text">{{ site.server_address }}</span>
+            </button>
         </div>
         <div class="social-share">
             <a aria-label="Discord" class="social-icon" href="{{ site.links.discord }}" target="_blank" rel="noopener">
@@ -18,6 +29,7 @@
         </div>
     </div>
     <div class="footer-disclaimer">
+        <p class="footer-copyright">&copy; 2026 Jericho Crosby (Chalwk). All rights reserved.</p>
         <p>JeriCraft is not affiliated with Mojang AB.</p>
     </div>
 </footer>

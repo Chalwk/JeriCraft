@@ -8,21 +8,27 @@ title: Home
 <section class="hero">
   <div class="hero-content">
     <img alt="JeriCraft Logo" class="hero-logo" src="{{ site.baseurl }}/assets/images/logos/jericraft-logo-no-bg.png">
-    <p
-      style="font-family: 'MedievalSharp', 'Uncial Antiqua', 'Cinzel', Georgia, serif; font-size: 1.15rem; letter-spacing: 0.08em; color: #d4af5a; text-shadow: 0 0 12px rgba(212, 175, 90, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.8); text-transform: uppercase; margin: 0.5rem 0 1rem;">
-      Medieval SMP/RPG Factions Server
-    </p>
-    <div
-      style="position: relative; display: inline-flex; flex-direction: column; align-items: center; gap: 0.35rem; margin: 1.5rem auto; padding: 1.1rem 2.5rem; background: linear-gradient(180deg, #2b1d10 0%, #1a1108 100%); border: 2px solid #a8823c; border-radius: 6px; box-shadow: 0 0 0 4px #0d0904, 0 0 18px rgba(212, 175, 90, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06); cursor: pointer; font-family: 'Cinzel', 'Georgia', serif;"
-      onclick="navigator.clipboard.writeText('play.jericraft.net'); this.querySelector('.ip-copy-hint').textContent='copied!'; setTimeout(() => this.querySelector('.ip-copy-hint').textContent='click to copy', 1500);">
-      <span
-        style="font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: #c9a35f; opacity: 0.85;">Join
-        the Realm</span>
-      <span
-        style="font-size: 1.6rem; font-weight: 700; letter-spacing: 0.06em; color: #f3d98a; text-shadow: 0 0 10px rgba(243, 217, 138, 0.5);">play.jericraft.net</span>
-      <span class="ip-copy-hint"
-        style="font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: #7a6644;">click to
-        copy</span>
+    <p class="hero-tagline">Medieval SMP/RPG Factions Server</p>
+
+    <button class="join-box" type="button" data-copy="{{ site.server_address }}"
+      aria-label="Copy server address {{ site.server_address }}">
+      <span class="join-box-label">Join the Realm</span>
+      <span class="join-box-ip">{{ site.server_address }}</span>
+      <span class="join-box-hint" aria-live="polite">Click to copy</span>
+    </button>
+
+    <div class="server-status" id="server-status" data-server-host="{{ site.server_address }}" hidden>
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text"></span>
+    </div>
+
+    <div class="hero-actions">
+      <a class="btn btn-discord" href="{{ site.links.discord }}" target="_blank" rel="noopener">
+        <i class="fab fa-discord" aria-hidden="true"></i> Join Discord
+      </a>
+      <a class="btn btn-secondary" href="{{ site.baseurl }}/guides/getting-started/">
+        <i class="fas fa-flag" aria-hidden="true"></i> New player guide
+      </a>
     </div>
   </div>
 </section>
@@ -63,25 +69,59 @@ title: Home
   <h2>Why Choose JeriCraft?</h2>
   <div class="feature-grid">
     <div class="feature-item">
-      <i class="fas fa-shield-alt"></i>
+      <i class="fas fa-shield-alt" aria-hidden="true"></i>
       <h3>Factions &amp; Warfare</h3>
       <p>Claim territory, forge alliances, and wage war in a living medieval world.</p>
     </div>
     <div class="feature-item">
-      <i class="fas fa-coins"></i>
+      <i class="fas fa-coins" aria-hidden="true"></i>
       <h3>Player-Driven Economy</h3>
       <p>Trade via Chest Shops, jobs and NPC merchants. Every player shapes the market.</p>
     </div>
     <div class="feature-item">
-      <i class="fas fa-dragon"></i>
+      <i class="fas fa-dragon" aria-hidden="true"></i>
       <h3>RPG Progression</h3>
       <p>Level up mcMMO skills, tackle levelled mobs, and complete quests for legendary loot.</p>
     </div>
     <div class="feature-item">
-      <i class="fas fa-users"></i>
+      <i class="fas fa-users" aria-hidden="true"></i>
       <h3>Friendly Community</h3>
       <p>Join a welcoming realm where every player matters, from Commoner to Overlord.</p>
     </div>
+  </div>
+</section>
+
+<section class="showcase">
+  <h2>Life in the Realm</h2>
+  <div class="showcase-grid">
+    <a class="showcase-card" href="{{ site.baseurl }}/guides/jobs/">
+      <img src="{{ site.baseurl }}/assets/images/advertising/jobs.png" alt="" loading="lazy">
+      <div>
+        <h3>Jobs</h3>
+        <p>Pick from 24+ professions and get paid for the work you do.</p>
+      </div>
+    </a>
+    <a class="showcase-card" href="{{ site.baseurl }}/guides/mcmmo/">
+      <img src="{{ site.baseurl }}/assets/images/advertising/mcmmo.png" alt="" loading="lazy">
+      <div>
+        <h3>mcMMO</h3>
+        <p>Level combat and crafting skills to unlock new abilities.</p>
+      </div>
+    </a>
+    <a class="showcase-card" href="{{ site.baseurl }}/guides/realistic-seasons/">
+      <img src="{{ site.baseurl }}/assets/images/advertising/realistic_seasons.png" alt="" loading="lazy">
+      <div>
+        <h3>Seasons</h3>
+        <p>Winter and summer change how you farm, hunt and survive.</p>
+      </div>
+    </a>
+    <a class="showcase-card" href="{{ site.baseurl }}/guides/levelled-mobs/">
+      <img src="{{ site.baseurl }}/assets/images/advertising/levelled_mobs.png" alt="" loading="lazy">
+      <div>
+        <h3>Levelled Mobs</h3>
+        <p>Monsters scale up as you do, so no fight plays out the same way.</p>
+      </div>
+    </a>
   </div>
 </section>
 
@@ -89,23 +129,23 @@ title: Home
   <h2>Explore JeriCraft</h2>
   <div class="link-cards">
     <a href="{{ site.baseurl }}/guides/getting-started" class="link-card">
-      <i class="fas fa-flag"></i>
+      <i class="fas fa-flag" aria-hidden="true"></i>
       <span>New Players</span>
     </a>
     <a href="{{ site.baseurl }}/about" class="link-card">
-      <i class="fas fa-info-circle"></i>
+      <i class="fas fa-info-circle" aria-hidden="true"></i>
       <span>Learn More</span>
     </a>
     <a href="{{ site.baseurl }}/guides" class="link-card">
-      <i class="fas fa-book"></i>
+      <i class="fas fa-book" aria-hidden="true"></i>
       <span>Guides</span>
     </a>
     <a href="{{ site.baseurl }}/commands" class="link-card">
-      <i class="fas fa-terminal"></i>
+      <i class="fas fa-terminal" aria-hidden="true"></i>
       <span>Commands</span>
     </a>
     <a href="{{ site.baseurl }}/rules" class="link-card">
-      <i class="fas fa-gavel"></i>
+      <i class="fas fa-gavel" aria-hidden="true"></i>
       <span>Rules</span>
     </a>
     <!-- <a href="{{ site.baseurl }}/store" class="link-card">

@@ -13,9 +13,14 @@ permalink: /commands/
 
   {% include toc.html %}
 
-  <div class="tabs">
-    <button class="tab-btn active" data-tab="player">Player Commands</button>
-    <button class="tab-btn" data-tab="staff">Staff Commands</button>
+  <input type="search" class="filter-input" placeholder="Filter commands…" aria-label="Filter commands"
+    data-filter-items=".tab-content tbody tr, .tab-content li" data-filter-empty="#cmd-empty">
+
+  <div class="tabs" role="tablist" aria-label="Command lists">
+    <button class="tab-btn active" role="tab" id="tab-player" aria-controls="player" aria-selected="true"
+      data-tab="player">Player Commands</button>
+    <button class="tab-btn" role="tab" id="tab-staff" aria-controls="staff" aria-selected="false" tabindex="-1"
+      data-tab="staff">Staff Commands</button>
   </div>
 
   <p>
@@ -23,11 +28,13 @@ permalink: /commands/
     please contact a staff member.
   </p>
 
-  <div id="player" class="tab-content active">
+  <p class="filter-empty" id="cmd-empty" hidden>No commands match that search in this tab.</p>
+
+  <div id="player" class="tab-content active" role="tabpanel" aria-labelledby="tab-player">
     {% capture player_commands %}{% include player-commands.md %}{% endcapture %}
     {{ player_commands | markdownify }}
   </div>
-  <div id="staff" class="tab-content">
+  <div id="staff" class="tab-content" role="tabpanel" aria-labelledby="tab-staff">
     {% capture staff_commands %}{% include staff-commands.md %}{% endcapture %}
     {{ staff_commands | markdownify }}
   </div>
@@ -35,16 +42,44 @@ permalink: /commands/
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const tabs = document.querySelectorAll('.tab-btn');
-    const contents = document.querySelectorAll('.tab-content');
-    tabs.forEach(btn => {
-      btn.addEventListener('click', function () {
-        tabs.forEach(b => b.classList.remove('active'));
-        contents.forEach(c => c.classList.remove('active'));
-        this.classList.add('active');
-        document.getElementById(this.dataset.tab).classList.add('active');
-        document.dispatchEvent(new CustomEvent('tabchange'));
+    const tabs = Array.from(document.querySelectorAll('.tab-btn'));
+    const panels = Array.from(document.querySelectorAll('.tab-content'));
+
+    const seen = new Set();
+    panels.forEach(panel => {
+      panel.querySelectorAll('[id]').forEach(el => {
+        if (seen.has(el.id)) el.id = panel.id + '-' + el.id;
+        seen.add(el.id);
       });
     });
+
+    function activate(name, moveFocus) {
+      tabs.forEach(btn => {
+        const on = btn.dataset.tab === name;
+        btn.classList.toggle('active', on);
+        btn.setAttribute('aria-selected', on ? 'true' : 'false');
+        btn.tabIndex = on ? 0 : -1;
+        if (on && moveFocus) btn.focus();
+      });
+      panels.forEach(p => p.classList.toggle('active', p.id === name));
+      document.dispatchEvent(new CustomEvent('tabchange'));
+    }
+
+    tabs.forEach((btn, i) => {
+      btn.addEventListener('click', () => {
+        activate(btn.dataset.tab, false);
+        history.replaceState(null, '', '#' + btn.dataset.tab);
+      });
+      btn.addEventListener('keydown', e => {
+        if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+        e.preventDefault();
+        const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
+        activate(next.dataset.tab, true);
+        history.replaceState(null, '', '#' + next.dataset.tab);
+      });
+    });
+
+    const wanted = location.hash.slice(1);
+    activate(tabs.some(t => t.dataset.tab === wanted) ? wanted : 'player', false);
   });
 </script>

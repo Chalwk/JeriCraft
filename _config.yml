@@ -9,7 +9,6 @@ locale: en_NZ
 lang: en
 og_locale: en_NZ
 timezone: Pacific/Auckland
-site_scale: 0.65
 
 author:
   name: Jericho Crosby
@@ -25,12 +24,9 @@ links:
   github: https://github.com/Chalwk/JeriCraft
 
 minecraft_version: "1.21.4"
-
-sass:
-  style: compressed
+server_address: play.jericraft.net
 
 incremental: true
-plugins_cache: true
 
 markdown: kramdown
 kramdown:
@@ -40,10 +36,6 @@ kramdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-relative_links:
-  enabled: true
-  collections: true
 
 collections:
   guides:
