@@ -1083,15 +1083,26 @@ footer {
   .footer-links {
     align-items: center;
     text-align: center;
+    width: 100%;
   }
 
   .footer-nav {
+    flex-wrap: nowrap;
     justify-content: center;
-    gap: 0.25rem 0.5rem;
+    gap: 0.25rem;
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .footer-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .footer-nav a {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     white-space: nowrap;
   }
 
@@ -1473,4 +1484,14 @@ footer {
 .back-to-top:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
+}
+
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-break {
+    display: inline;
+  }
 }
