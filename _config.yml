@@ -1,68 +1,154 @@
 # Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved.
 
+# -----------------------------------------------------------------------------
+# Site identity
+# -----------------------------------------------------------------------------
+
+# Name of the site (used in <title>, SEO tags, and the header).
 title: JeriCraft
+
+# Short summary of the site (used by jekyll-seo-tag for meta description).
 description: Official website for the JeriCraft Minecraft community.
 
+# -----------------------------------------------------------------------------
+# URLs and locale
+# -----------------------------------------------------------------------------
+
+# Canonical production URL. Used by jekyll-seo-tag, sitemap, and absolute links.
 url: "https://jericraft.net"
+
+# Subpath the site is served from. Empty string = site lives at the domain root.
 baseurl: ""
+
+# Locale/regional settings. `locale` and `og_locale` follow the xx_YY convention.
+# `lang` is the ISO 639-1 language code used in the <html lang="..."> attribute.
 locale: en_NZ
 lang: en
 og_locale: en_NZ
-timezone: Pacific/Auckland
-site_scale: 0.65 # Deliberate. Do not touch!
 
+# IANA timezone. Affects date formatting in Liquid filters (e.g. `date:`).
+timezone: Pacific/Auckland
+
+# Deliberate. Do not touch!
+# Used to shrink the responsive viewport scale on mobile (see head.html).
+site_scale: 0.65
+
+# -----------------------------------------------------------------------------
+# Author
+# -----------------------------------------------------------------------------
+
+# Site author details. Consumed by jekyll-seo-tag and referenced in the footer.
 author:
   name: Jericho Crosby
   url: https://github.com/Chalwk
 
+# -----------------------------------------------------------------------------
+# Assets
+# -----------------------------------------------------------------------------
+
+# Default social/OG preview image, relative to site root.
 image: /assets/images/logos/jericraft-logo.png
+
+# Browser tab icon, relative to site root.
 favicon: favicon.ico
 
+# -----------------------------------------------------------------------------
+# External links
+# -----------------------------------------------------------------------------
+
+# Central place for every outbound link used across the site. Referenced in
+# templates as `{{ site.links.<key> }}` so URLs only need updating in one place.
 links:
   email: chalwk.dev@gmail.com
   discord: https://discord.gg/3HkQ4cGVnS
   ban_appeal: https://github.com/Chalwk/JeriCraft/issues/new?template=ban-appeal.yml
   github: https://github.com/Chalwk/JeriCraft
 
-minecraft_version: "1.21.4"
+# -----------------------------------------------------------------------------
+# Server info
+# -----------------------------------------------------------------------------
+
+# Minecraft version shown to players (stringified so it isn't parsed as a float).
+minecraft_version: "26.1.2"
+
+# Public server address used by the copy-to-clipboard buttons and status widget.
 server_address: play.jericraft.net
 
+# -----------------------------------------------------------------------------
+# Build behaviour
+# -----------------------------------------------------------------------------
+
+# Only rebuild files that changed since the last build. Speeds up local dev.
 incremental: true
 
+# Markdown engine. Kramdown is Jekyll's default and supports the config below.
 markdown: kramdown
 kramdown:
+  # Disable syntax highlighting (snippets are rendered as plain <code> blocks).
   syntax_highlighter: nil
+
+  # Treat single newlines as <br>. Handy for loosely formatted Markdown files.
   hard_wrap: true
 
+# -----------------------------------------------------------------------------
+# Plugins
+# -----------------------------------------------------------------------------
+
+# jekyll-seo-tag   - injects <title>, meta description, OG/Twitter tags via {% seo %}.
+# jekyll-sitemap   - auto-generates sitemap.xml at build time.
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Custom content types. Each entry defines where files live (underscore-prefixed
+# folder at the project root) and how their output URLs are shaped.
 collections:
+  # _guides/  - /guides/<filename>/
   guides:
     output: true
     permalink: /:collection/:path/
+
+  # _shops/  - /shops/<filename>/
   shops:
     output: true
     permalink: /:collection/:path/
 
+# -----------------------------------------------------------------------------
+# Defaults
+# -----------------------------------------------------------------------------
+
+# Front matter defaults applied to pages/documents that don't set their own
+# values. Rules are evaluated top-to-bottom; the first matching rule wins.
 defaults:
+  # Global default: every page uses the `default` layout unless overridden.
   - scope:
       path: ""
     values:
       layout: default
+
+  # Guides collection - wrap content in the `page` layout.
   - scope:
       type: "guides"
     values:
       layout: page
+
+  # Shops collection - wrap content in the `page` layout.
   - scope:
       type: "shops"
     values:
       layout: page
+
+  # Root about.md - use the `page` layout (ignores the global `default`).
   - scope:
       path: "about.md"
     values:
       layout: page
+
+  # Store page is currently disabled. Do not uncomment!
   # - scope:
   #     path: "store.md"
   #   values:
