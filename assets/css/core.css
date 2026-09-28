@@ -350,6 +350,11 @@ p {
 
   .main-nav.show {
     display: flex;
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
   }
 
   .main-nav ul {
@@ -374,6 +379,11 @@ p {
     border-radius: 0;
     box-shadow: none;
     background: rgba(8, 12, 24, 0.15);
+    max-height: 50vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
   }
 
   .main-nav .dropdown-menu li a {

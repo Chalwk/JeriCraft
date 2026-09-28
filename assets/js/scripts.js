@@ -55,8 +55,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Close open dropdowns on outside click
+    // Close open dropdowns and mobile nav on outside click
     document.addEventListener('click', function (e) {
+        const clickedInsideNav = e.target.closest('.main-nav');
+        const clickedNavToggle = e.target.closest('.nav-toggle');
+
+        if (mainNav && mainNav.classList.contains('show') && !clickedInsideNav && !clickedNavToggle) {
+            mainNav.classList.remove('show');
+            navToggle?.setAttribute('aria-expanded', 'false');
+        }
+
         const openDropdowns = document.querySelectorAll('.dropdown.open');
         if (!openDropdowns.length) return;
         if (!e.target.closest('.dropdown')) {
