@@ -10,8 +10,12 @@
 <meta content="dark" name="color-scheme">
 <meta name="author" content="{{ site.author.name | default: site.title }}">
 
+<!--
+jekyll-seo-tag emits: <title>, <meta name="description">, canonical,
+og:title/description/url/type/image, og:image:alt, twitter:card/title/description/image,
+and a JSON-LD block.
+-->
 {% seo %}
-<meta content="JeriCraft Logo" property="og:image:alt">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +23,9 @@
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
 <link href="{{ site.favicon | relative_url }}" rel="icon" type="image/x-icon">
-{% if site.image %}
-<link href="{{ site.image | relative_url }}" rel="apple-touch-icon">
+{% if page.image %}
+{% assign touch_icon = page.image.path | default: page.image %}
+<link href="{{ touch_icon | relative_url }}" rel="apple-touch-icon">
 {% endif %}
 
 <link href="{{ site.baseurl }}/assets/css/core.css" rel="stylesheet">

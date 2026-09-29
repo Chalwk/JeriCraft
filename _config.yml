@@ -57,9 +57,6 @@ twitter:
 # Assets
 # -----------------------------------------------------------------------------
 
-# Default social/OG preview image, relative to site root.
-image: /assets/images/logos/jericraft-logo.png
-
 # Browser tab icon, relative to site root.
 favicon: favicon.ico
 
@@ -150,11 +147,15 @@ collections:
 # Front matter defaults applied to pages/documents that don't set their own
 # values. Rules apply top-to-bottom; when several match, later (more specific) rules override earlier ones.
 defaults:
-  # Global default: every page uses the `default` layout unless overridden.
+  # Global default: every page uses the `default` layout and the site-wide
+  # social/OG preview image unless overridden.
   - scope:
       path: ""
     values:
       layout: default
+      image:
+        path: /assets/images/logos/jericraft-logo.png
+        alt: "JeriCraft Logo"
 
   # Guides collection - wrap content in the `page` layout.
   - scope:
