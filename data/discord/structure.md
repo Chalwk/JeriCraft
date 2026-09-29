@@ -30,6 +30,7 @@
 | --------------------------------- | ------------------------------------------------------------- |
 | `contributing` (forum)            | Learn about contributing to the JeriCraft site documentation. |
 | `website-git-feed` (text channel) | Git notifications (pull, push, commit, etc).                  |
+| `website-updates` (text channel)  | Hand-posted changelogs and announcements about the website.   |
 
 ---
 
