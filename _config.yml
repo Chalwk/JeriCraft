@@ -120,8 +120,8 @@ kramdown:
 # Plugins
 # -----------------------------------------------------------------------------
 
-# jekyll-seo-tag   - injects <title>, meta description, OG/Twitter tags via {% seo %}.
-# jekyll-sitemap   - auto-generates sitemap.xml at build time.
+# jekyll-seo-tag - injects <title>, meta description, OG/Twitter tags via {% seo %}.
+# jekyll-sitemap - auto-generates sitemap.xml at build time.
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
