@@ -34,19 +34,22 @@ The world itself is dynamic, with **four distinct seasons** that affect crop gro
 | **NPC Merchants**                | Trade with NPC merchants offering rare goods, fluctuating prices, and faction-specific deals.                                                                           |
 | **Discord Integration**          | Chat cross-platform, claim in-game rewards via Discord roles, and receive real-time war alerts.                                                                         |
 | **Friendly Community**           | Join a supportive and welcoming community of players from all walks of life.                                                                                            |
-| And so much more!                |
+| And so much more!                |                                                                                                                                                                         |
 
 For detailed guides on each feature, check out our [Guides]({{site.baseurl}}/guides) section. Also, see the [Commands]({{site.baseurl}}/commands) page for a full list of player and staff commands.
 
+---
+
 ## Player Ranks
 
-| Rank                                                                          | Description                                                                                 |
-| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| ![Commoner](https://img.shields.io/badge/🏚️_Commoner-Guest-808080?style=flat)  | Discord guests toiling in the fields or players on the Minecraft server without membership. |
-| ![Villager](https://img.shields.io/badge/🏘️_Villager-Member-555555?style=flat) | The Member rank is for players who have linked their Discord account                        |
-| ![Artisan](https://img.shields.io/badge/🏗️_Artisan-Builder-5555FF?style=flat)  | The Artisan rank is for builders. It is a tool for creation, not an advantage for survival. |
+| Rank                                                                          | Description                                                                                          |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| ![Commoner](https://img.shields.io/badge/🏚️_Commoner-Guest-808080?style=flat)  | Discord guests toiling in the fields or players on the Minecraft server without membership.          |
+| ![Villager](https://img.shields.io/badge/🏘️_Villager-Member-555555?style=flat) | The Villager rank is for players who have linked their Discord account.                              |
+| ![Artisan](https://img.shields.io/badge/🏗️_Artisan-Builder-5555FF?style=flat)  | The Artisan rank is for approved builders. It is a tool for creation, not an advantage for survival. |
 
-<!-- ## Donor Ranks (Nobility)
+<!--
+## Donor Ranks (Nobility)
 
 | Rank                                                                   | Description                                                 |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -56,7 +59,10 @@ For detailed guides on each feature, check out our [Guides]({{site.baseurl}}/gui
 | ![Count](https://img.shields.io/badge/🏹_Count-00AA00?style=flat)       | The Count rank is for players who have donated $60-99.      |
 | ![Duke](https://img.shields.io/badge/🏰_Duke-00AAAA?style=flat)         | The Duke rank is for players who have donated $100-149.     |
 | ![Archduke](https://img.shields.io/badge/🏛️_Archduke-0000AA?style=flat) | The Archduke rank is for players who have donated $150-299. |
-| ![Overlord](https://img.shields.io/badge/🗡️_Overlord-5555FF?style=flat) | The Overlord rank is for players who have donated $300+     | -->
+| ![Overlord](https://img.shields.io/badge/🗡️_Overlord-5555FF?style=flat) | The Overlord rank is for players who have donated $300+.    |
+-->
+
+---
 
 ## Staff/Admin Ranks
 
