@@ -1,0 +1,8 @@
+{% comment %}
+  Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved.
+  Sets `sorted_shops`: shops with an `order` value first (ascending), then the rest A-Z.
+  Used by npc-shops.md and header.html so the index and the nav always agree.
+{% endcomment %}
+{% assign shops_ordered = site.shops | where_exp: "s", "s.order" | sort: "order" %}
+{% assign shops_unordered = site.shops | where_exp: "s", "s.order == nil" | sort_natural: "title" %}
+{% assign sorted_shops = shops_ordered | concat: shops_unordered %}

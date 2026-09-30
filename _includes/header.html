@@ -2,7 +2,7 @@
 
 {% assign url = page.url %}
 {% include guides-sorted.html %}
-{% assign nav_shops = site.shops | sort_natural: "title" %}
+{% include shops-sorted.html %}
 
 <header class="header">
     <div class="header-top">
@@ -40,13 +40,13 @@
             </li>
 
             <li class="dropdown">
-                <button type="button"
-                    class="dropdown-toggle{% if url contains '/shops' %} active{% endif %}"
+                <a href="{{ site.baseurl }}/npc-shops/"
+                    class="dropdown-toggle{% if url contains '/npc-shops' or url contains '/shops' %} active{% endif %}"
                     aria-haspopup="true" aria-expanded="false">
                     NPC Shops <i class="fas fa-caret-down" aria-hidden="true"></i>
-                </button>
+                </a>
                 <ul class="dropdown-menu">
-                    {% for s in nav_shops %}
+                    {% for s in sorted_shops %}
                     <li><a href="{{ s.url | relative_url }}"{% if url == s.url %} class="active" aria-current="page"{% endif %}>{{ s.nav_title | default: s.title | escape }}</a></li>
                     {% endfor %}
                 </ul>
