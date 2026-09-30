@@ -111,7 +111,7 @@ kramdown:
   # Single newlines are NOT turned into <br>. Most guides are hand-wrapped, so
   # hard_wrap would break paragraphs mid-sentence. For an intentional line
   # break, end the line with two spaces or a backslash.
-  hard_wrap: false
+  hard_wrap: true
 
 # -----------------------------------------------------------------------------
 # Plugins

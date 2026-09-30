@@ -10,7 +10,8 @@ order: 1
 
 # Getting Started
 
-Everything you need to know to get started on **JeriCraft**, from joining the server and using essential commands to choosing a faction, starting jobs, protecting your land, and exploring the world.
+Everything you need to know to get started on **JeriCraft**, from joining the server and using essential commands to
+choosing a faction, starting jobs, protecting your land, and exploring the world.
 
 ---
 
@@ -23,7 +24,7 @@ Everything you need to know to get started on **JeriCraft**, from joining the se
 If you only remember a handful of commands, make them these. They cover most of what a new player needs on day one.
 
 | **Command**                | **What it does**                                                              |
-| -------------------------- | ----------------------------------------------------------------------------- |
+|----------------------------|-------------------------------------------------------------------------------|
 | `/f home`                  | Teleport to your Faction's home (in survival). This is your way back to base. |
 | `/spawn`                   | Teleport to the server spawn hub (the castle).                                |
 | `/rt` (or `/wild`, `/rtp`) | Teleport to a random location in the wilderness.                              |
@@ -34,9 +35,11 @@ If you only remember a handful of commands, make them these. They cover most of 
 | `/mcstats`                 | View your mcMMO skills and stats.                                             |
 | `/help`                    | In-game help menu.                                                            |
 
-> **Lost in the wild?** Try `/f home` first. If you're in a faction with a home set, it will bring you straight back to base. If that fails, `/spawn` will always return you to the castle.
+> **Lost in the wild?** Try `/f home` first. If you're in a faction with a home set, it will bring you straight back to
+> base. If that fails, `/spawn` will always return you to the castle.
 
-> **Need more detail?** See the full [Player Commands]({{ site.baseurl }}/commands/) page and the [Factions Guide]({{site.baseurl}}/guides/factions/).
+> **Need more detail?** See the full [Player Commands]({{ site.baseurl }}/commands/) page and
+> the [Factions Guide]({{site.baseurl}}/guides/factions/).
 
 ---
 
@@ -44,10 +47,10 @@ If you only remember a handful of commands, make them these. They cover most of 
 
 ### 1. Choose Your Faction
 
-When you first join, you'll want to join (or create) a **Faction**. Factions allow you to claim land, protect your assets,
-and work together with others to dominate or defend the realm. Whether you seek to build a peaceful kingdom or lead an army
-into battle, the choice is yours! To join a faction, simply ask around, or use the `/f create` command to create your own.
-You can also use `/f join <faction name>` to join an existing one (if it's open).
+When you first join, you'll want to join (or create) a **Faction**. Factions allow you to claim land, protect your
+assets, and work together with others to dominate or defend the realm. Whether you seek to build a peaceful kingdom or
+lead an army into battle, the choice is yours! To join a faction, simply ask around, or use the `/f create` command to
+create your own. You can also use `/f join <faction name>` to join an existing one (if it's open).
 
 ### 2. Get Your Kits
 
@@ -59,13 +62,13 @@ weapons, making your survival in the wild much easier!
 
 JeriCraft offers a wide variety of RPG-style **jobs** and **skills** that let you specialize in different areas like
 mining, fishing, farming, or even combat. Use `/jobs` to view the available options and start your journey in the
-profession of your choice. You can also level up your skills using the mcMMO plugin (check your progress with `/mcstats`) to unlock special
-abilities and become more powerful!
+profession of your choice. You can also level up your skills using the mcMMO plugin (check your progress with
+`/mcstats`) to unlock special abilities and become more powerful!
 
 ### 4. Protect Your Land
 
-Use the [Factions Guide]({{site.baseurl}}/guides/factions) to learn how to protect your land and establish your base. In
-JeriCraft, you can claim territory, build fortresses, and make sure no one can destroy what you've worked hard to build!
+Use the [Factions Guide]({{site.baseurl}}/guides/factions) to learn how to protect your land and establish your base.
+In JeriCraft, you can claim territory, build fortresses, and make sure no one can destroy what you've worked hard to build!
 
 ### 5. Explore the World
 
@@ -77,10 +80,11 @@ supplies before you venture far into the unknown!
 
 ## Essential Commands (Full Reference)
 
-A more complete list of the commands you'll use most often. For everything else, see the [Player Commands]({{site.baseurl}}/commands) page.
+A more complete list of the commands you'll use most often. For everything else, see
+the [Player Commands]({{site.baseurl}}/commands) page.
 
 | **Category**                     | **Command**               | **Description**                                             |
-| -------------------------------- | ------------------------- | ----------------------------------------------------------- |
+|----------------------------------|---------------------------|-------------------------------------------------------------|
 | **Land Protection & Factions**   | `/f home`                 | Teleport to your Faction's home (in survival).              |
 |                                  | `/f create <name>`        | Create a new Faction.                                       |
 |                                  | `/f join <name>`          | Join an existing Faction.                                   |
