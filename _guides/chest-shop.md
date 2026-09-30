@@ -149,8 +149,6 @@ Replace `[warpName]` with a name for your warp, for example `/setwarp ChalwksDia
 - You cannot create warps inside faction territory that you do not own or are not a member of.
 - Breaking these rules may result in your warp access being removed.
 
-> 💡 Tip: You cannot change a warp's location through `/editwarp`. If you need to move a warp, remove it with `/removewarp` and create a new one with `/setwarp` at the new location.
-
 ### Advertising Your Warp
 
 Once your warp is created, let other players know about it! You can share the warp name in chat or on Discord so customers can use `/warp [warpName]` to teleport directly to your shop.
