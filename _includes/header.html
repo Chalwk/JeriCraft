@@ -27,11 +27,11 @@
             <li><a href="{{ site.baseurl }}/bans/"{% if url contains "/bans" %} class="active" aria-current="page"{% endif %}>Bans</a></li>
 
             <li class="dropdown">
-                <button type="button"
+                <a href="{{ site.baseurl }}/guides/"
                     class="dropdown-toggle{% if url contains '/guides' %} active{% endif %}"
                     aria-haspopup="true" aria-expanded="false">
                     Guides <i class="fas fa-caret-down" aria-hidden="true"></i>
-                </button>
+                </a>
                 <ul class="dropdown-menu">
                     {% for g in sorted_guides %}
                     <li><a href="{{ g.url | relative_url }}"{% if url == g.url %} class="active" aria-current="page"{% endif %}>{{ g.nav_title | default: g.title | escape }}</a></li>

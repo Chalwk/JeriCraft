@@ -1,5 +1,4 @@
 /* Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. */
-
 /* Mobile nav toggle, dropdown menus, and resize cleanup. */
 document.addEventListener('DOMContentLoaded', function () {
     const navToggle = document.querySelector('.nav-toggle button');
@@ -31,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         toggle.addEventListener('click', function (e) {
             const canHover = window.matchMedia('(hover: hover)').matches && window.innerWidth > 900;
             if (canHover) {
-                e.preventDefault();
+                // Desktop: let the <a> navigate (hover/focus-within already opens the menu).
                 return;
             }
             e.preventDefault();
