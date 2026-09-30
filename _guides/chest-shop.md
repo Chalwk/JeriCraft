@@ -32,6 +32,8 @@ Begin by constructing a designated area for your shop. Be creative as you can, a
 - `Item Frames`
 - `Lanterns`
 
+> 💡 Tip: Choose a location that is easy for other players to reach. Placing your shop near spawn or a popular market area will attract more customers. You can also create a warp to your shop so players can teleport directly to it. See [Step 6](#step-6-create-a-warp-to-your-shop) for details.
+
 <details>
 <summary>Example Shop Design (click to expand)</summary>
 
@@ -113,5 +115,44 @@ Create your shop sign with this exact formatting:
 | Sell Stack      | `Shift` + `Left Click`  | Adds max stacks (chest space)      |
 
 > 💡 Tip: You can hold `Shift` while clicking to buy or sell multiple items at once.
+
+---
+
+## Step 6: Create a Warp to Your Shop
+
+You can create a warp that teleports players directly to your shop, making it much easier for customers to find and trade with you. This is especially useful if your shop is far from spawn or other popular areas.
+
+### Creating a Warp
+
+Stand at the location where you want players to arrive, then run:
+
+```
+/setwarp [warpName]
+```
+
+Replace `[warpName]` with a name for your warp, for example `/setwarp ChalwksDiamondShop`.
+
+> 💡 Tip: Choose a clear, descriptive name so players can easily identify your shop.
+
+### Managing Your Warps
+
+| Command                  | Description                                           |
+| ------------------------ | ----------------------------------------------------- |
+| `/setwarp [warpName]`    | Creates a warp at your current location.              |
+| `/removewarp [warpName]` | Deletes one of your own warps.                        |
+| `/editwarp [warpName]`   | Opens the warp editing GUI for one of your own warps. |
+
+### Warp Rules and Limits
+
+- You can create at most **3 warps** per player. If you already have 3 and want to create another, you must remove one first.
+- Warps can only be created in the **Survival world**.
+- You cannot create warps inside faction territory that you do not own or are not a member of.
+- Breaking these rules may result in your warp access being removed.
+
+> 💡 Tip: You cannot change a warp's location through `/editwarp`. If you need to move a warp, remove it with `/removewarp` and create a new one with `/setwarp` at the new location.
+
+### Advertising Your Warp
+
+Once your warp is created, let other players know about it! You can share the warp name in chat or on Discord so customers can use `/warp [warpName]` to teleport directly to your shop.
 
 ---
