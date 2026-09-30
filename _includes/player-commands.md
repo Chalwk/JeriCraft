@@ -29,17 +29,20 @@
 
 ### Teleportation
 
-| Rank     | Command           | Description                                                                        | Permission Node(s)     |
-| -------- | ----------------- | ---------------------------------------------------------------------------------- | ---------------------- |
-| Commoner | spawn             | Teleports you to spawn                                                             | `cmi.command.spawn`    |
-| Commoner | dback             | Teleports you to your death location                                               | `cmi.command.dback`    |
-| Commoner | rt                | Teleports to a random location                                                     | `cmi.command.rt`       |
-| Commoner | tpa `[name]`      | Ask the player if you can teleport to them                                         | `cmi.command.tpa`      |
-| Commoner | tpahere `[name]`  | Asks player to accept teleportation to your location                               | `cmi.command.tpahere`  |
-| Commoner | tpaccept          | Accepts teleport request                                                           | `cmi.command.tpaccept` |
-| Commoner | tpdeny            | Denies teleport request                                                            | `cmi.command.tpdeny`   |
-| Commoner | warp `(warpName)` | Teleports you to a warp. If you don't specify a warp name, the warp GUI will open. | `cmi.command.warp`     |
-| Commoner | back              | Teleports you to your last location                                                | `cmi.command.back`     |
+| Rank     | Command                 | Description                                                                                                                                 | Permission Node(s)                             |
+| -------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Commoner | spawn                   | Teleports you to spawn                                                                                                                      | `cmi.command.spawn`                            |
+| Commoner | dback                   | Teleports you to your death location                                                                                                        | `cmi.command.dback`                            |
+| Commoner | rt                      | Teleports to a random location                                                                                                              | `cmi.command.rt`                               |
+| Commoner | tpa `[name]`            | Ask the player if you can teleport to them                                                                                                  | `cmi.command.tpa`                              |
+| Commoner | tpahere `[name]`        | Asks player to accept teleportation to your location                                                                                        | `cmi.command.tpahere`                          |
+| Commoner | tpaccept                | Accepts teleport request                                                                                                                    | `cmi.command.tpaccept`                         |
+| Commoner | tpdeny                  | Denies teleport request                                                                                                                     | `cmi.command.tpdeny`                           |
+| Commoner | warp `(warpName)`       | Teleports you to a warp. If you don't specify a warp name, the warp GUI will open.                                                          | `cmi.command.warp`                             |
+| Commoner | setwarp `[warpName]`    | Creates a warp at your current location. You can only create at most 3 warps at a time; remove one first if you need another.               | `cmi.command.setwarp`, `cmi.command.setwarp.3` |
+| Commoner | removewarp `[warpName]` | Removes one of your own warps.                                                                                                              | `cmi.command.removewarp`                       |
+| Commoner | editwarp `[warpName]`   | Opens the warp editing GUI for one of your own warps. To change its location or remove it, remove the warp first and recreate it if needed. | `cmi.command.editwarp`                         |
+| Commoner | back                    | Teleports you to your last location                                                                                                         | `cmi.command.back`                             |
 
 ### Economy
 
