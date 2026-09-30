@@ -12,7 +12,7 @@ permalink: /npc-shops/
 <h1>NPC Shops</h1>
 <p>Browse the merchants of JeriCraft. Pick a shop to see what they buy and sell.</p>
 
-<input type="search" class="filter-input" placeholder="Filter shops…" aria-label="Filter shops"
+<input type="search" class="filter-input" placeholder="Filter shops..." aria-label="Filter shops"
        data-filter-items=".guide-card" data-filter-empty="#shop-empty">
 <p class="filter-empty" id="shop-empty" hidden>No shops match that search.</p>
 

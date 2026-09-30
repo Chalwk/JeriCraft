@@ -73,7 +73,7 @@ For example:
 Create your shop sign with this exact formatting:
 
 | Line | Value         | Description                                               |
-|------|---------------|-----------------------------------------------------------|
+| ---- | ------------- | --------------------------------------------------------- |
 | 1    | `Owner Name`  | Auto-filled by the system.                                |
 | 2    | `[Quantity]`  | Number of items per transaction (1-64).                   |
 | 3    | `[Price]`     | Format: `B <Amount>` or `B <Buy Price> : S <Sell Price>`. |
@@ -82,7 +82,7 @@ Create your shop sign with this exact formatting:
 ### Example 1: Basic Shop (buy only)
 
 | Line | Value     | Description                       |
-|------|-----------|-----------------------------------|
+| ---- | --------- | --------------------------------- |
 | 1    | `Chalwk`  | Auto-filled.                      |
 | 2    | `16`      | Item quantity.                    |
 | 3    | `B 100`   | Players can buy 16 items for 100. |
@@ -91,7 +91,7 @@ Create your shop sign with this exact formatting:
 ### Example 2: Advanced Shop (buy & sell)
 
 | Line | Value          | Description                                           |
-|------|----------------|-------------------------------------------------------|
+| ---- | -------------- | ----------------------------------------------------- |
 | 1    | `Chalwk`       | Auto-filled.                                          |
 | 2    | `16`           | Item quantity.                                        |
 | 3    | `B 100 : S 25` | Players buy 16 items for 100 or sell 16 items for 25. |
@@ -100,7 +100,7 @@ Create your shop sign with this exact formatting:
 ### Example 3: Advanced Configuration (price formats)
 
 | **Format**   | **Description**                       | **Example**  |
-|--------------|---------------------------------------|--------------|
+| ------------ | ------------------------------------- | ------------ |
 | B 100        | Players buy the sign quantity for 100 | B 100        |
 | S 50         | Players sell the sign quantity for 50 | S 50         |
 | B 100 : S 25 | Dual pricing (Buy/Sell)               | B 100 : S 25 |
@@ -116,7 +116,7 @@ Create your shop sign with this exact formatting:
 ## Step 5: How Customers Buy or Sell Items
 
 | **Action**      | **Click Type**          | **Transaction**                    |
-|-----------------|-------------------------|------------------------------------|
+| --------------- | ----------------------- | ---------------------------------- |
 | Purchase Single | `Right Click`           | Takes 1 transaction from chest     |
 | Purchase Stack  | `Shift` + `Right Click` | Takes max stacks (inventory space) |
 | Sell Single     | `Left Click`            | Adds 1 transaction to chest        |
@@ -146,7 +146,7 @@ Replace `[warpName]` with a name for your warp, for example `/setwarp ChalwksDia
 ### Managing Your Warps
 
 | Command                  | Description                                           |
-|--------------------------|-------------------------------------------------------|
+| ------------------------ | ----------------------------------------------------- |
 | `/setwarp [warpName]`    | Creates a warp at your current location.              |
 | `/removewarp [warpName]` | Deletes one of your own warps.                        |
 | `/editwarp [warpName]`   | Opens the warp editing GUI for one of your own warps. |

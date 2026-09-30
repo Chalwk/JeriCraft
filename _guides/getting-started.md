@@ -24,7 +24,7 @@ choosing a faction, starting jobs, protecting your land, and exploring the world
 If you only remember a handful of commands, make them these. They cover most of what a new player needs on day one.
 
 | **Command**                | **What it does**                                                              |
-|----------------------------|-------------------------------------------------------------------------------|
+| -------------------------- | ----------------------------------------------------------------------------- |
 | `/f home`                  | Teleport to your Faction's home (in survival). This is your way back to base. |
 | `/spawn`                   | Teleport to the server spawn hub (the castle).                                |
 | `/rt` (or `/wild`, `/rtp`) | Teleport to a random location in the wilderness.                              |
@@ -84,7 +84,7 @@ A more complete list of the commands you'll use most often. For everything else,
 the [Player Commands]({{site.baseurl}}/commands) page.
 
 | **Category**                     | **Command**               | **Description**                                             |
-|----------------------------------|---------------------------|-------------------------------------------------------------|
+| -------------------------------- | ------------------------- | ----------------------------------------------------------- |
 | **Land Protection & Factions**   | `/f home`                 | Teleport to your Faction's home (in survival).              |
 |                                  | `/f create <name>`        | Create a new Faction.                                       |
 |                                  | `/f join <name>`          | Join an existing Faction.                                   |

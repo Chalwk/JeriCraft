@@ -11,34 +11,34 @@ permalink: /shops/scribe/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name            | Buy Price |
-| -------------------- | --------- |
-| Bottle o' Enchanting | $80       |
-| Lapis Ore            | $100      |
-| Lapis Lazuli         | $60       |
-| Parchment Sheets     | $50       |
-| Blank Tomes          | $120      |
-| Book and Quill       | $150      |
-| Arcane Altar         | $2,500    |
-| Ancient Bookshelves  | $250      |
-| Ender Pearls         | $450      |
-| Efficiency III       | $3,400    |
-| Thorns III           | $2,500    |
-| Depth Strider III    | $2,200    |
-| Respiration III      | $1,800    |
-| Loyalty III          | $2,000    |
-| Channeling           | $1,800    |
-| Soul Speed III       | $3,200    |
-| Flame                | $1,500    |
-| Sharpness I          | $1,200    |
-| Mending              | $3,500    |
-| Silk Touch           | $3,000    |
-| Looting I            | $1,500    |
-| Power I              | $1,800    |
-| Fortune I            | $1,800    |
-| Protection I         | $1,000    |
-| Feather Falling I    | $1,000    |
-| Fire Aspect I        | $500      |
-| Infinity             | $2,250    |
-| Unbreaking I         | $800      |
-| Swift Sneak I        | $3000     |
+| Item Name                 | Buy Price | Lore                               |
+| ------------------------- | --------- | ---------------------------------- |
+| Bottle o' Enchanting      | $80       | Quantity: 16 Bottles o' Enchanting |
+| Lapis Ore                 | $100      | Quantity: 1 Lapis Ore              |
+| Lapis Lazuli              | $60       | Quantity: 16 Lapis                 |
+| Parchment Sheets          | $50       | Quantity: 24 Sheets                |
+| Blank Tomes               | $120      | Quantity: 8 Books                  |
+| Book and Quill            | $150      | -                                  |
+| Arcane Altar              | $2,500    | -                                  |
+| Ancient Bookshelves       | $250      | Quantity: 3 Bookshelves            |
+| Ender Pearls              | $450      | Quantity: 16 Ender Pearls          |
+| Tome of Efficiency I      | $3,200    | -                                  |
+| Tome of Thorns I          | $2,500    | -                                  |
+| Tome of Depth Strider III | $2,200    | -                                  |
+| Tome of Respiration III   | $1,800    | -                                  |
+| Tome of Loyalty III       | $2,000    | -                                  |
+| Tome of Channeling        | $1,800    | -                                  |
+| Tome of Soul Speed III    | $3,200    | -                                  |
+| Tome of Flame             | $1,500    | -                                  |
+| Tome of Sharpness I       | $1,200    | -                                  |
+| Tome of Mending           | $3,500    | -                                  |
+| Tome of Silk Touch        | $3,000    | -                                  |
+| Tome of Looting I         | $1,500    | -                                  |
+| Tome of Power I           | $1,800    | -                                  |
+| Tome of Fortune I         | $1,800    | -                                  |
+| Tome of Protection I      | $1,000    | -                                  |
+| Tome of Feather Falling I | $1,000    | -                                  |
+| Tome of Fire Aspect I     | $500      | -                                  |
+| Tome of Infinity          | $2,250    | -                                  |
+| Tome of Unbreaking I      | $800      | -                                  |
+| Tome of Swift Sneak I     | $3,600    | -                                  |

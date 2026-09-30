@@ -25,7 +25,7 @@ This guide will help you understand how to create and manage your faction, claim
 The foundation of any great empire begins with its creation. Establish your own faction, forge alliances, and carve your legacy into the lands of JeriCraft.
 
 | **Command**                    | **Description**                                                                                                                                        |
-|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `/f create <name>`             | Establish your own kingdom and take the throne as its ruler.                                                                                           |
 | `/f sethome`                   | Set your faction's home location (a safe haven for your kingdom). **Note:** You must first claim at least one chunk of land before you can set a home. |
 | `/f setwarp <name> [password]` | Set a warp point for quick travel. Optional password for restricted access.                                                                            |
@@ -44,7 +44,7 @@ The foundation of any great empire begins with its creation. Establish your own 
 A kingdom thrives on its people! Recruit allies, build a loyal court, and manage your ranks wisely.
 
 | **Command**                 | **Description**                                                            |
-|-----------------------------|----------------------------------------------------------------------------|
+| --------------------------- | -------------------------------------------------------------------------- |
 | `/f join <faction>`         | Swear fealty to a faction and become its subject.                          |
 | `/f leave`                  | Renounce your oath and walk your own path.                                 |
 | `/f home`                   | Teleport to your faction's home location.                                  |
@@ -63,7 +63,7 @@ and strategy. More members mean **more power**, which allows your faction to **c
 influence. Grant **leadership roles** to trusted members to help you manage your growing kingdom.
 
 | **Command**                     | **Description**                                         |
-|---------------------------------|---------------------------------------------------------|
+| ------------------------------- | ------------------------------------------------------- |
 | `/f invite <target>`            | Extend an invitation to a worthy knight or ally.        |
 | `/f kick <target>`              | Exile a member from your faction.                       |
 | `/f ban <target>`               | Ban a player from joining your faction.                 |
@@ -94,7 +94,7 @@ Once created, you become the **leader** of your faction, wielding the power to *
 and members** to build an empire that stands the test of time.
 
 | **Command**                        | **Description**                                    |
-|------------------------------------|----------------------------------------------------|
+| ---------------------------------- | -------------------------------------------------- |
 | `/f claim [radius] [faction]`      | Seize control of a chunk of land for your kingdom. |
 | `/f unclaim [radius] [faction]`    | Relinquish a previously claimed territory.         |
 | `/f autoclaim [faction]`           | Automatically claim chunks as you move.            |
@@ -111,7 +111,7 @@ For player economy (personal accounts / jobs, etc.), please refer to [Economy Gu
 }}/guides/economy/).
 
 | **Command**                               | **Description**                                               |
-|-------------------------------------------|---------------------------------------------------------------|
+| ----------------------------------------- | ------------------------------------------------------------- |
 | `/f money`                                | View the faction's current bank balance.                      |
 | `/f money deposit <amount> [faction]`     | Deposit a specific amount of money into the faction's bank.   |
 | `/f money withdraw <amount> [faction]`    | Withdraw a specified amount of money from the faction's bank. |
@@ -125,7 +125,7 @@ For player economy (personal accounts / jobs, etc.), please refer to [Economy Gu
 These commands are available to all players for managing their faction and gameplay experience.
 
 | **Command**                | **Description**                                                                          |
-|----------------------------|------------------------------------------------------------------------------------------|
+| -------------------------- | ---------------------------------------------------------------------------------------- |
 | `/f map [on/off]`          | View the faction map of the area around you.                                             |
 | `/f map --set-height <n>`  | Set how many lines your `/f map` will show.                                              |
 | `/f coords`                | Send faction members your current position.                                              |
@@ -145,7 +145,7 @@ These commands are available to all players for managing their faction and gamep
 These are core commands that every faction player should know - they cover relations, information, vaults, TNT, and more.
 
 | **Command**                                      | **Description**                                                            |
-|--------------------------------------------------|----------------------------------------------------------------------------|
+| ------------------------------------------------ | -------------------------------------------------------------------------- |
 | `/f show [faction]`                              | Display detailed information about a faction (members, land, power, etc.). |
 | `/f list [page]`                                 | List all factions on the server, sorted by power.                          |
 | `/f list claims [faction]`                       | List all claimed chunks for a faction.                                     |
@@ -177,7 +177,7 @@ previous claim. This results in a steady linear increase as your faction expands
 ### Claim Cost Scaling
 
 | Claim # | Cost Formula             | Cost |
-|---------|--------------------------|-----:|
+| ------- | ------------------------ | ---: |
 | 1st     | Base Cost                |  $30 |
 | 2nd     | Previous Cost + $15      |  $45 |
 | 3rd     | Previous Cost + $15      |  $60 |

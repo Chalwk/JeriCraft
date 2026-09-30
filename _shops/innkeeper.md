@@ -11,11 +11,11 @@ permalink: /shops/innkeeper/
 
 **Warp**: `/warp {{page.title}}`
 
-| Item Name             | Buy Price |
-| --------------------- | --------- |
-| Hearty Mushroom Stew  | $25       |
-| Roasted Tuber Platter | $50       |
-| Royal Suite Key       | $75       |
-| Bedroll               | $3,500    |
-| Ale Cask              | $250      |
-| Chest of Plenty       | $350      |
+| Item Name             | Buy Price | Lore                                             |
+| --------------------- | --------- | ------------------------------------------------ |
+| Hearty Mushroom Stew  | $25       | Warms the soul on cold nights                    |
+| Roasted Tuber Platter | $50       | Crispy golden potatoes with herbs<br>Quantity: 8 |
+| Royal Suite Key       | $75       | Night's rest with bonus chest                    |
+| Bedroll               | $3,500    | Portable respawn point                           |
+| Ale Cask              | $250      | Decorative storage barrel                        |
+| Chest of Plenty       | $350      | Large storage chest                              |

@@ -12,7 +12,7 @@ permalink: /guides/
 <h1>Guides</h1>
 <p>Here you'll find all the guides to help you navigate JeriCraft. Pick a topic to get started.</p>
 
-<input type="search" class="filter-input" placeholder="Filter guides…" aria-label="Filter guides"
+<input type="search" class="filter-input" placeholder="Filter guides..." aria-label="Filter guides"
        data-filter-items=".guide-card" data-filter-empty="#guide-empty">
 <p class="filter-empty" id="guide-empty" hidden>No guides match that search.</p>
 
