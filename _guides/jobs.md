@@ -76,7 +76,7 @@ Here's a table of essential commands to help you navigate the JeriCraft Jobs plu
 By utilizing these commands, you'll be on your way to earning money and gaining experience.
 Happy working, and we wish you success in your career!
 
-> **Job limit:** You can only hold a limited number of jobs at once. Linking your Minecraft account to Discord raises
+> **Job limit (default 3):** You can only hold a limited number of jobs at once. Linking your Minecraft account to Discord raises
 > the limit to **4**. See the [Discord Integration guide]({{ site.baseurl }}/guides/discord/).
 
 ## Boosters

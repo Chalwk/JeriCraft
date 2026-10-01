@@ -1,7 +1,7 @@
 ---
 title: Factions
 permalink: /guides/factions/
-description: "Claim land, manage power and raid rival kingdoms."
+description: "Claim land, manage power and raid rival factions."
 icon: fa-shield-alt
 order: 2
 ---
@@ -26,14 +26,14 @@ The foundation of any great empire begins with its creation. Establish your own 
 
 | **Command**                    | **Description**                                                                                                                                        |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `/f create <name>`             | Establish your own kingdom and take the throne as its ruler.                                                                                           |
-| `/f sethome`                   | Set your faction's home location (a safe haven for your kingdom). **Note:** You must first claim at least one chunk of land before you can set a home. |
+| `/f create <name>`             | Establish your own faction and take the throne as its ruler.                                                                                           |
+| `/f sethome`                   | Set your faction's home location (a safe haven for your faction). **Note:** You must first claim at least one chunk of land before you can set a home. |
 | `/f setwarp <name> [password]` | Set a warp point for quick travel. Optional password for restricted access.                                                                            |
-| `/f disband`                   | Dissolve your kingdom, scattering its people and relinquishing its lands.                                                                              |
+| `/f disband`                   | Dissolve your faction, scattering its people and relinquishing its lands.                                                                              |
 | `/f perms`                     | Manage faction permissions for roles and actions.                                                                                                      |
 | `/f announce <message...>`     | Broadcast a message to all faction members.                                                                                                            |
-| `/f set tag <tag>`             | Change your kingdom's official banner (name).                                                                                                          |
-| `/f set description <desc>`    | Set a short description for your kingdom.                                                                                                              |
+| `/f set tag <tag>`             | Change your faction's official banner (name).                                                                                                          |
+| `/f set description <desc>`    | Set a short description for your faction.                                                                                                              |
 | `/f delhome <name>`            | Remove your faction's home location.                                                                                                                   |
 | `/f delwarp <name>`            | Remove a warp point.                                                                                                                                   |
 
@@ -41,7 +41,7 @@ The foundation of any great empire begins with its creation. Establish your own 
 
 ## Faction Member Commands
 
-A kingdom thrives on its people! Recruit allies, build a loyal court, and manage your ranks wisely.
+A faction thrives on its people! Recruit allies, build a loyal court, and manage your ranks wisely.
 
 | **Command**                 | **Description**                                                            |
 | --------------------------- | -------------------------------------------------------------------------- |
@@ -56,11 +56,11 @@ A kingdom thrives on its people! Recruit allies, build a loyal court, and manage
 
 ## Member Management
 
-Manage your faction's members, ranks, and permissions to build a strong and loyal kingdom.
+Manage your faction's members, ranks, and permissions to build a strong and loyal faction.
 
 As a ruler, it is your duty to **build trust** and **reward loyalty**. Strong factions are forged through camaraderie
 and strategy. More members mean **more power**, which allows your faction to **claim more land** and expand its
-influence. Grant **leadership roles** to trusted members to help you manage your growing kingdom.
+influence. Grant **leadership roles** to trusted members to help you manage your growing faction.
 
 | **Command**                     | **Description**                                         |
 | ------------------------------- | ------------------------------------------------------- |
@@ -83,19 +83,19 @@ influence. Grant **leadership roles** to trusted members to help you manage your
 
 ## Territory Management
 
-A kingdom is nothing without its territory! Factions must **claim land** to establish castles,
+A faction is nothing without its territory! Factions must **claim land** to establish castles,
 villages, and fortifications.
 
 **Important:** Factions are only enabled in the main survival world (`world`).
 You cannot claim land or perform faction actions in other worlds (e.g., the Nether or the End).
 
 Once created, you become the **leader** of your faction, wielding the power to **expand your domain**,
-**recruit allies**, and **command your kingdom's fate**. You can **manage your faction's land, power,
+**recruit allies**, and **command your faction's fate**. You can **manage your faction's land, power,
 and members** to build an empire that stands the test of time.
 
 | **Command**                        | **Description**                                    |
 | ---------------------------------- | -------------------------------------------------- |
-| `/f claim [radius] [faction]`      | Seize control of a chunk of land for your kingdom. |
+| `/f claim [radius] [faction]`      | Seize control of a chunk of land for your faction. |
 | `/f unclaim [radius] [faction]`    | Relinquish a previously claimed territory.         |
 | `/f autoclaim [faction]`           | Automatically claim chunks as you move.            |
 | `/f unclaimall`                    | Release all faction-owned land at once.            |
@@ -105,7 +105,7 @@ and members** to build an empire that stands the test of time.
 
 ## Economy & Faction Banks
 
-A kingdom is built on wealth! Manage your faction's finances to fund expansions and military endeavors.
+A faction is built on wealth! Manage your faction's finances to fund expansions and military endeavors.
 
 For player economy (personal accounts / jobs, etc.), please refer to [Economy Guide]({{ site.baseurl
 }}/guides/economy/).
@@ -193,7 +193,7 @@ This linear scaling ensures that larger factions must carefully manage their res
 ## Power System
 
 Power determines how much land your faction can **claim** and **defend**.
-Recruit members to **strengthen your kingdom**.
+Recruit members to **strengthen your faction**.
 
 ---
 

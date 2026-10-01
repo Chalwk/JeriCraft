@@ -36,7 +36,7 @@ There are several ways to accumulate wealth within the JeriCraft economy:
   Complete job quests with the `/jobs quests` command to earn additional money and experience.
 
 - **Playtime Reward**:  
-  **Hourly Fiefdom Reward**: Grants **$100** and **5 levels** of **experience** every hour.
+  **Hourly Fiefdom Reward**: Automatically grants **$100** and **5 levels** of **experience** every hour.
 
 ---
 

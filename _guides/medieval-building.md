@@ -110,15 +110,9 @@ A few simple guidelines to keep your creation period-appropriate:
 ## 4. Examples
 
 ### Good (Medieval)
-{% comment %}TODO: restore once the image exists in assets/images/tutorials/
-![A timber-framed house with steep spruce roof, small iron-bar windows, and a chimney]({{ '/assets/images/tutorials/medieval_example_good.png' | relative_url }})
-{% endcomment %}
 *A simple village house using oak planks, stripped spruce logs, cobblestone foundation, and a white concrete plaster wall.*
 
 ### Bad (Breaks Immersion)
-{% comment %}TODO: restore once the image exists in assets/images/tutorials/
-![A square modern house made of colourful concrete and glass]({{ '/assets/images/tutorials/medieval_example_bad.png' | relative_url }})
-{% endcomment %}
 *A modern neon-concrete and glass box. These colours and shapes are not permitted.*
 
 ---
