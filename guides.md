@@ -28,11 +28,12 @@ permalink: /guides/
        data-filter-items=".guide-card" data-filter-empty="#guide-empty">
 <p class="filter-empty" id="guide-empty" hidden>No guides match that search.</p>
 
-{% assign cat_getting_started = sorted_guides | where_exp: "g", "g.order <= 1" %}
-{% assign cat_core = sorted_guides | where_exp: "g", "g.order >= 2 and g.order <= 5" %}
-{% assign cat_world = sorted_guides | where_exp: "g", "g.order >= 6 and g.order <= 7" %}
-{% assign cat_trade = sorted_guides | where_exp: "g", "g.order >= 8 and g.order <= 10" %}
-{% assign cat_community = sorted_guides | where_exp: "g", "g.order >= 11" %}
+{% assign ordered_guides = sorted_guides | where_exp: "g", "g.order" %}
+{% assign cat_getting_started = ordered_guides | where_exp: "g", "g.order <= 1" %}
+{% assign cat_core = ordered_guides | where_exp: "g", "g.order >= 2" | where_exp: "g", "g.order <= 5" %}
+{% assign cat_world = ordered_guides | where_exp: "g", "g.order >= 6" | where_exp: "g", "g.order <= 7" %}
+{% assign cat_trade = ordered_guides | where_exp: "g", "g.order >= 8" | where_exp: "g", "g.order <= 10" %}
+{% assign cat_community = ordered_guides | where_exp: "g", "g.order >= 11" %}
 
 {% if cat_getting_started.size > 0 %}
 <section class="guide-section">
