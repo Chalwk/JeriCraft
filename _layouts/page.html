@@ -4,7 +4,7 @@ layout: default
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-<div class="page-content" id="page-content">
+<div class="page-content{% if page.collection == 'shops' %} shop-page{% endif %}" id="page-content">
   {% if page.collection == "guides" %}
   <a class="back-link" href="{{ '/guides/' | relative_url }}">
     <i class="fas fa-arrow-left" aria-hidden="true"></i> All guides

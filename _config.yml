@@ -174,9 +174,3 @@ defaults:
       path: "about.md"
     values:
       layout: page
-
-  # Store page is currently disabled. Do not uncomment!
-  # - scope:
-  #     path: "store.md"
-  #   values:
-  #     layout: page

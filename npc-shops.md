@@ -10,10 +10,11 @@ permalink: /npc-shops/
 {% include shops-sorted.html %}
 
 <h1>NPC Shops</h1>
-<p>Browse the merchants of JeriCraft. Pick a shop to see what they buy and sell.</p>
+<p>Browse the merchants of JeriCraft. Pick a shop to see what they buy and sell, or search for an item to see who stocks it.</p>
 
-<input type="search" class="filter-input" placeholder="Filter shops..." aria-label="Filter shops"
-       data-filter-items=".guide-card" data-filter-empty="#shop-empty">
+<input type="search" class="filter-input" placeholder="Search shops or items..." aria-label="Search shops or items"
+       data-shop-search="{{ '/npc-shops.json' | relative_url }}"
+       data-filter-empty="#shop-empty">
 <p class="filter-empty" id="shop-empty" hidden>No shops match that search.</p>
 
 <div class="guide-grid">

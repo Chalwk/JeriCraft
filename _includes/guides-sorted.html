@@ -1,8 +1,3 @@
-{% comment %}
-  Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved.
-  Sets `sorted_guides`: guides with an `order` value first (ascending), then the rest A-Z.
-  Used by guides.md and header.html so the index and the nav always agree.
-{% endcomment %}
 {% assign guides_ordered = site.guides | where_exp: "g", "g.order" | sort: "order" %}
 {% assign guides_unordered = site.guides | where_exp: "g", "g.order == nil" | sort_natural: "title" %}
 {% assign sorted_guides = guides_ordered | concat: guides_unordered %}
