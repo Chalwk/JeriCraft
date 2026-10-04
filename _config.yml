@@ -163,13 +163,13 @@ defaults:
     values:
       layout: page
 
-  # Shops collection - wrap content in the `page` layout.
+  # Shops collection
   - scope:
       type: "shops"
     values:
-      layout: page
+      layout: shop
 
-  # Root about.md - use the `page` layout (ignores the global `default`).
+  # Root about.md - uses the `page` layout (ignores the global `default`).
   - scope:
       path: "about.md"
     values:

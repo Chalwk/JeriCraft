@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+
+{%- assign shop_icon = 'fa-store' -%}
+{%- case page.title -%}
+  {%- when 'Alchemist' -%}{%- assign shop_icon = 'fa-flask' -%}
+  {%- when 'Arrowsmith' -%}{%- assign shop_icon = 'fa-bullseye' -%}
+  {%- when 'Beekeeper' -%}{%- assign shop_icon = 'fa-bug' -%}
+  {%- when 'Blacksmith' -%}{%- assign shop_icon = 'fa-hammer' -%}
+  {%- when 'Farmer' -%}{%- assign shop_icon = 'fa-wheat-awn' -%}
+  {%- when 'Fisherman' -%}{%- assign shop_icon = 'fa-fish' -%}
+  {%- when 'Florist' -%}{%- assign shop_icon = 'fa-spa' -%}
+  {%- when 'Hawker' -%}{%- assign shop_icon = 'fa-sack-dollar' -%}
+  {%- when 'Hunter' -%}{%- assign shop_icon = 'fa-paw' -%}
+  {%- when 'Innkeeper' -%}{%- assign shop_icon = 'fa-bed' -%}
+  {%- when 'Lumberjack' -%}{%- assign shop_icon = 'fa-tree' -%}
+  {%- when 'Quarry Master' -%}{%- assign shop_icon = 'fa-mountain' -%}
+  {%- when 'Saddler' -%}{%- assign shop_icon = 'fa-horse' -%}
+  {%- when 'Scribe' -%}{%- assign shop_icon = 'fa-feather-pointed' -%}
+  {%- when 'Weaponsmith' -%}{%- assign shop_icon = 'fa-khanda' -%}
+{%- endcase -%}
+
+{%- assign warp_cmd = '/warp ' | append: page.title | downcase -%}
+
+<div class="page-content shop-page" id="page-content">
+
+    <a class="back-link" href="{{ '/npc-shops/' | relative_url }}">
+        <i class="fas fa-arrow-left" aria-hidden="true"></i> All NPC shops
+    </a>
+
+    <header class="shop-header">
+        <div class="shop-header-media">
+            <img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png"
+                alt="{{ page.title }} shopkeeper portrait" loading="lazy" decoding="async">
+        </div>
+        <div class="shop-header-info">
+            <p class="shop-header-eyebrow">
+                <i class="fas {{ shop_icon }}" aria-hidden="true"></i>
+                NPC Merchant
+            </p>
+            <h1>{{ page.title }} Shop</h1>
+            {% if page.owner %}
+            <p class="shop-header-owner">Proprietor: <strong>{{ page.owner }}</strong></p>
+            {% endif %}
+            <div class="shop-header-actions">
+                <button type="button" class="shop-warp" data-copy="{{ warp_cmd }}"
+                    aria-label="Copy warp command to clipboard">
+                    <i class="fas fa-location-dot" aria-hidden="true"></i>
+                    <code>{{ warp_cmd }}</code>
+                    <span class="shop-warp-hint">Click to copy</span>
+                </button>
+            </div>
+            <ul class="shop-stats" aria-label="Shop statistics">
+                <li><span data-shop-stat="count">-</span><small>Items</small></li>
+                <li><span data-shop-stat="min">-</span><small>Lowest</small></li>
+                <li><span data-shop-stat="max">-</span><small>Highest</small></li>
+            </ul>
+        </div>
+    </header>
+
+    {{ content }}
+</div>
