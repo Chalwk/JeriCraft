@@ -1,15 +1,10 @@
 ---
 title: Blacksmith
+owner: Astrid Ironheart
 permalink: /shops/blacksmith/
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
-
-# Astrid Ironheart's {{page.title}} Shop
-
-<img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png" alt="{{ page.title }} Shop">
-
-**Warp**: `/warp {{page.title}}`
 
 | Item Name            | Buy Price | Lore         |
 | -------------------- | --------- | ------------ |

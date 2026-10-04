@@ -1,15 +1,10 @@
 ---
 title: Weaponsmith
+owner: Kaela Bloodforge
 permalink: /shops/weaponsmith/
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
-
-# Kaela Bloodforge's {{page.title}} Shop
-
-<img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png" alt="{{ page.title }} Shop">
-
-**Warp**: `/warp {{page.title}}`
 
 | Item Name       | Buy Price | Lore                                                                               |
 | --------------- | --------- | ---------------------------------------------------------------------------------- |

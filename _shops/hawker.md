@@ -1,15 +1,10 @@
 ---
 title: Hawker
+owner: Veyne
 permalink: /shops/hawker/
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
-
-# Veyne's {{page.title}} Shop
-
-<img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png" alt="{{ page.title }} Shop">
-
-**Warp**: `/warp {{page.title}}`
 
 | Item Name        | Buy Price | Sell Price | Lore                                                                          |
 | ---------------- | --------- | ---------- | ----------------------------------------------------------------------------- |

@@ -1,15 +1,10 @@
 ---
 title: Innkeeper
+owner: Baldric Barrelhelm
 permalink: /shops/innkeeper/
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
-
-# Baldric Barrelhelm's {{page.title}} Shop
-
-<img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png" alt="{{ page.title }} Shop">
-
-**Warp**: `/warp {{page.title}}`
 
 | Item Name             | Buy Price | Lore                                             |
 | --------------------- | --------- | ------------------------------------------------ |

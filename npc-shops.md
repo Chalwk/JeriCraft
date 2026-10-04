@@ -19,15 +19,34 @@ permalink: /npc-shops/
 
 <div class="guide-grid">
   {% for shop in sorted_shops %}
+    {% assign shop_icon = 'fa-store' %}
+    {% case shop.title %}
+      {% when 'Alchemist' %}{% assign shop_icon = 'fa-flask' %}
+      {% when 'Arrowsmith' %}{% assign shop_icon = 'fa-bullseye' %}
+      {% when 'Beekeeper' %}{% assign shop_icon = 'fa-bug' %}
+      {% when 'Blacksmith' %}{% assign shop_icon = 'fa-hammer' %}
+      {% when 'Farmer' %}{% assign shop_icon = 'fa-wheat-awn' %}
+      {% when 'Fisherman' %}{% assign shop_icon = 'fa-fish' %}
+      {% when 'Florist' %}{% assign shop_icon = 'fa-spa' %}
+      {% when 'Hawker' %}{% assign shop_icon = 'fa-sack-dollar' %}
+      {% when 'Hunter' %}{% assign shop_icon = 'fa-paw' %}
+      {% when 'Innkeeper' %}{% assign shop_icon = 'fa-bed' %}
+      {% when 'Lumberjack' %}{% assign shop_icon = 'fa-tree' %}
+      {% when 'Quarry Master' %}{% assign shop_icon = 'fa-mountain' %}
+      {% when 'Saddler' %}{% assign shop_icon = 'fa-horse' %}
+      {% when 'Scribe' %}{% assign shop_icon = 'fa-feather-pointed' %}
+      {% when 'Weaponsmith' %}{% assign shop_icon = 'fa-khanda' %}
+    {% endcase %}
     <a class="guide-card" href="{{ shop.url | relative_url }}">
       <span class="guide-card-icon" aria-hidden="true">
-        <i class="fas {{ shop.icon | default: 'fa-store' }}"></i>
+        <i class="fas {{ shop_icon }}"></i>
       </span>
       <div>
         <h3>{{ shop.title }}</h3>
         {% if shop.description %}
           <p>{{ shop.description }}</p>
         {% endif %}
+        <p><strong>Warp:</strong> <code>/warp {{ shop.title | downcase }}</code></p>
       </div>
     </a>
   {% endfor %}

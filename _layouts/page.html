@@ -10,5 +10,12 @@ layout: default
     <i class="fas fa-arrow-left" aria-hidden="true"></i> All guides
   </a>
   {% endif %}
+  {% if page.collection == "shops" %}
+  <h1>{% if page.owner %}{{ page.owner }}'s {% endif %}{{ page.title }} Shop</h1>
+
+  <img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png" alt="{{ page.title }} Shop">
+
+  <p><strong>Warp</strong>: <code>/warp {{ page.title | downcase }}</code></p>
+  {% endif %}
   {{ content }}
 </div>

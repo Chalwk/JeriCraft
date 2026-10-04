@@ -1,15 +1,10 @@
 ---
 title: Fisherman
+owner: Cedric Angler
 permalink: /shops/fisherman/
 ---
 
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
-
-# Cedric Angler's {{page.title}} Shop
-
-<img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png" alt="{{ page.title }} Shop">
-
-**Warp**: `/warp {{page.title}}`
 
 | Item Name               | Buy Price | Lore                                                                    |
 | ----------------------- | --------- | ----------------------------------------------------------------------- |
