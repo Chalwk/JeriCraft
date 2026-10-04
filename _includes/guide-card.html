@@ -1,0 +1,13 @@
+<!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
+
+<a class="guide-card" href="{{ include.guide.url | relative_url }}">
+    <span class="guide-card-icon" aria-hidden="true">
+        <i class="fas {{ include.guide.icon | default: 'fa-book' }}"></i>
+    </span>
+    <div>
+        <h3>{{ include.guide.title }}</h3>
+        {% if include.guide.description %}
+        <p>{{ include.guide.description }}</p>
+        {% endif %}
+    </div>
+</a>

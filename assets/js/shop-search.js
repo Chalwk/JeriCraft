@@ -432,6 +432,16 @@ document.addEventListener('DOMContentLoaded', function () {
             host.appendChild(box);
         };
 
+        // Hides a category section when all of its shop cards are hidden.
+        const updateSectionVisibility = () => {
+            document.querySelectorAll('.shop-section').forEach(section => {
+                const sectionCards = section.querySelectorAll('.guide-card');
+                if (!sectionCards.length) return;
+                const anyVisible = Array.from(sectionCards).some(c => !c.hidden);
+                section.hidden = !anyVisible;
+            });
+        };
+
         const filterByCardText = () => {
             const q = input.value.trim().toLowerCase();
             let visible = 0;
@@ -442,6 +452,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 clearMatches(card);
                 if (match) visible += 1;
             });
+
+            updateSectionVisibility();
 
             if (emptyMsg) emptyMsg.hidden = q === '' || visible > 0;
         };
@@ -481,6 +493,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 else clearMatches(card);
                 if (show) visible += 1;
             });
+
+            updateSectionVisibility();
 
             if (emptyMsg) emptyMsg.hidden = q === '' || visible > 0;
         };

@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', function () {
             const items = document.querySelectorAll(selector);
             items.forEach(el => { el.hidden = q !== '' && !el.textContent.toLowerCase().includes(q); });
 
+            // Hide guide sections whose cards are all filtered out.
+            document.querySelectorAll('.guide-section').forEach(section => {
+                const cards = section.querySelectorAll('.guide-card');
+                if (!cards.length) return;
+                const anyVisible = Array.from(cards).some(c => !c.hidden);
+                section.hidden = q !== '' && !anyVisible;
+            });
+
             // Hide subsections whose content no longer matches the filter.
             document.querySelectorAll('.tab-content').forEach(panel => {
                 const kids = Array.from(panel.children);

@@ -6,9 +6,15 @@ layout: default
 
 <div class="page-content{% if page.collection == 'shops' %} shop-page{% endif %}" id="page-content">
   {% if page.collection == "guides" %}
-  <a class="back-link" href="{{ '/guides/' | relative_url }}">
-    <i class="fas fa-arrow-left" aria-hidden="true"></i> All guides
-  </a>
+  <div class="guide-eyebrow-bar">
+    <a class="back-link" href="{{ '/guides/' | relative_url }}">
+      <i class="fas fa-arrow-left" aria-hidden="true"></i> All guides
+    </a>
+    <span class="guide-eyebrow-tag">
+      <i class="fas {{ page.icon | default: 'fa-book' }}" aria-hidden="true"></i>
+      Guide
+    </span>
+  </div>
   {% endif %}
   {{ content }}
 </div>

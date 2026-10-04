@@ -1,17 +1,5 @@
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-# About Us
-
-JeriCraft is a **Medieval-themed SMP/RPG Factions server** operating on **Minecraft Java Edition**. Its architecture and overall aesthetic are inspired by the **Late Middle Ages**, roughly **1320-1400**, with a strong Northern European influence, particularly Scandinavian, Hanseatic, and North German styles.
-
-At its heart, JeriCraft is about **player choice and community**. Every player shapes their own legend where alliances are forged, kingdoms rise and fall, and fortunes are made through trade or cunning conquest.
-
-JeriCraft features an **RPG progression system**. You can choose from more than twenty specialized professions like Alchemist, Hunter, or Miner through our **Jobs** system, and level up combat and crafting skills with **mcMMO**. **Factions** and territory management allow you to claim land, build fortresses, forge alliances, and wage war.
-
-The **player-driven economy**, alongside **NPC Merchants**, is another core feature. Players can set up Chest Shops, profit from daily Job Quests, and purchase goods from NPCs.
-
-The world itself is dynamic, with **four distinct seasons** that affect crop growth, mob behavior, and resource scarcity. Players also face custom, adaptive, scaling mobs that grow deadlier as they progress.
-
 ---
 
 {% include toc.html %}

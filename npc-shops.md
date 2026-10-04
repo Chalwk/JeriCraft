@@ -9,45 +9,87 @@ permalink: /npc-shops/
 
 {% include shops-sorted.html %}
 
-<h1>NPC Shops</h1>
-<p>Browse the merchants of JeriCraft. Pick a shop to see what they buy and sell, or search for an item to see who stocks it.</p>
+<section class="page-hero">
+  <div class="page-hero-content">
+    <h1>NPC Shops</h1>
+    <p class="page-hero-description">
+      Browse our NPC merchants. Each trader keeps their own stock and their own
+      prices. Pick a shop to see what they buy and sell, or search for an item to find out
+      who stocks it.
+    </p>
+    <div class="page-hero-meta">
+      <span><i class="fas fa-user-tie" aria-hidden="true"></i> {{ sorted_shops.size }} merchants</span>
+      <span><i class="fas fa-magnifying-glass" aria-hidden="true"></i> Searchable by item</span>
+      <span><i class="fas fa-location-dot" aria-hidden="true"></i> Fast-travel warps</span>
+    </div>
+  </div>
+</section>
 
-<input type="search" class="filter-input" placeholder="Search shops or items..." aria-label="Search shops or items"
-       data-shop-search="{{ '/npc-shops.json' | relative_url }}"
-       data-filter-empty="#shop-empty">
-<p class="filter-empty" id="shop-empty" hidden>No shops match that search.</p>
+<section class="page-content">
+  <input type="search" class="filter-input" placeholder="Search shops or items..." aria-label="Search shops or items"
+         data-shop-search="{{ '/npc-shops.json' | relative_url }}"
+         data-filter-empty="#shop-empty">
+  <p class="filter-empty" id="shop-empty" hidden>No shops match that search.</p>
 
-<div class="guide-grid">
-  {% for shop in sorted_shops %}
-    {% assign shop_icon = 'fa-store' %}
-    {% case shop.title %}
-      {% when 'Alchemist' %}{% assign shop_icon = 'fa-flask' %}
-      {% when 'Arrowsmith' %}{% assign shop_icon = 'fa-bullseye' %}
-      {% when 'Beekeeper' %}{% assign shop_icon = 'fa-bug' %}
-      {% when 'Blacksmith' %}{% assign shop_icon = 'fa-hammer' %}
-      {% when 'Farmer' %}{% assign shop_icon = 'fa-wheat-awn' %}
-      {% when 'Fisherman' %}{% assign shop_icon = 'fa-fish' %}
-      {% when 'Florist' %}{% assign shop_icon = 'fa-spa' %}
-      {% when 'Hawker' %}{% assign shop_icon = 'fa-sack-dollar' %}
-      {% when 'Hunter' %}{% assign shop_icon = 'fa-paw' %}
-      {% when 'Innkeeper' %}{% assign shop_icon = 'fa-bed' %}
-      {% when 'Lumberjack' %}{% assign shop_icon = 'fa-tree' %}
-      {% when 'Quarry Master' %}{% assign shop_icon = 'fa-mountain' %}
-      {% when 'Saddler' %}{% assign shop_icon = 'fa-horse' %}
-      {% when 'Scribe' %}{% assign shop_icon = 'fa-feather-pointed' %}
-      {% when 'Weaponsmith' %}{% assign shop_icon = 'fa-khanda' %}
-    {% endcase %}
-    <a class="guide-card" href="{{ shop.url | relative_url }}">
-      <span class="guide-card-icon" aria-hidden="true">
-        <i class="fas {{ shop_icon }}"></i>
-      </span>
-      <div>
-        <h3>{{ shop.title }}</h3>
-        {% if shop.description %}
-          <p>{{ shop.description }}</p>
-        {% endif %}
-        <p><strong>Warp:</strong> <code>/warp {{ shop.title | downcase }}</code></p>
-      </div>
-    </a>
-  {% endfor %}
-</div>
+  {%- assign cat_farm_titles = "Farmer,Fisherman,Hunter,Lumberjack,Beekeeper" | split: "," -%}
+  {%- assign cat_forge_titles = "Blacksmith,Weaponsmith,Arrowsmith,Quarry Master" | split: "," -%}
+  {%- assign cat_arcane_titles = "Alchemist,Scribe,Florist" | split: "," -%}
+  {%- assign cat_market_titles = "Hawker,Innkeeper,Saddler" | split: "," -%}
+
+  {%- assign cat_farm = sorted_shops | where_exp: "s", "cat_farm_titles contains s.title" -%}
+  {%- assign cat_forge = sorted_shops | where_exp: "s", "cat_forge_titles contains s.title" -%}
+  {%- assign cat_arcane = sorted_shops | where_exp: "s", "cat_arcane_titles contains s.title" -%}
+  {%- assign cat_market = sorted_shops | where_exp: "s", "cat_market_titles contains s.title" -%}
+
+  {% if cat_farm.size > 0 %}
+  <section class="guide-section shop-section">
+    <h2 class="guide-section-heading">
+      <i class="fas fa-seedling" aria-hidden="true"></i>
+      Farm, Field &amp; Forest
+      <small>{{ cat_farm.size }} shop{% if cat_farm.size != 1 %}s{% endif %}</small>
+    </h2>
+    <div class="guide-grid">
+      {% for shop in cat_farm %}{% include shop-card.html shop=shop %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if cat_forge.size > 0 %}
+  <section class="guide-section shop-section">
+    <h2 class="guide-section-heading">
+      <i class="fas fa-hammer" aria-hidden="true"></i>
+      Forge &amp; Quarry
+      <small>{{ cat_forge.size }} shop{% if cat_forge.size != 1 %}s{% endif %}</small>
+    </h2>
+    <div class="guide-grid">
+      {% for shop in cat_forge %}{% include shop-card.html shop=shop %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if cat_arcane.size > 0 %}
+  <section class="guide-section shop-section">
+    <h2 class="guide-section-heading">
+      <i class="fas fa-wand-sparkles" aria-hidden="true"></i>
+      Arcane &amp; Apothecary
+      <small>{{ cat_arcane.size }} shop{% if cat_arcane.size != 1 %}s{% endif %}</small>
+    </h2>
+    <div class="guide-grid">
+      {% for shop in cat_arcane %}{% include shop-card.html shop=shop %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if cat_market.size > 0 %}
+  <section class="guide-section shop-section">
+    <h2 class="guide-section-heading">
+      <i class="fas fa-scale-balanced" aria-hidden="true"></i>
+      Market &amp; Hospitality
+      <small>{{ cat_market.size }} shop{% if cat_market.size != 1 %}s{% endif %}</small>
+    </h2>
+    <div class="guide-grid">
+      {% for shop in cat_market %}{% include shop-card.html shop=shop %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</section>

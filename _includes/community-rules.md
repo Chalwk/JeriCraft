@@ -1,11 +1,5 @@
 <!-- Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. -->
 
-These guidelines are designed to ensure a **positive, fair, and enjoyable experience** for all players. 
-By joining our servers, you agree to abide by these rules. Failure to comply may result in disciplinary action, including bans.
-
-Our rules apply to **all players**, including staff. They are enforced to maintain a welcoming and respectful environment for everyone.
-Please read them carefully and reach out to staff if you have any questions.
-
 ---
 
 {% include toc.html %}

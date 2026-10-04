@@ -1,0 +1,171 @@
+/* Copyright (c) 2026 Jericho Crosby (Chalwk). All rights reserved. */
+
+.page-hero {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    padding: 2.5rem 2rem;
+    background:
+        linear-gradient(135deg, rgba(211, 162, 86, 0.12), rgba(211, 162, 86, 0) 55%),
+        linear-gradient(180deg, rgba(35, 48, 68, 0.98), rgba(24, 34, 53, 0.98));
+    border: 4px solid rgba(139, 109, 63, 0.85);
+    border-radius: var(--radius-lg);
+    box-shadow:
+        inset 0 0 0 1px rgba(211, 162, 86, 0.35),
+        0 18px 32px rgba(8, 12, 24, 0.35);
+}
+
+.page-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(45deg,
+            rgba(211, 162, 86, 0.04) 0,
+            rgba(211, 162, 86, 0.04) 2px,
+            transparent 2px,
+            transparent 8px);
+    pointer-events: none;
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: none;
+}
+
+.page-hero h1 {
+    margin: 0 0 0.75rem;
+    padding: 0;
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+    line-height: 1.15;
+    border: none;
+    color: var(--heading);
+}
+
+.page-hero-description {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 1.02rem;
+    line-height: 1.65;
+}
+
+.page-hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 1.6rem;
+    margin-top: 1.4rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid rgba(211, 162, 86, 0.25);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.page-hero-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.page-hero-meta i {
+    color: var(--accent);
+}
+
+.page-hero-meta code {
+    font-size: 0.85em;
+}
+
+.guide-eyebrow-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+}
+
+.guide-eyebrow-bar .back-link {
+    margin: 0;
+}
+
+.guide-eyebrow-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.3rem 0.85rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    background: rgba(211, 162, 86, 0.12);
+    border: 1px solid rgba(211, 162, 86, 0.35);
+    border-radius: var(--radius-pill);
+}
+
+.guide-section {
+    margin: 2.5rem 0;
+}
+
+.guide-section-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.6rem;
+    font-size: 1.3rem;
+    border-bottom: 2px solid rgba(211, 162, 86, 0.25);
+    color: var(--heading);
+}
+
+.guide-section-heading i {
+    color: var(--accent);
+    font-size: 1rem;
+}
+
+.guide-section-heading small {
+    margin-left: auto;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.guide-card .guide-card-warp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.45rem;
+    margin-top: 0.55rem;
+    font-size: 0.85rem;
+}
+
+.guide-card .guide-card-warp strong {
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.guide-card .guide-card-warp code {
+    white-space: nowrap;
+    font-size: 0.85em;
+    padding: 0.12rem 0.45rem;
+}
+
+@media (max-width: 600px) {
+    .page-hero {
+        padding: 1.75rem 1.25rem;
+    }
+
+    .page-hero-meta {
+        gap: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .guide-section-heading {
+        font-size: 1.1rem;
+    }
+
+    .guide-section-heading small {
+        display: none;
+    }
+}

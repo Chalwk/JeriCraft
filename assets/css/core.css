@@ -539,7 +539,6 @@ main:focus {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -547,27 +546,16 @@ main:focus {
   margin-bottom: 2.5rem;
   padding: 3rem 2rem;
   text-align: center;
-  border: 4px solid var(--border);
-  border-radius: var(--radius-xl);
-  background:
-    linear-gradient(180deg, rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.94)),
-    var(--hero-image),
-    repeating-linear-gradient(45deg,
-      #d3a256 0,
-      #d3a256 12px,
-      #8b6d3f 12px,
-      #8b6d3f 24px);
-  background-size: cover, cover, auto;
-  background-position: center;
-  box-shadow:
-    inset 0 0 0 2px rgba(255, 255, 255, 0.06),
-    0 18px 40px rgba(8, 12, 24, 0.42);
+  background: none;
+  border: none;
+  box-shadow: none;
 }
 
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 900px;
+  width: 100%;
+  max-width: none;
   padding: 2rem;
   border: 2px solid rgba(211, 162, 86, 0.65);
   border-radius: var(--radius-lg);
@@ -576,7 +564,7 @@ main:focus {
 }
 
 .hero-logo {
-  max-height: 300px;
+  max-height: 320px;
   width: auto;
   margin: 0 auto 1.2rem;
   filter: drop-shadow(2px 4px 6px rgba(10, 16, 34, 0.55));
@@ -700,6 +688,26 @@ main:focus {
   margin-top: 1.5rem;
 }
 
+.hero-intro {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(211, 162, 86, 0.25);
+  text-align: left;
+}
+
+.hero-intro h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+}
+
+.hero-intro p {
+  margin: 0;
+}
+
+.hero-intro p + p {
+  margin-top: 1rem;
+}
+
 @media (max-width: 600px) {
   .hero {
     padding: 1.5rem 1rem;
@@ -719,6 +727,11 @@ main:focus {
 
   .hero-actions .btn {
     width: 100%;
+  }
+
+  .hero-intro {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
   }
 }
 
