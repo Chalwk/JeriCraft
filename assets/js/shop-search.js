@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
             '.shop-lore-line{display:block;}',
             '.shop-lore-line + .shop-lore-line{margin-top:.18rem;}',
             '.shop-lore-line.is-qty{color:inherit;}',
-            '.shop-lore-line.is-effect{color:var(--accent-2);font-weight:500;}',
+            '.shop-lore-line.is-effect{color:var(--accent-2);}',
             '.shop-empty{margin-top:1rem;}',
             '.shop-page .visually-hidden{position:absolute;width:1px;height:1px;padding:0;',
             'margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}',
@@ -159,10 +159,9 @@ document.addEventListener('DOMContentLoaded', function () {
             if (/^(quantity|contents?|capacity|quality|uses|arrows?|bundle size|bouquet size|material|type|style|effect\s+level|brightness|durability|size)\s*:/i.test(t)) {
                 return 'is-qty';
             }
-            if (/^(effect|grants|special|warning|use|style|note)\s*:/i.test(t)) {
+            if (/^effect\s*:/i.test(t)) {
                 return 'is-effect';
             }
-            if (/^(effect|grants)\b/i.test(t)) return 'is-effect';
             return '';
         };
 
