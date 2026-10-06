@@ -4,6 +4,8 @@ Contributions help keep our guides, commands, rules, shops, and community inform
 
 This repository powers the Jekyll-based GitHub Pages site at [jericraft.net][jericraft_website]. Whether you want to fix a typo, update a command list, add a shop page, or write a brand-new guide, following these guidelines ensures a smooth and collaborative process.
 
+All contributions are governed by our [Code of Conduct][code_of_conduct]. By participating, you agree to follow it.
+
 ---
 
 ## How to Contribute
@@ -16,6 +18,14 @@ This repository powers the Jekyll-based GitHub Pages site at [jericraft.net][jer
   * **Server Suggestions:** For proposing new features, improvements, or changes to the JeriCraft server.
 * **Include Details:** When filling out the template, be as detailed as possible. Include the page URL (for example, `_guides/getting-started/` or `_shops/alchemist.md`) and any relevant context.
 * **Blank Issues:** If your issue does not fit any of the templates above, you can still create a blank issue.
+
+### Reporting a Security Issue
+
+**Do not open a public issue for security problems.**
+
+If you discover a vulnerability, exposed credential, or anything that could put players or the site at risk, use the private [Report a vulnerability][security_advisory] flow on the Security tab. This includes (but is not limited to) leaked API keys, tokens, or IP addresses, and any issue that could compromise the site or the game server.
+
+For non-security bugs, continue to use the [Issues Section][issues_section] as normal.
 
 ### Labels
 
@@ -185,12 +195,22 @@ If you cannot run the site locally, that is okay. A maintainer will verify your 
 
 ## Communication
 
+### Where to Ask
+
+- **JeriCraft Discord** - the main community for the server itself. Ask gameplay, guide, or shop-related questions in `#contributing`. The `#website-git-feed` channel posts automated notifications for commits, pushes, and pull requests.
+- **Chalwk's Code & Chill Discord** - the broader developer community for all my projects. Ask about Jekyll, GitHub, pull requests, or general development topics here.
+
+| Community             | Invite                        |
+| --------------------- | ----------------------------- |
+| JeriCraft             | https://discord.gg/3HkQ4cGVnS |
+| Chalwk's Code & Chill | https://discord.gg/VAEb4FXU5  |
+
 ### Collaboration Etiquette
 
 * **Be Respectful**: Communicate kindly with contributors and JeriCraft maintainers.
 * **Respond Promptly**: Address comments or questions on your PRs in a timely manner.
 * **Open to Feedback**: Accept constructive feedback and make improvements as needed.
-* **Use Discord**: If you have questions, ask in the `#contributing` channel. The `#website-git-feed` channel posts automated notifications for commits, pushes, and pull requests.
+* **Keep it on topic**: Post questions in the most relevant channel or Discord so they reach the right people.
 
 ---
 
@@ -200,6 +220,7 @@ By contributing to the JeriCraft documentation, you agree that your contribution
 
 ---
 
+[code_of_conduct]: CODE_OF_CONDUCT.md
 [issues_section]: https://github.com/Chalwk/JeriCraft/issues
 [jekyll_documentation]: https://jekyllrb.com/docs/installation/
 [jericraft_website]: https://jericraft.net
@@ -221,3 +242,4 @@ By contributing to the JeriCraft documentation, you agree that your contribution
 [license]: LICENSE
 [markdown_guide]: https://chalwk.github.io/blog/2026/04/07/markdown-tutorial/
 [repo]: https://github.com/Chalwk/JeriCraft
+[security_advisory]: https://github.com/Chalwk/JeriCraft/security/advisories/new
