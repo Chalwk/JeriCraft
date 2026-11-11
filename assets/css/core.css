@@ -525,6 +525,7 @@ main:focus {
 }
 
 .page-content img {
+  height: auto;
   border-radius: var(--radius-sm);
 }
 

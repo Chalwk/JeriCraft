@@ -1,6 +1,7 @@
 ---
 title: Quarry Master
 owner: Gorrak Stonehelm
+portrait: false
 permalink: /shops/quarry-master/
 ---
 

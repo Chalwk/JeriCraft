@@ -164,8 +164,9 @@ Every file in this repository begins with the following comment line directly be
   * `assets/images/npc_shops/` for shop images.
   * `assets/images/tutorials/` for walkthrough screenshots.
   * `assets/images/advertising/` for promotional images.
-* Use descriptive filenames (for example `fishing-rod-recipe.png`).
-* Reference images using `{{ site.baseurl }}` so paths stay correct: `![Fishing Rod Recipe]({{ site.baseurl }}/assets/images/tutorials/fishing-rod-recipe.png)`.
+* Use descriptive filenames (for example `fishing-rod-recipe.webp`).
+* Prefer WebP for site images; retain PNG for assets that need a PNG-specific format, such as social preview images.
+* Reference images using `{{ site.baseurl }}` so paths stay correct: `![Fishing Rod Recipe]({{ site.baseurl }}/assets/images/tutorials/fishing-rod-recipe.webp)`.
 
 ### Icons
 

@@ -29,10 +29,6 @@ og_locale: en_NZ
 # IANA timezone. Affects date formatting in Liquid filters (e.g. `date:`).
 timezone: Pacific/Auckland
 
-# Deliberate. Do not touch!
-# Used to shrink the responsive viewport scale on mobile (see head.html).
-site_scale: 0.65
-
 # -----------------------------------------------------------------------------
 # Author
 # -----------------------------------------------------------------------------
@@ -111,7 +107,7 @@ kramdown:
   # Single newlines are NOT turned into <br>. Most guides are hand-wrapped, so
   # hard_wrap would break paragraphs mid-sentence. For an intentional line
   # break, end the line with two spaces or a backslash.
-  hard_wrap: true
+  hard_wrap: false
 
 # -----------------------------------------------------------------------------
 # Plugins

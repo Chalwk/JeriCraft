@@ -12,7 +12,7 @@ order: 5
 
 Welcome to JeriCraft's **mcMMO** experience! mcMMO adds an RPG-style skill system to Minecraft. The more you do something, the better you get at it, and the more perks you unlock along the way.
 
-<img src="{{ site.baseurl }}/assets/images/advertising/mcmmo.png" alt="mcMMO plugin banner">
+<img src="{{ site.baseurl }}/assets/images/advertising/mcmmo.webp" alt="mcMMO plugin banner" width="1920" height="1080" loading="lazy">
 
 ---
 

@@ -32,10 +32,12 @@ layout: default
     </a>
 
     <header class="shop-header">
+        {% if page.portrait != false %}
         <div class="shop-header-media">
-            <img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.png"
-                alt="{{ page.title }} shopkeeper portrait" loading="lazy" decoding="async">
+            <img src="{{ site.baseurl }}/assets/images/npc_shops/{{ page.title }}.webp"
+                alt="{{ page.title }} shopkeeper portrait" width="1920" height="1080" decoding="async">
         </div>
+        {% endif %}
         <div class="shop-header-info">
             <p class="shop-header-eyebrow">
                 <i class="fas {{ shop_icon }}" aria-hidden="true"></i>

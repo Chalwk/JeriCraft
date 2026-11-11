@@ -13,7 +13,7 @@ order: 8
 With ChestShop, you can create your own shops using signs and chests, making it easy to buy and sell items.
 Follow this step-by-step guide to set up your shop efficiently.
 
-<img src="{{ site.baseurl }}/assets/images/advertising/chest_shops.png" alt="ChestShop signs and chests in a JeriCraft market">
+<img src="{{ site.baseurl }}/assets/images/advertising/chest_shops.webp" alt="ChestShop signs and chests in a JeriCraft market" width="1920" height="1080" loading="lazy">
 
 ---
 
@@ -41,7 +41,7 @@ These work well:
 <details>
 <summary>Example Shop Design (click to expand)</summary>
 
-<img src="{{ site.baseurl }}/assets/images/tutorials/chestshop_example.png" alt="Example ChestShop stall with signs above stocked chests">
+<img src="{{ site.baseurl }}/assets/images/tutorials/chestshop_example.webp" alt="Example ChestShop stall with signs above stocked chests" width="1920" height="1080" loading="lazy">
 
 </details>
 

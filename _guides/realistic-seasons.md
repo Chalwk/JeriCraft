@@ -13,7 +13,7 @@ order: 7
 Welcome to the **RealisticSeasons** guide! This amazing plugin brings dynamic and immersive seasons to our server,
 making your gameplay experience more engaging and exciting. Let's explore the wonders of RealisticSeasons:
 
-<img src="{{ site.baseurl }}/assets/images/advertising/realistic_seasons.png" alt="RealisticSeasons plugin banner">
+<img src="{{ site.baseurl }}/assets/images/advertising/realistic_seasons.webp" alt="RealisticSeasons plugin banner" width="1920" height="1080" loading="lazy">
 
 ---
 
